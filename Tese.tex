@@ -1,0 +1,345 @@
+% ------------------------------------------------------------
+% ------------------------------------------------------------
+% Modelo de Trabalho Acadêmico utilizando classe repUERJ para elaboração
+% de teses, dissertação e trabalhos monográficos em geral.
+%
+% Este arquivo está editado na codificação de caracteres UTF-8.
+%
+% As referencia estão baseadas no modelo bibtex e citação em autor-data
+%
+% Este modelo foi criado por Dr. Luís Fernando de Oliveira.
+% Professor Adjunto do Departamento de Física Aplicada e Termodinâmica
+% Instituto de Física Armando Dias Tavares
+% Universidade do Estado do Rio de Janeiro - UERJ
+%
+% A classe repUERJ.cls foi criada a partir do código original 
+% disponibilizado pelo grupo CódigoLivre (coordenado por
+% Gerald Weber). Foram feitas adequações para implementação das 
+% normas de elaboração de teses e dissertações da UERJ.
+%
+% Os estilos repUERJformat.sty codificam os elementos pré-textuais e
+% pós-textuais.
+% O estilo repUERJpseudocode.sty codifica a elaboração de algoritmos
+% utilizando um glossário desenvolvido por mim (Luís Fernando), o mesmo
+% usado em meu curso de Física Computacional.
+%
+% Todo este material está disponível também no meu site
+%      http://sites.google.com/site/deoliveiralf
+%
+% As normas da UERJ para elaboração de teses e dissertações pode ser
+% obtidas no documento disponível no site
+%      http://www.bdtd.uerj.br/roteiro_uerj_web.pdf
+%
+% Agradecimentos ao NPROTEC/Rede Sirius/UERJ e à Biblioteca Setorial
+% da Física.
+%-------------------------------------------------------------
+%-------------------------------------------------------------
+%
+\documentclass[a4paper,12pt,oneside,onecolumn,final,fleqn]{repUERJ}
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage[brazil]{babel}  % adequação para o português Brasil
+%\usepackage[utf8]{inputenc} % Determina a codificação utilizada
+\usepackage[utf8x]{inputenc}
+                            % (conversão automática dos acentos)
+\usepackage{makeidx}        % Cria o índice
+\usepackage{indentfirst}    % Endenta o primeiro paragrafo de
+                            % cada seção.
+%\usepackage{graphicx}       % Inclusão de gráficos
+%\usepackage{subfig}
+\usepackage{amsmath}        % pacote matemático
+% ---
+% Pacote auxiliar para as normas da UERJ
+% ---
+\usepackage[frame=no,font=default]{repUERJformat}
+\usepackage[line=yes]{repUERJpseudocode}
+% ---
+% Pacotes de citacoes
+% ---
+\usepackage[num]{abntex2cite}
+
+%-- I added these packages ---------
+\usepackage{graphicx,color,colortbl}%Inclusao de graficos
+\usepackage{subfig}
+\usepackage[percent]{overpic}
+\usepackage{multicol}
+%\setlength{\columnsep}{-0.3cm}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{lscape}
+
+%%==========================================================================
+% Some perfonsal definitions of colors
+%%==========================================================================
+\usepackage{xcolor}
+\xdefinecolor{dark_red}{rgb}{0.7,0,0}
+\xdefinecolor{light_gray}{rgb}{0.9,0.9,0.9}
+\xdefinecolor{light_red}{rgb}{0.96,0.8,0.8}
+%\newcolumntype{g}{>{\columncolor{light_gray}}c}
+%%==========================================================================
+
+% ************************************************************
+% ************************************************************
+% Informações de autoria e institucionais
+% ************************************************************
+% ************************************************************
+
+%-------------------------------------------------------------
+% Imagens pretextuais (precisam estar no mesmo diretório deste arquivo .tex)
+%-------------------------------------------------------------
+
+\logo{figs/logo_uerj_cinza.png}
+\marcadagua{figs/marcadagua_uerj_cinza.png}{1}{160}{255}
+
+%-------------------------------------------------------------
+% Informações da instituição
+%-------------------------------------------------------------
+
+\instituicao{Universidade do Estado do Rio de Janeiro}
+            {Centro de Tecnologia e Ciências}  
+            {Instituto de Física Armando Dias Tavares} 
+
+%-------------------------------------------------------------
+% Informações da autoria do documento
+%-------------------------------------------------------------
+
+\autor{Miquéias}
+      {Melo de Almeida}
+      %{iniciais. do. nome.} % iniciais do nome
+
+\titulo{Measurement of Higgs Production Cross Section via Vector Boson Fusion in $H \rightarrow ZZ \rightarrow 4l$ final state at 13 TeV using Artificial Neural Networks}
+\title{Measurement of Higgs Production Cross Section via Vector Boson Fusion in $H \rightarrow ZZ \rightarrow 4l$ final state at 13 TeV using Artificial Neural Networks}
+
+% se não for usar a quarta palavra chave, deixar o campo vazio: {}
+\palavraschaves{Higgs}
+               {Fusão de Bosons Vetoriais}
+               {Redes Neurais Artificiais}
+               {CMS}
+               {L1 Tracking Trigger}
+               {FastME}
+
+\keywords{Higgs}
+         {Vector Boson Fusion}
+         {Artificial Neural Network}
+         {CMS}
+         {L1 Tracking Trigger}
+         {FastME}
+
+\orientador{Prof. Dr.} 
+           {Andre}{Sznajder} 
+           {Universidade do Estado do Rio de Janeiro - UERJ} 
+
+\coorientador{Prof. Dr.} 
+           {Nicola}{De Filippis} 
+           {Pilitecnico and Institute Nazionale di Fisica Nucleare sezione di Bari} 
+
+%---------------------------------------------------------------------
+% Grau pretendido (Doutor, Mestre, Bacharel, Licenciado) e Curso
+%---------------------------------------------------------------------
+
+\grau{Doutor}  
+\curso{Física}
+\areadeconcentracao{Experimental Particle Physics}
+
+%---------------------------------------------------------------------
+% Informações adicionais (local, data e paginas)
+%---------------------------------------------------------------------
+
+\local{Rio de Janeiro} 
+\data{dd}{mm}{aaaa} 
+
+% ********************************************************************
+% ********************************************************************
+% Configurações de aparência do PDF final
+% ********************************************************************
+% ********************************************************************
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+%\definecolor{apricot}{RGB}{251,206,177}
+
+% informações do PDF
+\hypersetup{
+  unicode=false,
+  pdftitle={\UERJtitulo},
+  pdfauthor={\UERJautor},
+  pdfsubject={\UERJpreambulo},
+  pdfkeywords={PALAVRAS}{CHAVES}{\chaveA}{\chaveB}{\chaveC}{\chaveD},
+  pdfproducer={\packagename}, % producer of the document
+  pdfcreator={\UERJautor},
+  colorlinks=true,            % false: boxed links; true: colored links
+  linkcolor=black,            % color of internal links blue
+  citecolor=black,            % color of links to bibliography blue
+  filecolor=black,            % color of file links magenta
+  urlcolor=black,
+  bookmarksdepth=4,
+  %backref=true,
+  %pagebackref=true,
+  %bookmarks=true,
+}
+
+% ********************************************************************
+% ********************************************************************
+% Início do documento
+% ********************************************************************
+% ********************************************************************
+% ---
+% compila o índice; se não for usar, comentar
+% ---
+\makeindex
+% ********************************************************************
+% ********************************************************************
+\begin{document}
+% ----------------------------------------------------------
+% ELEMENTOS PRE-TEXTUAIS
+% ----------------------------------------------------------
+\frontmatter
+% ----------------------------------------------------------
+% Capa e a folha de rosto
+% ----------------------------------------------------------
+\capa
+\folhaderosto
+% ----------------------------------------------------------
+% Inserir a ficha catalográfica
+% ----------------------------------------------------------
+% ---
+% A biblioteca deverá providenciar a ficha catalográfica. Salve a ficha no
+% formato PDF. Use o nome do arquivo PDF como argumento do comando. 
+% Exemplo: ficha catalográfica no arquivo 'ficha.pdf'
+%     \fichacatalografica{ficha.pdf}
+%
+% Enquanto não possuir a ficha catalográfica, use o comando sem argumentos.
+% ---
+%\fichacatalografica{}
+% ----------------------------------------------------------
+% Folha de aprovação
+% ----------------------------------------------------------
+\begin{folhadeaprovacao}
+  \assinatura{primeiro membro titular da banca}{instituição}
+  \assinatura{segundo membro titular da banca}{instituição}
+  \assinatura{terceiro membro titular da banca}{instituição}
+  \assinatura{quarto membro titular da banca}{instituição}
+\end{folhadeaprovacao}
+
+% ----------------------------------------------------------
+% Dedicatória
+% ----------------------------------------------------------
+%\pretextualchapter{DEDICATION}
+%\vfill
+%I dedicate this work to my family, which is the foundation of my life.
+
+% ----------------------------------------------------------
+% Agradecimentos
+% ----------------------------------------------------------
+\pretextualchapter{ACKNOWLEDGMENTS}
+I would like to say thank you:
+\begin{itemize}
+\item to my family for being the foundation of my life. In special to my parents Valdir and Lucia for their dedicated love and unending example of life to me. If up to here I came it is because of their great support in several moments. In special I also thank you to my sister Queila, which more than a big sister, is the closest friend I have in life. And the last but not the least, I thank you my closest grandmother Carmelita that always teaches me about perseverance and goodness;
+\item to prof.(s) Andre Sznajder and Nicola De Filippis for their friendship and advising since the pledging of my master degree. Both of them have proportioned to me great experiences, learnings and growing which contributed significantly for this present work;
+\item to prof.(s) Sergo Jindariani and Luciano Ristori which I had the opportunity to met at Fermilab and learn many things during a very productive collaboration;
+\item to the Universidade do Estado do Rio de Janeiro (UERJ) and the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) for the support during this PhD which has allowed me to enhance my knowledge about Particle Physics;
+\item to the Fermi National Laboratory (Fermilab) and the US Department of Energy for the support given to me when I was working into the CMS L1TT project guided by the AM+FPGA Working Group at Fermilab;
+\item to the Università degli Studi di Bari Aldo Moro (UNIBA) and the Global Doc project via the Puglia region, which allowed me to have an interchange period closer to my co-advisor in Italy;
+\item to the workers in the several sections of the UERJ, from the cleaners to the rector, which are all essential for the proper surviving of the university;
+\item to everyone that in same level has contributed for the accomplishment of the present thesis or for moments of happiness, including friends and colleagues from the places I have gone. I don't quote any name in order to avoid the injustice of forgetting someone.
+\end{itemize}
+
+% ----------------------------------------------------------
+% Epigrafe (opcional)
+% ----------------------------------------------------------
+\pretextualchapter{}
+\vfill
+\begin{flushright}
+No one can balance the world\\ 
+without balancing oneself.\\
+\textit{Unknown author}
+\end{flushright}
+
+% ----------------------------------------------------------
+% Abstract
+% ----------------------------------------------------------
+\pretextualchapter{abstract}
+This work presents an isolated measurement of the Higgs boson production cross section via Vector Boson Fusion (VBF) production mode, with the Higgs decaying through the $H \rightarrow ZZ \rightarrow 4l (l=e,~\mu)$ channel. The study is performed using data samples corresponding to an integrated luminosity of 35.9 fb$^{-1}$ from pp collisions at $\sqrt{s}$ = 13 TeV, which has been collected by the CMS experiment during 2016 at the LHC. A multivariate analysis is performed through the usage of Artificial Neural Networks (ANNs). Statistical shape analysis of ANNs developed for two orthogonal jet-based categories is done by combining the discriminants distribution from each category. The Higgs VBF signal strength modifier is measured to be $\mu_{qqH} = 1.28^{+1.24}_{-0.84}$ for a expected Higgs boson of $m_{H} = 125$GeV. This result is compatible with the SM expectation. The observed significance of the present analysis is $\sigma_{qqH}^{obs} = 1.9$, while the expected one is $\sigma_{qqH}^{exp} = 1.8$. The observed and expected 95$\%$CL limits are estimated as $\mu_{qqH}^{obs} < 3.79$ and $\mu_{qqH}^{obs} < 1.66$, respectively. A projection for future luminosities is also presented and it is expected that the present analysis will have enough significance for the VBF Higgs production evidence (3.4$\sigma$) at 150fb$^{-1}$ and the observance (5.1$\sigma$) at 359fb$^{-1}$. Additionally, the present work brings on its appendixes full results obtained by the author during his collaboration in one of the CMS L1 Tacking Trigger approaches in 2015 and 2016, which has been leaded by Fermilab. The appendixes also contains a summary of results obtained by the author when working on an event tagging procedure called \textit{Fast}ME, which is based on Monte Carlo events topology.
+
+\printkeys % linha em branco antes
+
+% ----------------------------------------------------------
+% Resumo
+% ----------------------------------------------------------
+\pretextualchapter{resumo}
+Este trabalho apresenta uma medida isolada da seção de choque de produção do boson de Higgs via Fusão de Bosons Vetoriais (VBF), com o Higgs decaindo pelo canal $H \rightarrow ZZ \rightarrow 4l (l=e,~\mu)$. O estudo foi feito usando-se amostras de dados coletadas através do detetor CMS em colisões proton-proton realizadas no LHC em 2016 durante o RunII. Essas amostras correspondem à uma luminosidade integrada de 35.9 fb$^{-1}$. Uma análise de várias variáveis (\textit{Multivariate Analysis} - MVA) é realizada através do uso de Redes Neurais Artificiais (ANNs) desenvolvidas para dois sub-conjuntos de dados categorizados de acordo ao número de jatos por evento selecionados na análise. Resultados finais são obtidos por meio de uma análise estatística da combinação das ANNs associadas à cada sub-conjunto. A intensidade do sinal de Higgs produzido via VBF é medida como $\mu_{qqH} = 1.28^{+1.24}_{-0.84}$ para um boson de Higgs de massa $m_{H} = 125$GeV, resultado este, que encontra-se em compatibilidade com o Modelo Padrão (SM) da Física de Partículas. A significância observada nesta análise é de 1.9$\sigma$, enquanto que, a esperada é de 1.8$\sigma$. Limites observado e esperado com 95$\%$ de confidência são obtidos como $\mu_{qqH}^{obs} < 3.79$ e $\mu_{qqH}^{obs} < 1.66$, respectivamente. Projeções para futuros cenários de luminosidade no LHC são também apresentados e indicam esta análise terá significância suficiente para evidenciar (3.4$\sigma$) e observar (5.1$\sigma$) a produção de Higgs via VBF com 150fb$^{-1}$ e 359fb$^{-1}$, respectivamente. Adicionalmente, este trabalho apresenta em seus apêndices resultados completos obtidos pelo autor durante sua colaboração em um dos projetos para criação do trigger de nível 1 para o detetor de trajetografia interna do CMS, o qual foi liderado pelo Fermilab. Os apêndices também contêm um sumário de resultados obtidos pelo autor sobre um procedimento de discriminação de eventos observados baseado na topologia de eventos de Monte Carlo.
+
+\imprimirchaves % linha em branco antes
+
+% ----------------------------------------------------------
+% Listas de ilustrações e tabelas
+% ----------------------------------------------------------
+\listadefiguras
+\listadetabelas
+% ----------------------------------------------------------
+% Outras listas
+% ----------------------------------------------------------
+%\listadealgoritmos
+% ----------------------------------------------------------
+% Lista de abreviaturas e siglas
+% ----------------------------------------------------------
+%\pretextualchapter{Lista de abreviaturas e siglas}
+% ---
+%\abreviatura{sigla 1}{por extenso}
+%\abreviatura{sigla 2}{por extenso}
+%\abreviatura{sigla 3}{por extenso}
+% ---
+% ----------------------------------------------------------
+% Lista de simbolos
+% ----------------------------------------------------------
+%\pretextualchapter{Lista de símbolos}
+% ---
+%\simbolo{simbolo 1}{significado e/ou valor}
+%\simbolo{simbolo 2}{significado e/ou valor}
+%\simbolo{simbolo 3}{significado e/ou valor}
+% ---
+% ----------------------------------------------------------
+% Sumario
+% ----------------------------------------------------------
+\sumario
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\mainmatter
+
+% ----------------------- CHAPTERS -------------------------
+%=============================================================
+\include{Introduction}
+\include{ChapterTheory/ChapterTheory}
+\include{ChapterCMS/ChapterCMS}
+\include{ChapterAnalysis/ChapterAnalysis}
+\include{Conclusion}
+%=============================================================
+
+% ----------------------------------------------------------
+% ELEMENTOS POS-TEXTUAIS
+% ----------------------------------------------------------
+\backmatter
+%=============================================================
+% Referencias
+%=============================================================
+\include{Bibliography}
+%=============================================================
+
+%=============================================================
+\appendix
+%=============================================================
+\include{AppendixNeuralNetwork/AppendixNeuralNetwork}
+\include{ChapterAnalysis/AppendixEventDisplay}
+\include{ChapterAnalysis/AppendixFinalNNsArchitecture}
+\include{AppendixCMSL1TT/AppendixCMSL1TT}
+\include{AppendixFastME/AppendixFastME}
+\include{AppendixGlobalDocProject/AppendixGlobalDocProject}
+%=============================================================
+
+
+\printindex
+%=============================================================
+\end{document}
