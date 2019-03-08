@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.12.14)  24 FEB 2019 09:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.28)  28 FEB 2019 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Tese.tex
 (./Tese.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 23 languages loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (./repUERJ.cls
 Document Class: repUERJ 2013/06/01 v7.0
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -24,14 +24,14 @@ Package: ulem 2012/05/18
 \ULdepth=\dimen104
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 \captionmargin=\dimen105
@@ -83,13 +83,13 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
 File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
@@ -99,13 +99,13 @@ Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bdimen=\dimen113
 \calc@Askip=\skip44
 \calc@Bskip=\skip45
-LaTeX Info: Redefining \setlength on input line 75.
-LaTeX Info: Redefining \addtolength on input line 76.
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count84
 \calc@Cskip=\skip46
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
@@ -115,24 +115,27 @@ Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 )
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
 )
+\AM@pagewidth=\dimen116
+\AM@pageheight=\dimen117
+
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box29
 \AM@toc@title=\toks16
@@ -143,8 +146,14 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo
-File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
-\mathindent=\dimen116
+File: fleqn.clo 2015/03/31 v1.1i Standard LaTeX option (flush left equations)
+\mathindent=\dimen118
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -163,24 +172,24 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \seclength=\skip51
 \c@figure=\count93
 \c@table=\count94
-\bibindent=\dimen117
+\bibindent=\dimen119
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/09/25 3.9l The Babel package
+Package: babel 2016/02/24 3.9q The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/09/25 3.9l Babel common definitions
+File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count95
-\U@D=\dimen118
+\U@D=\dimen120
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 
@@ -205,40 +214,40 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
-\ex@=\dimen119
+\ex@=\dimen121
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen120
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen122
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count97
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count98
 \leftroot@=\count99
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count100
 \DOTSCASE@=\count101
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box31
 \strutbox@=\box32
-\big@size=\dimen121
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\big@size=\dimen123
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \macc@depth=\count102
 \c@MaxMatrixCols=\count103
 \dotsspace@=\muskip10
@@ -249,18 +258,18 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \column@=\count107
 \maxfields@=\count108
 \andhelp@=\toks24
-\eqnshift@=\dimen122
-\alignsep@=\dimen123
-\tagshift@=\dimen124
-\tagwidth@=\dimen125
-\totwidth@=\dimen126
-\lineht@=\dimen127
+\eqnshift@=\dimen124
+\alignsep@=\dimen125
+\tagshift@=\dimen126
+\tagwidth@=\dimen127
+\totwidth@=\dimen128
+\lineht@=\dimen129
 \@envbody=\toks25
 \multlinegap=\skip53
 \multlinetaggap=\skip54
 \mathdisplay@stack=\toks26
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
 (./repUERJformat.sty
 Package: repUERJformat 2015/14/12 v8.0 repUERJformat.sty
@@ -268,7 +277,7 @@ Package: repUERJformat 2015/14/12 v8.0 repUERJformat.sty
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip55
-\enit@outerparindent=\dimen128
+\enit@outerparindent=\dimen130
 \enit@toks=\toks27
 \enit@inbox=\box33
 \enitdp@description=\count109
@@ -286,7 +295,7 @@ LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -301,14 +310,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count110
 \Gm@cntv=\count111
 \c@Gm@tempcnt=\count112
-\Gm@bindingoffset=\dimen129
-\Gm@wd@mp=\dimen130
-\Gm@odd@mp=\dimen131
-\Gm@even@mp=\dimen132
-\Gm@layoutwidth=\dimen133
-\Gm@layoutheight=\dimen134
-\Gm@layouthoffset=\dimen135
-\Gm@layoutvoffset=\dimen136
+\Gm@bindingoffset=\dimen131
+\Gm@wd@mp=\dimen132
+\Gm@odd@mp=\dimen133
+\Gm@even@mp=\dimen134
+\Gm@layoutwidth=\dimen135
+\Gm@layoutheight=\dimen136
+\Gm@layouthoffset=\dimen137
+\Gm@layoutvoffset=\dimen138
 \Gm@dimlist=\toks28
 )
 \hanglength=\skip56
@@ -348,7 +357,7 @@ Package: repUERJpseudocode 2015/12/04 v4 repUERJpseudocode.sty
 \ltab=\skip66
 )
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
-Package: abntex2cite 2014/01/26 v1.9.2 abnTeX2
+Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
@@ -364,8 +373,8 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip69
-LaTeX Info: Redefining \newblock on input line 675.
-LaTeX Info: Redefining \cite on input line 946.
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 862.
 \ABCItoken=\toks29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
@@ -373,8 +382,8 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen137
-\extrarowheight=\dimen138
+\col@sep=\dimen139
+\extrarowheight=\dimen140
 \NC@list=\toks30
 \extratabsurround=\skip70
 \backup@length=\skip71
@@ -386,7 +395,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count136
 \sf@farskip=\skip73
-\sf@captopadj=\dimen139
+\sf@captopadj=\dimen141
 \sf@capskip=\skip74
 \sf@nearskip=\skip75
 \c@subfigure=\count137
@@ -406,16 +415,16 @@ Package: overpic v0.53 <2010/09/13> (RN)
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \@@multicnt=\count143
 \d@lta=\count144
-\@delta=\dimen140
-\@@delta=\dimen141
+\@delta=\dimen142
+\@@delta=\dimen143
 \@gridcnt=\count145
 \@joinkind=\count146
-\@dotgap=\dimen142
-\@ddotgap=\dimen143
+\@dotgap=\dimen144
+\@ddotgap=\dimen145
 \@x@diff=\count147
 \@y@diff=\count148
-\x@diff=\dimen144
-\y@diff=\dimen145
+\x@diff=\dimen146
+\y@diff=\dimen147
 \@dotbox=\box34
 \num@segments=\count149
 \num@segmentsi=\count150
@@ -423,24 +432,24 @@ Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 )
 overpic: relative positioning in percent
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \c@tracingmulticols=\count151
 \mult@box=\box35
-\multicol@leftmargin=\dimen146
+\multicol@leftmargin=\dimen148
 \c@unbalance=\count152
 \c@collectmore=\count153
 \doublecol@number=\count154
 \multicoltolerance=\count155
 \multicolpretolerance=\count156
-\full@width=\dimen147
-\page@free=\dimen148
-\premulticols=\dimen149
-\postmulticols=\dimen150
+\full@width=\dimen149
+\page@free=\dimen150
+\premulticols=\dimen151
+\postmulticols=\dimen152
 \multicolsep=\skip78
 \multicolbaselineskip=\skip79
 \partial@page=\box36
 \last@line=\box37
-\maxbalancingoverflow=\dimen151
+\maxbalancingoverflow=\dimen153
 \mult@rightbox=\box38
 \mult@grightbox=\box39
 \mult@gfirstbox=\box40
@@ -464,9 +473,9 @@ Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
 \@tempa=\box58
 \c@columnbadness=\count157
 \c@finalcolumnbadness=\count158
-\last@try=\dimen152
-\multicolovershoot=\dimen153
-\multicolundershoot=\dimen154
+\last@try=\dimen154
+\multicolovershoot=\dimen155
+\multicolundershoot=\dimen156
 \mult@nat@firstbox=\box59
 \colbreak@box=\box60
 \mc@col@check@num=\count159
@@ -523,7 +532,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen155
+\@linkdim=\dimen157
 \Hy@linkcounter=\count160
 \Hy@pagecounter=\count161
 
@@ -545,10 +554,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count163
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen156
+\XeTeXLinkMargin=\dimen158
 \Fld@menulength=\count164
-\Field@Width=\dimen157
-\Fld@charsize=\dimen158
+\Field@Width=\dimen159
+\Fld@charsize=\dimen160
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -579,8 +588,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -811,13 +820,13 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count171
-\scratchdimen=\dimen159
+\scratchdimen=\dimen161
 \scratchbox=\box63
 \nofMPsegments=\count172
 \nofMParguments=\count173
 \everyMPshowfont=\toks34
 \MPscratchCnt=\count174
-\MPscratchDim=\dimen160
+\MPscratchDim=\dimen162
 \MPnumerator=\count175
 \makeMPintoPDFobject=\count176
 \everyMPtoPDFconversion=\toks35
@@ -838,15 +847,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             macros/latex/contrib/pageslts/ 
-(lastpage)             or
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 194.
 
 *geometry* driver: auto-detecting
@@ -2563,7 +2572,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1179.
  [102]
 
-Package caption Warning: \label without proper \caption on input line 1195.
+Package caption Warning: \label without proper reference on input line 1195.
 See the caption package documentation for explanation.
 
 
@@ -2571,7 +2580,7 @@ LaTeX Warning: Reference `tab:ann_systematic_uncertainties' on page 103 undefin
 ed on input line 1182.
 
 
-Package caption Warning: \label without proper \caption on input line 1195.
+Package caption Warning: \label without proper reference on input line 1195.
 See the caption package documentation for explanation.
 
 
@@ -4493,11 +4502,11 @@ Package pdftex.def Info: AppendixCMSL1TT/fermilab/20160413_152420.jpg used on i
 nput line 726.
 (pdftex.def)             Requested size: 199.15665pt x 170.70569pt.
 
-<AppendixCMSL1TT/fermilab/IMG_5827.JPG, id=2922, 3276.24pt x 2457.18pt>
-File: AppendixCMSL1TT/fermilab/IMG_5827.JPG Graphic file (type jpg)
+<AppendixCMSL1TT/fermilab/IMG_5827.jpg, id=2922, 3276.24pt x 2457.18pt>
+File: AppendixCMSL1TT/fermilab/IMG_5827.jpg Graphic file (type jpg)
 
-<use AppendixCMSL1TT/fermilab/IMG_5827.JPG>
-Package pdftex.def Info: AppendixCMSL1TT/fermilab/IMG_5827.JPG used on input li
+<use AppendixCMSL1TT/fermilab/IMG_5827.jpg>
+Package pdftex.def Info: AppendixCMSL1TT/fermilab/IMG_5827.jpg used on input li
 ne 727.
 (pdftex.def)             Requested size: 199.12442pt x 170.7079pt.
 
@@ -4514,7 +4523,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 337.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 337.
- [179 <./AppendixCMSL1TT/fermilab/IMG_5827.JPG> <./AppendixCMSL1TT/fermilab/pul
+ [179 <./AppendixCMSL1TT/fermilab/IMG_5827.jpg> <./AppendixCMSL1TT/fermilab/pul
 sar2b_photo.png> <./AppendixCMSL1TT/fermilab/20160519_5158.jpg> <./AppendixCMSL
 1TT/fermilab/20160413_152444.jpg> <./AppendixCMSL1TT/fermilab/20160413_152420.j
 pg>]
@@ -4816,24 +4825,24 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
 
-<AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.JPG, id=3176, 1606.0
+<AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.jpg, id=3176, 1606.0
 pt x 903.375pt>
-File: AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.JPG Graphic fil
+File: AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.jpg Graphic fil
 e (type jpg)
 
-<use AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.JPG>
+<use AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.jpg>
 Package pdftex.def Info: AppendixGlobalDocProject/figs/miqueias_globaldoc_semin
-ar2.JPG used on input line 9.
+ar2.jpg used on input line 9.
 (pdftex.def)             Requested size: 341.4359pt x 199.17043pt.
 
-<AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar1.JPG, id=3178, 1606.0
+<AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar1.jpg, id=3178, 1606.0
 pt x 903.375pt>
-File: AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar1.JPG Graphic fil
+File: AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar1.jpg Graphic fil
 e (type jpg)
 
-<use AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar1.JPG>
+<use AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar1.jpg>
 Package pdftex.def Info: AppendixGlobalDocProject/figs/miqueias_globaldoc_semin
-ar1.JPG used on input line 10.
+ar1.jpg used on input line 10.
 (pdftex.def)             Requested size: 341.4359pt x 199.17043pt.
 
 <AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar.jpg, id=3180, 963.6pt
@@ -4856,12 +4865,12 @@ Package pdftex.def Info: AppendixGlobalDocProject/figs/recas_bari.jpg used on i
 nput line 21.
 (pdftex.def)             Requested size: 341.43726pt x 199.16838pt.
 
-<AppendixGlobalDocProject/figs/miqueias_at_recas.JPG, id=3187, 3276.24pt x 2457
+<AppendixGlobalDocProject/figs/miqueias_at_recas.jpg, id=3187, 3276.24pt x 2457
 .18pt>
-File: AppendixGlobalDocProject/figs/miqueias_at_recas.JPG Graphic file (type jp
+File: AppendixGlobalDocProject/figs/miqueias_at_recas.jpg Graphic file (type jp
 g)
- <use AppendixGlobalDocProject/figs/miqueias_at_recas.JPG>
-Package pdftex.def Info: AppendixGlobalDocProject/figs/miqueias_at_recas.JPG us
+ <use AppendixGlobalDocProject/figs/miqueias_at_recas.jpg>
+Package pdftex.def Info: AppendixGlobalDocProject/figs/miqueias_at_recas.jpg us
 ed on input line 22.
 (pdftex.def)             Requested size: 341.39081pt x 256.0431pt.
 Package babel Info: Redefining portuges shorthand "|
@@ -4877,15 +4886,15 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 28.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 28.
- [201 <./AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.JPG> <./Appe
-ndixGlobalDocProject/figs/miqueias_globaldoc_seminar1.JPG> <./AppendixGlobalDoc
+ [201 <./AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.jpg> <./Appe
+ndixGlobalDocProject/figs/miqueias_globaldoc_seminar1.jpg> <./AppendixGlobalDoc
 Project/figs/miqueias_globaldoc_seminar.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 28.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 28.
  [202 <./AppendixGlobalDocProject/figs/recas_bari.jpg> <./AppendixGlobalDocProj
-ect/figs/miqueias_at_recas.JPG>]
+ect/figs/miqueias_at_recas.jpg>]
 <AppendixGlobalDocProject/figs/dm_diagrams.png, id=3212, 608.2725pt x 242.40562
 pt>
 File: AppendixGlobalDocProject/figs/dm_diagrams.png Graphic file (type png)
@@ -4936,13 +4945,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 15227 strings out of 494397
- 268131 string characters out of 6167008
- 433145 words of memory out of 5000000
- 17209 multiletter control sequences out of 15000+600000
+ 15272 strings out of 493029
+ 269038 string characters out of 6136234
+ 440073 words of memory out of 5000000
+ 17404 multiletter control sequences out of 15000+600000
  15264 words of font info for 53 fonts, out of 8000000 for 9000
- 308 hyphenation exceptions out of 8191
- 43i,17n,45p,2202b,919s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1141 hyphenation exceptions out of 8191
+ 43i,17n,47p,2202b,917s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -4964,7 +4973,7 @@ pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmti12.pfb>
-Output written on Tese.pdf (204 pages, 18819054 bytes).
+Output written on Tese.pdf (204 pages, 18841692 bytes).
 PDF statistics:
  3478 PDF objects out of 3580 (max. 8388607)
  2863 compressed objects within 29 object streams

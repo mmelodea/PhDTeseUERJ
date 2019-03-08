@@ -439,19 +439,17 @@
 	\end{itemize}
 	\vspace{-0.3cm}
 	\begin{multicols}{2}
-	\begin{varblock}[5.8cm]{\center 2P2F CR}
+	\begin{varblock}[5.8cm]{\center 2P2F CR: $w_{Data} = \frac{f_{3}}{1-f_{3}}+\frac{f_{4}}{1-f_{4}}$}
 		\begin{overpic}
 			[scale=0.135,trim={1cm 0cm 2cm 1cm},clip]{figs/m4l_2p2f_4mu_smhiggs}
-			\put(40,40){$\frac{f_{3}}{1-f_{3}}+\frac{f_{4}}{1-f_{4}}$}
 		\end{overpic}\hspace{-0.1cm}
 		\includegraphics[scale=0.135,trim={1cm 0cm 2cm 1cm},clip]{figs/m4l_2p2f_4e_smhiggs}\\
 		\includegraphics[scale=0.135,trim={1cm 0cm 2cm 1cm},clip]{figs/m4l_2p2f_2e2mu_smhiggs}
 		\includegraphics[scale=0.135,trim={1cm 0cm 2cm 1cm},clip]{figs/m4l_2p2f_2mu2e_smhiggs}		
 	\end{varblock}	
-	\begin{varblock}[5.8cm]{\center 3P1F CR}
+	\begin{varblock}[5.8cm]{\center 3P1F CR: $w_{Data} = \frac{f_{4}}{1-f_{4}}$}
 		\begin{overpic}
 			[scale=0.135,trim={1cm 0cm 2cm 1cm},clip]{figs/m4l_3p1f_4mu_smhiggs}
-			\put(50,40){$\frac{f_{4}}{1-f_{4}}$}
 		\end{overpic}\hspace{-0.1cm}
 		\includegraphics[scale=0.135,trim={1cm 0cm 2cm 1cm},clip]{figs/m4l_3p1f_4e_smhiggs}\\
 		\includegraphics[scale=0.135,trim={1cm 0cm 2cm 1cm},clip]{figs/m4l_3p1f_2e2mu_smhiggs}
@@ -468,11 +466,8 @@
 	\end{itemize}
 	\begin{multicols}{2}
 	\begin{minipage}{9cm}
-		\begin{varblock}[8.2cm]{\centering $Z+X$ at SR}
-			\centering
-			$N^{bkg}_{SR} = (1 - \frac{N^{ZZ}_{3P1F}}{N_{3P1F}}) \sum^{N_{3P1F}}_{i} \frac{f^{i}_{a}}{(1-f^{i}_{a})} - \sum^{N_{2P2F}}_{j} \frac{f^{j}_{b}}{(1-f^{j}_{b})} \frac{f^{j}_{c}}{(1-f^{j}_{c})}$\\
+		\begin{varblock}[8.2cm]{\centering $Z+X$ at SR: $N^{bkg}_{SR} = (1 - \frac{N^{ZZ}_{3P1F}}{N_{3P1F}}) \sum^{N_{3P1F}}_{i} \frac{f^{i}_{a}}{(1-f^{i}_{a})} - \sum^{N_{2P2F}}_{j} \frac{f^{j}_{b}}{(1-f^{j}_{b})} \frac{f^{j}_{c}}{(1-f^{j}_{c})}$}
 			\begin{minipage}{8.3cm}
-			\begin{multicols}{2}
 				\begin{overpic}
 					[scale=0.18,trim={0.5cm 0cm 1cm 0cm},clip]{figs/m4l_zx_4l_smhiggs}
 					\put(37,85){SM Higgs}
@@ -481,7 +476,6 @@
 					[scale=0.18,trim={0.5cm 0cm 2cm 0cm},clip]{figs/m4l_zx_4l_vbf}
 					\put(37,85){VBF-SR}
 				\end{overpic}
-			\end{multicols}
 			\end{minipage}		
 		\end{varblock}		
 	\end{minipage}
@@ -535,14 +529,28 @@
 \begin{frame}{Artificial Neural Networks (ANNs)}
 	\vspace{-0.1cm}	
 	\begin{itemize}
-		\item Training a ANN consists in finding parameters ($w_{i}$ and $b_{i}$) for $\Omega(x)$, such that it models a dataset in the best (possible) way;
+		\item Training an ANN consists in finding parameters ($w_{i}$ and $b_{i}$) for $\Omega(x)$, such that it models a dataset in the best (possible) way;
 		\item Supervised ANN training:
+		\vspace{-0.3cm}
+		\begin{multicols}{2}
 		\begin{itemize}
 			\item Present examples to ANN and their expected $\Omega(x)$ outputs;
 			\item Computes difference between expected and NN predictions;
 			\item Update $w_{i}$ and $b_{i}$ using this difference;
 			\item Repeat until predictions are good enough (minimize the difference);
 		\end{itemize}
+		\centering
+		\begin{overpic}
+			[width=3.5cm,height=1.5cm]{figs/ann_supervised_learning}
+			\put(-10,30){\textbf{X}}
+			\put(102,30){\scriptsize $\Omega($\textbf{X})$_{pred}$}
+			\put(92,40){\scriptsize $\mathcal{E}(\Omega_{exp}-\Omega_{pred})$}
+			\put(26,21){\tiny $\Delta w_{ji} (n) \propto \eta \frac{\partial \mathcal{E}}{\partial w_{ji}}$}
+			\put(27,36){\scriptsize $w_{ji}(n)$, $b_{ji}(n)$}
+			\put(19,3){\scriptsize $w_{ji}(n+1)$, $b_{ji}(n+1)$}
+		\end{overpic}
+		\end{multicols}
+		\vspace{-0.3cm}
 		\item Here's an ANN learning $f(x) = a.x + b$ (just a linear dataset):
 	\end{itemize}
 	\centering
@@ -686,7 +694,7 @@
 	\center
 	\vspace{-0.2cm}
 	\begin{overpic}
-		[scale=0.45,trim={7cm 0cm 0cm 0cm},clip]{/home/micah/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_root_example}
+		[scale=0.45,trim={7cm 0cm 0cm 0cm},clip]{/media/micah/DATA/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_root_example}
 		\put(80,75){\color{red}\textbf{qqH}}
 		\put(20,75){\color{blue}\textbf{ggH}}
 	\end{overpic}
@@ -850,8 +858,21 @@
 			\end{itemize}
 			\item leaded by Fermilab working group;
 			\item the project aims for the usage of Associative Memories in combination with FPGAs;
-			\item the author studied and implemented new components on the available software: synthetic match, duplicate removal, stub bending, road and combination truncation and, track fitter $\chi^{2}$ adjustment;
-			\item results have been produced with different high-lumi scenarios (2-10k events): ($\mu$/$\pi$/$e$)+PU(140,200,300,400), $\nu$+PU(140,200,250), $t\bar{t}$+PU200 and jets($p_{T}=250GeV$)+PU200;
+			\item the author studied and implemented new components on the available software:
+			\begin{itemize}
+				\item synthetic match;
+				\item duplicate removal; 
+				\item stub bending;
+				\item road and combination truncation
+				\item track fitter $\chi^{2}$ adjustment;
+			\end{itemize}
+			\item results have been produced with different high-lumi scenarios (2-10k events):
+			\begin{itemize}
+				\item ($\mu$/$\pi$/$e$)+PU(140,200,300,400);
+				\item $\nu$+PU(140,200,250)  (simulates pure PU, low $p_{T}$ particles);
+				\item $t\bar{t}$+PU200;
+				\item jets($p_{T}=250GeV$)+PU200;
+			\end{itemize}
 			\item hardware work: board inspections and tests;
 		\end{itemize}
 	\end{itemize}
@@ -1010,7 +1031,7 @@
 	\begin{itemize}
 		\item Effect of $\Delta S$ on the road efficiency:
 		\begin{itemize}
-			\item Up to 14$\%$ and 50$\%$ of efficiency can be recovered when truncation is applied;
+			\item Up to 20$\%$ and 50$\%$ of efficiency can be recovered when truncation is applied;
 		\end{itemize}
 	\end{itemize}
 	\centering
@@ -1066,6 +1087,29 @@
 			\includegraphics[scale=0.28]{CMSL1TTfigs/muon_road_eff_vs_pile_up_deltaS}	
 		\end{itemize}		
 	\end{multicols}	
+\end{frame}
+
+\begin{frame}{Simulation Studies: $\chi^{2}$ Revision}
+	\begin{itemize}
+		\begin{multicols}{2}		
+			\item In order to optimize the final results, it was decided to re-study the tracking fitter $\chi^{2}$ value;
+			\item It decides weather a combination of stubs is fine or not;
+			\item Points to address:
+			\begin{itemize}
+				\item Just an unique cut applied;
+				\item Dependence on the tracks $p_{T}$;
+			\end{itemize}
+			\flushright
+			\begin{overpic}
+				[scale=0.25]{CMSL1TTfigs/tfChi2_Pt_all}
+			\end{overpic}
+		\end{multicols}
+		\item A new set of cuts have been adopted:
+		\begin{itemize}
+			\item 6/6 combinations have a tight and unique threshold given by the 99$\%$ percentile of the theoretical $\chi^{2}_{ndof=8}$ curve (equals to 20.2);
+			\item 5/6 combinations have a $p_{T}$-based cut according to 8 ranges, which were defined to guarantee $\epsilon^{6/6+5/6}_{tracks} = 0.99 * \epsilon^{6/6+5/6}_{roads}$
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}{Simulation Studies: Synthetic Efficiency}
@@ -1124,7 +1168,7 @@
 		\item For that reason, a procedure to remove such tracks has been developed: the duplicate removal;\\
 		\includegraphics[scale=0.2]{CMSL1TTfigs/tracks_duplication}
 		\end{multicols}		
-		\item The duplicate removal is a pure analytical procedure:
+		\item The duplicate removal is a stub-based mechanism:
 		\begin{itemize}
 			\item A reco track is taken from the reco tracks list (\textbf{A}) and inserted on a new tracks list (\textbf{A});
 			\item Then, a loop is done over the remaining tracks on list \textbf{A}:
@@ -1132,16 +1176,412 @@
 				\item If a track is found to share a given number $\bar{n}$ of stubs with any track on the list \textbf{B}, it is removed from list \textbf{A};
 				\item Otherwise, the track is stored into the list \textbf{B};
 			\end{itemize}
+			\item The tracks remaining in the list \textbf{B} are the final tracks;
 		\end{itemize}
+		\item The DR mechanism was studied in order to tune the minimum number of stubs which allows massive remotion of duplicated tracks and keeps the track reco efficiency high;
 	\end{itemize}
 \end{frame}	
 
+\begin{frame}{Simulation Studies: Duplicate Removal}
+	\begin{itemize}
+		\item Here are some results obtained for the DR tunning\footnote{\tiny Notice the gap between the track and synthetic efficiencies: that comes from the extra stubs which builds up a good (stubs) combination for the original track};
+		\item The final DR cut was chosen to be 0 (zero);
+	\end{itemize}
+	\begin{table}
+	\small
+	\centering
+	$\mu+PU200$\\
+	\begin{tabular}{c|c|c|c|c|c}
+		\hline
+		\hline
+		DR option & Goods & Duplicates & Fakes & Track eff & Synthetic eff\\
+		\hline
+		None      & 1.976 &	25.785	   & 0.614 & 0.985	   & 0.989\\
+		5         & 1.976 &	25.785	   & 0.614 & 0.985	   & 0.989\\
+		4         & 1.976 &	8.898	   & 0.275 & 0.98	   & 0.989\\
+		3         & 1.973 &	0.604	   & 0.095 & 0.964	   & 0.989\\
+		2         & 1.969 &	0.065	   & 0.047 & 0.953	   & 0.989\\
+		1         & 1.967 &	0.007	   & 0.039 & 0.951	   & 0.988\\
+		\rowcolor{light_red}
+		0         & 1.966 &	0.000	   & 0.038 & 0.951	   & 0.988\\
+		\hline
+	\end{tabular}
+	\\[0.2cm]
+	$jet(p_{T}=250GeV)+PU200$\\
+	\begin{tabular}{c|c|c|c|c|c}
+		\hline
+		\hline
+		DR option & Goods & Duplicates & Fakes & Track eff & Synthetic eff\\
+		\hline
+		None	  & 8.506 &	143.735	   & 8.924 & 0.89	   & 0.897\\
+		5	      & 8.506 &	143.735	   & 8.924 & 0.89	   & 0.897\\
+		4	      & 8.506 &	52.935	   & 4.109 & 0.883	   & 0.897\\
+		3	      & 8.481 &	4.746	   & 1.167 & 0.823	   & 0.895\\
+		2	      & 8.431 &	0.642	   & 0.597 & 0.754	   & 0.889\\
+		1	      & 8.412 &	0.067	   & 0.506 & 0.738	   & 0.887\\
+		\rowcolor{light_red}
+		0	      & 8.406 &	0.003	   & 0.482 & 0.74	   & 0.886\\
+		\hline
+	\end{tabular}
+	\end{table}	
+\end{frame}
 
+\begin{frame}{Simulation Studies: Final FOMs}
+	\begin{itemize}
+		\item The next slides summarizes the final results found via the simulation package adopting the implementations presented here;
+		\item The FOMs (figures of merit) are the common graphs used within the CMS L1TT AM+FPGA approach in order to show the performance of simulation studies;
+		\item The FOMs are the efficiency and track categorization rates versus ($p_{T}$, $\eta$, $\phi$);
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Simulation Studies: Final FOMs - $\mu$ in $t\bar{t}+PU200$}
+	\vspace{-0.4cm}
+	\begin{figure}
+		\caption{Track reconstruction efficiency for a $\mu$ in $t\bar{t}+PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplicate removal was applied by requiring DR=0.}
+		\centering
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_pt_trunc}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_eta_trunc}
+			\put(25,45){\color{blue}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.80}
+			\put(25,40){\color{red}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.94}
+			\put(25,35){\color{violet}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.96}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_phi_trunc}
+		\end{overpic}\\
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_pt_trunc}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_eta_trunc}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_phi_trunc}
+		\end{overpic}
+	\end{figure}	
+\end{frame}
 	
-\section{The Fast Matrix Element (FastME)}
-\subsection{Introduction}
-\subsection{Simulation Studies}
+\begin{frame}{Simulation Studies: Final FOMs - $\mu+PU200$}
+	\vspace{-0.4cm}
+	\begin{figure}
+		\caption{Track reconstruction efficiency for $\mu+PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.}
+		\centering
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_pt_trunc}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_eta_trunc}
+			\put(25,45){\color{blue}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.88}
+			\put(25,40){\color{red}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.97}
+			\put(25,35){\color{violet}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.98}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_phi_trunc}
+		\end{overpic}\\	
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_pt_trunc}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_eta_trunc}
+		\end{overpic}	
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_phi_trunc}
+		\end{overpic}	
+	\end{figure}	
+\end{frame}
 
+\begin{frame}{Simulation Studies: Final FOMs - $\mu+PU300$}
+	\vspace{-0.4cm}
+	\begin{figure}
+		\caption{Track reconstruction efficiency for $\mu+PU300$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.}
+		\centering
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_pt_trunc}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_eta_trunc}
+			\put(25,45){\color{blue}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.36}
+			\put(25,40){\color{red}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.95}
+			\put(25,35){\color{violet}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.94}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_phi_trunc}
+		\end{overpic}\\	
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_pt_trunc}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_eta_trunc}
+		\end{overpic}	
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_phi_trunc}
+		\end{overpic}	
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Simulation Studies: Final FOMs - $\mu+PU400$}
+	\vspace{-0.4cm}
+	\begin{figure}
+		\caption{Track reconstruction efficiency for $\mu+PU400$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.}
+		\centering
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_pt_trunc}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_eta_trunc}
+			\put(25,45){\color{blue}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.36}
+			\put(25,40){\color{red}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.95}
+			\put(25,35){\color{violet}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.94}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_phi_trunc}
+		\end{overpic}\\	
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_pt_trunc}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_eta_trunc}
+		\end{overpic}	
+		\begin{overpic}
+			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_phi_trunc}
+		\end{overpic}	
+	\end{figure}	
+\end{frame}
+	
+\begin{frame}{Simulation Studies: Final FOMs - $jets(p_{T}=250GeV)+PU200$}
+\vspace{-0.4cm}	
+\begin{figure}
+	\caption{Track reconstruction efficiency for $jets(p_{T}=250GeV)+PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.}
+	\centering
+	\begin{overpic}
+		[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_pt_trunc}
+	\end{overpic}
+	\begin{overpic}
+		[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_eta_trunc}
+		\put(25,50){\color{blue}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.27}
+		\put(25,45){\color{red}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.78}
+		\put(25,40){\color{violet}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.71}		
+	\end{overpic}
+	\begin{overpic}
+		[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_phi_trunc}
+	\end{overpic}\\	
+	\begin{overpic}
+		[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_pt_trunc}
+	\end{overpic}
+	\begin{overpic}
+		[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_eta_trunc}
+	\end{overpic}	
+	\begin{overpic}
+		[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_phi_trunc}
+	\end{overpic}	
+\end{figure}
+\end{frame}
+
+
+\section{The Fast Matrix Element (FastME)}
+\begin{frame}
+	\center
+	\begin{minipage}{10cm}
+		\begin{varblock}[6.5cm]{}
+			\center
+			\huge \color{red} A Fast Matrix Element
+		\end{varblock}
+	\end{minipage}
+\end{frame}
+
+\subsection{Introduction}
+\begin{frame}{Theoretical Foundation}
+	\begin{itemize}
+		\item Here is presented a procedure called \textit{Fast Matrix Element} (\textit{Fast}ME);
+		\item It was studied in the very beginning of the author's PhD;
+		\item The project was first idealized by prof(s). Andre Sznajder (DFNAE-UERJ) and Stephen Mrenna (CSD - FNAL):
+		\begin{itemize}
+			\item A method capable of deriving event weight from MC sampling into a given phase space;
+			\item It should allow one to get proper normalization of random events, for instance;
+		\end{itemize}
+	\end{itemize}
+	\begin{multicols}{2}
+	\begin{varblock}[5.5cm]{\centering Why {\Huge Fast}?}
+		\begin{table}
+		\caption{Time to compute the weight of one event using \textit{MadWeight}5 (for an usual analysis these numbers multiplies by thousand).}
+		\begin{tabular}{c|c}
+			\hline
+			Process                    & Time/Event (s)\\
+			\hline
+			ZH                         & $<$5\\
+			$t\bar{t}$ fully-leptonic  &   10\\
+			Zbb                        &   18\\
+			$t\bar{t}$ semi-leptonic   &   41\\
+			$t\bar{t}$H fully-leptonic &   60\\
+			\hline
+		\end{tabular}
+	\end{table}		
+	\end{varblock}
+	\begin{varblock}[5.8cm]{\centering {\Huge ME} Methods}
+	\begin{eqnarray}
+		\nonumber
+		\mathcal{P}(x|\alpha) &=& \frac{1}{\sigma_{\alpha}} \int d\omega_{1} d\omega_{2} f(\omega_{1}) f(\omega_{2})\\
+		\nonumber
+		&& \int d\Phi(y)|\mathcal{M}_{\alpha}(y)|^{2} W(x,y)
+	\end{eqnarray}
+	\vspace{-0.6cm}
+	\begin{itemize}
+		\item $\mathcal{P}(x|\alpha)$: an event probability;
+		\item $\sigma_{\alpha}$: process cross-section;
+		\item $d\Phi$: analysis/detector acceptance;
+		\item $f(\omega_{i})$: Parton Distribution Function;
+		\item $\mathcal{M}_{\alpha}(y)$: matrix element;
+		\item $W(x,y)$: transfer function;
+	\end{itemize}
+	\end{varblock}
+	\end{multicols}
+\end{frame}
+
+\begin{frame}{Theoretical Foundation}
+	\begin{itemize}
+		\item The original idea of finding event weights didn't lead to promising results: assigned weights didn't model properly the events;
+		\item A new idea appeared, then: 
+		\begin{itemize}
+			\item Would it be possible to discriminate events based on a match between the particles from a probe event and a MC one?
+		\end{itemize}
+		\item \textit{Fast}ME algorithm:
+		\begin{itemize}
+			\item[1] Loop over the particles (i) from a MC event and match them to the particles (j) from a probe event according to
+			\begin{equation}
+				R^{2}_{(i,j)} = \sum_{k=1}^{n}~ \left( \dfrac{v_{k}^{(i,MC)}-v_{k}^{(j,Data)}}{\sigma_{v_{k}}} \right)^2
+			\end{equation}
+			where, k stands for the kinematic variables ($p_{T}$, $\eta$, $\phi$) and the particles pairs $(i,j)$ are chosen to minimize $R_{i,j}$;
+			\item[2] A distance between the probe event and the MC event is computed by summing in quadrature the minimum distances ($R_{i,j}$) between their particles:
+			\begin{equation}
+				D^{2} = \sum_{i=1}^{m}~[R^{2}_{(i,j)}]_{min},~~\mathrm{with}~~j(i+1) ~!=~j(i)
+			\end{equation}
+			\item[3] Finally, a discriminant for the probe event is computed using the closest MC events (from each class) via the formulas
+			\vspace{-0.5cm}
+			\begin{multicols}{2}
+				\begin{equation}
+					P_{SB}^{D} = \dfrac{D^{Bkg}_{Min}}{D^{Bkg}_{Min}+D^{Sig}_{Min}}
+				\end{equation}\\
+				\begin{equation}
+					P_{SB}^{W} = \dfrac{W^{Bkg}_{D_{min}}}{W^{Bkg}_{D_{min}}+W^{Sig}_{D_{min}}}
+				\end{equation}
+			\end{multicols}
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Theoretical Foundation}
+	\begin{itemize}
+		\item Here's an illustration of the method to clarify the algorithm:
+	\end{itemize}		
+	\begin{figure}
+	\caption{The MC events present a topology associated to the EM of a given physical process, such as, each particle has a correlation with the others particles in the event. An data event (black points) receives a probability of being from a kind or other (blue and red point) via the correlation of the distances (represented by the blue and red circles) between it and the MC events.}
+	\flushleft
+	\begin{overpic}
+		[scale=0.4,trim={0cm 0cm 0cm 0cm},clip]{FastMEfigs/fastme_work_way}
+		\put(60,77){\large $\phi$}
+		\put(100,35){\large $\eta$}
+		\put(66,29){{\color{red}$\bullet$}\hspace{0.07cm} class 1}
+		\put(66,23){{\color{blue}$\bullet$}\hspace{0.07cm} class 2}
+		\put(66,17){{\color{black}$\bullet$}\hspace{0.07cm} test}
+		\put(65,10){{\color{red}$\bigcirc$} class 1 matches $[R^{2}_{(i,j)}]_{min}$}
+		\put(65,2){{\color{blue}$\bigcirc$} class 2 matches $[R^{2}_{(i,j)}]_{min}$}
+		\put(110,16){
+			\begin{overpic}[scale=0.16]{FastMEfigs/psbD_vs_psbW}
+				\put(5,70){\footnotesize $P_{SB}^{D} = \dfrac{D^{Bkg}_{Min}}{D^{Bkg}_{Min}+D^{Sig}_{Min}}$}
+				\put(50,70){\footnotesize $P_{SB}^{W} = \dfrac{W^{Bkg}_{D_{min}}}{W^{Bkg}_{D_{min}}+W^{Sig}_{D_{min}}}$}
+			\end{overpic}
+		}
+	\end{overpic}
+	\end{figure}
+\end{frame}
+
+\subsection{Simulation Studies}
+\begin{frame}{Simulation Studies: Bias from Pattern Bank Size}
+	\begin{itemize}
+		\item The first point addressed during the development of the project was the influence of the pattern banks size:
+	\end{itemize}
+	\vspace{-0.3cm}
+	\begin{figure}
+	\caption{On graphs (a) and (b) the background pattern bank has a fixed size while the signal one is varied. On graphs (c) and (d) the opposite case is shown. Note, here "purity" is computed using the absolute number of events (without normalization).}
+	\begin{overpic}
+		[width=8cm,height=3cm,trim={0cm 0cm 0cm 0cm},clip]{FastMEfigs/purity_keeping_bkg_varying_sig}
+		\put(25,20){(a)}
+		\put(78,20){(b)}
+	\end{overpic}\\[0.2cm]
+	\begin{overpic}
+		[width=8cm,height=3cm,trim={0cm 0cm 0cm 0cm},clip]{FastMEfigs/purity_keeping_sig_varying_bkg}
+		\put(25,20){(c)}
+		\put(78,20){(d)}		
+	\end{overpic}
+\end{figure}	
+\end{frame}
+
+\begin{frame}{Simulation Studies: Impact of $\phi$ Variable}
+	\begin{itemize}
+		\item Some studies have been done in order to optimize the performance of the discriminants;
+		\item In the beginning of the project results showed that $\phi$ and $E$ (energy) doesn't contribute and can actually worse the discriminant performance;
+		\item Below is a comparison between the $P_{SB}^{D}$ distribution using $\phi$ and without it;
+		\item Based on such plot $\phi$ was removed from the default algorithm within $\textit{Fast}$ME and left as an option to the user;
+	\end{itemize}
+	\begin{figure}
+		\caption{Impact on the $P_{SB}^{D}$ distribution for signal and background due to use or not of $\phi$ in the computation of the distances between particles and events.}
+		\begin{overpic}
+			[scale=0.2,trim={0cm 0cm 0cm 2.3cm},clip]{FastMEfigs/comparacao_psbD_using_nousing_dPhi_scaledPt70}
+			\put(10,47){\color{red}Signal}
+			\put(10,44){\color{blue}Background}		
+		\end{overpic}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Simulation Studies: Scaling $v_{k}$'s Contribution}
+	\begin{itemize}
+		\item Another point of optimization was the scaling of the variables used to compute the $R_{(i,j)}$;
+		\item Since the variables $v_{k}$ present quite different ranges of variation it's important do level them:
+		\begin{figure}
+			\caption{Dependency on the variation of the fraction of signal events being mis-classified as background in function of the $\delta p_{T}$. A fixed value of 5.0 was used as the $\delta \eta$.}
+			\begin{overpic}
+				[scale=0.2,trim={0cm 0cm 0cm 0cm},clip]{FastMEfigs/fastme_sensibility_vs_dpTscaleFactor}
+			\end{overpic}
+		\end{figure}
+		\item The latest version of the project has an automated method which assigns the cumulative mean of MC events as the scaling factors;
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Simulation Studies: \textit{Fast}ME Applied to HZZ4L CMS Data}
+	\begin{itemize}
+		\item After interesting results with MadGraph/Powheg/Sherpa samples of ggH and qqZZ, it was natural an interest of applying \textit{Fast}ME to the HZZ4L data collected by CMS on 2015 during the LHC RunI;
+		\item The results have been compared to the formal CMS discriminant, the so called MELA;
+	\end{itemize}
+\begin{figure}
+	\caption{(a) Observed events classified as signal and background by the \textit{Fast}ME, (b) $P_{SB}^{D}$ and (c) MELA discriminants distribution versus the $m_{4l}$.}
+	\flushleft
+	\begin{overpic}
+		[width=3.8cm,height=4cm,trim={0cm 0cm 13cm 0cm},clip]{FastMEfigs/fastme_discriminant_and_m4l}
+		\put(45,-8){(a)}
+	\end{overpic}
+	\begin{overpic}
+		[width=3.8cm,height=3.8cm,trim={0cm 0cm 11.4cm 0cm},clip]{FastMEfigs/fastme_2D_m4l_comparison_to_mela}
+		\put(50,-8){(b)}
+	\end{overpic}
+	\begin{overpic}
+		[width=3.8cm,height=3.8cm,trim={11.6cm 0cm 0cm 0cm},clip]{FastMEfigs/fastme_2D_m4l_comparison_to_mela}
+		\put(50,-8){(c)}
+	\end{overpic}	
+\end{figure}	
+\end{frame}
+
+\subsection{The FastME Package}
+\begin{frame}{The \textit{Fast}ME Package}
+	\begin{multicols}{2}
+		\includegraphics[scale=0.24]{FastMEfigs/fastme_github_page}
+		\begin{itemize}
+			\item The success of \textit{Fast}ME idea on real CMS data encouraged us to move the standalone codes created until that moment into a organized package;
+			\item During the author's first travel to Fermilab, this package was created and stored on GitHub:
+		\end{itemize}
+	\end{multicols}		
+\end{frame}
 
 \section{Conclusions}
 \begin{frame}
@@ -1181,7 +1621,7 @@
 			\end{tabular}
 		\end{itemize}
 		\item Analysis documentation is ready and released: {\color{blue}AN-18-120};
-		\item {\color{blue}No issues} raised last meeting with HZZ subgroup (December 7$^{th}$, 2018) at CERN (green light for a thesis endorsement);
+		%\item {\color{blue}No issues} raised last meeting with HZZ subgroup (December 7$^{th}$, 2018) at CERN (green light for a thesis endorsement);
 	\end{itemize}
 \end{frame}
 
@@ -1272,7 +1712,7 @@
 
 \begin{frame}{Systematic Uncertainties Impact on $\mu_{qqH}$ Fit}
 	\centering
-	\includegraphics[scale=0.5]{figs/impacts_obs_4l_combination}
+	\includegraphics[scale=0.55]{figs/impacts_obs_4l_combination}
 \end{frame}
 
 \begin{frame}{Architecture of Chosen ANNs}

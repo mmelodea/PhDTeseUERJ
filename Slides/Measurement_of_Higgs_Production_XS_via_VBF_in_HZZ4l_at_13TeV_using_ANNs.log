@@ -1,17 +1,17 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.12.14)  24 FEB 2019 09:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.28)  7 MAR 2019 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Measurement_of_Higgs_Production_XS_via_VBF_in_HZZ4l_at_13TeV_using_ANNs.tex
 (./Measurement_of_Higgs_Production_XS_via_VBF_in_HZZ4l_at_13TeV_using_ANNs.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 23 languages loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasercs.sty
-Package: beamerbasercs 2013/12/25 (rcs-revision 31cc758a62ae)
+Package: beamerbasercs 2015/03/08 (rcs-revision 368aa9ba9d38)
 )
-Document Class: beamer 2013/12/02 3.33 A class for typesetting presentations (r
-cs-revision 332bfd3ce558)
+Document Class: beamer 2015/01/05 3.36 A class for typesetting presentations (r
+cs-revision 8a39122e1f63)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
 Package: beamerbasemodes 2013/09/03 (rcs-revision 768f2d98ca64)
 \beamer@tempbox=\box26
@@ -77,7 +77,7 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 Package: beamerbaseoptions 2013/03/10 (rcs-revision 47431932db0d)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
 \beamer@paperwidth=\skip42
@@ -115,18 +115,18 @@ File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -156,10 +156,10 @@ ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks17
@@ -192,7 +192,7 @@ File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 Driver file for pgf: pgfsys-pdftex.def
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
 f
@@ -225,7 +225,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
@@ -284,13 +284,13 @@ File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
-File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen156
 \pgf@shorten@start@additional=\dimen157
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
-File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
@@ -298,12 +298,12 @@ File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
-File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen158
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
-File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen159
 \pgf@pt@y=\dimen160
 \pgf@pt@temp=\dimen161
@@ -321,7 +321,7 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
-File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen162
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
@@ -334,7 +334,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
-File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box39
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
@@ -476,7 +476,7 @@ Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty
-Package: beamerbasefont 2013/10/18  (rcs-revision 72f39e01808a)
+Package: beamerbasefont 2015/01/05  (rcs-revision b4b4bee242e2)
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -521,7 +521,7 @@ Package: beamerbasesection 2013/06/07  (rcs-revision 60b9fe0f342f)
 \c@subsubsection=\count132
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
-Package: beamerbaseframe 2013/10/02  (rcs-revision cdc8e9a3aaac)
+Package: beamerbaseframe 2014/02/20  (rcs-revision 4b8ceeeff434)
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
@@ -538,7 +538,7 @@ Package: beamerbaseframe 2013/10/02  (rcs-revision cdc8e9a3aaac)
 \c@framenumber=\count136
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
-Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
+Package: beamerbaseverbatim 2015/01/05  (rcs-revision 431510bb5890)
 \beamer@verbatimfileout=\write4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
@@ -554,21 +554,21 @@ Package: beamerbaseframecomponents 2013/10/18  (rcs-revision 5cf6c5555a45)
 \beamer@footins=\box44
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
-Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
+Package: beamerbasecolor 2015/02/21  (rcs-revision d944b04ee2d5)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
 Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
 \beamer@frameboxcopy=\box45
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
-Package: beamerbasetoc 2013/05/23  (rcs-revision 0fdf5bc43be8)
+Package: beamerbasetoc 2015/03/08  (rcs-revision 7270298bbaae)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
 Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
 \beamer@sbttoks=\toks30
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
-Package: beamerbaseauxtemplates 2013/09/04  (rcs-revision 4ac715c499d0)
+Package: beamerbaseauxtemplates 2014/06/30  (rcs-revision 580088513a67)
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
 Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
@@ -585,10 +585,10 @@ Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
 \beamer@blockheadheight=\dimen175
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
-Package: beamerbaselocalstructure 2013/09/04  (rcs-revision 4ac715c499d0)
+Package: beamerbaselocalstructure 2014/09/10  (rcs-revision 393f6dcff371)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 )
 \c@figure=\count138
@@ -597,47 +597,47 @@ Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
 \belowcaptionskip=\skip50
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
-Package: beamerbasenavigation 2013/10/05  (rcs-revision 62be157fe783)
+Package: beamerbasenavigation 2015/02/27  (rcs-revision 923f4bf87efa)
 \beamer@section@min@dim=\dimen176
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
 Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks32
 \ex@=\dimen177
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen178
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count140
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count141
 \leftroot@=\count142
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count143
 \DOTSCASE@=\count144
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box51
 \strutbox@=\box52
 \big@size=\dimen179
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \macc@depth=\count145
 \c@MaxMatrixCols=\count146
 \dotsspace@=\muskip11
@@ -658,11 +658,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks36
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2009/07/02 v2.20.1
+Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks37
 \thm@bodyfont=\toks38
 \thm@headfont=\toks39
@@ -692,7 +692,7 @@ Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerthemede
 fault.sty
-Package: beamerinnerthemedefault 2013/10/15  (rcs-revision 65cb471f9634)
+Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
 \beamer@dima=\dimen186
 \beamer@dimb=\dimen187
 )
@@ -700,7 +700,7 @@ Package: beamerinnerthemedefault 2013/10/15  (rcs-revision 65cb471f9634)
 fault.sty
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks43
 \inpenc@posthook=\toks44
 
@@ -736,11 +736,11 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen190
 \captionmargin@=\dimen191
 \captionwidth=\dimen192
@@ -780,12 +780,12 @@ Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \@@delta=\dimen199
 \@gridcnt=\count163
 \@joinkind=\count164
-\@dotgap=\dimen200
-\@ddotgap=\dimen201
+\@dotgap=\dimen256
+\@ddotgap=\dimen257
 \@x@diff=\count165
 \@y@diff=\count166
-\x@diff=\dimen202
-\y@diff=\dimen203
+\x@diff=\dimen258
+\y@diff=\dimen259
 \@dotbox=\box53
 \num@segments=\count167
 \num@segmentsi=\count168
@@ -793,24 +793,24 @@ Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 )
 overpic: relative positioning in percent
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \c@tracingmulticols=\count169
 \mult@box=\box54
-\multicol@leftmargin=\dimen204
+\multicol@leftmargin=\dimen260
 \c@unbalance=\count170
 \c@collectmore=\count171
 \doublecol@number=\count172
 \multicoltolerance=\count173
 \multicolpretolerance=\count174
-\full@width=\dimen205
-\page@free=\dimen206
-\premulticols=\dimen207
-\postmulticols=\dimen208
+\full@width=\dimen261
+\page@free=\dimen262
+\premulticols=\dimen263
+\postmulticols=\dimen264
 \multicolsep=\skip65
 \multicolbaselineskip=\skip66
 \partial@page=\box55
 \last@line=\box56
-\maxbalancingoverflow=\dimen209
+\maxbalancingoverflow=\dimen265
 \mult@rightbox=\box57
 \mult@grightbox=\box58
 \mult@gfirstbox=\box59
@@ -834,17 +834,17 @@ Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
 \@tempa=\box77
 \c@columnbadness=\count175
 \c@finalcolumnbadness=\count176
-\last@try=\dimen210
-\multicolovershoot=\dimen211
-\multicolundershoot=\dimen212
+\last@try=\dimen266
+\multicolovershoot=\dimen267
+\multicolundershoot=\dimen268
 \mult@nat@firstbox=\box78
 \colbreak@box=\box79
 \mc@col@check@num=\count177
 )
 (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/multimedia/multimedia.sty
 Package: multimedia 2012/05/02 ver 0.02
@@ -870,7 +870,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
@@ -939,13 +939,13 @@ File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count179
-\scratchdimen=\dimen213
+\scratchdimen=\dimen269
 \scratchbox=\box80
 \nofMPsegments=\count180
 \nofMParguments=\count181
 \everyMPshowfont=\toks50
 \MPscratchCnt=\count182
-\MPscratchDim=\dimen214
+\MPscratchDim=\dimen270
 \MPnumerator=\count183
 \makeMPintoPDFobject=\count184
 \everyMPtoPDFconversion=\toks51
@@ -1056,19 +1056,8 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: Incompatible package detected (regarding \caption).
-(caption)             \caption = macro:->\ifx \@captype \@undefined \@latex@err
-or {\noexpand \caption outside figure or table}\@ehd \expandafter \@gobble \els
-e \refstepcounter \@captype \expandafter \@firstofone \fi {\@dblarg {\@caption 
-\@captype }}.
-
-
-Package caption Warning: \caption will not be redefined since it's already
-(caption)                redefined by a document class or package which is
-(caption)                unknown to the caption package.
-See the caption package documentation for explanation.
-
 Package caption Info: End \AtBeginDocument code.
+
 (./Measurement_of_Higgs_Production_XS_via_VBF_in_HZZ4l_at_13TeV_using_ANNs.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
@@ -1131,19 +1120,19 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 71.
 
-<uerj_logo.jpg, id=96, 292.4526pt x 321.8424pt>
+<uerj_logo.jpg, id=100, 292.4526pt x 321.8424pt>
 File: uerj_logo.jpg Graphic file (type jpg)
  <use uerj_logo.jpg>
 Package pdftex.def Info: uerj_logo.jpg used on input line 71.
 (pdftex.def)             Requested size: 43.866pt x 48.27428pt.
 
-<infn_logo.png, id=97, 2007.5pt x 1990.43625pt>
+<infn_logo.png, id=101, 2007.5pt x 1990.43625pt>
 File: infn_logo.png Graphic file (type png)
  <use infn_logo.png>
 Package pdftex.def Info: infn_logo.png used on input line 71.
 (pdftex.def)             Requested size: 44.17125pt x 43.7958pt.
 
-<cms_logo.jpeg, id=99, 394.8351pt x 393.6306pt>
+<cms_logo.jpeg, id=103, 394.8351pt x 393.6306pt>
 File: cms_logo.jpeg Graphic file (type jpg)
  <use cms_logo.jpeg>
 Package pdftex.def Info: cms_logo.jpeg used on input line 71.
@@ -1161,7 +1150,7 @@ ogo.png> <./cms_logo.jpeg>]
 
 ] [3
 
-] <figs/AN-18-120-cover.png, id=224, 336.50719pt x 545.03625pt>
+] <figs/AN-18-120-cover.png, id=233, 336.50719pt x 545.03625pt>
 File: figs/AN-18-120-cover.png Graphic file (type png)
 
 <use figs/AN-18-120-cover.png>
@@ -1170,13 +1159,13 @@ Package pdftex.def Info: figs/AN-18-120-cover.png used on input line 109.
  [4
 
  <./figs/AN-18-120-cover.png>]
-<figs/matter_struct.png, id=251, 371.3875pt x 613.29124pt>
+<figs/matter_struct.png, id=260, 371.3875pt x 613.29124pt>
 File: figs/matter_struct.png Graphic file (type png)
 
 <use figs/matter_struct.png>
 Package pdftex.def Info: figs/matter_struct.png used on input line 132.
 (pdftex.def)             Requested size: 137.41121pt x 226.9142pt.
- <figs/sm.png, id=252, 839.135pt x 659.46375pt>
+ <figs/sm.png, id=261, 839.135pt x 659.46375pt>
 File: figs/sm.png Graphic file (type png)
 
 <use figs/sm.png>
@@ -1194,35 +1183,35 @@ Overfull \vbox (3.75313pt too high) detected at line 132
 [5
 
  <./figs/matter_struct.png> <./figs/sm.png>]
-<figs/higgs_plot.png, id=283, 576.1525pt x 460.72125pt>
+<figs/higgs_plot.png, id=292, 576.1525pt x 460.72125pt>
 File: figs/higgs_plot.png Graphic file (type png)
 
 <use figs/higgs_plot.png>
 Package pdftex.def Info: figs/higgs_plot.png used on input line 173.
 (pdftex.def)             Requested size: 144.03777pt x 115.18002pt.
 
-<figs/ggh_diagram.png, id=284, 1611.01875pt x 1225.57875pt>
+<figs/ggh_diagram.png, id=293, 1611.01875pt x 1225.57875pt>
 File: figs/ggh_diagram.png Graphic file (type png)
 
 <use figs/ggh_diagram.png>
 Package pdftex.def Info: figs/ggh_diagram.png used on input line 173.
 (pdftex.def)             Requested size: 64.42976pt x 49.0148pt.
 
-<figs/vbf_diagram.png, id=285, 1567.8575pt x 1225.57875pt>
+<figs/vbf_diagram.png, id=294, 1567.8575pt x 1225.57875pt>
 File: figs/vbf_diagram.png Graphic file (type png)
 
 <use figs/vbf_diagram.png>
 Package pdftex.def Info: figs/vbf_diagram.png used on input line 173.
 (pdftex.def)             Requested size: 62.70361pt x 49.0148pt.
 
-<figs/vh_diagram.png, id=286, 1374.13374pt x 1246.6575pt>
+<figs/vh_diagram.png, id=295, 1374.13374pt x 1246.6575pt>
 File: figs/vh_diagram.png Graphic file (type png)
 
 <use figs/vh_diagram.png>
 Package pdftex.def Info: figs/vh_diagram.png used on input line 173.
 (pdftex.def)             Requested size: 54.95598pt x 49.8578pt.
 
-<figs/tth_diagram.png, id=287, 1611.01875pt x 1225.57875pt>
+<figs/tth_diagram.png, id=296, 1611.01875pt x 1225.57875pt>
 File: figs/tth_diagram.png Graphic file (type png)
 
 <use figs/tth_diagram.png>
@@ -1254,14 +1243,14 @@ File: figs/tth_diagram.png Graphic file (type png)
 Package pdftex.def Info: figs/tth_diagram.png used on input line 223.
 (pdftex.def)             Requested size: 64.42976pt x 49.0148pt.
 
-<figs/qqzz_diagram.png, id=322, 1288.815pt x 1440.38126pt>
+<figs/qqzz_diagram.png, id=331, 1288.815pt x 1440.38126pt>
 File: figs/qqzz_diagram.png Graphic file (type png)
 
 <use figs/qqzz_diagram.png>
 Package pdftex.def Info: figs/qqzz_diagram.png used on input line 223.
 (pdftex.def)             Requested size: 51.54381pt x 49.64001pt.
 
-<figs/ggzz_diagram.png, id=324, 1933.2225pt x 1440.38126pt>
+<figs/ggzz_diagram.png, id=333, 1933.2225pt x 1440.38126pt>
 File: figs/ggzz_diagram.png Graphic file (type png)
 
 <use figs/ggzz_diagram.png>
@@ -1275,7 +1264,7 @@ Overfull \hbox (0.82213pt too wide) in paragraph at lines 223--223
 [7
 
  <./figs/qqzz_diagram.png> <./figs/ggzz_diagram.png>]
-<figs/cms_scheme.jpg, id=359, 602.25pt x 375.4025pt>
+<figs/cms_scheme.jpg, id=368, 602.25pt x 375.4025pt>
 File: figs/cms_scheme.jpg Graphic file (type jpg)
  <use figs/cms_scheme.jpg>
 Package pdftex.def Info: figs/cms_scheme.jpg used on input line 238.
@@ -1285,34 +1274,34 @@ Overfull \hbox (76.84329pt too wide) in paragraph at lines 238--238
 [][]  
  []
 
-<figs/muon_csc_dt.png, id=360, 1027.84pt x 770.88pt>
+<figs/muon_csc_dt.png, id=369, 1027.84pt x 770.88pt>
 File: figs/muon_csc_dt.png Graphic file (type png)
 
 <use figs/muon_csc_dt.png>
 Package pdftex.def Info: figs/muon_csc_dt.png used on input line 238.
 (pdftex.def)             Requested size: 93.88176pt x 73.9754pt.
 
-<figs/muon_barrel.png, id=361, 899.36pt x 765.86125pt>
+<figs/muon_barrel.png, id=370, 899.36pt x 765.86125pt>
 File: figs/muon_barrel.png Graphic file (type png)
 
 <use figs/muon_barrel.png>
 Package pdftex.def Info: figs/muon_barrel.png used on input line 238.
 (pdftex.def)             Requested size: 93.89352pt x 73.97292pt.
 
-<figs/strip_tracker.png, id=362, 1027.84pt x 770.88pt>
+<figs/strip_tracker.png, id=371, 1027.84pt x 770.88pt>
 File: figs/strip_tracker.png Graphic file (type png)
 
 <use figs/strip_tracker.png>
 Package pdftex.def Info: figs/strip_tracker.png used on input line 238.
 (pdftex.def)             Requested size: 108.96933pt x 76.82198pt.
 
-<figs/ecal_mont.png, id=363, 1027.84pt x 770.88pt>
+<figs/ecal_mont.png, id=372, 1027.84pt x 770.88pt>
 File: figs/ecal_mont.png Graphic file (type png)
  <use figs/ecal_mont.png>
 Package pdftex.def Info: figs/ecal_mont.png used on input line 238.
 (pdftex.def)             Requested size: 108.96933pt x 76.82198pt.
 
-<figs/cms_hcal.jpg, id=364, 602.25pt x 351.3125pt>
+<figs/cms_hcal.jpg, id=373, 602.25pt x 351.3125pt>
 File: figs/cms_hcal.jpg Graphic file (type jpg)
  <use figs/cms_hcal.jpg>
 Package pdftex.def Info: figs/cms_hcal.jpg used on input line 238.
@@ -1322,7 +1311,7 @@ Package pdftex.def Info: figs/cms_hcal.jpg used on input line 238.
 
  <./figs/cms_scheme.jpg> <./figs/muon_csc_dt.png> <./figs/muon_barrel.png> <./f
 igs/strip_tracker.png> <./figs/ecal_mont.png> <./figs/cms_hcal.jpg>]
-<figs/cms_deteccao.png, id=392, 995.72pt x 511.9125pt>
+<figs/cms_deteccao.png, id=401, 995.72pt x 511.9125pt>
 File: figs/cms_deteccao.png Graphic file (type png)
 
 <use figs/cms_deteccao.png>
@@ -1331,7 +1320,7 @@ Package pdftex.def Info: figs/cms_deteccao.png used on input line 251.
  [9
 
  <./figs/cms_deteccao.png>]
-<figs/trigger_paths.png, id=421, 737.00343pt x 365.86688pt>
+<figs/trigger_paths.png, id=430, 737.00343pt x 365.86688pt>
 File: figs/trigger_paths.png Graphic file (type png)
 
 <use figs/trigger_paths.png>
@@ -1340,7 +1329,7 @@ Package pdftex.def Info: figs/trigger_paths.png used on input line 271.
  [10
 
  <./figs/trigger_paths.png>]
-<figs/simulated_samples.png, id=449, 584.93532pt x 398.99063pt>
+<figs/simulated_samples.png, id=458, 584.93532pt x 398.99063pt>
 File: figs/simulated_samples.png Graphic file (type png)
 
 <use figs/simulated_samples.png>
@@ -1349,7 +1338,7 @@ Package pdftex.def Info: figs/simulated_samples.png used on input line 286.
  [11
 
  <./figs/simulated_samples.png>]
-<figs/electron_bdt.png, id=486, 517.18219pt x 71.51718pt>
+<figs/electron_bdt.png, id=495, 517.18219pt x 71.51718pt>
 File: figs/electron_bdt.png Graphic file (type png)
 
 <use figs/electron_bdt.png>
@@ -1375,7 +1364,7 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
 ] [15
 
 ]
-<figs/fake_rate_2D_maps_corrected.png, id=599, 1250.6725pt x 523.9575pt>
+<figs/fake_rate_2D_maps_corrected.png, id=608, 1250.6725pt x 523.9575pt>
 File: figs/fake_rate_2D_maps_corrected.png Graphic file (type png)
 
 <use figs/fake_rate_2D_maps_corrected.png>
@@ -1394,76 +1383,76 @@ Overfull \vbox (12.41162pt too high) detected at line 430
 [16
 
  <./figs/fake_rate_2D_maps_corrected.png>]
-<figs/m4l_2p2f_4mu_smhiggs.png, id=627, 698.61pt x 674.52pt>
+<figs/m4l_2p2f_4mu_smhiggs.png, id=636, 698.61pt x 674.52pt>
 File: figs/m4l_2p2f_4mu_smhiggs.png Graphic file (type png)
 
 <use figs/m4l_2p2f_4mu_smhiggs.png>
-Package pdftex.def Info: figs/m4l_2p2f_4mu_smhiggs.png used on input line 461.
+Package pdftex.def Info: figs/m4l_2p2f_4mu_smhiggs.png used on input line 459.
 (pdftex.def)             Requested size: 82.78542pt x 87.21532pt.
 
-<figs/m4l_2p2f_4e_smhiggs.png, id=629, 698.61pt x 674.52pt>
+<figs/m4l_2p2f_4e_smhiggs.png, id=638, 698.61pt x 674.52pt>
 File: figs/m4l_2p2f_4e_smhiggs.png Graphic file (type png)
 
 <use figs/m4l_2p2f_4e_smhiggs.png>
-Package pdftex.def Info: figs/m4l_2p2f_4e_smhiggs.png used on input line 461.
+Package pdftex.def Info: figs/m4l_2p2f_4e_smhiggs.png used on input line 459.
 (pdftex.def)             Requested size: 82.78542pt x 87.21532pt.
 
-<figs/m4l_2p2f_2e2mu_smhiggs.png, id=631, 698.61pt x 674.52pt>
+<figs/m4l_2p2f_2e2mu_smhiggs.png, id=640, 698.61pt x 674.52pt>
 File: figs/m4l_2p2f_2e2mu_smhiggs.png Graphic file (type png)
 
 <use figs/m4l_2p2f_2e2mu_smhiggs.png>
-Package pdftex.def Info: figs/m4l_2p2f_2e2mu_smhiggs.png used on input line 461
+Package pdftex.def Info: figs/m4l_2p2f_2e2mu_smhiggs.png used on input line 459
 .
 (pdftex.def)             Requested size: 82.78542pt x 87.21532pt.
 
-<figs/m4l_2p2f_2mu2e_smhiggs.png, id=633, 698.61pt x 674.52pt>
+<figs/m4l_2p2f_2mu2e_smhiggs.png, id=642, 698.61pt x 674.52pt>
 File: figs/m4l_2p2f_2mu2e_smhiggs.png Graphic file (type png)
 
 <use figs/m4l_2p2f_2mu2e_smhiggs.png>
-Package pdftex.def Info: figs/m4l_2p2f_2mu2e_smhiggs.png used on input line 461
+Package pdftex.def Info: figs/m4l_2p2f_2mu2e_smhiggs.png used on input line 459
 .
 (pdftex.def)             Requested size: 82.78542pt x 87.21532pt.
 
-Overfull \hbox (0.54477pt too wide) in paragraph at lines 461--461
+Overfull \hbox (0.54477pt too wide) in paragraph at lines 459--459
 [][][]  
  []
 
-<figs/m4l_3p1f_4mu_smhiggs.png, id=635, 698.61pt x 674.52pt>
+<figs/m4l_3p1f_4mu_smhiggs.png, id=644, 698.61pt x 674.52pt>
 File: figs/m4l_3p1f_4mu_smhiggs.png Graphic file (type png)
 
 <use figs/m4l_3p1f_4mu_smhiggs.png>
-Package pdftex.def Info: figs/m4l_3p1f_4mu_smhiggs.png used on input line 461.
+Package pdftex.def Info: figs/m4l_3p1f_4mu_smhiggs.png used on input line 459.
 (pdftex.def)             Requested size: 82.78542pt x 87.21532pt.
 
-<figs/m4l_3p1f_4e_smhiggs.png, id=637, 698.61pt x 674.52pt>
+<figs/m4l_3p1f_4e_smhiggs.png, id=646, 698.61pt x 674.52pt>
 File: figs/m4l_3p1f_4e_smhiggs.png Graphic file (type png)
 
 <use figs/m4l_3p1f_4e_smhiggs.png>
-Package pdftex.def Info: figs/m4l_3p1f_4e_smhiggs.png used on input line 461.
+Package pdftex.def Info: figs/m4l_3p1f_4e_smhiggs.png used on input line 459.
 (pdftex.def)             Requested size: 82.78542pt x 87.21532pt.
 
-<figs/m4l_3p1f_2e2mu_smhiggs.png, id=639, 698.61pt x 674.52pt>
+<figs/m4l_3p1f_2e2mu_smhiggs.png, id=648, 698.61pt x 674.52pt>
 File: figs/m4l_3p1f_2e2mu_smhiggs.png Graphic file (type png)
 
 <use figs/m4l_3p1f_2e2mu_smhiggs.png>
-Package pdftex.def Info: figs/m4l_3p1f_2e2mu_smhiggs.png used on input line 461
+Package pdftex.def Info: figs/m4l_3p1f_2e2mu_smhiggs.png used on input line 459
 .
 (pdftex.def)             Requested size: 82.78542pt x 87.21532pt.
 
-<figs/m4l_3p1f_2mu2e_smhiggs.png, id=641, 698.61pt x 674.52pt>
+<figs/m4l_3p1f_2mu2e_smhiggs.png, id=650, 698.61pt x 674.52pt>
 File: figs/m4l_3p1f_2mu2e_smhiggs.png Graphic file (type png)
 
 <use figs/m4l_3p1f_2mu2e_smhiggs.png>
-Package pdftex.def Info: figs/m4l_3p1f_2mu2e_smhiggs.png used on input line 461
+Package pdftex.def Info: figs/m4l_3p1f_2mu2e_smhiggs.png used on input line 459
 .
 (pdftex.def)             Requested size: 82.78542pt x 87.21532pt.
 
-Overfull \hbox (0.54477pt too wide) in paragraph at lines 461--461
+Overfull \hbox (0.54477pt too wide) in paragraph at lines 459--459
 [][][]  
  []
 
 
-Overfull \vbox (8.45139pt too high) detected at line 461
+Overfull \vbox (15.77333pt too high) detected at line 459
  []
 
 [17
@@ -1472,190 +1461,200 @@ Overfull \vbox (8.45139pt too high) detected at line 461
 _2p2f_2e2mu_smhiggs.png> <./figs/m4l_2p2f_2mu2e_smhiggs.png> <./figs/m4l_3p1f_4
 mu_smhiggs.png> <./figs/m4l_3p1f_4e_smhiggs.png> <./figs/m4l_3p1f_2e2mu_smhiggs
 .png> <./figs/m4l_3p1f_2mu2e_smhiggs.png>]
-<figs/m4l_zx_4l_smhiggs.png, id=679, 698.61pt x 674.52pt>
+<figs/m4l_zx_4l_smhiggs.png, id=688, 698.61pt x 674.52pt>
 File: figs/m4l_zx_4l_smhiggs.png Graphic file (type png)
 
 <use figs/m4l_zx_4l_smhiggs.png>
-Package pdftex.def Info: figs/m4l_zx_4l_smhiggs.png used on input line 497.
+Package pdftex.def Info: figs/m4l_zx_4l_smhiggs.png used on input line 491.
 (pdftex.def)             Requested size: 118.06247pt x 121.40836pt.
 
-<figs/m4l_zx_4l_vbf.png, id=681, 698.61pt x 674.52pt>
+<figs/m4l_zx_4l_vbf.png, id=690, 698.61pt x 674.52pt>
 File: figs/m4l_zx_4l_vbf.png Graphic file (type png)
 
 <use figs/m4l_zx_4l_vbf.png>
-Package pdftex.def Info: figs/m4l_zx_4l_vbf.png used on input line 497.
+Package pdftex.def Info: figs/m4l_zx_4l_vbf.png used on input line 491.
 (pdftex.def)             Requested size: 112.9412pt x 121.40836pt.
 
-Overfull \hbox (4.68686pt too wide) in paragraph at lines 497--497
-[][]
- []
-
-
-Overfull \hbox (2.84546pt too wide) in paragraph at lines 497--497
- []$[]$ 
- []
-
-
-Overfull \hbox (65.46477pt too wide) in paragraph at lines 497--497
+Overfull \hbox (2.84546pt too wide) in paragraph at lines 491--491
 []$[]$  
  []
 
 
-Overfull \vbox (3.38408pt too high) detected at line 497
+Overfull \hbox (65.46477pt too wide) in paragraph at lines 491--491
+[]$[]$  
+ []
+
+
+Overfull \vbox (2.65808pt too high) detected at line 491
  []
 
 [18
 
  <./figs/m4l_zx_4l_smhiggs.png> <./figs/m4l_zx_4l_vbf.png>]
-<figs/m4l_smhiggs_4l_full_range.png, id=711, 698.61pt x 674.52pt>
+<figs/m4l_smhiggs_4l_full_range.png, id=720, 698.61pt x 674.52pt>
 File: figs/m4l_smhiggs_4l_full_range.png Graphic file (type png)
 
 <use figs/m4l_smhiggs_4l_full_range.png>
 Package pdftex.def Info: figs/m4l_smhiggs_4l_full_range.png used on input line 
-512.
+506.
 (pdftex.def)             Requested size: 116.95772pt x 123.5207pt.
 
-<figs/smhiggs_yields_table.png, id=713, 719.68875pt x 307.1475pt>
+<figs/smhiggs_yields_table.png, id=722, 719.68875pt x 307.1475pt>
 File: figs/smhiggs_yields_table.png Graphic file (type png)
 
 <use figs/smhiggs_yields_table.png>
-Package pdftex.def Info: figs/smhiggs_yields_table.png used on input line 512.
+Package pdftex.def Info: figs/smhiggs_yields_table.png used on input line 506.
 (pdftex.def)             Requested size: 165.52493pt x 70.64243pt.
 
-<figs/m4l_vbf_4l_118_130GeV.png, id=714, 698.61pt x 674.52pt>
+<figs/m4l_vbf_4l_118_130GeV.png, id=723, 698.61pt x 674.52pt>
 File: figs/m4l_vbf_4l_118_130GeV.png Graphic file (type png)
 
 <use figs/m4l_vbf_4l_118_130GeV.png>
-Package pdftex.def Info: figs/m4l_vbf_4l_118_130GeV.png used on input line 512.
+Package pdftex.def Info: figs/m4l_vbf_4l_118_130GeV.png used on input line 506.
 
 (pdftex.def)             Requested size: 116.95772pt x 123.5207pt.
 
-<figs/vbf_yields_table.png, id=716, 718.93594pt x 313.17pt>
+<figs/vbf_yields_table.png, id=725, 718.93594pt x 313.17pt>
 File: figs/vbf_yields_table.png Graphic file (type png)
 
 <use figs/vbf_yields_table.png>
-Package pdftex.def Info: figs/vbf_yields_table.png used on input line 512.
+Package pdftex.def Info: figs/vbf_yields_table.png used on input line 506.
 (pdftex.def)             Requested size: 165.35179pt x 72.02757pt.
  [19
 
  <./figs/m4l_smhiggs_4l_full_range.png> <./figs/m4l_vbf_4l_118_130GeV.png> <./f
 igs/smhiggs_yields_table.png> <./figs/vbf_yields_table.png>] <figs/neuron.png, 
-id=746, 661.47125pt x 377.41pt>
+id=755, 661.47125pt x 377.41pt>
 File: figs/neuron.png Graphic file (type png)
 
 <use figs/neuron.png>
-Package pdftex.def Info: figs/neuron.png used on input line 533.
+Package pdftex.def Info: figs/neuron.png used on input line 527.
 (pdftex.def)             Requested size: 145.52412pt x 83.03046pt.
- <figs/DNN.jpg, id=747, 602.25pt x 388.45125pt>
+ <figs/DNN.jpg, id=756, 602.25pt x 388.45125pt>
 File: figs/DNN.jpg Graphic file (type jpg)
 
 <use figs/DNN.jpg>
-Package pdftex.def Info: figs/DNN.jpg used on input line 533.
+Package pdftex.def Info: figs/DNN.jpg used on input line 527.
 (pdftex.def)             Requested size: 144.54294pt x 93.2302pt.
  [20
 
  <./figs/neuron.png> <./figs/DNN.jpg>]
-<figs/tonystark_jarvis.jpg, id=777, 1204.5pt x 501.875pt>
+<figs/ann_supervised_learning.png, id=786, 444.91219pt x 236.38312pt>
+File: figs/ann_supervised_learning.png Graphic file (type png)
+
+<use figs/ann_supervised_learning.png>
+Package pdftex.def Info: figs/ann_supervised_learning.png used on input line 56
+4.
+(pdftex.def)             Requested size: 99.58496pt x 42.67697pt.
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <6> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 564.
+
+<figs/tonystark_jarvis.jpg, id=787, 1204.5pt x 501.875pt>
 File: figs/tonystark_jarvis.jpg Graphic file (type jpg)
 
 <use figs/tonystark_jarvis.jpg>
-Package pdftex.def Info: figs/tonystark_jarvis.jpg used on input line 556.
+Package pdftex.def Info: figs/tonystark_jarvis.jpg used on input line 564.
 (pdftex.def)             Requested size: 332.90184pt x 130.88263pt.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 556.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 564.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [21
+)
+Overfull \vbox (7.21309pt too high) detected at line 564
+ []
 
- <./figs/tonystark_jarvis.jpg>] [22
+[21
+
+ <./figs/ann_supervised_learning.png> <./figs/tonystark_jarvis.jpg>]
+[22
 
 ]
-Overfull \vbox (1.80362pt too high) detected at line 625
+Overfull \vbox (1.80362pt too high) detected at line 633
  []
 
 [23
 
-] <figs/k57nj2_shapes_prefit.png, id=862, 698.61pt x 674.52pt>
+] <figs/k57nj2_shapes_prefit.png, id=873, 698.61pt x 674.52pt>
 File: figs/k57nj2_shapes_prefit.png Graphic file (type png)
 
 <use figs/k57nj2_shapes_prefit.png>
-Package pdftex.def Info: figs/k57nj2_shapes_prefit.png used on input line 645.
+Package pdftex.def Info: figs/k57nj2_shapes_prefit.png used on input line 653.
 (pdftex.def)             Requested size: 105.57683pt x 123.5207pt.
 
-<figs/k24nj3_shapes_prefit.png, id=864, 698.61pt x 674.52pt>
+<figs/k24nj3_shapes_prefit.png, id=875, 698.61pt x 674.52pt>
 File: figs/k24nj3_shapes_prefit.png Graphic file (type png)
 
 <use figs/k24nj3_shapes_prefit.png>
-Package pdftex.def Info: figs/k24nj3_shapes_prefit.png used on input line 645.
+Package pdftex.def Info: figs/k24nj3_shapes_prefit.png used on input line 653.
 (pdftex.def)             Requested size: 105.57683pt x 123.5207pt.
 
-<figs/k57nj2_k24nj3_shapes_prefit.png, id=866, 698.61pt x 674.52pt>
+<figs/k57nj2_k24nj3_shapes_prefit.png, id=877, 698.61pt x 674.52pt>
 File: figs/k57nj2_k24nj3_shapes_prefit.png Graphic file (type png)
 
 <use figs/k57nj2_k24nj3_shapes_prefit.png>
 Package pdftex.def Info: figs/k57nj2_k24nj3_shapes_prefit.png used on input lin
-e 645.
+e 653.
 (pdftex.def)             Requested size: 105.57683pt x 123.5207pt.
  [24
 
  <./figs/k57nj2_shapes_prefit.png> <./figs/k24nj3_shapes_prefit.png> <./figs/k5
 7nj2_k24nj3_shapes_prefit.png>]
-<figs/experimental_sys_uncs.png, id=898, 674.52pt x 221.32687pt>
+<figs/experimental_sys_uncs.png, id=909, 674.52pt x 221.32687pt>
 File: figs/experimental_sys_uncs.png Graphic file (type png)
 
 <use figs/experimental_sys_uncs.png>
-Package pdftex.def Info: figs/experimental_sys_uncs.png used on input line 665.
+Package pdftex.def Info: figs/experimental_sys_uncs.png used on input line 673.
 
 (pdftex.def)             Requested size: 153.22186pt x 91.3408pt.
 
-<figs/theoretical_sys_uncs.png, id=900, 655.69969pt x 371.13657pt>
+<figs/theoretical_sys_uncs.png, id=911, 655.69969pt x 371.13657pt>
 File: figs/theoretical_sys_uncs.png Graphic file (type png)
 
 <use figs/theoretical_sys_uncs.png>
-Package pdftex.def Info: figs/theoretical_sys_uncs.png used on input line 665.
+Package pdftex.def Info: figs/theoretical_sys_uncs.png used on input line 673.
 (pdftex.def)             Requested size: 166.94962pt x 135.86542pt.
  [25
 
  <./figs/experimental_sys_uncs.png> <./figs/theoretical_sys_uncs.png>] [26
 
 ]
-</home/micah/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_root_example.p
-ng, id=963, 633.86812pt x 380.92313pt>
-File: /home/micah/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_root_exam
-ple.png Graphic file (type png)
+</media/micah/DATA/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_root_exa
+mple.png, id=974, 633.86812pt x 380.92313pt>
+File: /media/micah/DATA/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_roo
+t_example.png Graphic file (type png)
 
-<use /home/micah/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_root_examp
-le.png>
-Package pdftex.def Info: /home/micah/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty
-/datacard_root_example.png used on input line 693.
+<use /media/micah/DATA/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_root
+_example.png>
+Package pdftex.def Info: /media/micah/DATA/cernbox/MonoHiggsHZZ4L/KerasV5/Uncer
+tainty/datacard_root_example.png used on input line 701.
 (pdftex.def)             Requested size: 195.61267pt x 171.41382pt.
  [27
 
- </home/micah/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_root_example.
-png>]
-<figs/k24nj3_3rdJetUncertainty_4mu.png, id=993, 698.61pt x 674.52pt>
+ </media/micah/DATA/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_root_ex
+ample.png>]
+<figs/k24nj3_3rdJetUncertainty_4mu.png, id=1004, 698.61pt x 674.52pt>
 File: figs/k24nj3_3rdJetUncertainty_4mu.png Graphic file (type png)
 
 <use figs/k24nj3_3rdJetUncertainty_4mu.png>
 Package pdftex.def Info: figs/k24nj3_3rdJetUncertainty_4mu.png used on input li
-ne 715.
+ne 723.
 (pdftex.def)             Requested size: 108.40993pt x 117.34798pt.
 
-<figs/k24nj3_3rdJetUncertainty_4e.png, id=995, 698.61pt x 674.52pt>
+<figs/k24nj3_3rdJetUncertainty_4e.png, id=1006, 698.61pt x 674.52pt>
 File: figs/k24nj3_3rdJetUncertainty_4e.png Graphic file (type png)
 
 <use figs/k24nj3_3rdJetUncertainty_4e.png>
 Package pdftex.def Info: figs/k24nj3_3rdJetUncertainty_4e.png used on input lin
-e 715.
+e 723.
 (pdftex.def)             Requested size: 108.40993pt x 117.34798pt.
 
-<figs/k24nj3_3rdJetUncertainty_2e2mu.png, id=997, 698.61pt x 674.52pt>
+<figs/k24nj3_3rdJetUncertainty_2e2mu.png, id=1008, 698.61pt x 674.52pt>
 File: figs/k24nj3_3rdJetUncertainty_2e2mu.png Graphic file (type png)
 
 <use figs/k24nj3_3rdJetUncertainty_2e2mu.png>
 Package pdftex.def Info: figs/k24nj3_3rdJetUncertainty_2e2mu.png used on input 
-line 715.
+line 723.
 (pdftex.def)             Requested size: 108.40993pt x 117.34798pt.
  [28
 
@@ -1663,51 +1662,51 @@ line 715.
 png> <./figs/k24nj3_3rdJetUncertainty_2e2mu.png>] [29
 
 ]
-<figs/LikelihoodScans.png, id=1055, 798.985pt x 723.70375pt>
+<figs/LikelihoodScans.png, id=1066, 798.985pt x 723.70375pt>
 File: figs/LikelihoodScans.png Graphic file (type png)
 
 <use figs/LikelihoodScans.png>
-Package pdftex.def Info: figs/LikelihoodScans.png used on input line 753.
+Package pdftex.def Info: figs/LikelihoodScans.png used on input line 761.
 (pdftex.def)             Requested size: 159.79416pt x 144.73817pt.
 
-<figs/ChannelsCompatibility.png, id=1056, 798.985pt x 723.70375pt>
+<figs/ChannelsCompatibility.png, id=1067, 798.985pt x 723.70375pt>
 File: figs/ChannelsCompatibility.png Graphic file (type png)
 
 <use figs/ChannelsCompatibility.png>
-Package pdftex.def Info: figs/ChannelsCompatibility.png used on input line 753.
+Package pdftex.def Info: figs/ChannelsCompatibility.png used on input line 761.
 
 (pdftex.def)             Requested size: 159.79416pt x 144.73817pt.
 
-Overfull \vbox (8.62436pt too high) detected at line 753
+Overfull \vbox (8.97835pt too high) detected at line 761
  []
 
 [30
 
  <./figs/LikelihoodScans.png> <./figs/ChannelsCompatibility.png>]
-<figs/Limits.png, id=1084, 798.985pt x 723.70375pt>
+<figs/Limits.png, id=1095, 798.985pt x 723.70375pt>
 File: figs/Limits.png Graphic file (type png)
  <use figs/Limits.png>
-Package pdftex.def Info: figs/Limits.png used on input line 768.
+Package pdftex.def Info: figs/Limits.png used on input line 776.
 (pdftex.def)             Requested size: 159.79416pt x 144.73817pt.
 
-<figs/Pvalues.png, id=1085, 798.985pt x 723.70375pt>
+<figs/Pvalues.png, id=1096, 798.985pt x 723.70375pt>
 File: figs/Pvalues.png Graphic file (type png)
  <use figs/Pvalues.png>
-Package pdftex.def Info: figs/Pvalues.png used on input line 768.
+Package pdftex.def Info: figs/Pvalues.png used on input line 776.
 (pdftex.def)             Requested size: 159.79416pt x 144.73817pt.
 
 [31
 
  <./figs/Limits.png> <./figs/Pvalues.png>]
-<figs/ChannelsCompatibility_39fb_vs_150fb.png, id=1115, 798.985pt x 695.59875pt
+<figs/ChannelsCompatibility_39fb_vs_150fb.png, id=1126, 798.985pt x 695.59875pt
 >
 File: figs/ChannelsCompatibility_39fb_vs_150fb.png Graphic file (type png)
  <use figs/ChannelsCompatibility_39fb_vs_150fb.png>
 Package pdftex.def Info: figs/ChannelsCompatibility_39fb_vs_150fb.png used on i
-nput line 802.
+nput line 810.
 (pdftex.def)             Requested size: 159.79416pt x 139.11728pt.
 
-Overfull \hbox (17.09517pt too wide) in paragraph at lines 802--802
+Overfull \hbox (17.09517pt too wide) in paragraph at lines 810--810
 []$[]$ 
  []
 
@@ -1715,50 +1714,50 @@ Overfull \hbox (17.09517pt too wide) in paragraph at lines 802--802
 
  <./figs/ChannelsCompatibility_39fb_vs_150fb.png>]
 <figs/event_display_Run278167_Lumi1564_Event2852832207_Njets2_ANN0p93_DoubleEG_
-Run2016F_2.png, id=1142, 767.86874pt x 474.27188pt>
+Run2016F_2.png, id=1153, 767.86874pt x 474.27188pt>
 File: figs/event_display_Run278167_Lumi1564_Event2852832207_Njets2_ANN0p93_Doub
 leEG_Run2016F_2.png Graphic file (type png)
 
 <use figs/event_display_Run278167_Lumi1564_Event2852832207_Njets2_ANN0p93_Doubl
 eEG_Run2016F_2.png>
 Package pdftex.def Info: figs/event_display_Run278167_Lumi1564_Event2852832207_
-Njets2_ANN0p93_DoubleEG_Run2016F_2.png used on input line 825.
+Njets2_ANN0p93_DoubleEG_Run2016F_2.png used on input line 833.
 (pdftex.def)             Requested size: 168.93164pt x 104.34013pt.
 
 <figs/event_display_Run275658_Lumi216_Event425010503_Njets2_ANN0p15_DoubleEG_Ru
-n2016C_2.png, id=1143, 767.11594pt x 475.02469pt>
+n2016C_2.png, id=1154, 767.11594pt x 475.02469pt>
 File: figs/event_display_Run275658_Lumi216_Event425010503_Njets2_ANN0p15_Double
 EG_Run2016C_2.png Graphic file (type png)
 
 <use figs/event_display_Run275658_Lumi216_Event425010503_Njets2_ANN0p15_DoubleE
 G_Run2016C_2.png>
 Package pdftex.def Info: figs/event_display_Run275658_Lumi216_Event425010503_Nj
-ets2_ANN0p15_DoubleEG_Run2016C_2.png used on input line 825.
+ets2_ANN0p15_DoubleEG_Run2016C_2.png used on input line 833.
 (pdftex.def)             Requested size: 168.76602pt x 104.50575pt.
 
 <figs/event_display_Run278018_Lumi453_Event844012107_Njets3_ANN0p77_DoubleMuon_
-Run2016F_2.png, id=1144, 767.86874pt x 474.27188pt>
+Run2016F_2.png, id=1155, 767.86874pt x 474.27188pt>
 File: figs/event_display_Run278018_Lumi453_Event844012107_Njets3_ANN0p77_Double
 Muon_Run2016F_2.png Graphic file (type png)
 
 <use figs/event_display_Run278018_Lumi453_Event844012107_Njets3_ANN0p77_DoubleM
 uon_Run2016F_2.png>
 Package pdftex.def Info: figs/event_display_Run278018_Lumi453_Event844012107_Nj
-ets3_ANN0p77_DoubleMuon_Run2016F_2.png used on input line 825.
+ets3_ANN0p77_DoubleMuon_Run2016F_2.png used on input line 833.
 (pdftex.def)             Requested size: 168.93164pt x 104.34013pt.
 
 <figs/event_display_Run278018_Lumi361_Event673988874_Njets3_ANN0p04_DoubleEG_Ru
-n2016F_2.png, id=1145, 767.86874pt x 474.27188pt>
+n2016F_2.png, id=1156, 767.86874pt x 474.27188pt>
 File: figs/event_display_Run278018_Lumi361_Event673988874_Njets3_ANN0p04_Double
 EG_Run2016F_2.png Graphic file (type png)
 
 <use figs/event_display_Run278018_Lumi361_Event673988874_Njets3_ANN0p04_DoubleE
 G_Run2016F_2.png>
 Package pdftex.def Info: figs/event_display_Run278018_Lumi361_Event673988874_Nj
-ets3_ANN0p04_DoubleEG_Run2016F_2.png used on input line 825.
+ets3_ANN0p04_DoubleEG_Run2016F_2.png used on input line 833.
 (pdftex.def)             Requested size: 168.93164pt x 104.34013pt.
 
-Overfull \vbox (2.07985pt too high) detected at line 825
+Overfull \vbox (2.07985pt too high) detected at line 833
  []
 
 [33
@@ -1773,197 +1772,197 @@ t844012107_Njets3_ANN0p77_DoubleMuon_Run2016F_2.png> <./figs/event_display_Run2
 ] [35
 
 ]
-<CMSL1TTfigs/cms_l1TT_strategy.png, id=1227, 666.99188pt x 432.86719pt>
+<CMSL1TTfigs/cms_l1TT_strategy.png, id=1238, 666.99188pt x 432.86719pt>
 File: CMSL1TTfigs/cms_l1TT_strategy.png Graphic file (type png)
 
 <use CMSL1TTfigs/cms_l1TT_strategy.png>
-Package pdftex.def Info: CMSL1TTfigs/cms_l1TT_strategy.png used on input line 8
-82.
+Package pdftex.def Info: CMSL1TTfigs/cms_l1TT_strategy.png used on input line 9
+03.
 (pdftex.def)             Requested size: 300.14357pt x 194.78842pt.
 
-Overfull \hbox (4.28458pt too wide) in paragraph at lines 882--882
+Overfull \hbox (4.28458pt too wide) in paragraph at lines 903--903
 []$  
  []
 
 [36
 
  <./CMSL1TTfigs/cms_l1TT_strategy.png>]
-<CMSL1TTfigs/AMFPGA_scheme2.png, id=1254, 676.77844pt x 445.665pt>
+<CMSL1TTfigs/AMFPGA_scheme2.png, id=1265, 676.77844pt x 445.665pt>
 File: CMSL1TTfigs/AMFPGA_scheme2.png Graphic file (type png)
 
 <use CMSL1TTfigs/AMFPGA_scheme2.png>
-Package pdftex.def Info: CMSL1TTfigs/AMFPGA_scheme2.png used on input line 901.
+Package pdftex.def Info: CMSL1TTfigs/AMFPGA_scheme2.png used on input line 922.
 
 (pdftex.def)             Requested size: 270.70657pt x 177.1247pt.
 
-Overfull \hbox (102.85884pt too wide) in paragraph at lines 901--901
+Overfull \hbox (102.85884pt too wide) in paragraph at lines 922--922
 [][][]  
  []
 
 
-Overfull \vbox (4.45485pt too high) detected at line 901
+Overfull \vbox (4.45485pt too high) detected at line 922
  []
 
 [37
 
  <./CMSL1TTfigs/AMFPGA_scheme2.png (PNG copy)>]
-<CMSL1TTfigs/AMFPGA_scheme.png, id=1284, 718.93594pt x 396.7322pt>
+<CMSL1TTfigs/AMFPGA_scheme.png, id=1295, 718.93594pt x 396.7322pt>
 File: CMSL1TTfigs/AMFPGA_scheme.png Graphic file (type png)
 
 <use CMSL1TTfigs/AMFPGA_scheme.png>
-Package pdftex.def Info: CMSL1TTfigs/AMFPGA_scheme.png used on input line 912.
+Package pdftex.def Info: CMSL1TTfigs/AMFPGA_scheme.png used on input line 933.
 (pdftex.def)             Requested size: 287.56927pt x 158.69006pt.
 
-<CMSL1TTfigs/20160413_152420.jpg, id=1285, 1606.0pt x 1204.5pt>
+<CMSL1TTfigs/20160413_152420.jpg, id=1296, 1606.0pt x 1204.5pt>
 File: CMSL1TTfigs/20160413_152420.jpg Graphic file (type jpg)
 
 <use CMSL1TTfigs/20160413_152420.jpg>
-Package pdftex.def Info: CMSL1TTfigs/20160413_152420.jpg used on input line 912
+Package pdftex.def Info: CMSL1TTfigs/20160413_152420.jpg used on input line 933
 .
 (pdftex.def)             Requested size: 96.35583pt x 72.26688pt.
 
-<CMSL1TTfigs/Foto-24-05-16-19-51-58.jpg, id=1286, 3276.24pt x 2457.18pt>
+<CMSL1TTfigs/Foto-24-05-16-19-51-58.jpg, id=1297, 3276.24pt x 2457.18pt>
 File: CMSL1TTfigs/Foto-24-05-16-19-51-58.jpg Graphic file (type jpg)
 
 <use CMSL1TTfigs/Foto-24-05-16-19-51-58.jpg>
 Package pdftex.def Info: CMSL1TTfigs/Foto-24-05-16-19-51-58.jpg used on input l
-ine 912.
+ine 933.
 (pdftex.def)             Requested size: 114.68011pt x 86.01009pt.
 
-<CMSL1TTfigs/CMSL1TTAMFPGA_setup.jpg, id=1287, 3276.24pt x 2457.18pt>
+<CMSL1TTfigs/CMSL1TTAMFPGA_setup.jpg, id=1298, 3276.24pt x 2457.18pt>
 File: CMSL1TTfigs/CMSL1TTAMFPGA_setup.jpg Graphic file (type jpg)
 
 <use CMSL1TTfigs/CMSL1TTAMFPGA_setup.jpg>
 Package pdftex.def Info: CMSL1TTfigs/CMSL1TTAMFPGA_setup.jpg used on input line
- 912.
+ 933.
 (pdftex.def)             Requested size: 131.02728pt x 98.27046pt.
  [38
 
  <./CMSL1TTfigs/AMFPGA_scheme.png> <./CMSL1TTfigs/20160413_152420.jpg> <./CMSL1
 TTfigs/Foto-24-05-16-19-51-58.jpg> <./CMSL1TTfigs/CMSL1TTAMFPGA_setup.jpg>]
-<CMSL1TTfigs/ttbar_pu200_mu_road_sorting_comparison.png, id=1314, 395.97937pt x
+<CMSL1TTfigs/ttbar_pu200_mu_road_sorting_comparison.png, id=1326, 395.97937pt x
  347.04657pt>
 File: CMSL1TTfigs/ttbar_pu200_mu_road_sorting_comparison.png Graphic file (type
  png)
  <use CMSL1TTfigs/ttbar_pu200_mu_road_sorting_comparison.png>
 Package pdftex.def Info: CMSL1TTfigs/ttbar_pu200_mu_road_sorting_comparison.png
- used on input line 924.
+ used on input line 945.
 (pdftex.def)             Requested size: 158.38895pt x 138.81616pt.
 
 [39
 
  <./CMSL1TTfigs/ttbar_pu200_mu_road_sorting_comparison.png>]
-<CMSL1TTfigs/stub_definition.png, id=1343, 361.35pt x 213.04594pt>
+<CMSL1TTfigs/stub_definition.png, id=1354, 361.35pt x 213.04594pt>
 File: CMSL1TTfigs/stub_definition.png Graphic file (type png)
 
 <use CMSL1TTfigs/stub_definition.png>
-Package pdftex.def Info: CMSL1TTfigs/stub_definition.png used on input line 947
+Package pdftex.def Info: CMSL1TTfigs/stub_definition.png used on input line 968
 .
 (pdftex.def)             Requested size: 144.53743pt x 85.21686pt.
 
-<CMSL1TTfigs/deltaS_approach.png, id=1344, 880.03781pt x 415.5525pt>
+<CMSL1TTfigs/deltaS_approach.png, id=1355, 880.03781pt x 415.5525pt>
 File: CMSL1TTfigs/deltaS_approach.png Graphic file (type png)
 
 <use CMSL1TTfigs/deltaS_approach.png>
-Package pdftex.def Info: CMSL1TTfigs/deltaS_approach.png used on input line 947
+Package pdftex.def Info: CMSL1TTfigs/deltaS_approach.png used on input line 968
 .
 (pdftex.def)             Requested size: 103.86626pt x 105.6111pt.
  [40
 
  <./CMSL1TTfigs/deltaS_approach.png> <./CMSL1TTfigs/stub_definition.png>]
-<CMSL1TTfigs/ttbar_pu200_sym115577.png, id=1374, 759.58781pt x 496.10344pt>
+<CMSL1TTfigs/ttbar_pu200_sym115577.png, id=1385, 759.58781pt x 496.10344pt>
 File: CMSL1TTfigs/ttbar_pu200_sym115577.png Graphic file (type png)
 
 <use CMSL1TTfigs/ttbar_pu200_sym115577.png>
 Package pdftex.def Info: CMSL1TTfigs/ttbar_pu200_sym115577.png used on input li
-ne 975.
+ne 996.
 (pdftex.def)             Requested size: 151.05507pt x 148.83217pt.
 
-<CMSL1TTfigs/ttbar_pu200_asym115577.png, id=1376, 760.34062pt x 495.35063pt>
+<CMSL1TTfigs/ttbar_pu200_asym115577.png, id=1387, 760.34062pt x 495.35063pt>
 File: CMSL1TTfigs/ttbar_pu200_asym115577.png Graphic file (type png)
 
 <use CMSL1TTfigs/ttbar_pu200_asym115577.png>
 Package pdftex.def Info: CMSL1TTfigs/ttbar_pu200_asym115577.png used on input l
-ine 975.
+ine 996.
 (pdftex.def)             Requested size: 151.28091pt x 148.60634pt.
 
-Overfull \vbox (5.08705pt too high) detected at line 975
+Overfull \vbox (5.08705pt too high) detected at line 996
  []
 
 [41
 
  <./CMSL1TTfigs/ttbar_pu200_sym115577.png> <./CMSL1TTfigs/ttbar_pu200_asym11557
 7.png>]
-<CMSL1TTfigs/ttbar_pu200_smu_roads_combs_deltaS.png, id=1407, 411.78844pt x 447
+<CMSL1TTfigs/ttbar_pu200_smu_roads_combs_deltaS.png, id=1418, 411.78844pt x 447
 .92343pt>
 File: CMSL1TTfigs/ttbar_pu200_smu_roads_combs_deltaS.png Graphic file (type png
 )
  <use CMSL1TTfigs/ttbar_pu200_smu_roads_combs_deltaS.png>
 Package pdftex.def Info: CMSL1TTfigs/ttbar_pu200_smu_roads_combs_deltaS.png use
-d on input line 1007.
+d on input line 1028.
 (pdftex.def)             Requested size: 123.53748pt x 125.84216pt.
 
-<CMSL1TTfigs/jet_Pt250_pu200_roads_combs_deltaS.png, id=1409, 413.29407pt x 447
+<CMSL1TTfigs/jet_Pt250_pu200_roads_combs_deltaS.png, id=1420, 413.29407pt x 447
 .17062pt>
 File: CMSL1TTfigs/jet_Pt250_pu200_roads_combs_deltaS.png Graphic file (type png
 )
  <use CMSL1TTfigs/jet_Pt250_pu200_roads_combs_deltaS.png>
 Package pdftex.def Info: CMSL1TTfigs/jet_Pt250_pu200_roads_combs_deltaS.png use
-d on input line 1007.
+d on input line 1028.
 (pdftex.def)             Requested size: 123.98917pt x 125.61633pt.
  [42
 
  <./CMSL1TTfigs/ttbar_pu200_smu_roads_combs_deltaS.png> <./CMSL1TTfigs/jet_Pt25
 0_pu200_roads_combs_deltaS.png>]
-<CMSL1TTfigs/ttbar_pu200_pt_split_graph.png, id=1441, 395.22656pt x 469.00218pt
+<CMSL1TTfigs/ttbar_pu200_pt_split_graph.png, id=1452, 395.22656pt x 469.00218pt
 >
 File: CMSL1TTfigs/ttbar_pu200_pt_split_graph.png Graphic file (type png)
  <use CMSL1TTfigs/ttbar_pu200_pt_split_graph.png>
 Package pdftex.def Info: CMSL1TTfigs/ttbar_pu200_pt_split_graph.png used on inp
-ut line 1026.
+ut line 1047.
 (pdftex.def)             Requested size: 158.08781pt x 176.21664pt.
 
-<CMSL1TTfigs/jet250_pu200_pt_split_graph.png, id=1443, 394.47375pt x 469.00218p
+<CMSL1TTfigs/jet250_pu200_pt_split_graph.png, id=1454, 394.47375pt x 469.00218p
 t>
 File: CMSL1TTfigs/jet250_pu200_pt_split_graph.png Graphic file (type png)
  <use CMSL1TTfigs/jet250_pu200_pt_split_graph.png>
 Package pdftex.def Info: CMSL1TTfigs/jet250_pu200_pt_split_graph.png used on in
-put line 1026.
+put line 1047.
 (pdftex.def)             Requested size: 157.7867pt x 176.21664pt.
  [43
 
  <./CMSL1TTfigs/ttbar_pu200_pt_split_graph.png> <./CMSL1TTfigs/jet250_pu200_pt_
 split_graph.png>]
-<CMSL1TTfigs/luciano_mupu_sf0p8_plot.png, id=1475, 429.85594pt x 317.68687pt>
+<CMSL1TTfigs/luciano_mupu_sf0p8_plot.png, id=1486, 429.85594pt x 317.68687pt>
 File: CMSL1TTfigs/luciano_mupu_sf0p8_plot.png Graphic file (type png)
 
 <use CMSL1TTfigs/luciano_mupu_sf0p8_plot.png>
 Package pdftex.def Info: CMSL1TTfigs/luciano_mupu_sf0p8_plot.png used on input 
-line 1044.
+line 1065.
 (pdftex.def)             Requested size: 171.93933pt x 127.07248pt.
 
-Overfull \hbox (22.59148pt too wide) in paragraph at lines 1044--1044
+Overfull \hbox (22.59148pt too wide) in paragraph at lines 1065--1065
  [][] 
  []
 
 
-<CMSL1TTfigs/muon_road_eff_vs_pile_up_sf0p6.png, id=1476, 384.6872pt x 339.5184
+<CMSL1TTfigs/muon_road_eff_vs_pile_up_sf0p6.png, id=1487, 384.6872pt x 339.5184
 3pt>
 File: CMSL1TTfigs/muon_road_eff_vs_pile_up_sf0p6.png Graphic file (type png)
  <use CMSL1TTfigs/muon_road_eff_vs_pile_up_sf0p6.png>
 Package pdftex.def Info: CMSL1TTfigs/muon_road_eff_vs_pile_up_sf0p6.png used on
- input line 1044.
+ input line 1065.
 (pdftex.def)             Requested size: 107.71167pt x 95.0645pt.
 
-<CMSL1TTfigs/muon_road_eff_vs_pile_up_deltaS.png, id=1477, 402.75468pt x 356.08
+<CMSL1TTfigs/muon_road_eff_vs_pile_up_deltaS.png, id=1488, 402.75468pt x 356.08
 03pt>
 File: CMSL1TTfigs/muon_road_eff_vs_pile_up_deltaS.png Graphic file (type png)
  <use CMSL1TTfigs/muon_road_eff_vs_pile_up_deltaS.png>
 Package pdftex.def Info: CMSL1TTfigs/muon_road_eff_vs_pile_up_deltaS.png used o
-n input line 1044.
+n input line 1065.
 (pdftex.def)             Requested size: 112.77054pt x 99.7018pt.
 
-Overfull \vbox (10.79959pt too high) detected at line 1044
+Overfull \vbox (10.79959pt too high) detected at line 1065
  []
 
 [44
@@ -1974,315 +1973,814 @@ File: CMSL1TTfigs/luciano_mupu_sf0p8_plot.png Graphic file (type png)
 
 <use CMSL1TTfigs/luciano_mupu_sf0p8_plot.png>
 Package pdftex.def Info: CMSL1TTfigs/luciano_mupu_sf0p8_plot.png used on input 
-line 1069.
+line 1090.
 (pdftex.def)             Requested size: 171.93933pt x 127.07248pt.
 
-<CMSL1TTfigs/surprised_cat.jpg, id=1505, 642.4pt x 654.445pt>
+<CMSL1TTfigs/surprised_cat.jpg, id=1516, 642.4pt x 654.445pt>
 File: CMSL1TTfigs/surprised_cat.jpg Graphic file (type jpg)
 
 <use CMSL1TTfigs/surprised_cat.jpg>
-Package pdftex.def Info: CMSL1TTfigs/surprised_cat.jpg used on input line 1069.
+Package pdftex.def Info: CMSL1TTfigs/surprised_cat.jpg used on input line 1090.
 
 (pdftex.def)             Requested size: 128.47772pt x 130.88667pt.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 1069.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 1069.
+(Font)              scaled to size 18.00587pt on input line 1090.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 1069.
+(Font)              scaled to size 12.50409pt on input line 1090.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 1069.
+(Font)              scaled to size 10.42007pt on input line 1090.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 1069.
+(Font)              scaled to size 18.00587pt on input line 1090.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 1069.
+(Font)              scaled to size 12.50409pt on input line 1090.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 1069.
+(Font)              scaled to size 10.42007pt on input line 1090.
 
-Overfull \hbox (22.59123pt too wide) in paragraph at lines 1069--1069
+Overfull \hbox (22.59123pt too wide) in paragraph at lines 1090--1090
  [][] 
  []
 
 File: CMSL1TTfigs/muon_road_eff_vs_pile_up_sf0p6.png Graphic file (type png)
 <use CMSL1TTfigs/muon_road_eff_vs_pile_up_sf0p6.png>
 Package pdftex.def Info: CMSL1TTfigs/muon_road_eff_vs_pile_up_sf0p6.png used on
- input line 1069.
+ input line 1090.
 (pdftex.def)             Requested size: 107.71167pt x 95.0645pt.
 File: CMSL1TTfigs/muon_road_eff_vs_pile_up_deltaS.png Graphic file (type png)
 
 <use CMSL1TTfigs/muon_road_eff_vs_pile_up_deltaS.png>
 Package pdftex.def Info: CMSL1TTfigs/muon_road_eff_vs_pile_up_deltaS.png used o
-n input line 1069.
+n input line 1090.
 (pdftex.def)             Requested size: 112.77054pt x 99.7018pt.
 
-Overfull \vbox (10.24265pt too high) detected at line 1069
+Overfull \vbox (10.24265pt too high) detected at line 1090
  []
 
 [45
 
  <./CMSL1TTfigs/surprised_cat.jpg>]
-<CMSL1TTfigs/r_qbpT_fit_single_pion_nopu.png, id=1533, 499.8675pt x 475.7775pt>
+<CMSL1TTfigs/tfChi2_Pt_all.png, id=1544, 578.16pt x 508.90125pt>
+File: CMSL1TTfigs/tfChi2_Pt_all.png Graphic file (type png)
+
+<use CMSL1TTfigs/tfChi2_Pt_all.png>
+Package pdftex.def Info: CMSL1TTfigs/tfChi2_Pt_all.png used on input line 1113.
+
+(pdftex.def)             Requested size: 144.53964pt x 127.22499pt.
+ [46
+
+ <./CMSL1TTfigs/tfChi2_Pt_all.png>]
+<CMSL1TTfigs/r_qbpT_fit_single_pion_nopu.png, id=1573, 499.8675pt x 475.7775pt>
 File: CMSL1TTfigs/r_qbpT_fit_single_pion_nopu.png Graphic file (type png)
 <use CMSL1TTfigs/r_qbpT_fit_single_pion_nopu.png>
 Package pdftex.def Info: CMSL1TTfigs/r_qbpT_fit_single_pion_nopu.png used on in
-put line 1097.
+put line 1141.
 (pdftex.def)             Requested size: 79.98042pt x 76.12595pt.
 
-<CMSL1TTfigs/r_phi0_fit_single_pion_nopu.png, id=1534, 499.8675pt x 475.7775pt>
+<CMSL1TTfigs/r_phi0_fit_single_pion_nopu.png, id=1574, 499.8675pt x 475.7775pt>
 File: CMSL1TTfigs/r_phi0_fit_single_pion_nopu.png Graphic file (type png)
 <use CMSL1TTfigs/r_phi0_fit_single_pion_nopu.png>
 Package pdftex.def Info: CMSL1TTfigs/r_phi0_fit_single_pion_nopu.png used on in
-put line 1097.
+put line 1141.
 (pdftex.def)             Requested size: 79.98042pt x 76.12595pt.
 
-<CMSL1TTfigs/r_z0_fit_single_pion_nopu.png, id=1535, 499.8675pt x 475.7775pt>
+<CMSL1TTfigs/r_z0_fit_single_pion_nopu.png, id=1575, 499.8675pt x 475.7775pt>
 File: CMSL1TTfigs/r_z0_fit_single_pion_nopu.png Graphic file (type png)
 
 <use CMSL1TTfigs/r_z0_fit_single_pion_nopu.png>
 Package pdftex.def Info: CMSL1TTfigs/r_z0_fit_single_pion_nopu.png used on inpu
-t line 1097.
+t line 1141.
 (pdftex.def)             Requested size: 79.98042pt x 76.12595pt.
 
-<CMSL1TTfigs/r_cotTheta_fit_single_pion_nopu.png, id=1536, 499.8675pt x 475.777
+<CMSL1TTfigs/r_cotTheta_fit_single_pion_nopu.png, id=1576, 499.8675pt x 475.777
 5pt>
 File: CMSL1TTfigs/r_cotTheta_fit_single_pion_nopu.png Graphic file (type png)
  <use CMSL1TTfigs/r_cotTheta_fit_single_pion_nopu.png>
 Package pdftex.def Info: CMSL1TTfigs/r_cotTheta_fit_single_pion_nopu.png used o
-n input line 1097.
+n input line 1141.
 (pdftex.def)             Requested size: 79.98042pt x 76.12595pt.
- [46
+ [47
 
  <./CMSL1TTfigs/r_qbpT_fit_single_pion_nopu.png> <./CMSL1TTfigs/r_phi0_fit_sing
 le_pion_nopu.png> <./CMSL1TTfigs/r_z0_fit_single_pion_nopu.png> <./CMSL1TTfigs/
 r_cotTheta_fit_single_pion_nopu.png>]
-<CMSL1TTfigs/jet250pu200_synthetic_view.png, id=1565, 417.81094pt x 373.395pt>
+<CMSL1TTfigs/jet250pu200_synthetic_view.png, id=1604, 417.81094pt x 373.395pt>
 File: CMSL1TTfigs/jet250pu200_synthetic_view.png Graphic file (type png)
 
 <use CMSL1TTfigs/jet250pu200_synthetic_view.png>
 Package pdftex.def Info: CMSL1TTfigs/jet250pu200_synthetic_view.png used on inp
-ut line 1118.
+ut line 1162.
 (pdftex.def)             Requested size: 146.23601pt x 130.6902pt.
 
-<CMSL1TTfigs/jet250pu200_analytic_view.png, id=1566, 502.87875pt x 373.395pt>
+<CMSL1TTfigs/jet250pu200_analytic_view.png, id=1605, 502.87875pt x 373.395pt>
 File: CMSL1TTfigs/jet250pu200_analytic_view.png Graphic file (type png)
 
 <use CMSL1TTfigs/jet250pu200_analytic_view.png>
 Package pdftex.def Info: CMSL1TTfigs/jet250pu200_analytic_view.png used on inpu
-t line 1118.
+t line 1162.
 (pdftex.def)             Requested size: 176.0102pt x 130.6902pt.
- [47
+ [48
 
  <./CMSL1TTfigs/jet250pu200_synthetic_view.png> <./CMSL1TTfigs/jet250pu200_anal
 ytic_view.png>]
-<CMSL1TTfigs/tracks_duplication.png, id=1593, 804.00375pt x 283.81032pt>
+<CMSL1TTfigs/tracks_duplication.png, id=1633, 804.00375pt x 283.81032pt>
 File: CMSL1TTfigs/tracks_duplication.png Graphic file (type png)
 
 <use CMSL1TTfigs/tracks_duplication.png>
 Package pdftex.def Info: CMSL1TTfigs/tracks_duplication.png used on input line 
-1137.
+1183.
 (pdftex.def)             Requested size: 160.7979pt x 56.76105pt.
 
-Overfull \hbox (2.2001pt too wide) in paragraph at lines 1137--1137
+Overfull \hbox (2.2001pt too wide) in paragraph at lines 1183--1183
 [][]  
  []
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <7> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 1137.
-[48
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 1183.
+[49
 
- <./CMSL1TTfigs/tracks_duplication.png>] [49
+ <./CMSL1TTfigs/tracks_duplication.png>] [50
+
+] [51
 
 ]
-Overfull \hbox (0.55222pt too wide) in paragraph at lines 1186--1186
-[][]  
+<CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_pt_trunc.png, id=1717
+, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_pt_trunc.png Gra
+phic file (type png)
+
+<use CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_pt_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_e
+ff_pt_trunc.png used on input line 1264.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_eta_trunc.png, id=171
+9, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_eta_trunc.png Gr
+aphic file (type png)
+
+<use CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_eta_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_e
+ff_eta_trunc.png used on input line 1264.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_phi_trunc.png, id=172
+1, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_phi_trunc.png Gr
+aphic file (type png)
+
+<use CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_phi_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_e
+ff_phi_trunc.png used on input line 1264.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_pt_trunc.png, id=17
+23, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_pt_trunc.png G
+raphic file (type png)
+
+<use CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_pt_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_r
+atio_pt_trunc.png used on input line 1264.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_eta_trunc.png, id=1
+725, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_eta_trunc.png 
+Graphic file (type png)
+
+<use CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_eta_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_r
+atio_eta_trunc.png used on input line 1264.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_phi_trunc.png, id=1
+727, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_phi_trunc.png 
+Graphic file (type png)
+
+<use CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_phi_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_r
+atio_phi_trunc.png used on input line 1264.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+Overfull \vbox (6.84401pt too high) detected at line 1264
  []
-
-[50
-
-] <figs/github_AN_18_120.png, id=1674, 741.52031pt x 408.77719pt>
-File: figs/github_AN_18_120.png Graphic file (type png)
-
-<use figs/github_AN_18_120.png>
-Package pdftex.def Info: figs/github_AN_18_120.png used on input line 1198.
-(pdftex.def)             Requested size: 333.68105pt x 183.94803pt.
- [51
-
- <./figs/github_AN_18_120.png>]
-<figs/backup.jpg, id=1701, 301.125pt x 301.125pt>
-File: figs/backup.jpg Graphic file (type jpg)
- <use figs/backup.jpg>
-Package pdftex.def Info: figs/backup.jpg used on input line 1204.
-(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 
 [52
 
- <./figs/backup.jpg>]
-<figs/datasets.png, id=1728, 408.02437pt x 482.55281pt>
-File: figs/datasets.png Graphic file (type png)
+ <./CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_pt_trunc.png> <./C
+MSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_eta_trunc.png> <./CMSL1
+TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_phi_trunc.png> <./CMSL1TTfi
+gs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_pt_trunc.png> <./CMSL1TTfigs/
+final_plots/ttbarPU200/ttbar_pu200_track_ratio_eta_trunc.png> <./CMSL1TTfigs/fi
+nal_plots/ttbarPU200/ttbar_pu200_track_ratio_phi_trunc.png>]
+<CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_pt_trunc.png, id=1762, 700.
+6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_pt_trunc.png Graphic f
+ile (type png)
 
-<use figs/datasets.png>
-Package pdftex.def Info: figs/datasets.png used on input line 1209.
-(pdftex.def)             Requested size: 204.01169pt x 234.16264pt.
- [53
+<use CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_pt_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_pt_
+trunc.png used on input line 1293.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
 
- <./figs/datasets.png>]
-<figs/met_filters.png, id=1757, 444.91219pt x 298.11375pt>
-File: figs/met_filters.png Graphic file (type png)
+<CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_eta_trunc.png, id=1764, 700
+.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_eta_trunc.png Graphic 
+file (type png)
 
-<use figs/met_filters.png>
-Package pdftex.def Info: figs/met_filters.png used on input line 1214.
-(pdftex.def)             Requested size: 266.94936pt x 170.33374pt.
- [54
+<use CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_eta_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_eta
+_trunc.png used on input line 1293.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
 
- <./figs/met_filters.png>]
-<figs/postfit_yields.png, id=1787, 593.21625pt x 216.05719pt>
-File: figs/postfit_yields.png Graphic file (type png)
+<CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_phi_trunc.png, id=1766, 700
+.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_phi_trunc.png Graphic 
+file (type png)
 
-<use figs/postfit_yields.png>
-Package pdftex.def Info: figs/postfit_yields.png used on input line 1220.
-(pdftex.def)             Requested size: 266.94484pt x 97.22482pt.
+<use CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_phi_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_phi
+_trunc.png used on input line 1293.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
 
-<figs/postfit_shapes.png, id=1788, 596.2275pt x 285.31593pt>
-File: figs/postfit_shapes.png Graphic file (type png)
+<CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_pt_trunc.png, id=1768, 70
+0.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_pt_trunc.png Graphic
+ file (type png)
 
-<use figs/postfit_shapes.png>
-Package pdftex.def Info: figs/postfit_shapes.png used on input line 1220.
-(pdftex.def)             Requested size: 298.11302pt x 142.65761pt.
+<use CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_pt_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_p
+t_trunc.png used on input line 1293.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
 
-Overfull \vbox (7.41257pt too high) detected at line 1220
+<CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_eta_trunc.png, id=1770, 7
+00.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_eta_trunc.png Graphi
+c file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_eta_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_e
+ta_trunc.png used on input line 1293.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_phi_trunc.png, id=1772, 7
+00.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_phi_trunc.png Graphi
+c file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_phi_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_p
+hi_trunc.png used on input line 1293.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+Overfull \vbox (6.84401pt too high) detected at line 1293
+ []
+
+[53
+
+ <./CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_pt_trunc.png> <./CMSL1TT
+figs/final_plots/muPU200/mu_pu200_track_eff_eta_trunc.png> <./CMSL1TTfigs/final
+_plots/muPU200/mu_pu200_track_eff_phi_trunc.png> <./CMSL1TTfigs/final_plots/muP
+U200/mu_pu200_track_ratio_pt_trunc.png> <./CMSL1TTfigs/final_plots/muPU200/mu_p
+u200_track_ratio_eta_trunc.png> <./CMSL1TTfigs/final_plots/muPU200/mu_pu200_tra
+ck_ratio_phi_trunc.png>]
+<CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_pt_trunc.png, id=1808, 700.
+6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_pt_trunc.png Graphic f
+ile (type png)
+
+<use CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_pt_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_pt_
+trunc.png used on input line 1322.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_eta_trunc.png, id=1810, 700
+.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_eta_trunc.png Graphic 
+file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_eta_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_eta
+_trunc.png used on input line 1322.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_phi_trunc.png, id=1812, 700
+.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_phi_trunc.png Graphic 
+file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_phi_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_phi
+_trunc.png used on input line 1322.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_pt_trunc.png, id=1814, 70
+0.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_pt_trunc.png Graphic
+ file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_pt_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_p
+t_trunc.png used on input line 1322.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_eta_trunc.png, id=1816, 7
+00.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_eta_trunc.png Graphi
+c file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_eta_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_e
+ta_trunc.png used on input line 1322.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_phi_trunc.png, id=1818, 7
+00.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_phi_trunc.png Graphi
+c file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_phi_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_ratio_p
+hi_trunc.png used on input line 1322.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+Overfull \vbox (6.84401pt too high) detected at line 1322
+ []
+
+[54
+
+ <./CMSL1TTfigs/final_plots/muPU300/mu_pu300_track_eff_pt_trunc.png> <./CMSL1TT
+figs/final_plots/muPU300/mu_pu300_track_eff_eta_trunc.png> <./CMSL1TTfigs/final
+_plots/muPU300/mu_pu300_track_eff_phi_trunc.png> <./CMSL1TTfigs/final_plots/muP
+U300/mu_pu300_track_ratio_pt_trunc.png> <./CMSL1TTfigs/final_plots/muPU300/mu_p
+u300_track_ratio_eta_trunc.png> <./CMSL1TTfigs/final_plots/muPU300/mu_pu300_tra
+ck_ratio_phi_trunc.png>]
+<CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_pt_trunc.png, id=1853, 700.
+6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_pt_trunc.png Graphic f
+ile (type png)
+
+<use CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_pt_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_pt_
+trunc.png used on input line 1351.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_eta_trunc.png, id=1855, 700
+.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_eta_trunc.png Graphic 
+file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_eta_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_eta
+_trunc.png used on input line 1351.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_phi_trunc.png, id=1857, 700
+.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_phi_trunc.png Graphic 
+file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_phi_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_phi
+_trunc.png used on input line 1351.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_pt_trunc.png, id=1859, 70
+0.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_pt_trunc.png Graphic
+ file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_pt_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_p
+t_trunc.png used on input line 1351.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_eta_trunc.png, id=1861, 7
+00.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_eta_trunc.png Graphi
+c file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_eta_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_e
+ta_trunc.png used on input line 1351.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_phi_trunc.png, id=1863, 7
+00.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_phi_trunc.png Graphi
+c file (type png)
+
+<use CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_phi_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_p
+hi_trunc.png used on input line 1351.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+Overfull \vbox (6.84401pt too high) detected at line 1351
  []
 
 [55
 
+ <./CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_eff_pt_trunc.png> <./CMSL1TT
+figs/final_plots/muPU400/mu_pu400_track_eff_eta_trunc.png> <./CMSL1TTfigs/final
+_plots/muPU400/mu_pu400_track_eff_phi_trunc.png> <./CMSL1TTfigs/final_plots/muP
+U400/mu_pu400_track_ratio_pt_trunc.png> <./CMSL1TTfigs/final_plots/muPU400/mu_p
+u400_track_ratio_eta_trunc.png> <./CMSL1TTfigs/final_plots/muPU400/mu_pu400_tra
+ck_ratio_phi_trunc.png>]
+<CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_pt_trunc.png, id=18
+98, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_pt_trunc.png G
+raphic file (type png)
+
+<use CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_pt_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track
+_eff_pt_trunc.png used on input line 1380.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_eta_trunc.png, id=1
+900, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_eta_trunc.png 
+Graphic file (type png)
+
+<use CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_eta_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track
+_eff_eta_trunc.png used on input line 1380.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_phi_trunc.png, id=1
+902, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_phi_trunc.png 
+Graphic file (type png)
+
+<use CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_phi_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track
+_eff_phi_trunc.png used on input line 1380.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_pt_trunc.png, id=
+1904, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_pt_trunc.png
+ Graphic file (type png)
+
+<use CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_pt_trunc.png>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track
+_ratio_pt_trunc.png used on input line 1380.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_eta_trunc.png, id
+=1906, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_eta_trunc.pn
+g Graphic file (type png)
+
+<use CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_eta_trunc.png
+>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track
+_ratio_eta_trunc.png used on input line 1380.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+<CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_phi_trunc.png, id
+=1908, 700.6175pt x 676.5275pt>
+File: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_phi_trunc.pn
+g Graphic file (type png)
+
+<use CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_phi_trunc.png
+>
+Package pdftex.def Info: CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track
+_ratio_phi_trunc.png used on input line 1380.
+(pdftex.def)             Requested size: 102.99602pt x 103.69408pt.
+
+Overfull \vbox (6.84401pt too high) detected at line 1380
+ []
+
+[56
+
+ <./CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_pt_trunc.png> <.
+/CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_eta_trunc.png> <./C
+MSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_phi_trunc.png> <./CMS
+L1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_pt_trunc.png> <./CMSL
+1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_eta_trunc.png> <./CMSL
+1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_phi_trunc.png>]
+[57
+
+]
+Overfull \vbox (11.75853pt too high) detected at line 1440
+ []
+
+[58
+
+] [59
+
+] <FastMEfigs/fastme_work_way.png, id=2023, 426.09187pt x 359.84438pt>
+File: FastMEfigs/fastme_work_way.png Graphic file (type png)
+
+<use FastMEfigs/fastme_work_way.png>
+Package pdftex.def Info: FastMEfigs/fastme_work_way.png used on input line 1498
+.
+(pdftex.def)             Requested size: 170.43372pt x 143.9352pt.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 1498.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 1498.
+
+<FastMEfigs/psbD_vs_psbW.png, id=2025, 1023.825pt x 683.55376pt>
+File: FastMEfigs/psbD_vs_psbW.png Graphic file (type png)
+
+<use FastMEfigs/psbD_vs_psbW.png>
+Package pdftex.def Info: FastMEfigs/psbD_vs_psbW.png used on input line 1498.
+(pdftex.def)             Requested size: 163.81534pt x 109.37083pt.
+ [60
+
+ <./FastMEfigs/fastme_work_way.png> <./FastMEfigs/psbD_vs_psbW.png>]
+<FastMEfigs/purity_keeping_bkg_varying_sig.png, id=2054, 920.68968pt x 314.6756
+3pt>
+File: FastMEfigs/purity_keeping_bkg_varying_sig.png Graphic file (type png)
+ <use FastMEfigs/purity_keeping_bkg_varying_sig.png>
+Package pdftex.def Info: FastMEfigs/purity_keeping_bkg_varying_sig.png used on 
+input line 1519.
+(pdftex.def)             Requested size: 227.615pt x 85.35727pt.
+
+<FastMEfigs/purity_keeping_sig_varying_bkg.png, id=2056, 917.67844pt x 310.1587
+5pt>
+File: FastMEfigs/purity_keeping_sig_varying_bkg.png Graphic file (type png)
+ <use FastMEfigs/purity_keeping_sig_varying_bkg.png>
+Package pdftex.def Info: FastMEfigs/purity_keeping_sig_varying_bkg.png used on 
+input line 1519.
+(pdftex.def)             Requested size: 227.6127pt x 85.3578pt.
+
+Overfull \vbox (3.85689pt too high) detected at line 1519
+ []
+
+[61
+
+ <./FastMEfigs/purity_keeping_bkg_varying_sig.png> <./FastMEfigs/purity_keeping
+_sig_varying_bkg.png>]
+<FastMEfigs/comparacao_psbD_using_nousing_dPhi_scaledPt70.png, id=2089, 1023.82
+5pt x 683.55376pt>
+File: FastMEfigs/comparacao_psbD_using_nousing_dPhi_scaledPt70.png Graphic file
+ (type png)
+
+<use FastMEfigs/comparacao_psbD_using_nousing_dPhi_scaledPt70.png>
+Package pdftex.def Info: FastMEfigs/comparacao_psbD_using_nousing_dPhi_scaledPt
+70.png used on input line 1536.
+(pdftex.def)             Requested size: 204.76137pt x 123.62027pt.
+
+Overfull \vbox (6.6401pt too high) detected at line 1536
+ []
+
+[62
+
+ <./FastMEfigs/comparacao_psbD_using_nousing_dPhi_scaledPt70.png>]
+<FastMEfigs/fastme_sensibility_vs_dpTscaleFactor.png, id=2119, 1023.825pt x 683
+.55376pt>
+File: FastMEfigs/fastme_sensibility_vs_dpTscaleFactor.png Graphic file (type pn
+g)
+ <use FastMEfigs/fastme_sensibility_vs_dpTscaleFactor.png>
+Package pdftex.def Info: FastMEfigs/fastme_sensibility_vs_dpTscaleFactor.png us
+ed on input line 1550.
+(pdftex.def)             Requested size: 204.76137pt x 136.70833pt.
+
+Overfull \vbox (2.42224pt too high) detected at line 1550
+ []
+
+[63
+
+ <./FastMEfigs/fastme_sensibility_vs_dpTscaleFactor.png>]
+<FastMEfigs/fastme_discriminant_and_m4l.png, id=2148, 752.8125pt x 490.08093pt>
+File: FastMEfigs/fastme_discriminant_and_m4l.png Graphic file (type png)
+<use FastMEfigs/fastme_discriminant_and_m4l.png>
+Package pdftex.def Info: FastMEfigs/fastme_discriminant_and_m4l.png used on inp
+ut line 1573.
+(pdftex.def)             Requested size: 108.11856pt x 113.80803pt.
+
+<FastMEfigs/fastme_2D_m4l_comparison_to_mela.png, id=2150, 639.89063pt x 392.96
+812pt>
+File: FastMEfigs/fastme_2D_m4l_comparison_to_mela.png Graphic file (type png)
+ <use FastMEfigs/fastme_2D_m4l_comparison_to_mela.png>
+Package pdftex.def Info: FastMEfigs/fastme_2D_m4l_comparison_to_mela.png used o
+n input line 1573.
+(pdftex.def)             Requested size: 108.12111pt x 108.11752pt.
+File: FastMEfigs/fastme_2D_m4l_comparison_to_mela.png Graphic file (type png)
+
+<use FastMEfigs/fastme_2D_m4l_comparison_to_mela.png>
+Package pdftex.def Info: FastMEfigs/fastme_2D_m4l_comparison_to_mela.png used o
+n input line 1573.
+(pdftex.def)             Requested size: 108.11887pt x 108.11752pt.
+ [64
+
+ <./FastMEfigs/fastme_discriminant_and_m4l.png> <./FastMEfigs/fastme_2D_m4l_com
+parison_to_mela.png>]
+<FastMEfigs/fastme_github_page.png, id=2183, 754.31813pt x 465.23813pt>
+File: FastMEfigs/fastme_github_page.png Graphic file (type png)
+
+<use FastMEfigs/fastme_github_page.png>
+Package pdftex.def Info: FastMEfigs/fastme_github_page.png used on input line 1
+584.
+(pdftex.def)             Requested size: 181.04005pt x 111.65942pt.
+
+Overfull \hbox (13.19232pt too wide) in paragraph at lines 1584--1584
+[][][]  
+ []
+
+[65
+
+ <./FastMEfigs/fastme_github_page.png>] [66
+
+]
+Overfull \hbox (0.55222pt too wide) in paragraph at lines 1626--1626
+[][]  
+ []
+
+[67
+
+] <figs/github_AN_18_120.png, id=2264, 741.52031pt x 408.77719pt>
+File: figs/github_AN_18_120.png Graphic file (type png)
+
+<use figs/github_AN_18_120.png>
+Package pdftex.def Info: figs/github_AN_18_120.png used on input line 1638.
+(pdftex.def)             Requested size: 333.68105pt x 183.94803pt.
+ [68
+
+ <./figs/github_AN_18_120.png>]
+<figs/backup.jpg, id=2291, 301.125pt x 301.125pt>
+File: figs/backup.jpg Graphic file (type jpg)
+ <use figs/backup.jpg>
+Package pdftex.def Info: figs/backup.jpg used on input line 1644.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+
+[69
+
+ <./figs/backup.jpg>]
+<figs/datasets.png, id=2318, 408.02437pt x 482.55281pt>
+File: figs/datasets.png Graphic file (type png)
+
+<use figs/datasets.png>
+Package pdftex.def Info: figs/datasets.png used on input line 1649.
+(pdftex.def)             Requested size: 204.01169pt x 234.16264pt.
+ [70
+
+ <./figs/datasets.png>]
+<figs/met_filters.png, id=2347, 444.91219pt x 298.11375pt>
+File: figs/met_filters.png Graphic file (type png)
+
+<use figs/met_filters.png>
+Package pdftex.def Info: figs/met_filters.png used on input line 1654.
+(pdftex.def)             Requested size: 266.94936pt x 170.33374pt.
+ [71
+
+ <./figs/met_filters.png>]
+<figs/postfit_yields.png, id=2377, 593.21625pt x 216.05719pt>
+File: figs/postfit_yields.png Graphic file (type png)
+
+<use figs/postfit_yields.png>
+Package pdftex.def Info: figs/postfit_yields.png used on input line 1660.
+(pdftex.def)             Requested size: 266.94484pt x 97.22482pt.
+
+<figs/postfit_shapes.png, id=2378, 596.2275pt x 285.31593pt>
+File: figs/postfit_shapes.png Graphic file (type png)
+
+<use figs/postfit_shapes.png>
+Package pdftex.def Info: figs/postfit_shapes.png used on input line 1660.
+(pdftex.def)             Requested size: 298.11302pt x 142.65761pt.
+
+Overfull \vbox (7.41257pt too high) detected at line 1660
+ []
+
+[72
+
  <./figs/postfit_yields.png> <./figs/postfit_shapes.png>]
-<figs/ChannelCompatibility_ComparisonBetweenNjets2Njets3.png, id=1816, 798.985p
+<figs/ChannelCompatibility_ComparisonBetweenNjets2Njets3.png, id=2405, 798.985p
 t x 695.59875pt>
 File: figs/ChannelCompatibility_ComparisonBetweenNjets2Njets3.png Graphic file 
 (type png)
 
 <use figs/ChannelCompatibility_ComparisonBetweenNjets2Njets3.png>
 Package pdftex.def Info: figs/ChannelCompatibility_ComparisonBetweenNjets2Njets
-3.png used on input line 1228.
+3.png used on input line 1668.
 (pdftex.def)             Requested size: 199.74576pt x 173.89926pt.
- [56
+ [73
 
  <./figs/ChannelCompatibility_ComparisonBetweenNjets2Njets3.png>]
-<figs/ann_comb_sensitivity.png, id=1843, 357.58594pt x 465.99094pt>
+<figs/ann_comb_sensitivity.png, id=2433, 357.58594pt x 465.99094pt>
 File: figs/ann_comb_sensitivity.png Graphic file (type png)
 
 <use figs/ann_comb_sensitivity.png>
-Package pdftex.def Info: figs/ann_comb_sensitivity.png used on input line 1237.
+Package pdftex.def Info: figs/ann_comb_sensitivity.png used on input line 1677.
 
 (pdftex.def)             Requested size: 170.64128pt x 136.98189pt.
 File: figs/ann_comb_sensitivity.png Graphic file (type png)
  <use figs/ann_comb_sensitivity.png>
-Package pdftex.def Info: figs/ann_comb_sensitivity.png used on input line 1237.
+Package pdftex.def Info: figs/ann_comb_sensitivity.png used on input line 1677.
 
 (pdftex.def)             Requested size: 170.64128pt x 134.9901pt.
 
-[57
+[74
 
  <./figs/ann_comb_sensitivity.png>]
-<figs/ann_validation_plots.png, id=1874, 298.86656pt x 471.26062pt>
+<figs/ann_validation_plots.png, id=2464, 298.86656pt x 471.26062pt>
 File: figs/ann_validation_plots.png Graphic file (type png)
 
 <use figs/ann_validation_plots.png>
-Package pdftex.def Info: figs/ann_validation_plots.png used on input line 1245.
+Package pdftex.def Info: figs/ann_validation_plots.png used on input line 1685.
 
 (pdftex.def)             Requested size: 209.20515pt x 96.85378pt.
 File: figs/ann_validation_plots.png Graphic file (type png)
  <use figs/ann_validation_plots.png>
-Package pdftex.def Info: figs/ann_validation_plots.png used on input line 1245.
+Package pdftex.def Info: figs/ann_validation_plots.png used on input line 1685.
 
 (pdftex.def)             Requested size: 101.6546pt x 94.86198pt.
 File: figs/ann_validation_plots.png Graphic file (type png)
 
 <use figs/ann_validation_plots.png>
-Package pdftex.def Info: figs/ann_validation_plots.png used on input line 1245.
+Package pdftex.def Info: figs/ann_validation_plots.png used on input line 1685.
 
 (pdftex.def)             Requested size: 101.6546pt x 94.86198pt.
 File: figs/ann_validation_plots.png Graphic file (type png)
  <use figs/ann_validation_plots.png>
-Package pdftex.def Info: figs/ann_validation_plots.png used on input line 1245.
+Package pdftex.def Info: figs/ann_validation_plots.png used on input line 1685.
 
 (pdftex.def)             Requested size: 224.14935pt x 108.04019pt.
 
-[58
+[75
 
  <./figs/ann_validation_plots.png>]
-<figs/smhiggs_m4l_channels.png, id=1910, 418.56375pt x 486.31688pt>
+<figs/smhiggs_m4l_channels.png, id=2500, 418.56375pt x 486.31688pt>
 File: figs/smhiggs_m4l_channels.png Graphic file (type png)
 
 <use figs/smhiggs_m4l_channels.png>
-Package pdftex.def Info: figs/smhiggs_m4l_channels.png used on input line 1250.
+Package pdftex.def Info: figs/smhiggs_m4l_channels.png used on input line 1690.
 
 (pdftex.def)             Requested size: 209.28136pt x 243.15784pt.
 
-Overfull \vbox (3.99751pt too high) detected at line 1250
+Overfull \vbox (3.99751pt too high) detected at line 1690
  []
 
-[59
+[76
 
  <./figs/smhiggs_m4l_channels.png>]
-<figs/FR_average_and_reweight_1D.png, id=1937, 447.17062pt x 333.49594pt>
+<figs/FR_average_and_reweight_1D.png, id=2527, 447.17062pt x 333.49594pt>
 File: figs/FR_average_and_reweight_1D.png Graphic file (type png)
 
 <use figs/FR_average_and_reweight_1D.png>
 Package pdftex.def Info: figs/FR_average_and_reweight_1D.png used on input line
- 1258.
+ 1698.
 (pdftex.def)             Requested size: 313.01729pt x 203.57039pt.
 
-Overfull \vbox (1.74054pt too high) detected at line 1258
+Overfull \vbox (1.74054pt too high) detected at line 1698
  []
 
-[60
+[77
 
  <./figs/FR_average_and_reweight_1D.png>]
-<figs/FR_average_and_reweight.png, id=1966, 456.20438pt x 368.1253pt>
+<figs/FR_average_and_reweight.png, id=2556, 456.20438pt x 368.1253pt>
 File: figs/FR_average_and_reweight.png Graphic file (type png)
 
 <use figs/FR_average_and_reweight.png>
-Package pdftex.def Info: figs/FR_average_and_reweight.png used on input line 12
-66.
+Package pdftex.def Info: figs/FR_average_and_reweight.png used on input line 17
+06.
 (pdftex.def)             Requested size: 273.72473pt x 220.87688pt.
- [61
+ [78
 
- <./figs/FR_average_and_reweight.png>] <figs/zx_final_yields.png, id=1995, 447.
+ <./figs/FR_average_and_reweight.png>] <figs/zx_final_yields.png, id=2583, 447.
 17062pt x 197.23688pt>
 File: figs/zx_final_yields.png Graphic file (type png)
 
 <use figs/zx_final_yields.png>
-Package pdftex.def Info: figs/zx_final_yields.png used on input line 1271.
+Package pdftex.def Info: figs/zx_final_yields.png used on input line 1711.
 (pdftex.def)             Requested size: 313.01729pt x 138.06485pt.
- [62
+ [79
 
  <./figs/zx_final_yields.png>]
-<figs/impacts_obs_4l_combination.pdf, id=2022, 569.12625pt x 467.7475pt>
+<figs/impacts_obs_4l_combination.pdf, id=2612, 569.12625pt x 467.7475pt>
 File: figs/impacts_obs_4l_combination.pdf Graphic file (type pdf)
 
 <use figs/impacts_obs_4l_combination.pdf>
 Package pdftex.def Info: figs/impacts_obs_4l_combination.pdf used on input line
- 1276.
-(pdftex.def)             Requested size: 284.56242pt x 233.87317pt.
- [63
+ 1716.
+(pdftex.def)             Requested size: 313.0204pt x 257.2619pt.
+
+Overfull \vbox (18.10158pt too high) detected at line 1716
+ []
+
+[80
 
  <./figs/impacts_obs_4l_combination.pdf, page is rotated 90 degrees>]
-<figs/k57nj2_architecture_horizontal.png, id=2091, 1050.92625pt x 581.17125pt>
+<figs/k57nj2_architecture_horizontal.png, id=2681, 1050.92625pt x 581.17125pt>
 File: figs/k57nj2_architecture_horizontal.png Graphic file (type png)
 
 <use figs/k57nj2_architecture_horizontal.png>
 Package pdftex.def Info: figs/k57nj2_architecture_horizontal.png used on input 
-line 1284.
+line 1724.
 (pdftex.def)             Requested size: 170.70132pt x 142.25961pt.
 
-<figs/k24nj3_architecture_horizontal.png, id=2092, 1401.235pt x 774.895pt>
+<figs/k24nj3_architecture_horizontal.png, id=2682, 1401.235pt x 774.895pt>
 File: figs/k24nj3_architecture_horizontal.png Graphic file (type png)
 
 <use figs/k24nj3_architecture_horizontal.png>
 Package pdftex.def Info: figs/k24nj3_architecture_horizontal.png used on input 
-line 1284.
+line 1724.
 (pdftex.def)             Requested size: 170.70668pt x 142.25371pt.
- [64
+ [81
 
  <./figs/k57nj2_architecture_horizontal.png> <./figs/k24nj3_architecture_horizo
 ntal.png>]
@@ -2298,41 +2796,42 @@ _ANNs.toc'.
 \openout8 = `Measurement_of_Higgs_Production_XS_via_VBF_in_HZZ4l_at_13TeV_using
 _ANNs.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1287.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1287.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1727.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1727.
 
 (./Measurement_of_Higgs_Production_XS_via_VBF_in_HZZ4l_at_13TeV_using_ANNs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1287.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1287.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1727.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1727.
 
 Package rerunfilecheck Info: File `Measurement_of_Higgs_Production_XS_via_VBF_i
 n_HZZ4l_at_13TeV_using_ANNs.out' has not changed.
-(rerunfilecheck)             Checksum: 7BE2623C5DC61AF0C3A77FCBB68130B9;1317.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1287.
+(rerunfilecheck)             Checksum: 9D261D0126AF06DEEBD0CA7F77E744D3;1386.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1727.
  ) 
 Here is how much of TeX's memory you used:
- 20449 strings out of 494397
- 388888 string characters out of 6167008
- 460007 words of memory out of 5000000
- 23053 multiletter control sequences out of 15000+600000
- 89444 words of font info for 172 fonts, out of 8000000 for 9000
- 308 hyphenation exceptions out of 8191
+ 20871 strings out of 493029
+ 405060 string characters out of 6136234
+ 468011 words of memory out of 5000000
+ 23530 multiletter control sequences out of 15000+600000
+ 99216 words of font info for 191 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
  48i,19n,62p,517b,1127s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpaz
-o/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/palatino/uplri8a.pfb>
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplm
+r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+palatino/uplri8a.pfb>
 Output written on Measurement_of_Higgs_Production_XS_via_VBF_in_HZZ4l_at_13TeV_
-using_ANNs.pdf (64 pages, 18128931 bytes).
+using_ANNs.pdf (81 pages, 19229192 bytes).
 PDF statistics:
- 2187 PDF objects out of 2487 (max. 8388607)
- 1897 compressed objects within 19 object streams
- 148 named destinations out of 1000 (max. 500000)
- 1022 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2788 PDF objects out of 2984 (max. 8388607)
+ 2395 compressed objects within 24 object streams
+ 183 named destinations out of 1000 (max. 500000)
+ 1463 words of extra memory for PDF output out of 10000 (max. 10000000)
 
