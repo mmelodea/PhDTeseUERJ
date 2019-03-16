@@ -154,43 +154,49 @@
 \headcommand {\beamer@subsectionentry {0}{3}{3}{65}{The FastME Package}}\headcommand {\beamer@subsectionpages {61}{64}}
 \headcommand {\slideentry {3}{3}{1}{65/65}{The FastME Package}{0}}
 \headcommand {\beamer@framepages {65}{65}}
-\headcommand {\sectionentry {4}{Conclusions}{66}{Conclusions}{0}}
-\headcommand {\beamer@sectionpages {57}{65}}
-\headcommand {\beamer@subsectionpages {65}{65}}
-\headcommand {\slideentry {4}{0}{1}{66/66}{}{0}}
+\headcommand {\slideentry {3}{3}{2}{66/66}{The FastME Package}{0}}
 \headcommand {\beamer@framepages {66}{66}}
-\headcommand {\slideentry {4}{0}{2}{67/67}{}{0}}
+\headcommand {\slideentry {3}{3}{3}{67/67}{The FastME Package}{0}}
 \headcommand {\beamer@framepages {67}{67}}
-\headcommand {\slideentry {4}{0}{3}{68/68}{}{0}}
+\headcommand {\sectionentry {4}{Conclusions}{68}{Conclusions}{0}}
+\headcommand {\beamer@sectionpages {57}{67}}
+\headcommand {\beamer@subsectionpages {65}{67}}
+\headcommand {\slideentry {4}{0}{1}{68/68}{}{0}}
 \headcommand {\beamer@framepages {68}{68}}
-\headcommand {\slideentry {4}{0}{4}{69/69}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{69/69}{}{0}}
 \headcommand {\beamer@framepages {69}{69}}
-\headcommand {\slideentry {4}{0}{5}{70/70}{}{0}}
+\headcommand {\slideentry {4}{0}{3}{70/70}{}{0}}
 \headcommand {\beamer@framepages {70}{70}}
-\headcommand {\slideentry {4}{0}{6}{71/71}{}{0}}
+\headcommand {\slideentry {4}{0}{4}{71/71}{}{0}}
 \headcommand {\beamer@framepages {71}{71}}
-\headcommand {\slideentry {4}{0}{7}{72/72}{}{0}}
+\headcommand {\slideentry {4}{0}{5}{72/72}{}{0}}
 \headcommand {\beamer@framepages {72}{72}}
-\headcommand {\slideentry {4}{0}{8}{73/73}{}{0}}
+\headcommand {\slideentry {4}{0}{6}{73/73}{}{0}}
 \headcommand {\beamer@framepages {73}{73}}
-\headcommand {\slideentry {4}{0}{9}{74/74}{}{0}}
+\headcommand {\slideentry {4}{0}{7}{74/74}{}{0}}
 \headcommand {\beamer@framepages {74}{74}}
-\headcommand {\slideentry {4}{0}{10}{75/75}{}{0}}
+\headcommand {\slideentry {4}{0}{8}{75/75}{}{0}}
 \headcommand {\beamer@framepages {75}{75}}
-\headcommand {\slideentry {4}{0}{11}{76/76}{}{0}}
+\headcommand {\slideentry {4}{0}{9}{76/76}{}{0}}
 \headcommand {\beamer@framepages {76}{76}}
-\headcommand {\slideentry {4}{0}{12}{77/77}{}{0}}
+\headcommand {\slideentry {4}{0}{10}{77/77}{}{0}}
 \headcommand {\beamer@framepages {77}{77}}
-\headcommand {\slideentry {4}{0}{13}{78/78}{}{0}}
+\headcommand {\slideentry {4}{0}{11}{78/78}{}{0}}
 \headcommand {\beamer@framepages {78}{78}}
-\headcommand {\slideentry {4}{0}{14}{79/79}{}{0}}
+\headcommand {\slideentry {4}{0}{12}{79/79}{}{0}}
 \headcommand {\beamer@framepages {79}{79}}
-\headcommand {\slideentry {4}{0}{15}{80/80}{}{0}}
+\headcommand {\slideentry {4}{0}{13}{80/80}{}{0}}
 \headcommand {\beamer@framepages {80}{80}}
-\headcommand {\slideentry {4}{0}{16}{81/81}{}{0}}
+\headcommand {\slideentry {4}{0}{14}{81/81}{}{0}}
 \headcommand {\beamer@framepages {81}{81}}
-\headcommand {\beamer@partpages {1}{81}}
-\headcommand {\beamer@subsectionpages {66}{81}}
-\headcommand {\beamer@sectionpages {66}{81}}
-\headcommand {\beamer@documentpages {81}}
-\headcommand {\def \inserttotalframenumber {81}}
+\headcommand {\slideentry {4}{0}{15}{82/82}{}{0}}
+\headcommand {\beamer@framepages {82}{82}}
+\headcommand {\slideentry {4}{0}{16}{83/83}{}{0}}
+\headcommand {\beamer@framepages {83}{83}}
+\headcommand {\slideentry {4}{0}{17}{84/84}{}{0}}
+\headcommand {\beamer@framepages {84}{84}}
+\headcommand {\beamer@partpages {1}{84}}
+\headcommand {\beamer@subsectionpages {68}{84}}
+\headcommand {\beamer@sectionpages {68}{84}}
+\headcommand {\beamer@documentpages {84}}
+\headcommand {\def \inserttotalframenumber {84}}
