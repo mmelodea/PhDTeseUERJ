@@ -1,7 +1,7 @@
 
 
 %%==========================================================================
-\chapter{Datasets}
+\chapter{Data and Monte Carlo Samples}
 \label{sec:datasets}
 %%==========================================================================
 \section{Data}
@@ -573,23 +573,25 @@ Note that these VBF-SR requirements are similar to the standard ones used by CMS
 \chapter{Neural Networks}
 \label{sec:neural_networks}
 %%==========================================================================
-An Artificial Neural Network (frequently referred just as neural network - NN) is an interconnected assembly of small processing units usually called neurons (also activations or nodes). Each of these units performs individual operations and communicates between themselves their results. Such a design was motivated by analogy with
+As shown on previous sections the Higgs VBF signal is quite small compared to its main background (the main Higgs production mode $ggH$). In order to enhance the signal efficiency this analysis was meant to be based on Artificial Neural Networks (ANNs) instead of applying rectangular cuts as usual. 
+
+An ANN (frequently referred just as neural network - NN) is an interconnected assembly of small processing units usually called neurons (also activations or nodes). Each of these units performs individual operations and communicates between themselves their results. Such a design was motivated by analogy with
 the brain, which can be thought as a highly complex, nonlinear and parallel computer. It is estimated that the human brain has 100 billion neurons and each one of them typically receives thousands of connections from other neurons. The inter-neuron connections are mediated by electrochemical junctions, the so called synapses, which happens on branches of the cell called dendrites. These thousand of signals are then combined and depending of the result of this combination the neuron outputs a signal to its neighborhood \cite{bib:SimonHaykin,bib:KevinGurney}.
 
 Similar to the brain, NNs have the capability to learn from patterns and generalize the modeling of such patterns. This generalization means the possibility to correct identification of a pattern that was not seen before by the NN during the learning process. The neurons contain a function which can receives also several arguments (inputs) and combine them into a single output value (Fig.~\ref{fig:nn_neuron_example}). There are several types of functions that can be used in the neurons and the choice of the best one might depend on each type of problem. The way the neurons are assembled also can be done in several ways, such that there are different architecture for the connections of the neurons. But a typical and well representative NN architecture can be seen in Fig.~\ref{fig:neuron_and_dnn}. This kind of NN is usually called Deep Neural Network (DNN) due to its many layers. Such NN has shown capability to learn very complex tasks and its success comes from relatively recent improvements in the Machine Learning (ML) field \cite{bib:GlorotAndBendio2010,bib:NairAndHinton2010,bib:Zeiler_et_al2013}.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{(a) Graphical representation of a neuron. Each input \textit{$x_i$} (from user or from the hidden neurons) is weighted by \textit{$w_i$} and summed to a bias \textit{b}. The sum is passed to a function (the activation function - neuron type) which outputs a vector of values (one for each input). (b) Graphical representation of a NN with three hidden layers. In this type of NN the outputs of all neurons from a previous layer are fed into the neurons of a next layer.}
+	\caption{(a) Graphical representation of a neuron. Each input \textit{$x_i$} (from user or from the hidden neurons) is weighted by \textit{$w_i$} and summed to a bias \textit{b}. The sum is passed to a function (the activation function - neuron type) which outputs a vector of values (one for each input). (b) Graphical representation of a NN with three hidden layers. In this type of ANN the outputs of all neurons from a previous layer are fed into the neurons of a next layer.}
 	\centering
 	\subfloat[]{
-		\includegraphics[width=0.5\textwidth]{ChapterAnalysis/figs/nn_neuron_example}
+		\includegraphics[width=0.56\textwidth]{ChapterAnalysis/figs/nn_neuron_example}
 		\label{fig:nn_neuron_example}
 	}
 	\quad
 	\quad
 	\quad
 	\subfloat[]{
-		\includegraphics[width=0.42\textwidth]{ChapterAnalysis/figs/dnn_example}
+		\includegraphics[width=0.62\textwidth]{ChapterAnalysis/figs/dnn_example}
 		\label{fig:dnn_example}
 	}
 	\source{\url{https://ifun01.com/8RDXSFC.html}.}	
@@ -883,6 +885,50 @@ From those several ANN trainings, some observations were drawn:
 
 The final ANN for each of the jet-based categories were chosen to be the one with highest $max(\epsilon_{s}.\pi)$ and are presented in Sec.~\ref{subsec:statistical_analysis}. For the seek of the reader in Appendix~\ref{app:nns_architecture} the architecture of the two final ANNs can be seen. They give an idea of the correlation between the input variables. 
 
+\subsection{The Impact of the VBF 3$^{rd}$ Jet}
+The usual VBF process is characterized by the presence of two high energetic jets with a big gap between them on $\eta$, where the particle activity is rather small or even inexistent around it. This is the LO process. However, is possible that more jets appear in a VBF process and such jets are radiative corrections (higher order diagrams - NLO) which contributes for the total VBF cross section. These extra jets can contribute for discriminate the VBF process against the backgrounds.
+
+Looking into the number of events which has extra jets one sees that there is a significant fraction for $VBF$, $ggH$, $qqZZ$ and even the observed data events with at least 3 jets. These fractions are place on Tab.~\ref{tab:3rd_jet_events}. The usage of the ANNs including a 3$^{rd}$ jet in the events indicated at the beginning of this analysis that one could improve the discrimination between VBF and the background. Fig.~\ref{fig:comparison_2j_3j} shows that the ANNs present similar behavior as the MELA for a case with only two jets, while they show a improvement when the $3^{rd}$ jet is present as an input for the ANN. This is where the motivation to use the 3$^{rd}$ jet comes from in the present analysis.
+
+\begin{table}[hbtp]{16cm}
+	\centering
+	\caption{Fraction of events, after the VBF-SR selections, containing the $jet_{i}$ (i-th jet).}
+	\begin{tabular}{c|c|c}
+		\hline
+		\rowcolor{light_gray}
+		       & $j_{3}(\%)$ & $j_{4}(\%)$\\
+		\hline
+		$VBF$  & 21.3        & 5.0\\
+		\hline
+		$ggH$  & 28.8        & 7.1\\
+		\hline
+		$qqZZ$ & 19.5        & 2.9\\
+		\hline
+		$Data$ & 18.0        & 0.0\\
+		\hline
+	\end{tabular}
+	\label{tab:3rd_jet_events}
+\end{table}
+
+\begin{figure}[htbp]{16cm}
+	\caption{Performance of VBF discrimination against the backgrounds for the ANN, MELA and Djet discriminants. On (a) is the performance when considering only 2 jets per event and on (b) when considering up to 3 jets per event.}
+	\centering
+	\begin{overpic}
+		[scale=0.52]{ChapterAnalysis/figs/2jets_dnn_mela_djet_rocs_hjj}
+		\put(12,85){\color{red}2jets}
+		\put(45,26){\includegraphics[height=3.5cm,width=3.5cm]{ChapterAnalysis/figs/2jets_sb_seff}}
+		\put(50,-10){(a)}
+	\end{overpic}
+	\quad
+	\begin{overpic}
+		[scale=0.52]{ChapterAnalysis/figs/3jets_split0p8_norm_roc_djet_mela_dnn_hjj}
+		\put(12,85){\color{red}3jets}
+		\put(45,26){\includegraphics[height=3.5cm,width=3.5cm]{ChapterAnalysis/figs/3jets_sb_seff}}
+		\put(50,-10){(b)}
+	\end{overpic}	
+	\label{fig:comparison_2j_3j}
+\end{figure}
+	
 
 %==========================================================================
 \chapter{Background Estimation}
@@ -1321,7 +1367,7 @@ The number of estimated events from signal and background, as well the number of
 	\label{fig:vbf_m4l_distribution}
 \end{figure}
 
-Since it is proposed in this analysis the usage of up to three jets, differing of the standard VBF category in which one takes only two jets, an extra categorization have been implemented as mentioned previously. The events selected in the VBF-SR (Sec.~\ref{subsec:vbf_sr}) were split into two categories accordingly to the number of jets passing the selections. Such categories, labeled as \textbf{Njets2} and \textbf{Njets3}, are orthogonal since there is a different NN model and a different set of events for each of them. The discriminant from each category will be from now on referred as $D_{qqH,2J}^{NN}$ and $D_{qqH,3J}^{NN}$ for simplicity.
+Since it is proposed in this analysis the usage of up to three jets, differing of the standard VBF category in which one takes only two jets, an extra categorization have been implemented as mentioned previously. The events selected in the VBF-SR (Sec.~\ref{subsec:vbf_sr}) were split into two categories accordingly to the number of jets passing the selections. Such categories, labeled as \textbf{Njets2} and \textbf{Njets3}, are orthogonal since they are mutually exclusive. The discriminant from each category will be from now on referred as $D_{qqH,2J}^{NN}$ and $D_{qqH,3J}^{NN}$ for simplicity.
 
 The Fig(s).~\ref{fig:final_nn_shapes_prefit}(a), (b) show the distribution of the final neural networks chosen to be the discriminant in the \textbf{Njets2} and \textbf{Njets3} categories, while the Fig.~\ref{fig:final_nn_shapes_prefit}(c) shows their combination. This distributions include the three four-lepton final states. The $Z+X$ estimation follows the same procedure explained in Sec.~\ref{sec:zx_estimation} and the shape has been derived by feeding the NNs with the events selected in the two CRs that are used to make the estimation. The statistical analysis is performed for each separated category and also for the combined case.
 
@@ -1443,7 +1489,7 @@ The Fig.~\ref{fig:vbf_pre_post_fit}(a), (b) and (c) show the distributions of th
 	\label{tab:yields_uncertainties_postfit}
 \end{table}
 
-The Higgs Combine toolkit allows one to also compute the impact of each systematic uncertainty on the signal strength estimation. The procedure leaves just one systematic uncertainty floating, while the other ones are kept fixed at their expected values (given by the user in the datacards), during the likelihood scan and retrieves how the estimated signal strength changes due to the floating systematic uncertainty. The impact of the systematic uncertainties present in this analysis over the VBF signal strength, combining the \textbf{Njets2} and \textbf{Njets3} categories, is shown in Fig.~\ref{fig:vbf_impact_plot}. It shows that the resolution in the $m_{4l}$ is the stronger uncertainty, which was also observed in the analysis reported in \cite{bib:CMS-AN-16-328} (which used the same selections as the present analysis until the SM Higgs step - differing only by the extra requirements defining the VBF-SR).
+The Higgs Combine toolkit allows one to also compute the impact of each systematic uncertainty on the signal strength estimation. The procedure leaves just one systematic uncertainty floating, while the other ones are kept fixed at their expected values (given by the user in the datacards), during the likelihood scan and retrieves how the estimated signal strength changes due to the floating systematic uncertainty. The impact of the systematic uncertainties present in this analysis over the VBF signal strength, combining the \textbf{Njets2} and \textbf{Njets3} categories, is shown in Fig.~\ref{fig:vbf_impact_plot}. It shows that the resolution in the $m_{4l}$ is the dominant uncertainty, which was also observed in the analysis reported in \cite{bib:CMS-AN-16-328} (which used the same selections as the present analysis until the SM Higgs step - differing only by the extra requirements defining the VBF-SR).
 
 \begin{figure}[hbtp]{16cm}
 	\caption{Post-fit nuisances impact plot obtained with the combination of the two categories of number of jets. This plot shows the effect of each systematic uncertainty on the estimation of the VBF signal strength ($\mu_{qqH}$).}
@@ -1491,7 +1537,7 @@ The p-value, probability of the background fluctuate in such way to give a certa
 P_{0} = \int_{q_{0}^{obs}}^{+\infty} \mathit{f}(q_{0}|\mu=0)~dq_{0}.
 \end{equation}
 
-Fig.~\ref{fig:vbf_limits_significances}(b) shows the expected and observed significances for the two jet-based categories and their combination. As expected, based on the limits, the significance observed in the two jet-based categories is not enough to state the presence of VBF Higgs events\footnote{For an statement of VBF Higgs observation it is needed $p_{0} \leq 2.87e^{-6}$, which corresponds to 5$\sigma$.}. As noticed from the limits, the combination of the two jet-based categories produces an excess over the background-only expectation and thus the significance is higher than the ones observed for each category alone. Even though, that significance ($\sigma_{qqH}^{obs}$ = 1.9, $\sigma_{qqH}^{exp}$ = 1.8) is still not sufficient to state an observation. Even though, this significance is about 2.6x higher than the significance that can be obtained by looking at the $m_{4l}$ distribution. In the next section, a projection of the significance for this analysis in future luminosity scenarios is presented.
+Fig.~\ref{fig:vbf_limits_significances}(b) shows the expected and observed significances for the two jet-based categories and their combination. As expected, based on the limits, the significance observed in the two jet-based categories is not enough to state the presence of VBF Higgs events\footnote{For an statement of VBF Higgs observation it is needed $p_{0} \leq 2.87e^{-6}$, which corresponds to 5$\sigma$.}. As noticed from the limits, the combination of the two jet-based categories produces an excess over the background-only expectation and thus the significance is higher than the ones observed for each category alone. Even though, that significance ($Z_{qqH}^{obs}$ = 1.9, $Z_{qqH}^{exp}$ = 1.8) is still not sufficient to state an observation. Even though, this significance is about 2.6x higher than the significance that can be obtained by looking at the $m_{4l}$ distribution. In the next section, a projection of the significance for this analysis in future luminosity scenarios is presented.
 
 \begin{figure}[hbtp]{16cm}
 	\caption{(a) Observed and expected 95$\%$ CL upper limit on the ratio of the Higgs VBF production cross section to the SM expectation, for the two jet-based categories and their combination. The expected 1$\sigma$ (2$\sigma$) ranges of the expectation for the background-only hypothesis are also shown by the green (yellow) bands. (b) The observed significance of the local excess with respect to the SM background expectation for the two categories and their combination.}
@@ -1527,7 +1573,7 @@ The significance evolution of the present analysis with the future luminosities 
 		\rowcolor{light_gray}
 		Factor                 & 1.00 & 4.18  & 8.36  & 10.00 & 30.00  & 50.00  & 83.57\\
 		\hline
-		Expected significance  & 1.8  & 3.4   & 4.7   & 5.1   & 8.6    & 10.9   & 14.0\\
+		$Z_{exp.}$  & 1.8  & 3.4   & 4.7   & 5.1   & 8.6    & 10.9   & 14.0\\
 		\hline
 	\end{tabular}
 	\source{The AUTHOR, 2018.}	

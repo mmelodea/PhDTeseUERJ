@@ -6,9 +6,9 @@
 \BOOKMARK [2][-]{section*.6}{The Higgs Mechanism and Electroweak Symmetry Breaking}{section*.3}% 6
 \BOOKMARK [1][-]{section*.7}{The Higgs Boson at the LHC}{chapter.2}% 7
 \BOOKMARK [1][-]{section*.10}{The Higgs VBF Production Mode }{chapter.2}% 8
-\BOOKMARK [2][-]{section*.11}{The Higgs VBF XS at LO and the its Kinematics}{section*.10}% 9
+\BOOKMARK [2][-]{section*.11}{The Higgs VBF LO Cross Section and its Kinematics}{section*.10}% 9
 \BOOKMARK [3][-]{section*.13}{Corrections of Higher Orders}{section*.11}% 10
-\BOOKMARK [1][-]{section*.15}{The Analysis Frame}{chapter.2}% 11
+\BOOKMARK [1][-]{section*.15}{The Physics Scenario of this Analysis}{chapter.2}% 11
 \BOOKMARK [0][-]{chapter.3}{The LHC and the CMS Experiment }{}% 12
 \BOOKMARK [1][-]{section*.17}{The Accelerators at CERN}{chapter.3}% 13
 \BOOKMARK [1][-]{section*.22}{The CMS Experiment at the LHC}{chapter.3}% 14
@@ -21,7 +21,7 @@
 \BOOKMARK [2][-]{section*.37}{The Magnetic System}{section*.22}% 21
 \BOOKMARK [2][-]{section*.39}{The Muon Chambers}{section*.22}% 22
 \BOOKMARK [2][-]{section*.42}{The Trigger and Data Acquisition System}{section*.22}% 23
-\BOOKMARK [0][-]{chapter.4}{Datasets }{}% 24
+\BOOKMARK [0][-]{chapter.4}{Data and Monte Carlo Samples }{}% 24
 \BOOKMARK [1][-]{section*.43}{Data}{chapter.4}% 25
 \BOOKMARK [1][-]{section*.46}{Simulated Samples}{chapter.4}% 26
 \BOOKMARK [0][-]{chapter.5}{Physics Objects Selections }{}% 27
@@ -43,30 +43,31 @@
 \BOOKMARK [1][-]{section*.77}{Scaling Events Contribution in the Training}{chapter.7}% 43
 \BOOKMARK [1][-]{section*.79}{The Training Procedure}{chapter.7}% 44
 \BOOKMARK [1][-]{section*.82}{NNs Training Performances}{chapter.7}% 45
-\BOOKMARK [0][-]{chapter.8}{Background Estimation }{}% 46
-\BOOKMARK [1][-]{section*.84}{Estimation of the SM Higgs Production Modes}{chapter.8}% 47
-\BOOKMARK [1][-]{section*.85}{Modeling of q ZZ}{chapter.8}% 48
-\BOOKMARK [1][-]{section*.86}{Modeling of gg ZZ}{chapter.8}% 49
-\BOOKMARK [1][-]{section*.87}{Estimation of Z+X Background}{chapter.8}% 50
-\BOOKMARK [2][-]{section*.88}{Measuring the Fake Rates}{section*.87}% 51
-\BOOKMARK [2][-]{section*.91}{Building Control Regions}{section*.87}% 52
-\BOOKMARK [2][-]{section*.96}{Uncertainties on the Estimation of Z+X}{section*.87}% 53
-\BOOKMARK [2][-]{section*.100}{Same-Sign Cross-checking and Final Z+X Estimation}{section*.87}% 54
-\BOOKMARK [2][-]{section*.102}{Z+X Neural Network Output Shape}{section*.87}% 55
-\BOOKMARK [0][-]{chapter.9}{Systematic Uncertainties }{}% 56
-\BOOKMARK [1][-]{section*.103}{Experimental Uncertainties}{chapter.9}% 57
-\BOOKMARK [1][-]{section*.105}{Theoretical Uncertainties}{chapter.9}% 58
-\BOOKMARK [1][-]{section*.107}{Discriminants Shape Uncertainties}{chapter.9}% 59
-\BOOKMARK [2][-]{section*.111}{Systematic Uncertainty on the 3rd Jet}{section*.107}% 60
-\BOOKMARK [0][-]{chapter.10}{Results }{}% 61
-\BOOKMARK [1][-]{section*.113}{Yields and Distributions}{chapter.10}% 62
-\BOOKMARK [1][-]{section*.119}{Statistical Analysis}{chapter.10}% 63
-\BOOKMARK [1][-]{section*.126}{Projection for Future Luminosity Scenarios}{chapter.10}% 64
-\BOOKMARK [0][-]{section*.129}{Refer\352ncias }{}% 65
-\BOOKMARK [0][-]{appendix.A}{The ANN Internal Representation Space }{}% 66
-\BOOKMARK [0][-]{appendix.B}{CMS Display of VBF and Background-like Data Events }{}% 67
-\BOOKMARK [0][-]{appendix.C}{ANN Architectures for Njets2 and Njets3 Categories }{}% 68
-\BOOKMARK [0][-]{appendix.D}{Expected S/B and \040. S/\(S+B\) Combining Njets2 and Njets3 Cuts }{}% 69
-\BOOKMARK [0][-]{appendix.E}{The CMS L1 Tracking Trigger \(CMSL1TT\) Project }{}% 70
-\BOOKMARK [0][-]{appendix.F}{The Fast Matrix Element \(FastME\) }{}% 71
-\BOOKMARK [0][-]{appendix.G}{Participation at the Global Doc Project }{}% 72
+\BOOKMARK [2][-]{section*.84}{The Impact of the VBF 3rd Jet}{section*.82}% 46
+\BOOKMARK [0][-]{chapter.8}{Background Estimation }{}% 47
+\BOOKMARK [1][-]{section*.87}{Estimation of the SM Higgs Production Modes}{chapter.8}% 48
+\BOOKMARK [1][-]{section*.88}{Modeling of q ZZ}{chapter.8}% 49
+\BOOKMARK [1][-]{section*.89}{Modeling of gg ZZ}{chapter.8}% 50
+\BOOKMARK [1][-]{section*.90}{Estimation of Z+X Background}{chapter.8}% 51
+\BOOKMARK [2][-]{section*.91}{Measuring the Fake Rates}{section*.90}% 52
+\BOOKMARK [2][-]{section*.94}{Building Control Regions}{section*.90}% 53
+\BOOKMARK [2][-]{section*.99}{Uncertainties on the Estimation of Z+X}{section*.90}% 54
+\BOOKMARK [2][-]{section*.103}{Same-Sign Cross-checking and Final Z+X Estimation}{section*.90}% 55
+\BOOKMARK [2][-]{section*.105}{Z+X Neural Network Output Shape}{section*.90}% 56
+\BOOKMARK [0][-]{chapter.9}{Systematic Uncertainties }{}% 57
+\BOOKMARK [1][-]{section*.106}{Experimental Uncertainties}{chapter.9}% 58
+\BOOKMARK [1][-]{section*.108}{Theoretical Uncertainties}{chapter.9}% 59
+\BOOKMARK [1][-]{section*.110}{Discriminants Shape Uncertainties}{chapter.9}% 60
+\BOOKMARK [2][-]{section*.114}{Systematic Uncertainty on the 3rd Jet}{section*.110}% 61
+\BOOKMARK [0][-]{chapter.10}{Results }{}% 62
+\BOOKMARK [1][-]{section*.116}{Yields and Distributions}{chapter.10}% 63
+\BOOKMARK [1][-]{section*.122}{Statistical Analysis}{chapter.10}% 64
+\BOOKMARK [1][-]{section*.129}{Projection for Future Luminosity Scenarios}{chapter.10}% 65
+\BOOKMARK [0][-]{section*.132}{Refer\352ncias }{}% 66
+\BOOKMARK [0][-]{appendix.A}{The ANN Internal Representation Space }{}% 67
+\BOOKMARK [0][-]{appendix.B}{CMS Display of VBF and Background-like Data Events }{}% 68
+\BOOKMARK [0][-]{appendix.C}{ANN Architectures for Njets2 and Njets3 Categories }{}% 69
+\BOOKMARK [0][-]{appendix.D}{Expected S/B and \040. S/\(S+B\) Combining Njets2 and Njets3 Cuts }{}% 70
+\BOOKMARK [0][-]{appendix.E}{The CMS L1 Tracking Trigger \(CMSL1TT\) Project }{}% 71
+\BOOKMARK [0][-]{appendix.F}{The Fast Matrix Element \(FastME\) }{}% 72
+\BOOKMARK [0][-]{appendix.G}{Participation at the Global Doc Project }{}% 73

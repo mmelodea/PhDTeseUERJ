@@ -58,7 +58,7 @@
 		Co-advisor: Nicola De Filippis$^{2}$}
 
 \institute{\small $^{1}$Universidade do Estado do Rio de Janeiro\\$^{2}$INFN and Politecnico di Bari}
-\date{April 28$^{th}$, 2019}
+\date{April 11$^{th}$, 2019}
 
 \titlegraphic{
 	\centering
@@ -255,8 +255,8 @@
 	\begin{itemize}
 		\justifying
 		\item CMS has particle-specialized sub-detectors;
-		\item "Long-life" particles (reach detectors) are identified by patterns from the sub-detectors;
-		\item "Short-life" particles (decay into other particles before reach a detector) are accessed through the properties of "long-life" particles;
+		\item "Long-life" particles (reach detectors) are identified by signal patterns on CMS;
+		\item "Short-life" particles (decay into other particles, not reaching any detector) are identified through the properties of "long-life" particles;
 	\end{itemize}	
 \end{frame}
 
@@ -572,21 +572,20 @@
 		\vspace{-0.3cm}
 		\begin{multicols}{2}
 		\begin{itemize}
-		\justifying
-			\item Present examples to ANN and their expected $\Omega(x)$ outputs;
-			\item Computes difference between expected and NN predictions;
+			\item ANN receives \textbf{x}'s and expected $\Omega(x)$;
+			\item Computes difference between expected and ANN prediction;
 			\item Update $w_{i}$ and $b_{i}$ using this difference;
 			\item Repeat until predictions are good enough (minimize the difference);
 		\end{itemize}
-		\centering
+		\flushleft
 		\begin{overpic}
-			[width=3.5cm,height=1.5cm]{figs/ann_supervised_learning}
-			\put(-10,30){\textbf{X}}
-			\put(102,30){\scriptsize $\Omega($\textbf{X})$_{pred}$}
-			\put(92,40){\scriptsize $\mathcal{E}(\Omega_{exp}-\Omega_{pred})$}
-			\put(26,21){\tiny $\Delta w_{ji} (n) \propto \eta \frac{\partial \mathcal{E}}{\partial w_{ji}}$}
-			\put(27,36){\scriptsize $w_{ji}(n)$, $b_{ji}(n)$}
-			\put(19,3){\scriptsize $w_{ji}(n+1)$, $b_{ji}(n+1)$}
+			[width=4cm,height=2cm]{figs/ann_supervised_learning}
+			\put(-5,37){\textbf{x}}
+			\put(102,35){\scriptsize $\Omega($\textbf{X})$_{pred}$}
+			\put(92,45){\scriptsize $\mathcal{E}(\Omega_{exp}-\Omega_{pred})$}
+			\put(28,25){\tiny $\Delta w_{ji} (n) \propto \eta \frac{\partial \mathcal{E}}{\partial w_{ji}}$}
+			\put(30,42){\scriptsize $w_{ji}(n)$, $b_{ji}(n)$}
+			\put(22,4){\scriptsize $w_{ji}(n+1)$, $b_{ji}(n+1)$}
 		\end{overpic}
 		\end{multicols}
 		\vspace{-0.3cm}
@@ -596,7 +595,7 @@
 	\movie[height=4.6cm,width=11.8cm,loop,showcontrols]{
 		\begin{overpic}
 			[height=4.6cm,width=11.7cm]{figs/tonystark_jarvis}
-			\put(42,35){\color{red}\large{Wake up Jarvis!}}
+			\put(42,35){\color{red}\huge{Wake up Jarvis!}}
 		\end{overpic}
 	}{figs/nn_learning_linear_data.mp4}\\
 	\tiny \url{https://www.youtube.com/watch?v=XAF1skB_MUw}
@@ -744,7 +743,7 @@
 	\center
 	\vspace{-0.2cm}
 	\begin{overpic}
-		[scale=0.45,trim={7cm 0cm 0cm 0cm},clip]{/media/micah/DATA/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_root_example}
+		[scale=0.45,trim={7cm 0cm 0cm 0cm},clip]{/home/micah/cernbox/MonoHiggsHZZ4L/KerasV5/Uncertainty/datacard_root_example}
 		\put(80,75){\color{red}\textbf{qqH}}
 		\put(20,75){\color{blue}\textbf{ggH}}
 	\end{overpic}
@@ -1780,6 +1779,7 @@
 \end{frame}
 
 \begin{frame}{Conclusions: CMS L1TT AM+FPGA}
+	\begin{multicols}{2}
 	\begin{itemize}
 		\item Significant contribution has been given to the CMS L1TT AM+FPGA:
 		\begin{itemize}
@@ -1792,15 +1792,51 @@
 				\item Effects of truncation on roads and/or combinations;
 				\item Tracking fitter $\chi^{2}$ cut revision;
 			\end{itemize}
-			\item Support during the electronic inspection:
+			\item Support during the electronic inspections:
 			\begin{itemize}
 				\item Check up of Pulsar BII boards and the PRMs;
 				\item Check up of optical cables connecting Pulsar boards;
 				\item Check up of boards connected in the crates;
 			\end{itemize}
-			\item Creation of a dedicated documentation explaining some of the nomenclature adopted in the approach, detailing some workflow and implementations developed within the package;
 		\end{itemize}
 	\end{itemize}
+	\begin{itemize}
+		\justifying
+		\item Creation of dedicated documentation about nomenclatures, workflow and implementations developed by the author within the package;
+	\end{itemize}
+	\centering
+	\includegraphics[scale=0.5]{CMSL1TTfigs/notes_cover}
+	\end{multicols}	
+\end{frame}
+
+\begin{frame}{Conclusions: Fast Matrix Element}
+	\begin{itemize}
+		\item Although the \textit{Fast}ME idea didn't get finished, some conclusions can be drawn from it:
+		\begin{itemize}
+			\item The results are a re-statement of the KNN method developed by the TMVA team and suggest that it can even be simplified (no need of a volume in the chosen phase space);
+			\item This \textit{Fast}ME idea is quite sensitive to the physical process in analysis and can even become useless;
+			\item The method is also sensitive to the size of the pattern banks used in the analysis and study of bias correction could be need;
+			\item The method is easily applicable in several process, some of which the MEM can not or don't have higher order corrections included;
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{End}
+	\centering
+	\begin{minipage}{10cm}
+		\begin{varblock}[10cm]{}
+			\centering
+			\begin{minipage}{9cm}
+				\begin{varblock}[9cm]{}
+					\centering
+					\color{red}
+					\Huge Thank you for the attention!
+				\end{varblock}
+			\end{minipage}
+			\vspace{0.3cm}
+		\end{varblock}
+	\end{minipage}
 \end{frame}
 		
 \begin{frame}

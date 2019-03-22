@@ -1,73 +1,74 @@
 \select@language {brazil}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {1}}\penalty \@M {\bf \uppercase {Introduction}} }{20}{chapter.1}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {2}}\penalty \@M {\bf \uppercase {The Standard Model and the Higgs Boson}} }{21}{chapter.2}
-\contentsline {section}{\numberline {2.1}\normalfont \normalsize \bfseries {The Standard Model Structure}}{21}{section*.1}
-\contentsline {section}{\numberline {2.2}\normalfont \normalsize \bfseries {Spontaneous Symmetry Breaking}}{23}{section*.3}
-\contentsline {subsection}{\numberline {2.2.1}\normalfont \normalsize \uline {The Brout-Englert-Higgs Mechanism}}{25}{section*.5}
-\contentsline {subsection}{\numberline {2.2.2}\normalfont \normalsize \uline {The Higgs Mechanism and Electroweak Symmetry Breaking}}{27}{section*.6}
-\contentsline {section}{\numberline {2.3}\normalfont \normalsize \bfseries {The Higgs Boson at the LHC}}{29}{section*.7}
-\contentsline {section}{\numberline {2.4}\normalfont \normalsize \bfseries {The Higgs VBF Production Mode }}{31}{section*.10}
-\contentsline {subsection}{\numberline {2.4.1}\normalfont \normalsize \uline {The Higgs VBF XS at LO and the its Kinematics}}{32}{section*.11}
-\contentsline {subsubsection}{\numberline {2.4.1.1}\normalfont \normalsize {Corrections of Higher Orders}}{34}{section*.13}
-\contentsline {section}{\numberline {2.5}\normalfont \normalsize \bfseries {The Analysis Frame}}{35}{section*.15}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {3}}\penalty \@M {\bf \uppercase {The LHC and the CMS Experiment}} }{37}{chapter.3}
-\contentsline {section}{\numberline {3.1}\normalfont \normalsize \bfseries {The Accelerators at CERN}}{37}{section*.17}
-\contentsline {section}{\numberline {3.2}\normalfont \normalsize \bfseries {The CMS Experiment at the LHC}}{40}{section*.22}
-\contentsline {subsection}{\numberline {3.2.1}\normalfont \normalsize \uline {The Tracker System}}{41}{section*.25}
-\contentsline {subsubsection}{\numberline {3.2.1.1}\normalfont \normalsize {The Silicon Pixels Detector}}{41}{section*.26}
-\contentsline {subsubsection}{\numberline {3.2.1.2}\normalfont \normalsize {The Silicon Strips Detector}}{44}{section*.28}
-\contentsline {subsection}{\numberline {3.2.2}\normalfont \normalsize \uline {The Calorimeters}}{45}{section*.29}
-\contentsline {subsubsection}{\numberline {3.2.2.1}\normalfont \normalsize {The Electromagnetic Calorimeter (ECAL)}}{45}{section*.30}
-\contentsline {subsubsection}{\numberline {3.2.2.2}\normalfont \normalsize {The Hadronic Calorimeter (HCAL)}}{46}{section*.32}
-\contentsline {subsection}{\numberline {3.2.3}\normalfont \normalsize \uline {The Magnetic System}}{50}{section*.37}
-\contentsline {subsection}{\numberline {3.2.4}\normalfont \normalsize \uline {The Muon Chambers}}{51}{section*.39}
-\contentsline {subsection}{\numberline {3.2.5}\normalfont \normalsize \uline {The Trigger and Data Acquisition System}}{54}{section*.42}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {4}}\penalty \@M {\bf \uppercase {Datasets}} }{56}{chapter.4}
-\contentsline {section}{\numberline {4.1}\normalfont \normalsize \bfseries {Data}}{56}{section*.43}
-\contentsline {section}{\numberline {4.2}\normalfont \normalsize \bfseries {Simulated Samples}}{56}{section*.46}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {5}}\penalty \@M {\bf \uppercase {Physics Objects Selections}} }{60}{chapter.5}
-\contentsline {section}{\numberline {5.1}\normalfont \normalsize \bfseries {Electrons}}{60}{section*.48}
-\contentsline {subsection}{\numberline {5.1.1}\normalfont \normalsize \uline {Electron Efficiency Measurements}}{62}{section*.51}
-\contentsline {section}{\numberline {5.2}\normalfont \normalsize \bfseries {Muons}}{63}{section*.53}
-\contentsline {subsection}{\numberline {5.2.1}\normalfont \normalsize \uline {Muon Efficiency Measurements}}{65}{section*.55}
-\contentsline {section}{\numberline {5.3}\normalfont \normalsize \bfseries {Photons and FSR Recovery}}{68}{section*.60}
-\contentsline {section}{\numberline {5.4}\normalfont \normalsize \bfseries {Jets}}{68}{section*.61}
-\contentsline {section}{\numberline {5.5}\normalfont \normalsize \bfseries {Missing Transverse Energy}}{69}{section*.62}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {6}}\penalty \@M {\bf \uppercase {Event Selection}} }{71}{chapter.6}
-\contentsline {section}{\numberline {6.1}\normalfont \normalsize \bfseries {Preselection}}{71}{section*.64}
-\contentsline {section}{\numberline {6.2}\normalfont \normalsize \bfseries {Selection of ZZ System}}{71}{section*.65}
-\contentsline {section}{\numberline {6.3}\normalfont \normalsize \bfseries {VBF Signal Region (VBF-SR)}}{72}{section*.66}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {7}}\penalty \@M {\bf \uppercase {Neural Networks}} }{75}{chapter.7}
-\contentsline {section}{\numberline {7.1}\normalfont \normalsize \bfseries {The Learning Process}}{75}{section*.71}
-\contentsline {section}{\numberline {7.2}\normalfont \normalsize \bfseries {Developing and Training the Neural Networks}}{81}{section*.75}
-\contentsline {section}{\numberline {7.3}\normalfont \normalsize \bfseries {Preparation of the Datasets}}{81}{section*.76}
-\contentsline {section}{\numberline {7.4}\normalfont \normalsize \bfseries {Scaling Events Contribution in the Training}}{82}{section*.77}
-\contentsline {section}{\numberline {7.5}\normalfont \normalsize \bfseries {The Training Procedure}}{83}{section*.79}
-\contentsline {section}{\numberline {7.6}\normalfont \normalsize \bfseries {NNs Training Performances}}{85}{section*.82}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {8}}\penalty \@M {\bf \uppercase {Background Estimation}} }{88}{chapter.8}
-\contentsline {section}{\numberline {8.1}\normalfont \normalsize \bfseries {Estimation of the SM Higgs Production Modes}}{88}{section*.84}
-\contentsline {section}{\numberline {8.2}\normalfont \normalsize \bfseries {Modeling of $q\mathaccentV {bar}016{q} \rightarrow ZZ$}}{88}{section*.85}
-\contentsline {section}{\numberline {8.3}\normalfont \normalsize \bfseries {Modeling of $gg \rightarrow ZZ$}}{88}{section*.86}
-\contentsline {section}{\numberline {8.4}\normalfont \normalsize \bfseries {Estimation of Z+X Background}}{89}{section*.87}
-\contentsline {subsection}{\numberline {8.4.1}\normalfont \normalsize \uline {Measuring the Fake Rates}}{89}{section*.88}
-\contentsline {subsection}{\numberline {8.4.2}\normalfont \normalsize \uline {Building Control Regions}}{91}{section*.91}
-\contentsline {subsection}{\numberline {8.4.3}\normalfont \normalsize \uline {Uncertainties on the Estimation of Z+X}}{96}{section*.96}
-\contentsline {subsection}{\numberline {8.4.4}\normalfont \normalsize \uline {Same-Sign Cross-checking and Final Z+X Estimation}}{98}{section*.100}
-\contentsline {subsection}{\numberline {8.4.5}\normalfont \normalsize \uline {Z+X Neural Network Output Shape}}{100}{section*.102}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {9}}\penalty \@M {\bf \uppercase {Systematic Uncertainties}} }{101}{chapter.9}
-\contentsline {section}{\numberline {9.1}\normalfont \normalsize \bfseries {Experimental Uncertainties}}{101}{section*.103}
-\contentsline {section}{\numberline {9.2}\normalfont \normalsize \bfseries {Theoretical Uncertainties}}{102}{section*.105}
-\contentsline {section}{\numberline {9.3}\normalfont \normalsize \bfseries {Discriminants Shape Uncertainties}}{102}{section*.107}
-\contentsline {subsection}{\numberline {9.3.1}\normalfont \normalsize \uline {Systematic Uncertainty on the $3^{rd}$ Jet}}{105}{section*.111}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {10}}\penalty \@M {\bf \uppercase {Results}} }{108}{chapter.10}
-\contentsline {section}{\numberline {10.1}\normalfont \normalsize \bfseries {Yields and Distributions}}{108}{section*.113}
-\contentsline {section}{\numberline {10.2}\normalfont \normalsize \bfseries {Statistical Analysis}}{108}{section*.119}
-\contentsline {section}{\numberline {10.3}\normalfont \normalsize \bfseries {Projection for Future Luminosity Scenarios}}{120}{section*.126}
-\contentsline {chapter}{\normalfont \numberline {}\penalty \@M {\bf \uppercase {Refer\^encias}} }{123}{section*.129}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {A}}\penalty \@M {\bf \uppercase {The ANN Internal Representation Space}} }{132}{appendix.A}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {B}}\penalty \@M {\bf \uppercase {CMS Display of VBF and Background-like Data Events}} }{134}{appendix.B}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {C}}\penalty \@M {\bf \uppercase {ANN Architectures for Njets2 and Njets3 Categories}} }{138}{appendix.C}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {D}}\penalty \@M {\bf \uppercase {Expected $S/\sqrt {B}$ and $\pi ~.~S/(S+B)$ Combining Njets2 and Njets3 Cuts}} }{140}{appendix.D}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {E}}\penalty \@M {\bf \uppercase {The CMS L1 Tracking Trigger (CMSL1TT) Project}} }{141}{appendix.E}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {F}}\penalty \@M {\bf \uppercase {The Fast Matrix Element (\textit {Fast}ME)}} }{180}{appendix.F}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {G}}\penalty \@M {\bf \uppercase {Participation at the Global Doc Project}} }{200}{appendix.G}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {1}}\penalty \@M {\bf \uppercase {Introduction}} }{24}{chapter.1}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {2}}\penalty \@M {\bf \uppercase {The Standard Model and the Higgs Boson}} }{25}{chapter.2}
+\contentsline {section}{\numberline {2.1}\normalfont \normalsize \bfseries {The Standard Model Structure}}{25}{section*.1}
+\contentsline {section}{\numberline {2.2}\normalfont \normalsize \bfseries {Spontaneous Symmetry Breaking}}{27}{section*.3}
+\contentsline {subsection}{\numberline {2.2.1}\normalfont \normalsize \uline {The Brout-Englert-Higgs Mechanism}}{29}{section*.5}
+\contentsline {subsection}{\numberline {2.2.2}\normalfont \normalsize \uline {The Higgs Mechanism and Electroweak Symmetry Breaking}}{31}{section*.6}
+\contentsline {section}{\numberline {2.3}\normalfont \normalsize \bfseries {The Higgs Boson at the LHC}}{33}{section*.7}
+\contentsline {section}{\numberline {2.4}\normalfont \normalsize \bfseries {The Higgs VBF Production Mode }}{35}{section*.10}
+\contentsline {subsection}{\numberline {2.4.1}\normalfont \normalsize \uline {The Higgs VBF LO Cross Section and its Kinematics}}{36}{section*.11}
+\contentsline {subsubsection}{\numberline {2.4.1.1}\normalfont \normalsize {Corrections of Higher Orders}}{38}{section*.13}
+\contentsline {section}{\numberline {2.5}\normalfont \normalsize \bfseries {The Physics Scenario of this Analysis}}{39}{section*.15}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {3}}\penalty \@M {\bf \uppercase {The LHC and the CMS Experiment}} }{41}{chapter.3}
+\contentsline {section}{\numberline {3.1}\normalfont \normalsize \bfseries {The Accelerators at CERN}}{41}{section*.17}
+\contentsline {section}{\numberline {3.2}\normalfont \normalsize \bfseries {The CMS Experiment at the LHC}}{44}{section*.22}
+\contentsline {subsection}{\numberline {3.2.1}\normalfont \normalsize \uline {The Tracker System}}{45}{section*.25}
+\contentsline {subsubsection}{\numberline {3.2.1.1}\normalfont \normalsize {The Silicon Pixels Detector}}{45}{section*.26}
+\contentsline {subsubsection}{\numberline {3.2.1.2}\normalfont \normalsize {The Silicon Strips Detector}}{48}{section*.28}
+\contentsline {subsection}{\numberline {3.2.2}\normalfont \normalsize \uline {The Calorimeters}}{49}{section*.29}
+\contentsline {subsubsection}{\numberline {3.2.2.1}\normalfont \normalsize {The Electromagnetic Calorimeter (ECAL)}}{49}{section*.30}
+\contentsline {subsubsection}{\numberline {3.2.2.2}\normalfont \normalsize {The Hadronic Calorimeter (HCAL)}}{50}{section*.32}
+\contentsline {subsection}{\numberline {3.2.3}\normalfont \normalsize \uline {The Magnetic System}}{54}{section*.37}
+\contentsline {subsection}{\numberline {3.2.4}\normalfont \normalsize \uline {The Muon Chambers}}{55}{section*.39}
+\contentsline {subsection}{\numberline {3.2.5}\normalfont \normalsize \uline {The Trigger and Data Acquisition System}}{58}{section*.42}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {4}}\penalty \@M {\bf \uppercase {Data and Monte Carlo Samples}} }{60}{chapter.4}
+\contentsline {section}{\numberline {4.1}\normalfont \normalsize \bfseries {Data}}{60}{section*.43}
+\contentsline {section}{\numberline {4.2}\normalfont \normalsize \bfseries {Simulated Samples}}{60}{section*.46}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {5}}\penalty \@M {\bf \uppercase {Physics Objects Selections}} }{64}{chapter.5}
+\contentsline {section}{\numberline {5.1}\normalfont \normalsize \bfseries {Electrons}}{64}{section*.48}
+\contentsline {subsection}{\numberline {5.1.1}\normalfont \normalsize \uline {Electron Efficiency Measurements}}{66}{section*.51}
+\contentsline {section}{\numberline {5.2}\normalfont \normalsize \bfseries {Muons}}{67}{section*.53}
+\contentsline {subsection}{\numberline {5.2.1}\normalfont \normalsize \uline {Muon Efficiency Measurements}}{69}{section*.55}
+\contentsline {section}{\numberline {5.3}\normalfont \normalsize \bfseries {Photons and FSR Recovery}}{72}{section*.60}
+\contentsline {section}{\numberline {5.4}\normalfont \normalsize \bfseries {Jets}}{72}{section*.61}
+\contentsline {section}{\numberline {5.5}\normalfont \normalsize \bfseries {Missing Transverse Energy}}{73}{section*.62}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {6}}\penalty \@M {\bf \uppercase {Event Selection}} }{75}{chapter.6}
+\contentsline {section}{\numberline {6.1}\normalfont \normalsize \bfseries {Preselection}}{75}{section*.64}
+\contentsline {section}{\numberline {6.2}\normalfont \normalsize \bfseries {Selection of ZZ System}}{75}{section*.65}
+\contentsline {section}{\numberline {6.3}\normalfont \normalsize \bfseries {VBF Signal Region (VBF-SR)}}{76}{section*.66}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {7}}\penalty \@M {\bf \uppercase {Neural Networks}} }{79}{chapter.7}
+\contentsline {section}{\numberline {7.1}\normalfont \normalsize \bfseries {The Learning Process}}{81}{section*.71}
+\contentsline {section}{\numberline {7.2}\normalfont \normalsize \bfseries {Developing and Training the Neural Networks}}{85}{section*.75}
+\contentsline {section}{\numberline {7.3}\normalfont \normalsize \bfseries {Preparation of the Datasets}}{85}{section*.76}
+\contentsline {section}{\numberline {7.4}\normalfont \normalsize \bfseries {Scaling Events Contribution in the Training}}{86}{section*.77}
+\contentsline {section}{\numberline {7.5}\normalfont \normalsize \bfseries {The Training Procedure}}{87}{section*.79}
+\contentsline {section}{\numberline {7.6}\normalfont \normalsize \bfseries {NNs Training Performances}}{89}{section*.82}
+\contentsline {subsection}{\numberline {7.6.1}\normalfont \normalsize \uline {The Impact of the VBF 3$^{rd}$ Jet}}{92}{section*.84}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {8}}\penalty \@M {\bf \uppercase {Background Estimation}} }{93}{chapter.8}
+\contentsline {section}{\numberline {8.1}\normalfont \normalsize \bfseries {Estimation of the SM Higgs Production Modes}}{93}{section*.87}
+\contentsline {section}{\numberline {8.2}\normalfont \normalsize \bfseries {Modeling of $q\mathaccentV {bar}016{q} \rightarrow ZZ$}}{93}{section*.88}
+\contentsline {section}{\numberline {8.3}\normalfont \normalsize \bfseries {Modeling of $gg \rightarrow ZZ$}}{93}{section*.89}
+\contentsline {section}{\numberline {8.4}\normalfont \normalsize \bfseries {Estimation of Z+X Background}}{94}{section*.90}
+\contentsline {subsection}{\numberline {8.4.1}\normalfont \normalsize \uline {Measuring the Fake Rates}}{94}{section*.91}
+\contentsline {subsection}{\numberline {8.4.2}\normalfont \normalsize \uline {Building Control Regions}}{96}{section*.94}
+\contentsline {subsection}{\numberline {8.4.3}\normalfont \normalsize \uline {Uncertainties on the Estimation of Z+X}}{101}{section*.99}
+\contentsline {subsection}{\numberline {8.4.4}\normalfont \normalsize \uline {Same-Sign Cross-checking and Final Z+X Estimation}}{103}{section*.103}
+\contentsline {subsection}{\numberline {8.4.5}\normalfont \normalsize \uline {Z+X Neural Network Output Shape}}{105}{section*.105}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {9}}\penalty \@M {\bf \uppercase {Systematic Uncertainties}} }{106}{chapter.9}
+\contentsline {section}{\numberline {9.1}\normalfont \normalsize \bfseries {Experimental Uncertainties}}{106}{section*.106}
+\contentsline {section}{\numberline {9.2}\normalfont \normalsize \bfseries {Theoretical Uncertainties}}{107}{section*.108}
+\contentsline {section}{\numberline {9.3}\normalfont \normalsize \bfseries {Discriminants Shape Uncertainties}}{107}{section*.110}
+\contentsline {subsection}{\numberline {9.3.1}\normalfont \normalsize \uline {Systematic Uncertainty on the $3^{rd}$ Jet}}{110}{section*.114}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {10}}\penalty \@M {\bf \uppercase {Results}} }{113}{chapter.10}
+\contentsline {section}{\numberline {10.1}\normalfont \normalsize \bfseries {Yields and Distributions}}{113}{section*.116}
+\contentsline {section}{\numberline {10.2}\normalfont \normalsize \bfseries {Statistical Analysis}}{113}{section*.122}
+\contentsline {section}{\numberline {10.3}\normalfont \normalsize \bfseries {Projection for Future Luminosity Scenarios}}{125}{section*.129}
+\contentsline {chapter}{\normalfont \numberline {}\penalty \@M {\bf \uppercase {Refer\^encias}} }{128}{section*.132}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {A}}\penalty \@M {\bf \uppercase {The ANN Internal Representation Space}} }{137}{appendix.A}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {B}}\penalty \@M {\bf \uppercase {CMS Display of VBF and Background-like Data Events}} }{139}{appendix.B}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {C}}\penalty \@M {\bf \uppercase {ANN Architectures for Njets2 and Njets3 Categories}} }{143}{appendix.C}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {D}}\penalty \@M {\bf \uppercase {Expected $S/\sqrt {B}$ and $\pi ~.~S/(S+B)$ Combining Njets2 and Njets3 Cuts}} }{145}{appendix.D}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {E}}\penalty \@M {\bf \uppercase {The CMS L1 Tracking Trigger (CMSL1TT) Project}} }{146}{appendix.E}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {F}}\penalty \@M {\bf \uppercase {The Fast Matrix Element (\textit {Fast}ME)}} }{185}{appendix.F}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {G}}\penalty \@M {\bf \uppercase {Participation at the Global Doc Project}} }{205}{appendix.G}
