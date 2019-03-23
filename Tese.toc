@@ -70,5 +70,5 @@
 \contentsline {chapter}{\normalfont \penalty \@M {\numberline {C}}\penalty \@M {\bf \uppercase {ANN Architectures for Njets2 and Njets3 Categories}} }{143}{appendix.C}
 \contentsline {chapter}{\normalfont \penalty \@M {\numberline {D}}\penalty \@M {\bf \uppercase {Expected $S/\sqrt {B}$ and $\pi ~.~S/(S+B)$ Combining Njets2 and Njets3 Cuts}} }{145}{appendix.D}
 \contentsline {chapter}{\normalfont \penalty \@M {\numberline {E}}\penalty \@M {\bf \uppercase {The CMS L1 Tracking Trigger (CMSL1TT) Project}} }{146}{appendix.E}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {F}}\penalty \@M {\bf \uppercase {The Fast Matrix Element (\textit {Fast}ME)}} }{185}{appendix.F}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {G}}\penalty \@M {\bf \uppercase {Participation at the Global Doc Project}} }{205}{appendix.G}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {F}}\penalty \@M {\bf \uppercase {The Fast Matrix Element (\textit {Fast}ME)}} }{184}{appendix.F}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {G}}\penalty \@M {\bf \uppercase {Participation at the Global Doc Project}} }{204}{appendix.G}

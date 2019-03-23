@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.12.14)  22 MAR 2019 20:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.12.14)  22 MAR 2019 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1031,19 +1031,19 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 155.
  [13]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 169.
+(babel)             in language  on input line 171.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 169.
+(babel)             in language  on input line 171.
  [14]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 185.
  [15]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 194.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 194.
+(babel)             in language  on input line 196.
  [16])
 \tf@lof=\write5
 \openout5 = `Tese.lof'.
@@ -1164,14 +1164,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 86.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 86.
- [27] <ChapterTheory/figs/mu_pos.png, id=1089, 353.06906pt x 328.97906pt>
+ [27] <ChapterTheory/figs/mu_pos.png, id=1090, 353.06906pt x 328.97906pt>
 File: ChapterTheory/figs/mu_pos.png Graphic file (type png)
 
 <use ChapterTheory/figs/mu_pos.png>
 Package pdftex.def Info: ChapterTheory/figs/mu_pos.png used on input line 90.
 (pdftex.def)             Requested size: 141.22511pt x 131.5893pt.
 
-<ChapterTheory/figs/mu_neg.png, id=1090, 522.95375pt x 377.41pt>
+<ChapterTheory/figs/mu_neg.png, id=1091, 522.95375pt x 377.41pt>
 File: ChapterTheory/figs/mu_neg.png Graphic file (type png)
 
 <use ChapterTheory/figs/mu_neg.png>
@@ -1222,28 +1222,28 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 226.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 226.
- [33] <ChapterTheory/figs/ggH.png, id=1181, 351.3125pt x 321.2pt>
+ [33] <ChapterTheory/figs/ggH.png, id=1182, 351.3125pt x 321.2pt>
 File: ChapterTheory/figs/ggH.png Graphic file (type png)
 
 <use ChapterTheory/figs/ggH.png>
 Package pdftex.def Info: ChapterTheory/figs/ggH.png used on input line 241.
 (pdftex.def)             Requested size: 105.39455pt x 96.36073pt.
 
-<ChapterTheory/figs/VBF.png, id=1182, 376.40625pt x 327.2225pt>
+<ChapterTheory/figs/VBF.png, id=1183, 376.40625pt x 327.2225pt>
 File: ChapterTheory/figs/VBF.png Graphic file (type png)
 
 <use ChapterTheory/figs/VBF.png>
 Package pdftex.def Info: ChapterTheory/figs/VBF.png used on input line 242.
 (pdftex.def)             Requested size: 112.92273pt x 98.1675pt.
 
-<ChapterTheory/figs/AssWZ.png, id=1183, 365.365pt x 329.23pt>
+<ChapterTheory/figs/AssWZ.png, id=1184, 365.365pt x 329.23pt>
 File: ChapterTheory/figs/AssWZ.png Graphic file (type png)
 
 <use ChapterTheory/figs/AssWZ.png>
 Package pdftex.def Info: ChapterTheory/figs/AssWZ.png used on input line 243.
 (pdftex.def)             Requested size: 109.61034pt x 98.76976pt.
 
-<ChapterTheory/figs/Ass_tt.png, id=1184, 384.43625pt x 327.2225pt>
+<ChapterTheory/figs/Ass_tt.png, id=1185, 384.43625pt x 327.2225pt>
 File: ChapterTheory/figs/Ass_tt.png Graphic file (type png)
 
 <use ChapterTheory/figs/Ass_tt.png>
@@ -1260,7 +1260,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 256.
 [34 <./ChapterTheory/figs/ggH.png> <./ChapterTheory/figs/VBF.png> <./ChapterThe
 ory/figs/AssWZ.png> <./ChapterTheory/figs/Ass_tt.png>]
-<ChapterTheory/figs/Higgs_XS_vs_S.png, id=1203, 463.7325pt x 442.65375pt>
+<ChapterTheory/figs/Higgs_XS_vs_S.png, id=1204, 463.7325pt x 442.65375pt>
 File: ChapterTheory/figs/Higgs_XS_vs_S.png Graphic file (type png)
 
 <use ChapterTheory/figs/Higgs_XS_vs_S.png>
@@ -1268,7 +1268,7 @@ Package pdftex.def Info: ChapterTheory/figs/Higgs_XS_vs_S.png used on input lin
 e 259.
 (pdftex.def)             Requested size: 185.4897pt x 177.05835pt.
 
-<ChapterTheory/figs/Higgs_BRs.png, id=1204, 458.46281pt x 441.14813pt>
+<ChapterTheory/figs/Higgs_BRs.png, id=1205, 458.46281pt x 441.14813pt>
 File: ChapterTheory/figs/Higgs_BRs.png Graphic file (type png)
 
 <use ChapterTheory/figs/Higgs_BRs.png>
@@ -1306,7 +1306,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 341.
  [37]
-<ChapterTheory/figs/vbf_DIS_approximation.png, id=1261, 914.66719pt x 331.2375p
+<ChapterTheory/figs/vbf_DIS_approximation.png, id=1262, 914.66719pt x 331.2375p
 t>
 File: ChapterTheory/figs/vbf_DIS_approximation.png Graphic file (type png)
  <use ChapterTheory/figs/vbf_DIS_approximation.png>
@@ -1321,7 +1321,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 367.
 
-<ChapterAnalysis/figs/vbf_diagram.png, id=1289, 1567.8575pt x 1225.57875pt>
+<ChapterAnalysis/figs/vbf_diagram.png, id=1291, 1567.8575pt x 1225.57875pt>
 File: ChapterAnalysis/figs/vbf_diagram.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/vbf_diagram.png>
@@ -1329,7 +1329,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/vbf_diagram.png used on input lin
 e 380.
 (pdftex.def)             Requested size: 125.43115pt x 98.0483pt.
 
-<ChapterAnalysis/figs/ggh_diagram.png, id=1290, 1611.01875pt x 1225.57875pt>
+<ChapterAnalysis/figs/ggh_diagram.png, id=1292, 1611.01875pt x 1225.57875pt>
 File: ChapterAnalysis/figs/ggh_diagram.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/ggh_diagram.png>
@@ -1337,7 +1337,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/ggh_diagram.png used on input lin
 e 382.
 (pdftex.def)             Requested size: 128.88412pt x 98.0483pt.
 
-<ChapterAnalysis/figs/vh_diagram.png, id=1291, 1374.13374pt x 1246.6575pt>
+<ChapterAnalysis/figs/vh_diagram.png, id=1293, 1374.13374pt x 1246.6575pt>
 File: ChapterAnalysis/figs/vh_diagram.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/vh_diagram.png>
@@ -1345,7 +1345,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/vh_diagram.png used on input line
  384.
 (pdftex.def)             Requested size: 109.93294pt x 99.73463pt.
 
-<ChapterAnalysis/figs/tth_diagram.png, id=1292, 1611.01875pt x 1225.57875pt>
+<ChapterAnalysis/figs/tth_diagram.png, id=1294, 1611.01875pt x 1225.57875pt>
 File: ChapterAnalysis/figs/tth_diagram.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/tth_diagram.png>
@@ -1353,7 +1353,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/tth_diagram.png used on input lin
 e 385.
 (pdftex.def)             Requested size: 128.88412pt x 98.0483pt.
 
-<ChapterAnalysis/figs/qqzz_diagram.png, id=1293, 1288.815pt x 1440.38126pt>
+<ChapterAnalysis/figs/qqzz_diagram.png, id=1295, 1288.815pt x 1440.38126pt>
 File: ChapterAnalysis/figs/qqzz_diagram.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/qqzz_diagram.png>
@@ -1361,7 +1361,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/qqzz_diagram.png used on input li
 ne 387.
 (pdftex.def)             Requested size: 103.1073pt x 115.23285pt.
 
-<ChapterAnalysis/figs/ggzz_diagram.png, id=1294, 1933.2225pt x 1440.38126pt>
+<ChapterAnalysis/figs/ggzz_diagram.png, id=1296, 1933.2225pt x 1440.38126pt>
 File: ChapterAnalysis/figs/ggzz_diagram.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/ggzz_diagram.png>
@@ -1403,7 +1403,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 
-] <ChapterCMS/figs/lhc_csp.png, id=1340, 922.44624pt x 665.48625pt>
+] <ChapterCMS/figs/lhc_csp.png, id=1341, 922.44624pt x 665.48625pt>
 File: ChapterCMS/figs/lhc_csp.png Graphic file (type png)
 
 <use ChapterCMS/figs/lhc_csp.png>
@@ -1419,7 +1419,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 73.
  [43 <./ChapterCMS/figs/lhc_csp.png>]
-<ChapterCMS/figs/lhc_parts.png, id=1357, 1089.06876pt x 677.53125pt>
+<ChapterCMS/figs/lhc_parts.png, id=1358, 1089.06876pt x 677.53125pt>
 File: ChapterCMS/figs/lhc_parts.png Graphic file (type png)
 
 <use ChapterCMS/figs/lhc_parts.png>
@@ -1432,7 +1432,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 86.
  [44 <./ChapterCMS/figs/lhc_parts.png>]
-<ChapterCMS/figs/cms_coordinates_system.png, id=1372, 745.28438pt x 430.60875pt
+<ChapterCMS/figs/cms_coordinates_system.png, id=1373, 745.28438pt x 430.60875pt
 >
 File: ChapterCMS/figs/cms_coordinates_system.png Graphic file (type png)
  <use ChapterCMS/figs/cms_coordinates_system.png>
@@ -1443,7 +1443,7 @@ ut line 92.
 
 LaTeX Warning: Float too large for page by 24.72177pt on input line 95.
 
-<ChapterCMS/figs/cms_deteccao.png, id=1374, 995.72pt x 511.9125pt>
+<ChapterCMS/figs/cms_deteccao.png, id=1375, 995.72pt x 511.9125pt>
 File: ChapterCMS/figs/cms_deteccao.png Graphic file (type png)
 
 <use ChapterCMS/figs/cms_deteccao.png>
@@ -1477,7 +1477,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 110.
  [47 <./ChapterCMS/figs/cms_deteccao.png>]
-<ChapterCMS/figs/pixel_detector.png, id=1397, 601.24625pt x 200.75pt>
+<ChapterCMS/figs/pixel_detector.png, id=1398, 601.24625pt x 200.75pt>
 File: ChapterCMS/figs/pixel_detector.png Graphic file (type png)
 
 <use ChapterCMS/figs/pixel_detector.png>
@@ -1510,7 +1510,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 128.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 128.
-[49] <ChapterCMS/figs/ecal_sched.png, id=1419, 811.03pt x 539.01375pt>
+[49] <ChapterCMS/figs/ecal_sched.png, id=1420, 811.03pt x 539.01375pt>
 File: ChapterCMS/figs/ecal_sched.png Graphic file (type png)
 
 <use ChapterCMS/figs/ecal_sched.png>
@@ -1524,7 +1524,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 140.
  [50 <./ChapterCMS/figs/ecal_sched.png>]
-<ChapterCMS/figs/hcal_hb.png, id=1430, 371.3875pt x 466.74374pt>
+<ChapterCMS/figs/hcal_hb.png, id=1431, 371.3875pt x 466.74374pt>
 File: ChapterCMS/figs/hcal_hb.png Graphic file (type png)
 
 <use ChapterCMS/figs/hcal_hb.png>
@@ -1535,21 +1535,21 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 151.
  [51 <./ChapterCMS/figs/hcal_hb.png>]
-<ChapterCMS/figs/hcal_he.png, id=1437, 800.9925pt x 512.91624pt>
+<ChapterCMS/figs/hcal_he.png, id=1438, 800.9925pt x 512.91624pt>
 File: ChapterCMS/figs/hcal_he.png Graphic file (type png)
 
 <use ChapterCMS/figs/hcal_he.png>
 Package pdftex.def Info: ChapterCMS/figs/hcal_he.png used on input line 154.
 (pdftex.def)             Requested size: 320.39133pt x 205.16286pt.
 
-<ChapterCMS/figs/hcal_ho.png, id=1442, 439.6425pt x 303.1325pt>
+<ChapterCMS/figs/hcal_ho.png, id=1443, 439.6425pt x 303.1325pt>
 File: ChapterCMS/figs/hcal_ho.png Graphic file (type png)
 
 <use ChapterCMS/figs/hcal_ho.png>
 Package pdftex.def Info: ChapterCMS/figs/hcal_ho.png used on input line 163.
 (pdftex.def)             Requested size: 307.74765pt x 212.1913pt.
 
-<ChapterCMS/figs/ho_sim.png, id=1443, 551.05875pt x 298.11375pt>
+<ChapterCMS/figs/ho_sim.png, id=1444, 551.05875pt x 298.11375pt>
 File: ChapterCMS/figs/ho_sim.png Graphic file (type png)
 
 <use ChapterCMS/figs/ho_sim.png>
@@ -1565,7 +1565,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 171.
  [53 <./ChapterCMS/figs/hcal_ho.png> <./ChapterCMS/figs/ho_sim.png>]
-<ChapterCMS/figs/hcal_hf.png, id=1459, 400.49625pt x 355.3275pt>
+<ChapterCMS/figs/hcal_hf.png, id=1460, 400.49625pt x 355.3275pt>
 File: ChapterCMS/figs/hcal_hf.png Graphic file (type png)
 
 <use ChapterCMS/figs/hcal_hf.png>
@@ -1583,14 +1583,14 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 184.
 [54 <./ChapterCMS/figs/hcal_hf.png>]
-<ChapterCMS/figs/solenoid.png, id=1469, 736.7525pt x 564.1075pt>
+<ChapterCMS/figs/solenoid.png, id=1470, 736.7525pt x 564.1075pt>
 File: ChapterCMS/figs/solenoid.png Graphic file (type png)
 
 <use ChapterCMS/figs/solenoid.png>
 Package pdftex.def Info: ChapterCMS/figs/solenoid.png used on input line 187.
 (pdftex.def)             Requested size: 368.37535pt x 282.05305pt.
 
-<ChapterCMS/figs/cms_magnetic_field_map.png, id=1470, 633.86812pt x 334.24875pt
+<ChapterCMS/figs/cms_magnetic_field_map.png, id=1471, 633.86812pt x 334.24875pt
 >
 File: ChapterCMS/figs/cms_magnetic_field_map.png Graphic file (type png)
  <use ChapterCMS/figs/cms_magnetic_field_map.png>
@@ -1604,14 +1604,14 @@ Package babel Info: Redefining portuges shorthand "|
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uline' on input line 193.
 
-<ChapterCMS/figs/pmu_reso.png, id=1475, 712.6625pt x 413.545pt>
+<ChapterCMS/figs/pmu_reso.png, id=1476, 712.6625pt x 413.545pt>
 File: ChapterCMS/figs/pmu_reso.png Graphic file (type png)
 
 <use ChapterCMS/figs/pmu_reso.png>
 Package pdftex.def Info: ChapterCMS/figs/pmu_reso.png used on input line 199.
 (pdftex.def)             Requested size: 427.6008pt x 248.1289pt.
 
-<ChapterCMS/figs/sist_muon_position.png, id=1476, 646.415pt x 477.785pt>
+<ChapterCMS/figs/sist_muon_position.png, id=1477, 646.415pt x 477.785pt>
 File: ChapterCMS/figs/sist_muon_position.png Graphic file (type png)
 
 <use ChapterCMS/figs/sist_muon_position.png>
@@ -1635,21 +1635,21 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 206.
  [57 <./ChapterCMS/figs/pmu_reso.png> <./ChapterCMS/figs/sist_muon_position.png
 >]
-<ChapterCMS/figs/dtc.png, id=1501, 837.1275pt x 489.83pt>
+<ChapterCMS/figs/dtc.png, id=1502, 837.1275pt x 489.83pt>
 File: ChapterCMS/figs/dtc.png Graphic file (type png)
 
 <use ChapterCMS/figs/dtc.png>
 Package pdftex.def Info: ChapterCMS/figs/dtc.png used on input line 212.
 (pdftex.def)             Requested size: 192.53528pt x 112.65852pt.
 
-<ChapterCMS/figs/rpc.jpg, id=1502, 447.6725pt x 181.67876pt>
+<ChapterCMS/figs/rpc.jpg, id=1503, 447.6725pt x 181.67876pt>
 File: ChapterCMS/figs/rpc.jpg Graphic file (type jpg)
 
 <use ChapterCMS/figs/rpc.jpg>
 Package pdftex.def Info: ChapterCMS/figs/rpc.jpg used on input line 213.
 (pdftex.def)             Requested size: 196.9765pt x 79.93889pt.
 
-<ChapterCMS/figs/csc.png, id=1503, 282.05376pt x 426.59375pt>
+<ChapterCMS/figs/csc.png, id=1504, 282.05376pt x 426.59375pt>
 File: ChapterCMS/figs/csc.png Graphic file (type png)
 
 <use ChapterCMS/figs/csc.png>
@@ -1764,7 +1764,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 288.
 [66]
-<ChapterAnalysis/figs/electron_selection_efficiencies_nongap.png, id=1618, 471.
+<ChapterAnalysis/figs/electron_selection_efficiencies_nongap.png, id=1619, 471.
 26062pt x 459.21562pt>
 File: ChapterAnalysis/figs/electron_selection_efficiencies_nongap.png Graphic f
 ile (type png)
@@ -1774,7 +1774,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/electron_selection_efficiencies_n
 ongap.png used on input line 294.
 (pdftex.def)             Requested size: 188.5009pt x 183.68298pt.
 
-<ChapterAnalysis/figs/electron_selection_efficiencies_ingap.png, id=1619, 496.1
+<ChapterAnalysis/figs/electron_selection_efficiencies_ingap.png, id=1620, 496.1
 0344pt x 456.95718pt>
 File: ChapterAnalysis/figs/electron_selection_efficiencies_ingap.png Graphic fi
 le (type png)
@@ -1803,7 +1803,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 339.
 [68]
-<ChapterAnalysis/figs/muon_reco_id_eff_barrel.png, id=1638, 307.1475pt x 389.20
+<ChapterAnalysis/figs/muon_reco_id_eff_barrel.png, id=1639, 307.1475pt x 389.20
 406pt>
 File: ChapterAnalysis/figs/muon_reco_id_eff_barrel.png Graphic file (type png)
  <use ChapterAnalysis/figs/muon_reco_id_eff_barrel.png>
@@ -1811,7 +1811,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/muon_reco_id_eff_barrel.png used
 on input line 347.
 (pdftex.def)             Requested size: 138.21509pt x 175.1402pt.
 
-<ChapterAnalysis/figs/muon_reco_id_eff_endcap.png, id=1639, 304.88907pt x 389.9
+<ChapterAnalysis/figs/muon_reco_id_eff_endcap.png, id=1640, 304.88907pt x 389.9
 5688pt>
 File: ChapterAnalysis/figs/muon_reco_id_eff_endcap.png Graphic file (type png)
  <use ChapterAnalysis/figs/muon_reco_id_eff_endcap.png>
@@ -1819,7 +1819,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/muon_reco_id_eff_endcap.png used
 on input line 349.
 (pdftex.def)             Requested size: 137.1988pt x 175.47896pt.
 
-<ChapterAnalysis/figs/muon_reco_id_eff_eta.png, id=1640, 304.13625pt x 386.9456
+<ChapterAnalysis/figs/muon_reco_id_eff_eta.png, id=1641, 304.13625pt x 386.9456
 2pt>
 File: ChapterAnalysis/figs/muon_reco_id_eff_eta.png Graphic file (type png)
  <use ChapterAnalysis/figs/muon_reco_id_eff_eta.png>
@@ -1827,7 +1827,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/muon_reco_id_eff_eta.png used on
 input line 351.
 (pdftex.def)             Requested size: 136.86003pt x 174.12392pt.
 
-<ChapterAnalysis/figs/muon_sip_eff_barrel.png, id=1643, 307.1475pt x 401.24907p
+<ChapterAnalysis/figs/muon_sip_eff_barrel.png, id=1644, 307.1475pt x 401.24907p
 t>
 File: ChapterAnalysis/figs/muon_sip_eff_barrel.png Graphic file (type png)
  <use ChapterAnalysis/figs/muon_sip_eff_barrel.png>
@@ -1835,7 +1835,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/muon_sip_eff_barrel.png used on i
 nput line 361.
 (pdftex.def)             Requested size: 138.21509pt x 180.56041pt.
 
-<ChapterAnalysis/figs/muon_sip_eff_endcap.png, id=1644, 304.88907pt x 402.00188
+<ChapterAnalysis/figs/muon_sip_eff_endcap.png, id=1645, 304.88907pt x 402.00188
 pt>
 File: ChapterAnalysis/figs/muon_sip_eff_endcap.png Graphic file (type png)
  <use ChapterAnalysis/figs/muon_sip_eff_endcap.png>
@@ -1843,14 +1843,14 @@ Package pdftex.def Info: ChapterAnalysis/figs/muon_sip_eff_endcap.png used on i
 nput line 363.
 (pdftex.def)             Requested size: 137.1988pt x 180.89917pt.
 
-<ChapterAnalysis/figs/muon_sip_eff_eta.png, id=1645, 304.88907pt x 398.99063pt>
+<ChapterAnalysis/figs/muon_sip_eff_eta.png, id=1646, 304.88907pt x 398.99063pt>
 File: ChapterAnalysis/figs/muon_sip_eff_eta.png Graphic file (type png)
 <use ChapterAnalysis/figs/muon_sip_eff_eta.png>
 Package pdftex.def Info: ChapterAnalysis/figs/muon_sip_eff_eta.png used on inpu
 t line 365.
 (pdftex.def)             Requested size: 137.1988pt x 179.54411pt.
 
-<ChapterAnalysis/figs/muon_iso_eff_barrel.png, id=1648, 306.39468pt x 391.4625p
+<ChapterAnalysis/figs/muon_iso_eff_barrel.png, id=1649, 306.39468pt x 391.4625p
 t>
 File: ChapterAnalysis/figs/muon_iso_eff_barrel.png Graphic file (type png)
  <use ChapterAnalysis/figs/muon_iso_eff_barrel.png>
@@ -1858,7 +1858,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/muon_iso_eff_barrel.png used on i
 nput line 375.
 (pdftex.def)             Requested size: 137.87633pt x 176.1565pt.
 
-<ChapterAnalysis/figs/muon_iso_eff_endcap.png, id=1649, 307.90031pt x 390.70969
+<ChapterAnalysis/figs/muon_iso_eff_endcap.png, id=1650, 307.90031pt x 390.70969
 pt>
 File: ChapterAnalysis/figs/muon_iso_eff_endcap.png Graphic file (type png)
  <use ChapterAnalysis/figs/muon_iso_eff_endcap.png>
@@ -1866,7 +1866,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/muon_iso_eff_endcap.png used on i
 nput line 377.
 (pdftex.def)             Requested size: 138.55385pt x 175.81773pt.
 
-<ChapterAnalysis/figs/muon_tracking_eff_ptless10.png, id=1653, 425.33907pt x 44
+<ChapterAnalysis/figs/muon_tracking_eff_ptless10.png, id=1654, 425.33907pt x 44
 1.14813pt>
 File: ChapterAnalysis/figs/muon_tracking_eff_ptless10.png Graphic file (type pn
 g)
@@ -1875,7 +1875,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/muon_tracking_eff_ptless10.png us
 ed on input line 387.
 (pdftex.def)             Requested size: 127.60269pt x 132.34546pt.
 
-<ChapterAnalysis/figs/muon_tracking_eff_ptabove10.png, id=1654, 423.83344pt x 4
+<ChapterAnalysis/figs/muon_tracking_eff_ptabove10.png, id=1655, 423.83344pt x 4
 41.14813pt>
 File: ChapterAnalysis/figs/muon_tracking_eff_ptabove10.png Graphic file (type p
 ng)
@@ -1969,7 +1969,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 506.
  [76]
-<ChapterAnalysis/figs/histo_mass4l_full_range.png, id=1728, 698.61pt x 674.52pt
+<ChapterAnalysis/figs/histo_mass4l_full_range.png, id=1729, 698.61pt x 674.52pt
 >
 File: ChapterAnalysis/figs/histo_mass4l_full_range.png Graphic file (type png)
  <use ChapterAnalysis/figs/histo_mass4l_full_range.png>
@@ -1977,7 +1977,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/histo_mass4l_full_range.png used
 on input line 564.
 (pdftex.def)             Requested size: 233.91545pt x 269.80322pt.
 
-<ChapterAnalysis/figs/histo_mass4l_higgs_sr.png, id=1730, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/histo_mass4l_higgs_sr.png, id=1731, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/histo_mass4l_higgs_sr.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/histo_mass4l_higgs_sr.png>
@@ -1989,7 +1989,7 @@ Overfull \hbox (12.58682pt too wide) in paragraph at lines 564--565
  [][][] 
  []
 
-<ChapterAnalysis/figs/histo_mass4l_vbf_sr.png, id=1732, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/histo_mass4l_vbf_sr.png, id=1733, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/histo_mass4l_vbf_sr.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/histo_mass4l_vbf_sr.png>
@@ -2015,7 +2015,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 573.
 
-<ChapterAnalysis/figs/nn_neuron_example.png, id=1755, 661.47125pt x 377.41pt>
+<ChapterAnalysis/figs/nn_neuron_example.png, id=1756, 661.47125pt x 377.41pt>
 File: ChapterAnalysis/figs/nn_neuron_example.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/nn_neuron_example.png>
@@ -2023,7 +2023,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/nn_neuron_example.png used on inp
 ut line 589.
 (pdftex.def)             Requested size: 254.93556pt x 145.4559pt.
 
-<ChapterAnalysis/figs/dnn_example.png, id=1756, 493.845pt x 354.32375pt>
+<ChapterAnalysis/figs/dnn_example.png, id=1757, 493.845pt x 354.32375pt>
 File: ChapterAnalysis/figs/dnn_example.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/dnn_example.png>
@@ -2056,7 +2056,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 620.
  [81]
-<ChapterAnalysis/figs/neuronj_signal_flow.png, id=1788, 602.25pt x 389.20406pt>
+<ChapterAnalysis/figs/neuronj_signal_flow.png, id=1789, 602.25pt x 389.20406pt>
 File: ChapterAnalysis/figs/neuronj_signal_flow.png Graphic file (type png)
 <use ChapterAnalysis/figs/neuronj_signal_flow.png>
 Package pdftex.def Info: ChapterAnalysis/figs/neuronj_signal_flow.png used on i
@@ -2067,7 +2067,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 668.
  [82 <./ChapterAnalysis/figs/neuronj_signal_flow.png>]
-<ChapterAnalysis/figs/hidden_neuronj_signal_flow.png, id=1809, 828.09375pt x 49
+<ChapterAnalysis/figs/hidden_neuronj_signal_flow.png, id=1810, 828.09375pt x 49
 0.08093pt>
 File: ChapterAnalysis/figs/hidden_neuronj_signal_flow.png Graphic file (type pn
 g)
@@ -2103,7 +2103,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 763.
  [86]
 <ChapterAnalysis/figs/3jets_pt_eta_phi_no_weight_vbf_vs_all_leptons_sorting_iss
-ue.png, id=1860, 386.94562pt x 374.14781pt>
+ue.png, id=1861, 386.94562pt x 374.14781pt>
 File: ChapterAnalysis/figs/3jets_pt_eta_phi_no_weight_vbf_vs_all_leptons_sortin
 g_issue.png Graphic file (type png)
 
@@ -2114,7 +2114,7 @@ _all_leptons_sorting_issue.png used on input line 770.
 (pdftex.def)             Requested size: 159.3382pt x 154.06953pt.
 
 <ChapterAnalysis/figs/3jets_pt_eta_phi_weight_sum_vbf_vs_all_leptons_sorting_is
-sue.png, id=1861, 386.94562pt x 374.90062pt>
+sue.png, id=1862, 386.94562pt x 374.90062pt>
 File: ChapterAnalysis/figs/3jets_pt_eta_phi_weight_sum_vbf_vs_all_leptons_sorti
 ng_issue.png Graphic file (type png)
 
@@ -2142,7 +2142,7 @@ Overfull \hbox (14.49168pt too wide) in paragraph at lines 799--823
  []
 
 
-<ChapterAnalysis/figs/MELAOvertrainingCheck_example.png, id=1875, 505.89pt x 50
+<ChapterAnalysis/figs/MELAOvertrainingCheck_example.png, id=1876, 505.89pt x 50
 5.89pt>
 File: ChapterAnalysis/figs/MELAOvertrainingCheck_example.png Graphic file (type
  png)
@@ -2151,7 +2151,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/MELAOvertrainingCheck_example.png
  used on input line 835.
 (pdftex.def)             Requested size: 177.06415pt x 177.06415pt.
 
-<ChapterAnalysis/figs/NNOvertrainingCheck_example.png, id=1876, 505.89pt x 505.
+<ChapterAnalysis/figs/NNOvertrainingCheck_example.png, id=1877, 505.89pt x 505.
 89pt>
 File: ChapterAnalysis/figs/NNOvertrainingCheck_example.png Graphic file (type p
 ng)
@@ -2160,7 +2160,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/NNOvertrainingCheck_example.png u
 sed on input line 839.
 (pdftex.def)             Requested size: 177.06415pt x 177.06415pt.
 
-<ChapterAnalysis/figs/ComparisonMCsEffPurity_example.png, id=1877, 507.3354pt x
+<ChapterAnalysis/figs/ComparisonMCsEffPurity_example.png, id=1878, 507.3354pt x
  492.1587pt>
 File: ChapterAnalysis/figs/ComparisonMCsEffPurity_example.png Graphic file (typ
 e png)
@@ -2169,7 +2169,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/ComparisonMCsEffPurity_example.pn
 g used on input line 843.
 (pdftex.def)             Requested size: 172.49174pt x 167.33174pt.
 
-<ChapterAnalysis/figs/ComparisonMCsSignificance_example.png, id=1878, 513.117pt
+<ChapterAnalysis/figs/ComparisonMCsSignificance_example.png, id=1879, 513.117pt
  x 494.3268pt>
 File: ChapterAnalysis/figs/ComparisonMCsSignificance_example.png Graphic file (
 type png)
@@ -2179,7 +2179,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/ComparisonMCsSignificance_example
 .png used on input line 847.
 (pdftex.def)             Requested size: 174.45747pt x 168.06888pt.
 
-<ChapterAnalysis/figs/FinalTrainTestROCs_example.png, id=1879, 722.7pt x 722.7p
+<ChapterAnalysis/figs/FinalTrainTestROCs_example.png, id=1880, 722.7pt x 722.7p
 t>
 File: ChapterAnalysis/figs/FinalTrainTestROCs_example.png Graphic file (type pn
 g)
@@ -2188,7 +2188,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/FinalTrainTestROCs_example.png us
 ed on input line 851.
 (pdftex.def)             Requested size: 173.45154pt x 173.45154pt.
 
-<ChapterAnalysis/figs/ComparisonMCsROC_example.png, id=1880, 722.7pt x 722.7pt>
+<ChapterAnalysis/figs/ComparisonMCsROC_example.png, id=1881, 722.7pt x 722.7pt>
 File: ChapterAnalysis/figs/ComparisonMCsROC_example.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/ComparisonMCsROC_example.png>
@@ -2215,7 +2215,7 @@ sis/figs/NNOvertrainingCheck_example.png> <./ChapterAnalysis/figs/ComparisonMCs
 EffPurity_example.png> <./ChapterAnalysis/figs/ComparisonMCsSignificance_exampl
 e.png> <./ChapterAnalysis/figs/FinalTrainTestROCs_example.png> <./ChapterAnalys
 is/figs/ComparisonMCsROC_example.png>]
-<ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_inputs.png, id=1905,
+<ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_inputs.png, id=1906,
  722.7pt x 505.89pt>
 File: ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_inputs.png Grap
 hic file (type png)
@@ -2226,7 +2226,7 @@ est_inputs.png used on input line 876.
 (pdftex.def)             Requested size: 236.01918pt x 71.50279pt.
 
 <ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_topology.png, id=190
-7, 722.7pt x 505.89pt>
+8, 722.7pt x 505.89pt>
 File: ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_topology.png Gr
 aphic file (type png)
 
@@ -2241,7 +2241,7 @@ Overfull \hbox (16.79428pt too wide) in paragraph at lines 876--877
 
 
 <ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_minimizer.png, id=19
-09, 722.7pt x 505.89pt>
+10, 722.7pt x 505.89pt>
 File: ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_minimizer.png G
 raphic file (type png)
 
@@ -2250,7 +2250,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_t
 est_minimizer.png used on input line 878.
 (pdftex.def)             Requested size: 236.01918pt x 71.50279pt.
 
-<ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_neuron.png, id=1911,
+<ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_neuron.png, id=1912,
  722.7pt x 505.89pt>
 File: ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_neuron.png Grap
 hic file (type png)
@@ -2266,7 +2266,7 @@ Overfull \hbox (16.79428pt too wide) in paragraph at lines 878--879
 
 
 <ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_scaletrain.png, id=1
-913, 722.7pt x 505.89pt>
+914, 722.7pt x 505.89pt>
 File: ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_scaletrain.png 
 Graphic file (type png)
 
@@ -2276,7 +2276,7 @@ est_scaletrain.png used on input line 880.
 (pdftex.def)             Requested size: 236.01918pt x 71.50279pt.
 
 <ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_nooutliers.png, id=1
-915, 722.7pt x 505.89pt>
+916, 722.7pt x 505.89pt>
 File: ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_nooutliers.png 
 Graphic file (type png)
 
@@ -2317,7 +2317,7 @@ pterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_minimizer.png> <./Chapte
 rAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_neuron.png> <./ChapterAnaly
 sis/figs/SummaryOfResults_Metrics_Njets2_test_scaletrain.png> <./ChapterAnalysi
 s/figs/SummaryOfResults_Metrics_Njets2_test_nooutliers.png>]
-<ChapterAnalysis/figs/2jets_dnn_mela_djet_rocs_hjj.png, id=1943, 389.20406pt x 
+<ChapterAnalysis/figs/2jets_dnn_mela_djet_rocs_hjj.png, id=1944, 389.20406pt x 
 374.14781pt>
 File: ChapterAnalysis/figs/2jets_dnn_mela_djet_rocs_hjj.png Graphic file (type 
 png)
@@ -2326,7 +2326,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/2jets_dnn_mela_djet_rocs_hjj.png
 used on input line 917.
 (pdftex.def)             Requested size: 202.38727pt x 194.55797pt.
 
-<ChapterAnalysis/figs/2jets_sb_seff.png, id=1944, 442.65375pt x 423.83344pt>
+<ChapterAnalysis/figs/2jets_sb_seff.png, id=1945, 442.65375pt x 423.83344pt>
 File: ChapterAnalysis/figs/2jets_sb_seff.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/2jets_sb_seff.png>
@@ -2334,7 +2334,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/2jets_sb_seff.png used on input l
 ine 919.
 (pdftex.def)             Requested size: 99.57928pt x 99.58147pt.
 
-<ChapterAnalysis/figs/3jets_split0p8_norm_roc_djet_mela_dnn_hjj.png, id=1945, 3
+<ChapterAnalysis/figs/3jets_split0p8_norm_roc_djet_mela_dnn_hjj.png, id=1946, 3
 88.45125pt x 375.65344pt>
 File: ChapterAnalysis/figs/3jets_split0p8_norm_roc_djet_mela_dnn_hjj.png Graphi
 c file (type png)
@@ -2344,7 +2344,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/3jets_split0p8_norm_roc_djet_mela
 _dnn_hjj.png used on input line 924.
 (pdftex.def)             Requested size: 201.9958pt x 195.3409pt.
 
-<ChapterAnalysis/figs/3jets_sb_seff.png, id=1946, 442.65375pt x 421.575pt>
+<ChapterAnalysis/figs/3jets_sb_seff.png, id=1947, 442.65375pt x 421.575pt>
 File: ChapterAnalysis/figs/3jets_sb_seff.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/3jets_sb_seff.png>
@@ -2416,7 +2416,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 976.
 [94]
-<ChapterAnalysis/figs/fake_rate_1D_pt_eta.png, id=1988, 849.1725pt x 724.7075pt
+<ChapterAnalysis/figs/fake_rate_1D_pt_eta.png, id=1989, 849.1725pt x 724.7075pt
 >
 File: ChapterAnalysis/figs/fake_rate_1D_pt_eta.png Graphic file (type png)
  <use ChapterAnalysis/figs/fake_rate_1D_pt_eta.png>
@@ -2424,7 +2424,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/fake_rate_1D_pt_eta.png used on i
 nput line 980.
 (pdftex.def)             Requested size: 424.5852pt x 362.35286pt.
 
-<ChapterAnalysis/figs/fake_rate_2D_maps_corrected.png, id=1990, 1250.6725pt x 5
+<ChapterAnalysis/figs/fake_rate_2D_maps_corrected.png, id=1991, 1250.6725pt x 5
 23.9575pt>
 File: ChapterAnalysis/figs/fake_rate_2D_maps_corrected.png Graphic file (type p
 ng)
@@ -2453,7 +2453,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1004.
  [96 <./ChapterAnalysis/figs/fake_rate_2D_maps_corrected.png>]
-<ChapterAnalysis/figs/m4l_2p2f_4mu_smhiggs.png, id=2006, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/m4l_2p2f_4mu_smhiggs.png, id=2007, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/m4l_2p2f_4mu_smhiggs.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/m4l_2p2f_4mu_smhiggs.png>
@@ -2461,7 +2461,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/m4l_2p2f_4mu_smhiggs.png used on
 input line 1010.
 (pdftex.def)             Requested size: 209.58461pt x 202.35756pt.
 
-<ChapterAnalysis/figs/m4l_2p2f_4e_smhiggs.png, id=2007, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/m4l_2p2f_4e_smhiggs.png, id=2008, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/m4l_2p2f_4e_smhiggs.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/m4l_2p2f_4e_smhiggs.png>
@@ -2469,21 +2469,21 @@ Package pdftex.def Info: ChapterAnalysis/figs/m4l_2p2f_4e_smhiggs.png used on i
 nput line 1011.
 (pdftex.def)             Requested size: 209.58461pt x 202.35756pt.
 
-<ChapterAnalysis/figs/m4l_2p2f_2mu2e_smhiggs.png, id=2008, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/m4l_2p2f_2mu2e_smhiggs.png, id=2009, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/m4l_2p2f_2mu2e_smhiggs.png Graphic file (type png)
 <use ChapterAnalysis/figs/m4l_2p2f_2mu2e_smhiggs.png>
 Package pdftex.def Info: ChapterAnalysis/figs/m4l_2p2f_2mu2e_smhiggs.png used o
 n input line 1012.
 (pdftex.def)             Requested size: 209.58461pt x 202.35756pt.
 
-<ChapterAnalysis/figs/m4l_2p2f_2e2mu_smhiggs.png, id=2009, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/m4l_2p2f_2e2mu_smhiggs.png, id=2010, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/m4l_2p2f_2e2mu_smhiggs.png Graphic file (type png)
 <use ChapterAnalysis/figs/m4l_2p2f_2e2mu_smhiggs.png>
 Package pdftex.def Info: ChapterAnalysis/figs/m4l_2p2f_2e2mu_smhiggs.png used o
 n input line 1013.
 (pdftex.def)             Requested size: 209.58461pt x 202.35756pt.
 
-<ChapterAnalysis/figs/m4l_3p1f_4mu_smhiggs.png, id=2010, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/m4l_3p1f_4mu_smhiggs.png, id=2011, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/m4l_3p1f_4mu_smhiggs.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/m4l_3p1f_4mu_smhiggs.png>
@@ -2491,7 +2491,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/m4l_3p1f_4mu_smhiggs.png used on
 input line 1021.
 (pdftex.def)             Requested size: 209.58461pt x 202.35756pt.
 
-<ChapterAnalysis/figs/m4l_3p1f_4e_smhiggs.png, id=2011, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/m4l_3p1f_4e_smhiggs.png, id=2012, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/m4l_3p1f_4e_smhiggs.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/m4l_3p1f_4e_smhiggs.png>
@@ -2499,14 +2499,14 @@ Package pdftex.def Info: ChapterAnalysis/figs/m4l_3p1f_4e_smhiggs.png used on i
 nput line 1022.
 (pdftex.def)             Requested size: 209.58461pt x 202.35756pt.
 
-<ChapterAnalysis/figs/m4l_3p1f_2mu2e_smhiggs.png, id=2012, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/m4l_3p1f_2mu2e_smhiggs.png, id=2013, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/m4l_3p1f_2mu2e_smhiggs.png Graphic file (type png)
 <use ChapterAnalysis/figs/m4l_3p1f_2mu2e_smhiggs.png>
 Package pdftex.def Info: ChapterAnalysis/figs/m4l_3p1f_2mu2e_smhiggs.png used o
 n input line 1023.
 (pdftex.def)             Requested size: 209.58461pt x 202.35756pt.
 
-<ChapterAnalysis/figs/m4l_3p1f_2e2mu_smhiggs.png, id=2013, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/m4l_3p1f_2e2mu_smhiggs.png, id=2014, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/m4l_3p1f_2e2mu_smhiggs.png Graphic file (type png)
 <use ChapterAnalysis/figs/m4l_3p1f_2e2mu_smhiggs.png>
 Package pdftex.def Info: ChapterAnalysis/figs/m4l_3p1f_2e2mu_smhiggs.png used o
@@ -2531,7 +2531,7 @@ Package babel Info: Redefining portuges shorthand "|
  [99 <./ChapterAnalysis/figs/m4l_3p1f_4mu_smhiggs.png> <./ChapterAnalysis/figs/
 m4l_3p1f_4e_smhiggs.png> <./ChapterAnalysis/figs/m4l_3p1f_2mu2e_smhiggs.png> <.
 /ChapterAnalysis/figs/m4l_3p1f_2e2mu_smhiggs.png>] <ChapterAnalysis/figs/m4l_zx
-_4l_smhiggs.png, id=2047, 698.61pt x 674.52pt>
+_4l_smhiggs.png, id=2048, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/m4l_zx_4l_smhiggs.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/m4l_zx_4l_smhiggs.png>
@@ -2539,7 +2539,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/m4l_zx_4l_smhiggs.png used on inp
 ut line 1073.
 (pdftex.def)             Requested size: 181.63431pt x 175.37106pt.
 
-<ChapterAnalysis/figs/m4l_zx_4l_vbf.png, id=2048, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/m4l_zx_4l_vbf.png, id=2049, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/m4l_zx_4l_vbf.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/m4l_zx_4l_vbf.png>
@@ -2564,7 +2564,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1103.
  [101]
-<ChapterAnalysis/figs/fake_rate_1D_pt_eta_for_systematics.png, id=2065, 1100.11
+<ChapterAnalysis/figs/fake_rate_1D_pt_eta_for_systematics.png, id=2066, 1100.11
 pt x 724.7075pt>
 File: ChapterAnalysis/figs/fake_rate_1D_pt_eta_for_systematics.png Graphic file
  (type png)
@@ -2578,7 +2578,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1111.
  [102 <./ChapterAnalysis/figs/fake_rate_1D_pt_eta_for_systematics.png>]
-<ChapterAnalysis/figs/fake_rate_2D_maps_for_systematics.png, id=2071, 899.36pt 
+<ChapterAnalysis/figs/fake_rate_2D_maps_for_systematics.png, id=2072, 899.36pt 
 x 724.7075pt>
 File: ChapterAnalysis/figs/fake_rate_2D_maps_for_systematics.png Graphic file (
 type png)
@@ -2665,7 +2665,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1230.
 [108]
 <ChapterAnalysis/figs/nn_shape_systematic_uncertainty_per_proc_channel.png, id=
-2128, 1276.77pt x 574.145pt>
+2129, 1276.77pt x 574.145pt>
 File: ChapterAnalysis/figs/nn_shape_systematic_uncertainty_per_proc_channel.png
  Graphic file (type png)
 
@@ -2684,7 +2684,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1238.
 [109 <./ChapterAnalysis/figs/nn_shape_systematic_uncertainty_per_proc_channel.p
 ng>]
-<ChapterAnalysis/figs/k57nj2_uncertainty_j1pt.png, id=2134, 698.61pt x 674.52pt
+<ChapterAnalysis/figs/k57nj2_uncertainty_j1pt.png, id=2135, 698.61pt x 674.52pt
 >
 File: ChapterAnalysis/figs/k57nj2_uncertainty_j1pt.png Graphic file (type png)
  <use ChapterAnalysis/figs/k57nj2_uncertainty_j1pt.png>
@@ -2711,7 +2711,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1269.
 
 
-<ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_4mu.png, id=2140, 698.61pt x 674
+<ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_4mu.png, id=2141, 698.61pt x 674
 .52pt>
 File: ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_4mu.png Graphic file (type 
 png)
@@ -2720,7 +2720,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_4mu.png
 used on input line 1279.
 (pdftex.def)             Requested size: 228.225pt x 247.04143pt.
 
-<ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_4e.png, id=2142, 698.61pt x 674.
+<ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_4e.png, id=2143, 698.61pt x 674.
 52pt>
 File: ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_4e.png Graphic file (type p
 ng)
@@ -2734,7 +2734,7 @@ Overfull \hbox (1.20593pt too wide) in paragraph at lines 1279--1280
  []
 
 
-<ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_2e2mu.png, id=2144, 698.61pt x 6
+<ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_2e2mu.png, id=2145, 698.61pt x 6
 74.52pt>
 File: ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_2e2mu.png Graphic file (typ
 e png)
@@ -2773,7 +2773,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1293.
 
-<ChapterAnalysis/figs/m4l_smhiggs_4mu_full_range.png, id=2176, 698.61pt x 674.5
+<ChapterAnalysis/figs/m4l_smhiggs_4mu_full_range.png, id=2177, 698.61pt x 674.5
 2pt>
 File: ChapterAnalysis/figs/m4l_smhiggs_4mu_full_range.png Graphic file (type pn
 g)
@@ -2782,7 +2782,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/m4l_smhiggs_4mu_full_range.png us
 ed on input line 1353.
 (pdftex.def)             Requested size: 233.91545pt x 247.04143pt.
 
-<ChapterAnalysis/figs/m4l_smhiggs_4e_full_range.png, id=2178, 698.61pt x 674.52
+<ChapterAnalysis/figs/m4l_smhiggs_4e_full_range.png, id=2179, 698.61pt x 674.52
 pt>
 File: ChapterAnalysis/figs/m4l_smhiggs_4e_full_range.png Graphic file (type png
 )
@@ -2796,7 +2796,7 @@ Overfull \hbox (12.58682pt too wide) in paragraph at lines 1353--1354
  []
 
 
-<ChapterAnalysis/figs/m4l_smhiggs_2e2mu_full_range.png, id=2180, 698.61pt x 674
+<ChapterAnalysis/figs/m4l_smhiggs_2e2mu_full_range.png, id=2181, 698.61pt x 674
 .52pt>
 File: ChapterAnalysis/figs/m4l_smhiggs_2e2mu_full_range.png Graphic file (type 
 png)
@@ -2805,7 +2805,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/m4l_smhiggs_2e2mu_full_range.png
 used on input line 1355.
 (pdftex.def)             Requested size: 233.91545pt x 247.04143pt.
 
-<ChapterAnalysis/figs/m4l_smhiggs_4l_full_range.png, id=2182, 698.61pt x 674.52
+<ChapterAnalysis/figs/m4l_smhiggs_4l_full_range.png, id=2183, 698.61pt x 674.52
 pt>
 File: ChapterAnalysis/figs/m4l_smhiggs_4l_full_range.png Graphic file (type png
 )
@@ -2819,7 +2819,7 @@ Overfull \hbox (12.58682pt too wide) in paragraph at lines 1355--1357
  []
 
 
-<ChapterAnalysis/figs/m4l_smhiggs_4l_118_130GeV.png, id=2185, 698.61pt x 674.52
+<ChapterAnalysis/figs/m4l_smhiggs_4l_118_130GeV.png, id=2186, 698.61pt x 674.52
 pt>
 File: ChapterAnalysis/figs/m4l_smhiggs_4l_118_130GeV.png Graphic file (type png
 )
@@ -2828,7 +2828,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/m4l_smhiggs_4l_118_130GeV.png use
 d on input line 1364.
 (pdftex.def)             Requested size: 233.91545pt x 247.04143pt.
 
-<ChapterAnalysis/figs/m4l_vbf_4l_118_130GeV.png, id=2187, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/m4l_vbf_4l_118_130GeV.png, id=2188, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/m4l_vbf_4l_118_130GeV.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/m4l_vbf_4l_118_130GeV.png>
@@ -2840,7 +2840,7 @@ Overfull \hbox (12.58682pt too wide) in paragraph at lines 1364--1366
  [][][] 
  []
 
-<ChapterAnalysis/figs/k57nj2_shapes_prefit.png, id=2193, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/k57nj2_shapes_prefit.png, id=2194, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/k57nj2_shapes_prefit.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/k57nj2_shapes_prefit.png>
@@ -2848,7 +2848,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/k57nj2_shapes_prefit.png used on
 input line 1377.
 (pdftex.def)             Requested size: 220.25824pt x 247.04143pt.
 
-<ChapterAnalysis/figs/k24nj3_shapes_prefit.png, id=2195, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/k24nj3_shapes_prefit.png, id=2196, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/k24nj3_shapes_prefit.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/k24nj3_shapes_prefit.png>
@@ -2856,7 +2856,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/k24nj3_shapes_prefit.png used on
 input line 1378.
 (pdftex.def)             Requested size: 220.25824pt x 247.04143pt.
 
-<ChapterAnalysis/figs/k57nj2_k24nj3_shapes_prefit.png, id=2197, 698.61pt x 674.
+<ChapterAnalysis/figs/k57nj2_k24nj3_shapes_prefit.png, id=2198, 698.61pt x 674.
 52pt>
 File: ChapterAnalysis/figs/k57nj2_k24nj3_shapes_prefit.png Graphic file (type p
 ng)
@@ -2905,7 +2905,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1413.
  [118]
-<ChapterAnalysis/figs/LikelihoodScans.png, id=2260, 798.985pt x 723.70375pt>
+<ChapterAnalysis/figs/LikelihoodScans.png, id=2261, 798.985pt x 723.70375pt>
 File: ChapterAnalysis/figs/LikelihoodScans.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/LikelihoodScans.png>
@@ -2913,7 +2913,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/LikelihoodScans.png used on input
  line 1429.
 (pdftex.def)             Requested size: 239.69734pt x 217.1128pt.
 
-<ChapterAnalysis/figs/ChannelsCompatibility.png, id=2262, 798.985pt x 723.70375
+<ChapterAnalysis/figs/ChannelsCompatibility.png, id=2263, 798.985pt x 723.70375
 pt>
 File: ChapterAnalysis/figs/ChannelsCompatibility.png Graphic file (type png)
  <use ChapterAnalysis/figs/ChannelsCompatibility.png>
@@ -2931,7 +2931,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1456.
  [120 <./ChapterAnalysis/figs/LikelihoodScans.png> <./ChapterAnalysis/figs/Chan
 nelsCompatibility.png>]
-<ChapterAnalysis/figs/k57nj2_shapes_fit_s.png, id=2285, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/k57nj2_shapes_fit_s.png, id=2286, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/k57nj2_shapes_fit_s.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/k57nj2_shapes_fit_s.png>
@@ -2939,7 +2939,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/k57nj2_shapes_fit_s.png used on i
 nput line 1460.
 (pdftex.def)             Requested size: 220.25824pt x 247.04143pt.
 
-<ChapterAnalysis/figs/k24nj3_shapes_fit_s.png, id=2287, 698.61pt x 674.52pt>
+<ChapterAnalysis/figs/k24nj3_shapes_fit_s.png, id=2288, 698.61pt x 674.52pt>
 File: ChapterAnalysis/figs/k24nj3_shapes_fit_s.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/k24nj3_shapes_fit_s.png>
@@ -2947,7 +2947,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/k24nj3_shapes_fit_s.png used on i
 nput line 1461.
 (pdftex.def)             Requested size: 220.25824pt x 247.04143pt.
 
-<ChapterAnalysis/figs/k57nj2_k24nj3_shapes_fit_s.png, id=2289, 698.61pt x 674.5
+<ChapterAnalysis/figs/k57nj2_k24nj3_shapes_fit_s.png, id=2290, 698.61pt x 674.5
 2pt>
 File: ChapterAnalysis/figs/k57nj2_k24nj3_shapes_fit_s.png Graphic file (type pn
 g)
@@ -2956,7 +2956,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/k57nj2_k24nj3_shapes_fit_s.png us
 ed on input line 1462.
 (pdftex.def)             Requested size: 220.25824pt x 247.04143pt.
 
-<ChapterAnalysis/figs/impacts_obs_4l_combination.pdf, id=2293, 569.12625pt x 46
+<ChapterAnalysis/figs/impacts_obs_4l_combination.pdf, id=2294, 569.12625pt x 46
 7.7475pt>
 File: ChapterAnalysis/figs/impacts_obs_4l_combination.pdf Graphic file (type pd
 f)
@@ -2992,7 +2992,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1527.
  [124]
-<ChapterAnalysis/figs/Limits.png, id=2376, 798.985pt x 723.70375pt>
+<ChapterAnalysis/figs/Limits.png, id=2377, 798.985pt x 723.70375pt>
 File: ChapterAnalysis/figs/Limits.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/Limits.png>
@@ -3000,7 +3000,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/Limits.png used on input line 154
 5.
 (pdftex.def)             Requested size: 227.61961pt x 227.62555pt.
 
-<ChapterAnalysis/figs/Pvalues.png, id=2378, 798.985pt x 723.70375pt>
+<ChapterAnalysis/figs/Pvalues.png, id=2379, 798.985pt x 723.70375pt>
 File: ChapterAnalysis/figs/Pvalues.png Graphic file (type png)
 
 <use ChapterAnalysis/figs/Pvalues.png>
@@ -3020,7 +3020,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1554.
  [126 <./ChapterAnalysis/figs/Limits.png> <./ChapterAnalysis/figs/Pvalues.png>]
 
-<ChapterAnalysis/figs/ChannelsCompatibility_39fb_vs_150fb.png, id=2398, 798.985
+<ChapterAnalysis/figs/ChannelsCompatibility_39fb_vs_150fb.png, id=2399, 798.985
 pt x 695.59875pt>
 File: ChapterAnalysis/figs/ChannelsCompatibility_39fb_vs_150fb.png Graphic file
  (type png)
@@ -3127,7 +3127,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
 
-<AppendixNeuralNetwork/figs/Features/layer1_neuron0_vs_inputs.png, id=2534, 732
+<AppendixNeuralNetwork/figs/Features/layer1_neuron0_vs_inputs.png, id=2535, 732
 .48656pt x 390.70969pt>
 File: AppendixNeuralNetwork/figs/Features/layer1_neuron0_vs_inputs.png Graphic 
 file (type png)
@@ -3137,7 +3137,7 @@ Package pdftex.def Info: AppendixNeuralNetwork/figs/Features/layer1_neuron0_vs_
 inputs.png used on input line 11.
 (pdftex.def)             Requested size: 344.26872pt x 183.63358pt.
 
-<AppendixNeuralNetwork/figs/Features/layer2_neuron4_vs_inputs.png, id=2536, 730
+<AppendixNeuralNetwork/figs/Features/layer2_neuron4_vs_inputs.png, id=2537, 730
 .98094pt x 393.72093pt>
 File: AppendixNeuralNetwork/figs/Features/layer2_neuron4_vs_inputs.png Graphic 
 file (type png)
@@ -3147,7 +3147,7 @@ Package pdftex.def Info: AppendixNeuralNetwork/figs/Features/layer2_neuron4_vs_
 inputs.png used on input line 12.
 (pdftex.def)             Requested size: 343.56108pt x 185.04886pt.
 
-<AppendixNeuralNetwork/figs/Features/layer3_neuron1_vs_inputs.png, id=2538, 729
+<AppendixNeuralNetwork/figs/Features/layer3_neuron1_vs_inputs.png, id=2539, 729
 .47531pt x 389.95688pt>
 File: AppendixNeuralNetwork/figs/Features/layer3_neuron1_vs_inputs.png Graphic 
 file (type png)
@@ -3190,7 +3190,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <ChapterAnalysis/figs/event_display_Run278167_Lumi1564_Event2852832207_Njets2_A
-NN0p93_DoubleEG_Run2016F_2.png, id=2556, 767.86874pt x 474.27188pt>
+NN0p93_DoubleEG_Run2016F_2.png, id=2557, 767.86874pt x 474.27188pt>
 File: ChapterAnalysis/figs/event_display_Run278167_Lumi1564_Event2852832207_Nje
 ts2_ANN0p93_DoubleEG_Run2016F_2.png Graphic file (type png)
 
@@ -3201,7 +3201,7 @@ Event2852832207_Njets2_ANN0p93_DoubleEG_Run2016F_2.png used on input line 6.
 (pdftex.def)             Requested size: 537.50446pt x 331.98805pt.
 
 <ChapterAnalysis/figs/event_display_Run275658_Lumi216_Event425010503_Njets2_ANN
-0p15_DoubleEG_Run2016C_2.png, id=2557, 767.11594pt x 475.02469pt>
+0p15_DoubleEG_Run2016C_2.png, id=2558, 767.11594pt x 475.02469pt>
 File: ChapterAnalysis/figs/event_display_Run275658_Lumi216_Event425010503_Njets
 2_ANN0p15_DoubleEG_Run2016C_2.png Graphic file (type png)
 
@@ -3212,7 +3212,7 @@ vent425010503_Njets2_ANN0p15_DoubleEG_Run2016C_2.png used on input line 12.
 (pdftex.def)             Requested size: 536.9775pt x 332.515pt.
 
 <ChapterAnalysis/figs/event_display_Run278018_Lumi453_Event844012107_Njets3_ANN
-0p77_DoubleMuon_Run2016F_2.png, id=2558, 767.86874pt x 474.27188pt>
+0p77_DoubleMuon_Run2016F_2.png, id=2559, 767.86874pt x 474.27188pt>
 File: ChapterAnalysis/figs/event_display_Run278018_Lumi453_Event844012107_Njets
 3_ANN0p77_DoubleMuon_Run2016F_2.png Graphic file (type png)
 
@@ -3223,7 +3223,7 @@ vent844012107_Njets3_ANN0p77_DoubleMuon_Run2016F_2.png used on input line 18.
 (pdftex.def)             Requested size: 537.50446pt x 331.98805pt.
 
 <ChapterAnalysis/figs/event_display_Run278018_Lumi361_Event673988874_Njets3_ANN
-0p04_DoubleEG_Run2016F_2.png, id=2559, 767.86874pt x 474.27188pt>
+0p04_DoubleEG_Run2016F_2.png, id=2560, 767.86874pt x 474.27188pt>
 File: ChapterAnalysis/figs/event_display_Run278018_Lumi361_Event673988874_Njets
 3_ANN0p04_DoubleEG_Run2016F_2.png Graphic file (type png)
 
@@ -3275,7 +3275,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
 
-<ChapterAnalysis/figs/k57nj2_architecture_horizontal.png, id=2576, 1050.92625pt
+<ChapterAnalysis/figs/k57nj2_architecture_horizontal.png, id=2577, 1050.92625pt
  x 581.17125pt>
 File: ChapterAnalysis/figs/k57nj2_architecture_horizontal.png Graphic file (typ
 e png)
@@ -3284,7 +3284,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/k57nj2_architecture_horizontal.pn
 g used on input line 7.
 (pdftex.def)             Requested size: 512.16815pt x 312.98534pt.
 
-<ChapterAnalysis/figs/k24nj3_architecture_horizontal.png, id=2577, 1401.235pt x
+<ChapterAnalysis/figs/k24nj3_architecture_horizontal.png, id=2578, 1401.235pt x
  774.895pt>
 File: ChapterAnalysis/figs/k24nj3_architecture_horizontal.png Graphic file (typ
 e png)
@@ -3339,7 +3339,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 17.
 
 
-<ChapterAnalysis/figs/Significance_versus_NNs_cutting.png, id=2588, 698.61pt x 
+<ChapterAnalysis/figs/Significance_versus_NNs_cutting.png, id=2589, 698.61pt x 
 598.235pt>
 File: ChapterAnalysis/figs/Significance_versus_NNs_cutting.png Graphic file (ty
 pe png)
@@ -3348,7 +3348,7 @@ Package pdftex.def Info: ChapterAnalysis/figs/Significance_versus_NNs_cutting.p
 ng used on input line 23.
 (pdftex.def)             Requested size: 284.52382pt x 227.62376pt.
 
-<ChapterAnalysis/figs/EfficiencyTimesPurity_versus_NNs_cutting.png, id=2589, 69
+<ChapterAnalysis/figs/EfficiencyTimesPurity_versus_NNs_cutting.png, id=2590, 69
 7.60625pt x 574.145pt>
 File: ChapterAnalysis/figs/EfficiencyTimesPurity_versus_NNs_cutting.png Graphic
  file (type png)
@@ -3378,7 +3378,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-<AppendixCMSL1TT/figs/Schedule_HLLHC.png, id=2597, 726.5544pt x 462.0462pt>
+<AppendixCMSL1TT/figs/Schedule_HLLHC.png, id=2598, 726.5544pt x 462.0462pt>
 File: AppendixCMSL1TT/figs/Schedule_HLLHC.png Graphic file (type png)
 
 <use AppendixCMSL1TT/figs/Schedule_HLLHC.png>
@@ -3389,7 +3389,7 @@ line 8.
 
 LaTeX Warning: Float too large for page by 7.86494pt on input line 11.
 
-<AppendixCMSL1TT/figs/stub_definition.png, id=2606, 361.35pt x 213.04594pt>
+<AppendixCMSL1TT/figs/stub_definition.png, id=2607, 361.35pt x 213.04594pt>
 File: AppendixCMSL1TT/figs/stub_definition.png Graphic file (type png)
 
 <use AppendixCMSL1TT/figs/stub_definition.png>
@@ -3415,7 +3415,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 42.
  [148 <./AppendixCMSL1TT/figs/stub_definition.png>]
-<AppendixCMSL1TT/figs/road_example.png, id=2629, 603.75563pt x 324.46219pt>
+<AppendixCMSL1TT/figs/road_example.png, id=2630, 603.75563pt x 324.46219pt>
 File: AppendixCMSL1TT/figs/road_example.png Graphic file (type png)
 
 <use AppendixCMSL1TT/figs/road_example.png>
@@ -3432,7 +3432,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 65.
  [150]
-<AppendixCMSL1TT/figs/ttbar_pu200_mu_road_sorting_comparison.png, id=2650, 395.
+<AppendixCMSL1TT/figs/ttbar_pu200_mu_road_sorting_comparison.png, id=2651, 395.
 97937pt x 347.04657pt>
 File: AppendixCMSL1TT/figs/ttbar_pu200_mu_road_sorting_comparison.png Graphic f
 ile (type png)
@@ -3446,7 +3446,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 77.
  [151 <./AppendixCMSL1TT/figs/ttbar_pu200_mu_road_sorting_comparison.png>]
-<AppendixCMSL1TT/figs/deltaS_workway.png, id=2659, 298.86656pt x 312.41719pt>
+<AppendixCMSL1TT/figs/deltaS_workway.png, id=2660, 298.86656pt x 312.41719pt>
 File: AppendixCMSL1TT/figs/deltaS_workway.png Graphic file (type png)
 
 <use AppendixCMSL1TT/figs/deltaS_workway.png>
@@ -3458,7 +3458,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 93.
  [152 <./AppendixCMSL1TT/figs/deltaS_workway.png (PNG copy)>]
-<AppendixCMSL1TT/figs/ttbar_pu200_asym115577.png, id=2667, 760.34062pt x 495.35
+<AppendixCMSL1TT/figs/ttbar_pu200_asym115577.png, id=2668, 760.34062pt x 495.35
 063pt>
 File: AppendixCMSL1TT/figs/ttbar_pu200_asym115577.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/ttbar_pu200_asym115577.png>
@@ -3466,7 +3466,7 @@ Package pdftex.def Info: AppendixCMSL1TT/figs/ttbar_pu200_asym115577.png used o
 n input line 97.
 (pdftex.def)             Requested size: 608.27332pt x 396.28105pt.
 
-<AppendixCMSL1TT/figs/ttbar_pu200_sym115577.png, id=2668, 759.58781pt x 496.103
+<AppendixCMSL1TT/figs/ttbar_pu200_sym115577.png, id=2669, 759.58781pt x 496.103
 44pt>
 File: AppendixCMSL1TT/figs/ttbar_pu200_sym115577.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/ttbar_pu200_sym115577.png>
@@ -3474,7 +3474,7 @@ Package pdftex.def Info: AppendixCMSL1TT/figs/ttbar_pu200_sym115577.png used on
  input line 105.
 (pdftex.def)             Requested size: 607.67107pt x 396.88329pt.
 
-<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l1.png, id=2671, 700.6175pt x 676.5
+<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l1.png, id=2672, 700.6175pt x 676.5
 275pt>
 File: AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l1.png Graphic file (type png)
 
@@ -3483,7 +3483,7 @@ Package pdftex.def Info: AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l1.png used
  on input line 115.
 (pdftex.def)             Requested size: 133.1187pt x 128.54155pt.
 
-<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l2.png, id=2672, 700.6175pt x 676.5
+<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l2.png, id=2673, 700.6175pt x 676.5
 275pt>
 File: AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l2.png Graphic file (type png)
 
@@ -3492,7 +3492,7 @@ Package pdftex.def Info: AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l2.png used
  on input line 116.
 (pdftex.def)             Requested size: 133.1187pt x 128.54155pt.
 
-<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l3.png, id=2673, 700.6175pt x 676.5
+<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l3.png, id=2674, 700.6175pt x 676.5
 275pt>
 File: AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l3.png Graphic file (type png)
 
@@ -3501,7 +3501,7 @@ Package pdftex.def Info: AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l3.png used
  on input line 117.
 (pdftex.def)             Requested size: 133.1187pt x 128.54155pt.
 
-<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l4.png, id=2674, 700.6175pt x 676.5
+<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l4.png, id=2675, 700.6175pt x 676.5
 275pt>
 File: AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l4.png Graphic file (type png)
 
@@ -3510,7 +3510,7 @@ Package pdftex.def Info: AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l4.png used
  on input line 118.
 (pdftex.def)             Requested size: 133.1187pt x 128.54155pt.
 
-<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l5.png, id=2675, 700.6175pt x 676.5
+<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l5.png, id=2676, 700.6175pt x 676.5
 275pt>
 File: AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l5.png Graphic file (type png)
 
@@ -3519,7 +3519,7 @@ Package pdftex.def Info: AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l5.png used
  on input line 119.
 (pdftex.def)             Requested size: 133.1187pt x 128.54155pt.
 
-<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l6.png, id=2676, 700.6175pt x 676.5
+<AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l6.png, id=2677, 700.6175pt x 676.5
 275pt>
 File: AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l6.png Graphic file (type png)
 
@@ -3552,7 +3552,7 @@ S_l3.png> <./AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l4.png> <./AppendixCMSL
 1TT/figs/JetPt250_PU200_deltaS_l5.png> <./AppendixCMSL1TT/figs/JetPt250_PU200_d
 eltaS_l6.png>]
 <AppendixCMSL1TT/figs/final_plots/ttbar_pu200_smu_roads_combs_deltaS.png, id=26
-98, 411.78844pt x 447.92343pt>
+99, 411.78844pt x 447.92343pt>
 File: AppendixCMSL1TT/figs/final_plots/ttbar_pu200_smu_roads_combs_deltaS.png G
 raphic file (type png)
 
@@ -3561,8 +3561,8 @@ Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/ttbar_pu200_smu_roads
 _combs_deltaS.png used on input line 150.
 (pdftex.def)             Requested size: 199.17049pt x 227.61775pt.
 
-<AppendixCMSL1TT/figs/final_plots/jet_Pt250_pu200_roads_combs_deltaS.png, id=26
-99, 413.29407pt x 447.17062pt>
+<AppendixCMSL1TT/figs/final_plots/jet_Pt250_pu200_roads_combs_deltaS.png, id=27
+00, 413.29407pt x 447.17062pt>
 File: AppendixCMSL1TT/figs/final_plots/jet_Pt250_pu200_roads_combs_deltaS.png G
 raphic file (type png)
 
@@ -3571,7 +3571,7 @@ Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/jet_Pt250_pu200_roads
 _combs_deltaS.png used on input line 151.
 (pdftex.def)             Requested size: 199.1735pt x 227.62413pt.
 
-<AppendixCMSL1TT/figs/final_plots/ttbar_pu200_pt_split_graph.png, id=2700, 395.
+<AppendixCMSL1TT/figs/final_plots/ttbar_pu200_pt_split_graph.png, id=2701, 395.
 22656pt x 469.00218pt>
 File: AppendixCMSL1TT/figs/final_plots/ttbar_pu200_pt_split_graph.png Graphic f
 ile (type png)
@@ -3581,7 +3581,7 @@ Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/ttbar_pu200_pt_split_
 graph.png used on input line 159.
 (pdftex.def)             Requested size: 199.1687pt x 227.61607pt.
 
-<AppendixCMSL1TT/figs/final_plots/jet250_pu200_pt_split_graph.png, id=2701, 394
+<AppendixCMSL1TT/figs/final_plots/jet250_pu200_pt_split_graph.png, id=2702, 394
 .47375pt x 469.00218pt>
 File: AppendixCMSL1TT/figs/final_plots/jet250_pu200_pt_split_graph.png Graphic 
 file (type png)
@@ -3591,7 +3591,7 @@ Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/jet250_pu200_pt_split
 _graph.png used on input line 160.
 (pdftex.def)             Requested size: 199.16853pt x 227.61607pt.
 
-<AppendixCMSL1TT/figs/sf_scans_with_DS_maxRoads200_maxCombs500.png, id=2703, 38
+<AppendixCMSL1TT/figs/sf_scans_with_DS_maxRoads200_maxCombs500.png, id=2704, 38
 9.5353pt x 325.215pt>
 File: AppendixCMSL1TT/figs/sf_scans_with_DS_maxRoads200_maxCombs500.png Graphic
  file (type png)
@@ -3615,7 +3615,7 @@ Package babel Info: Redefining portuges shorthand "|
 [158 <./AppendixCMSL1TT/figs/final_plots/ttbar_pu200_pt_split_graph.png> <./App
 endixCMSL1TT/figs/final_plots/jet250_pu200_pt_split_graph.png> <./AppendixCMSL1
 TT/figs/sf_scans_with_DS_maxRoads200_maxCombs500.png>]
-<AppendixCMSL1TT/luciano_mupu_sf0p8_plot.png, id=2715, 429.85594pt x 317.68687p
+<AppendixCMSL1TT/luciano_mupu_sf0p8_plot.png, id=2716, 429.85594pt x 317.68687p
 t>
 File: AppendixCMSL1TT/luciano_mupu_sf0p8_plot.png Graphic file (type png)
  <use AppendixCMSL1TT/luciano_mupu_sf0p8_plot.png>
@@ -3623,149 +3623,134 @@ Package pdftex.def Info: AppendixCMSL1TT/luciano_mupu_sf0p8_plot.png used on in
 put line 182.
 (pdftex.def)             Requested size: 213.39917pt x 213.4017pt.
 
-<AppendixCMSL1TT/luciano_mupu_sf0p5_plot.png, id=2716, 423.83344pt x 316.93407p
-t>
-File: AppendixCMSL1TT/luciano_mupu_sf0p5_plot.png Graphic file (type png)
- <use AppendixCMSL1TT/luciano_mupu_sf0p5_plot.png>
-Package pdftex.def Info: AppendixCMSL1TT/luciano_mupu_sf0p5_plot.png used on in
-put line 183.
-(pdftex.def)             Requested size: 213.39717pt x 213.39897pt.
-
 <AppendixCMSL1TT/figs/muon_road_eff_vs_pile_up_deltaS.png, id=2717, 402.75468pt
  x 356.0803pt>
 File: AppendixCMSL1TT/figs/muon_road_eff_vs_pile_up_deltaS.png Graphic file (ty
 pe png)
  <use AppendixCMSL1TT/figs/muon_road_eff_vs_pile_up_deltaS.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/muon_road_eff_vs_pile_up_deltaS.p
-ng used on input line 184.
-(pdftex.def)             Requested size: 227.61827pt x 227.61894pt.
+ng used on input line 183.
+(pdftex.def)             Requested size: 227.61827pt x 227.62773pt.
 
+Overfull \hbox (14.2261pt too wide) in paragraph at lines 182--185
+ [][][][] 
+ []
 
-LaTeX Warning: Float too large for page by 27.2692pt on input line 187.
-
-<AppendixCMSL1TT/figs/tfChi2_Pt_all.png, id=2721, 578.16pt x 508.90125pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 191.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 191.
+[159 <./AppendixCMSL1TT/figs/muon_road_eff_vs_pile_up_deltaS.png> <./AppendixCM
+SL1TT/luciano_mupu_sf0p8_plot.png>]
+<AppendixCMSL1TT/figs/tfChi2_Pt_all.png, id=2735, 578.16pt x 508.90125pt>
 File: AppendixCMSL1TT/figs/tfChi2_Pt_all.png Graphic file (type png)
 
 <use AppendixCMSL1TT/figs/tfChi2_Pt_all.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/tfChi2_Pt_all.png used on input l
-ine 197.
+ine 204.
 (pdftex.def)             Requested size: 231.2599pt x 203.55688pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 211.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 204.
- [159]
+(babel)             in language  on input line 211.
+ [160]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 211.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 204.
- [160 <./AppendixCMSL1TT/luciano_mupu_sf0p8_plot.png> <./AppendixCMSL1TT/lucian
-o_mupu_sf0p5_plot.png> <./AppendixCMSL1TT/figs/muon_road_eff_vs_pile_up_deltaS.
-png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 204.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 211.
  [161 <./AppendixCMSL1TT/figs/tfChi2_Pt_all.png>]
-<AppendixCMSL1TT/figs/chi2_6b6_3to5_99cut.png, id=2740, 700.6175pt x 676.5275pt
+<AppendixCMSL1TT/figs/chi2_6b6_3to5_99cut.png, id=2747, 700.6175pt x 676.5275pt
 >
 File: AppendixCMSL1TT/figs/chi2_6b6_3to5_99cut.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/chi2_6b6_3to5_99cut.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/chi2_6b6_3to5_99cut.png used on i
-nput line 207.
+nput line 214.
 (pdftex.def)             Requested size: 160.9276pt x 169.13145pt.
 
-<AppendixCMSL1TT/figs/chi2_6b6_5to10_99cut.png, id=2742, 700.6175pt x 676.5275p
+<AppendixCMSL1TT/figs/chi2_6b6_5to10_99cut.png, id=2749, 700.6175pt x 676.5275p
 t>
 File: AppendixCMSL1TT/figs/chi2_6b6_5to10_99cut.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/chi2_6b6_5to10_99cut.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/chi2_6b6_5to10_99cut.png used on 
-input line 208.
+input line 215.
 (pdftex.def)             Requested size: 160.9276pt x 169.13145pt.
 
-<AppendixCMSL1TT/figs/chi2_6b6_10to13_99cut.png, id=2744, 700.6175pt x 676.5275
+<AppendixCMSL1TT/figs/chi2_6b6_10to13_99cut.png, id=2751, 700.6175pt x 676.5275
 pt>
 File: AppendixCMSL1TT/figs/chi2_6b6_10to13_99cut.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/chi2_6b6_10to13_99cut.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/chi2_6b6_10to13_99cut.png used on
- input line 209.
+ input line 216.
 (pdftex.def)             Requested size: 160.9276pt x 169.13145pt.
 
-<AppendixCMSL1TT/figs/chi2_6b6_13to15_99cut.png, id=2746, 700.6175pt x 676.5275
+<AppendixCMSL1TT/figs/chi2_6b6_13to15_99cut.png, id=2753, 700.6175pt x 676.5275
 pt>
 File: AppendixCMSL1TT/figs/chi2_6b6_13to15_99cut.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/chi2_6b6_13to15_99cut.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/chi2_6b6_13to15_99cut.png used on
- input line 210.
+ input line 217.
 (pdftex.def)             Requested size: 160.9276pt x 169.13145pt.
 
-<AppendixCMSL1TT/figs/chi2_6b6_15to20_99cut.png, id=2748, 700.6175pt x 676.5275
+<AppendixCMSL1TT/figs/chi2_6b6_15to20_99cut.png, id=2755, 700.6175pt x 676.5275
 pt>
 File: AppendixCMSL1TT/figs/chi2_6b6_15to20_99cut.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/chi2_6b6_15to20_99cut.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/chi2_6b6_15to20_99cut.png used on
- input line 211.
+ input line 218.
 (pdftex.def)             Requested size: 160.9276pt x 169.13145pt.
 
-<AppendixCMSL1TT/figs/chi2_6b6_20to25_99cut.png, id=2750, 700.6175pt x 676.5275
+<AppendixCMSL1TT/figs/chi2_6b6_20to25_99cut.png, id=2757, 700.6175pt x 676.5275
 pt>
 File: AppendixCMSL1TT/figs/chi2_6b6_20to25_99cut.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/chi2_6b6_20to25_99cut.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/chi2_6b6_20to25_99cut.png used on
- input line 212.
+ input line 219.
 (pdftex.def)             Requested size: 160.9276pt x 169.13145pt.
 
-<AppendixCMSL1TT/figs/chi2_6b6_25to30_99cut.png, id=2752, 700.6175pt x 676.5275
+<AppendixCMSL1TT/figs/chi2_6b6_25to30_99cut.png, id=2759, 700.6175pt x 676.5275
 pt>
 File: AppendixCMSL1TT/figs/chi2_6b6_25to30_99cut.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/chi2_6b6_25to30_99cut.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/chi2_6b6_25to30_99cut.png used on
- input line 213.
+ input line 220.
 (pdftex.def)             Requested size: 160.9276pt x 169.13145pt.
 
-<AppendixCMSL1TT/figs/chi2_6b6_30toInf_99cut.png, id=2754, 700.6175pt x 676.527
+<AppendixCMSL1TT/figs/chi2_6b6_30toInf_99cut.png, id=2761, 700.6175pt x 676.527
 5pt>
 File: AppendixCMSL1TT/figs/chi2_6b6_30toInf_99cut.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/chi2_6b6_30toInf_99cut.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/chi2_6b6_30toInf_99cut.png used o
-n input line 214.
+n input line 221.
 (pdftex.def)             Requested size: 160.9276pt x 169.13145pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
  [162 <./AppendixCMSL1TT/figs/chi2_6b6_3to5_99cut.png> <./AppendixCMSL1TT/figs/
 chi2_6b6_5to10_99cut.png> <./AppendixCMSL1TT/figs/chi2_6b6_10to13_99cut.png> <.
 /AppendixCMSL1TT/figs/chi2_6b6_13to15_99cut.png> <./AppendixCMSL1TT/figs/chi2_6
 b6_15to20_99cut.png> <./AppendixCMSL1TT/figs/chi2_6b6_20to25_99cut.png> <./Appe
 ndixCMSL1TT/figs/chi2_6b6_25to30_99cut.png> <./AppendixCMSL1TT/figs/chi2_6b6_30
 toInf_99cut.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 228.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 228.
-
-[163
-
-
-]
 <AppendixCMSL1TT/figs/ttbar_5b6_TFchi2_cuts.png, id=2776, 912.40875pt x 469.755
 pt>
 File: AppendixCMSL1TT/figs/ttbar_5b6_TFchi2_cuts.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/ttbar_5b6_TFchi2_cuts.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/ttbar_5b6_TFchi2_cuts.png used on
- input line 233.
+ input line 232.
 (pdftex.def)             Requested size: 638.68178pt x 328.82626pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 246.
- [164 <./AppendixCMSL1TT/figs/ttbar_5b6_TFchi2_cuts.png>]
+(babel)             in language  on input line 245.
+ [163 <./AppendixCMSL1TT/figs/ttbar_5b6_TFchi2_cuts.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 266.
- [165
+(babel)             in language  on input line 265.
+ [164
+
+
 
 
 ]
@@ -3775,7 +3760,7 @@ File: AppendixCMSL1TT/figs/r_qbpT_fit_single_pion_nopu.png Graphic file (type p
 ng)
  <use AppendixCMSL1TT/figs/r_qbpT_fit_single_pion_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_qbpT_fit_single_pion_nopu.png u
-sed on input line 271.
+sed on input line 270.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/r_qbpT_fit_single_muon_nopu.png, id=2790, 499.8675pt x 47
@@ -3784,7 +3769,7 @@ File: AppendixCMSL1TT/figs/r_qbpT_fit_single_muon_nopu.png Graphic file (type p
 ng)
  <use AppendixCMSL1TT/figs/r_qbpT_fit_single_muon_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_qbpT_fit_single_muon_nopu.png u
-sed on input line 275.
+sed on input line 274.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/r_qbpT_fit_single_electron_nopu.png, id=2791, 499.8675pt 
@@ -3793,7 +3778,7 @@ File: AppendixCMSL1TT/figs/r_qbpT_fit_single_electron_nopu.png Graphic file (ty
 pe png)
  <use AppendixCMSL1TT/figs/r_qbpT_fit_single_electron_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_qbpT_fit_single_electron_nopu.p
-ng used on input line 279.
+ng used on input line 278.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/r_phi0_fit_single_pion_nopu.png, id=2792, 499.8675pt x 47
@@ -3802,7 +3787,7 @@ File: AppendixCMSL1TT/figs/r_phi0_fit_single_pion_nopu.png Graphic file (type p
 ng)
  <use AppendixCMSL1TT/figs/r_phi0_fit_single_pion_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_phi0_fit_single_pion_nopu.png u
-sed on input line 282.
+sed on input line 281.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/r_phi0_fit_single_muon_nopu.png, id=2793, 499.8675pt x 47
@@ -3811,7 +3796,7 @@ File: AppendixCMSL1TT/figs/r_phi0_fit_single_muon_nopu.png Graphic file (type p
 ng)
  <use AppendixCMSL1TT/figs/r_phi0_fit_single_muon_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_phi0_fit_single_muon_nopu.png u
-sed on input line 283.
+sed on input line 282.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/r_phi0_fit_single_electron_nopu.png, id=2794, 499.8675pt 
@@ -3820,7 +3805,7 @@ File: AppendixCMSL1TT/figs/r_phi0_fit_single_electron_nopu.png Graphic file (ty
 pe png)
  <use AppendixCMSL1TT/figs/r_phi0_fit_single_electron_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_phi0_fit_single_electron_nopu.p
-ng used on input line 284.
+ng used on input line 283.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/r_z0_fit_single_pion_nopu.png, id=2795, 499.8675pt x 475.
@@ -3829,7 +3814,7 @@ File: AppendixCMSL1TT/figs/r_z0_fit_single_pion_nopu.png Graphic file (type png
 )
  <use AppendixCMSL1TT/figs/r_z0_fit_single_pion_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_z0_fit_single_pion_nopu.png use
-d on input line 285.
+d on input line 284.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/r_z0_fit_single_muon_nopu.png, id=2796, 499.8675pt x 475.
@@ -3838,7 +3823,7 @@ File: AppendixCMSL1TT/figs/r_z0_fit_single_muon_nopu.png Graphic file (type png
 )
  <use AppendixCMSL1TT/figs/r_z0_fit_single_muon_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_z0_fit_single_muon_nopu.png use
-d on input line 286.
+d on input line 285.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/r_z0_fit_single_electron_nopu.png, id=2797, 499.8675pt x 
@@ -3847,7 +3832,7 @@ File: AppendixCMSL1TT/figs/r_z0_fit_single_electron_nopu.png Graphic file (type
  png)
  <use AppendixCMSL1TT/figs/r_z0_fit_single_electron_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_z0_fit_single_electron_nopu.png
- used on input line 287.
+ used on input line 286.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/r_cotTheta_fit_single_pion_nopu.png, id=2798, 499.8675pt 
@@ -3856,7 +3841,7 @@ File: AppendixCMSL1TT/figs/r_cotTheta_fit_single_pion_nopu.png Graphic file (ty
 pe png)
  <use AppendixCMSL1TT/figs/r_cotTheta_fit_single_pion_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_cotTheta_fit_single_pion_nopu.p
-ng used on input line 288.
+ng used on input line 287.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/r_cotTheta_fit_single_muon_nopu.png, id=2799, 499.8675pt 
@@ -3865,7 +3850,7 @@ File: AppendixCMSL1TT/figs/r_cotTheta_fit_single_muon_nopu.png Graphic file (ty
 pe png)
  <use AppendixCMSL1TT/figs/r_cotTheta_fit_single_muon_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_cotTheta_fit_single_muon_nopu.p
-ng used on input line 289.
+ng used on input line 288.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/r_cotTheta_fit_single_electron_nopu.png, id=2800, 499.867
@@ -3875,7 +3860,7 @@ File: AppendixCMSL1TT/figs/r_cotTheta_fit_single_electron_nopu.png Graphic file
 
 <use AppendixCMSL1TT/figs/r_cotTheta_fit_single_electron_nopu.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/r_cotTheta_fit_single_electron_no
-pu.png used on input line 290.
+pu.png used on input line 289.
 (pdftex.def)             Requested size: 139.96194pt x 133.21678pt.
 
 <AppendixCMSL1TT/figs/chi2_ndof_single_pion_nopu_pu140.png, id=2803, 700.6175pt
@@ -3885,7 +3870,7 @@ ype png)
 
 <use AppendixCMSL1TT/figs/chi2_ndof_single_pion_nopu_pu140.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/chi2_ndof_single_pion_nopu_pu140.
-png used on input line 328.
+png used on input line 327.
 (pdftex.def)             Requested size: 161.13863pt x 151.21175pt.
 
 <AppendixCMSL1TT/figs/chi2_ndof_single_muon_nopu_pu140.png, id=2804, 700.6175pt
@@ -3895,7 +3880,7 @@ ype png)
 
 <use AppendixCMSL1TT/figs/chi2_ndof_single_muon_nopu_pu140.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/chi2_ndof_single_muon_nopu_pu140.
-png used on input line 329.
+png used on input line 328.
 (pdftex.def)             Requested size: 161.13863pt x 151.21175pt.
 
 <AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_categorization_vs_pt_allo
@@ -3906,7 +3891,7 @@ _allogics_nodupremoval.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_categorization_vs_pt_
 allogics_nodupremoval.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_c
-ategorization_vs_pt_allogics_nodupremoval.png used on input line 337.
+ategorization_vs_pt_allogics_nodupremoval.png used on input line 336.
 (pdftex.def)             Requested size: 138.05287pt x 132.51228pt.
 
 <AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_ratio_vs_pt_allogics_nodu
@@ -3917,7 +3902,7 @@ _nodupremoval.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_ratio_vs_pt_allogics_
 nodupremoval.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_r
-atio_vs_pt_allogics_nodupremoval.png used on input line 338.
+atio_vs_pt_allogics_nodupremoval.png used on input line 337.
 (pdftex.def)             Requested size: 138.05287pt x 132.51228pt.
 
 <AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_reco_eff_vs_pt_allogics_n
@@ -3928,7 +3913,7 @@ ics_nodupremoval.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_reco_eff_vs_pt_allogi
 cs_nodupremoval.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_r
-eco_eff_vs_pt_allogics_nodupremoval.png used on input line 339.
+eco_eff_vs_pt_allogics_nodupremoval.png used on input line 338.
 (pdftex.def)             Requested size: 138.05287pt x 132.51228pt.
 
 <AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_categorization_vs_eta_all
@@ -3939,7 +3924,7 @@ a_allogics_nodupremoval.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_categorization_vs_eta
 _allogics_nodupremoval.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_c
-ategorization_vs_eta_allogics_nodupremoval.png used on input line 340.
+ategorization_vs_eta_allogics_nodupremoval.png used on input line 339.
 (pdftex.def)             Requested size: 138.05287pt x 132.51228pt.
 
 <AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_ratio_vs_eta_allogics_nod
@@ -3950,7 +3935,7 @@ s_nodupremoval.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_ratio_vs_eta_allogics
 _nodupremoval.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_r
-atio_vs_eta_allogics_nodupremoval.png used on input line 341.
+atio_vs_eta_allogics_nodupremoval.png used on input line 340.
 (pdftex.def)             Requested size: 138.05287pt x 132.51228pt.
 
 <AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_reco_eff_vs_eta_allogics_
@@ -3961,7 +3946,7 @@ gics_nodupremoval.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_reco_eff_vs_eta_allog
 ics_nodupremoval.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_r
-eco_eff_vs_eta_allogics_nodupremoval.png used on input line 342.
+eco_eff_vs_eta_allogics_nodupremoval.png used on input line 341.
 (pdftex.def)             Requested size: 138.05287pt x 132.51228pt.
 
 <AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_categorization_vs_phi_all
@@ -3972,7 +3957,7 @@ i_allogics_nodupremoval.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_categorization_vs_phi
 _allogics_nodupremoval.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_c
-ategorization_vs_phi_allogics_nodupremoval.png used on input line 343.
+ategorization_vs_phi_allogics_nodupremoval.png used on input line 342.
 (pdftex.def)             Requested size: 138.05287pt x 132.51228pt.
 
 <AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_ratio_vs_phi_allogics_nod
@@ -3983,7 +3968,7 @@ s_nodupremoval.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_ratio_vs_phi_allogics
 _nodupremoval.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_r
-atio_vs_phi_allogics_nodupremoval.png used on input line 344.
+atio_vs_phi_allogics_nodupremoval.png used on input line 343.
 (pdftex.def)             Requested size: 138.05287pt x 132.51228pt.
 
 <AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_reco_eff_vs_phi_allogics_
@@ -3994,24 +3979,24 @@ gics_nodupremoval.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_reco_eff_vs_phi_allog
 ics_nodupremoval.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_r
-eco_eff_vs_phi_allogics_nodupremoval.png used on input line 345.
+eco_eff_vs_phi_allogics_nodupremoval.png used on input line 344.
 (pdftex.def)             Requested size: 138.05287pt x 132.51228pt.
 
-Overfull \hbox (36.64676pt too wide) in paragraph at lines 350--351
+Overfull \hbox (36.64676pt too wide) in paragraph at lines 349--350
 \OT1/cmr/m/n/12 tant in-for-ma-tion from synthe-tic ap-pro-ach. Cur-ren-tly, th
 e branch \OT1/cmr/bx/n/12 AMTT-Tracks[]synMatchCat
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 351.
+(babel)             in language  on input line 350.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 351.
-[166]
+(babel)             in language  on input line 350.
+[165]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 351.
+(babel)             in language  on input line 350.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 351.
- [167 <./AppendixCMSL1TT/figs/r_qbpT_fit_single_pion_nopu.png> <./AppendixCMSL1
+(babel)             in language  on input line 350.
+ [166 <./AppendixCMSL1TT/figs/r_qbpT_fit_single_pion_nopu.png> <./AppendixCMSL1
 TT/figs/r_qbpT_fit_single_muon_nopu.png> <./AppendixCMSL1TT/figs/r_qbpT_fit_sin
 gle_electron_nopu.png> <./AppendixCMSL1TT/figs/r_phi0_fit_single_pion_nopu.png>
  <./AppendixCMSL1TT/figs/r_phi0_fit_single_muon_nopu.png> <./AppendixCMSL1TT/fi
@@ -4022,16 +4007,16 @@ tTheta_fit_single_pion_nopu.png> <./AppendixCMSL1TT/figs/r_cotTheta_fit_single_
 muon_nopu.png> <./AppendixCMSL1TT/figs/r_cotTheta_fit_single_electron_nopu.png>
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 356.
+(babel)             in language  on input line 355.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 356.
- [168 <./AppendixCMSL1TT/figs/chi2_ndof_single_pion_nopu_pu140.png> <./Appendix
+(babel)             in language  on input line 355.
+ [167 <./AppendixCMSL1TT/figs/chi2_ndof_single_pion_nopu_pu140.png> <./Appendix
 CMSL1TT/figs/chi2_ndof_single_muon_nopu_pu140.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 356.
+(babel)             in language  on input line 355.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 356.
- [169 <./AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_categorization_vs
+(babel)             in language  on input line 355.
+ [168 <./AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_categorization_vs
 _pt_allogics_nodupremoval.png> <./AppendixCMSL1TT/figs/single_muon_nopu_tcat/am
 _tracks_ratio_vs_pt_allogics_nodupremoval.png> <./AppendixCMSL1TT/figs/single_m
 uon_nopu_tcat/am_tracks_reco_eff_vs_pt_allogics_nodupremoval.png> <./AppendixCM
@@ -4050,7 +4035,7 @@ File: AppendixCMSL1TT/figs/final_plots/mupu200_synthetic_view.png Graphic file
 
 <use AppendixCMSL1TT/figs/final_plots/mupu200_synthetic_view.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/mupu200_synthetic_vie
-w.png used on input line 362.
+w.png used on input line 361.
 (pdftex.def)             Requested size: 213.39952pt x 190.63403pt.
 
 <AppendixCMSL1TT/figs/final_plots/mupu200_analytic_view.png, id=2838, 481.04718
@@ -4060,7 +4045,7 @@ type png)
 
 <use AppendixCMSL1TT/figs/final_plots/mupu200_analytic_view.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/mupu200_analytic_view
-.png used on input line 363.
+.png used on input line 362.
 (pdftex.def)             Requested size: 213.40103pt x 190.63403pt.
 
 <AppendixCMSL1TT/figs/final_plots/mupu400_synthetic_view.png, id=2839, 417.8109
@@ -4070,7 +4055,7 @@ File: AppendixCMSL1TT/figs/final_plots/mupu400_synthetic_view.png Graphic file
 
 <use AppendixCMSL1TT/figs/final_plots/mupu400_synthetic_view.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/mupu400_synthetic_vie
-w.png used on input line 364.
+w.png used on input line 363.
 (pdftex.def)             Requested size: 213.39952pt x 190.63403pt.
 
 <AppendixCMSL1TT/figs/final_plots/mupu400_analytic_view.png, id=2840, 481.04718
@@ -4080,7 +4065,7 @@ type png)
 
 <use AppendixCMSL1TT/figs/final_plots/mupu400_analytic_view.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/mupu400_analytic_view
-.png used on input line 365.
+.png used on input line 364.
 (pdftex.def)             Requested size: 213.40103pt x 190.63403pt.
 
 <AppendixCMSL1TT/figs/final_plots/jet250pu200_synthetic_view.png, id=2841, 417.
@@ -4090,7 +4075,7 @@ ile (type png)
 
 <use AppendixCMSL1TT/figs/final_plots/jet250pu200_synthetic_view.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/jet250pu200_synthetic
-_view.png used on input line 366.
+_view.png used on input line 365.
 (pdftex.def)             Requested size: 213.39952pt x 190.63403pt.
 
 <AppendixCMSL1TT/figs/final_plots/jet250pu200_analytic_view.png, id=2842, 502.8
@@ -4100,34 +4085,34 @@ le (type png)
 
 <use AppendixCMSL1TT/figs/final_plots/jet250pu200_analytic_view.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/jet250pu200_analytic_
-view.png used on input line 367.
+view.png used on input line 366.
 (pdftex.def)             Requested size: 213.39452pt x 190.63403pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 375.
+(babel)             in language  on input line 374.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 375.
- [170]
+(babel)             in language  on input line 374.
+ [169]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 375.
+(babel)             in language  on input line 374.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 375.
+(babel)             in language  on input line 374.
 
-[171 <./AppendixCMSL1TT/figs/final_plots/mupu200_synthetic_view.png> <./Appendi
+[170 <./AppendixCMSL1TT/figs/final_plots/mupu200_synthetic_view.png> <./Appendi
 xCMSL1TT/figs/final_plots/mupu200_analytic_view.png> <./AppendixCMSL1TT/figs/fi
 nal_plots/mupu400_synthetic_view.png> <./AppendixCMSL1TT/figs/final_plots/mupu4
 00_analytic_view.png> <./AppendixCMSL1TT/figs/final_plots/jet250pu200_synthetic
 _view.png> <./AppendixCMSL1TT/figs/final_plots/jet250pu200_analytic_view.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 445.
+(babel)             in language  on input line 444.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 445.
+(babel)             in language  on input line 444.
 
-[172]
+[171]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 445.
+(babel)             in language  on input line 444.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 445.
- [173]
+(babel)             in language  on input line 444.
+ [172]
 <AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_eff_pt_trunc.png
 , id=2867, 700.6175pt x 676.5275pt>
 File: AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_eff_pt_trun
@@ -4136,7 +4121,7 @@ c.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_eff_pt_trunc
 .png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu20
-0_track_eff_pt_trunc.png used on input line 454.
+0_track_eff_pt_trunc.png used on input line 453.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_pt_trunc.p
@@ -4147,7 +4132,7 @@ unc.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_pt_tru
 nc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu20
-0_track_ratio_pt_trunc.png used on input line 460.
+0_track_ratio_pt_trunc.png used on input line 459.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_eff_eta_trunc.pn
@@ -4158,7 +4143,7 @@ nc.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_eff_eta_trun
 c.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu20
-0_track_eff_eta_trunc.png used on input line 464.
+0_track_eff_eta_trunc.png used on input line 463.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_eta_trunc.
@@ -4169,7 +4154,7 @@ runc.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_eta_tr
 unc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu20
-0_track_ratio_eta_trunc.png used on input line 467.
+0_track_ratio_eta_trunc.png used on input line 466.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_eff_phi_trunc.pn
@@ -4180,7 +4165,7 @@ nc.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_eff_phi_trun
 c.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu20
-0_track_eff_phi_trunc.png used on input line 471.
+0_track_eff_phi_trunc.png used on input line 470.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_phi_trunc.
@@ -4191,7 +4176,7 @@ runc.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_phi_tr
 unc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu20
-0_track_ratio_phi_trunc.png used on input line 474.
+0_track_ratio_phi_trunc.png used on input line 473.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_eff_pt_trunc.p
@@ -4202,7 +4187,7 @@ unc.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_eff_pt_tru
 nc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu
-200_track_eff_pt_trunc.png used on input line 485.
+200_track_eff_pt_trunc.png used on input line 484.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_ratio_pt_trunc
@@ -4213,7 +4198,7 @@ trunc.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_ratio_pt_t
 runc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu
-200_track_ratio_pt_trunc.png used on input line 491.
+200_track_ratio_pt_trunc.png used on input line 490.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_eff_eta_trunc.
@@ -4224,7 +4209,7 @@ runc.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_eff_eta_tr
 unc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu
-200_track_eff_eta_trunc.png used on input line 495.
+200_track_eff_eta_trunc.png used on input line 494.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_ratio_eta_trun
@@ -4235,7 +4220,7 @@ _trunc.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_ratio_eta_
 trunc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu
-200_track_ratio_eta_trunc.png used on input line 498.
+200_track_ratio_eta_trunc.png used on input line 497.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_eff_phi_trunc.
@@ -4246,7 +4231,7 @@ runc.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_eff_phi_tr
 unc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu
-200_track_eff_phi_trunc.png used on input line 502.
+200_track_eff_phi_trunc.png used on input line 501.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_ratio_phi_trun
@@ -4257,7 +4242,7 @@ _trunc.png Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_ratio_phi_
 trunc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu
-200_track_ratio_phi_trunc.png used on input line 505.
+200_track_ratio_phi_trunc.png used on input line 504.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_pt_trunc.png, id=2
@@ -4267,7 +4252,7 @@ Graphic file (type png)
 
 <use AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_pt_trunc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_trac
-k_eff_pt_trunc.png used on input line 515.
+k_eff_pt_trunc.png used on input line 514.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_ratio_pt_trunc.png, id
@@ -4278,7 +4263,7 @@ g Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_ratio_pt_trunc.png
 >
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_trac
-k_ratio_pt_trunc.png used on input line 521.
+k_ratio_pt_trunc.png used on input line 520.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_eta_trunc.png, id=
@@ -4288,7 +4273,7 @@ File: AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_eta_trunc.png
 
 <use AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_eta_trunc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_trac
-k_eff_eta_trunc.png used on input line 525.
+k_eff_eta_trunc.png used on input line 524.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_ratio_eta_trunc.png, i
@@ -4299,7 +4284,7 @@ ng Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_ratio_eta_trunc.pn
 g>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_trac
-k_ratio_eta_trunc.png used on input line 528.
+k_ratio_eta_trunc.png used on input line 527.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_phi_trunc.png, id=
@@ -4309,7 +4294,7 @@ File: AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_phi_trunc.png
 
 <use AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_phi_trunc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_trac
-k_eff_phi_trunc.png used on input line 532.
+k_eff_phi_trunc.png used on input line 531.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_ratio_phi_trunc.png, i
@@ -4320,7 +4305,7 @@ ng Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_ratio_phi_trunc.pn
 g>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_trac
-k_ratio_phi_trunc.png used on input line 535.
+k_ratio_phi_trunc.png used on input line 534.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_pt_trunc.png, id=2
@@ -4330,7 +4315,7 @@ Graphic file (type png)
 
 <use AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_pt_trunc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_trac
-k_eff_pt_trunc.png used on input line 545.
+k_eff_pt_trunc.png used on input line 544.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_ratio_pt_trunc.png, id
@@ -4341,7 +4326,7 @@ g Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_ratio_pt_trunc.png
 >
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_trac
-k_ratio_pt_trunc.png used on input line 551.
+k_ratio_pt_trunc.png used on input line 550.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_eta_trunc.png, id=
@@ -4351,7 +4336,7 @@ File: AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_eta_trunc.png
 
 <use AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_eta_trunc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_trac
-k_eff_eta_trunc.png used on input line 555.
+k_eff_eta_trunc.png used on input line 554.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_ratio_eta_trunc.png, i
@@ -4362,7 +4347,7 @@ ng Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_ratio_eta_trunc.pn
 g>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_trac
-k_ratio_eta_trunc.png used on input line 558.
+k_ratio_eta_trunc.png used on input line 557.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_phi_trunc.png, id=
@@ -4372,7 +4357,7 @@ File: AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_phi_trunc.png
 
 <use AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_phi_trunc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_trac
-k_eff_phi_trunc.png used on input line 562.
+k_eff_phi_trunc.png used on input line 561.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_ratio_phi_trunc.png, i
@@ -4383,7 +4368,7 @@ ng Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_ratio_phi_trunc.pn
 g>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_trac
-k_ratio_phi_trunc.png used on input line 565.
+k_ratio_phi_trunc.png used on input line 564.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_pt_trunc.png, id=2
@@ -4393,7 +4378,7 @@ Graphic file (type png)
 
 <use AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_pt_trunc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_trac
-k_eff_pt_trunc.png used on input line 576.
+k_eff_pt_trunc.png used on input line 575.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_ratio_pt_trunc.png, id
@@ -4404,7 +4389,7 @@ g Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_ratio_pt_trunc.png
 >
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_trac
-k_ratio_pt_trunc.png used on input line 582.
+k_ratio_pt_trunc.png used on input line 581.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_eta_trunc.png, id=
@@ -4414,7 +4399,7 @@ File: AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_eta_trunc.png
 
 <use AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_eta_trunc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_trac
-k_eff_eta_trunc.png used on input line 586.
+k_eff_eta_trunc.png used on input line 585.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_ratio_eta_trunc.png, i
@@ -4425,7 +4410,7 @@ ng Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_ratio_eta_trunc.pn
 g>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_trac
-k_ratio_eta_trunc.png used on input line 589.
+k_ratio_eta_trunc.png used on input line 588.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_phi_trunc.png, id=
@@ -4435,7 +4420,7 @@ File: AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_phi_trunc.png
 
 <use AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_phi_trunc.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_trac
-k_eff_phi_trunc.png used on input line 593.
+k_eff_phi_trunc.png used on input line 592.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_ratio_phi_trunc.png, i
@@ -4446,7 +4431,7 @@ ng Graphic file (type png)
 <use AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_ratio_phi_trunc.pn
 g>
 Package pdftex.def Info: AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_trac
-k_ratio_phi_trunc.png used on input line 596.
+k_ratio_phi_trunc.png used on input line 595.
 (pdftex.def)             Requested size: 210.18686pt x 202.95981pt.
 
 <AppendixCMSL1TT/figs/sf1_nz1_pattern_banks.png, id=2903, 431.36156pt x 447.170
@@ -4454,18 +4439,18 @@ k_ratio_phi_trunc.png used on input line 596.
 File: AppendixCMSL1TT/figs/sf1_nz1_pattern_banks.png Graphic file (type png)
  <use AppendixCMSL1TT/figs/sf1_nz1_pattern_banks.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/sf1_nz1_pattern_banks.png used on
- input line 686.
+ input line 685.
 (pdftex.def)             Requested size: 215.68025pt x 223.58476pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
- [174]
+(babel)             in language  on input line 692.
+ [173]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
- [175 <./AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_eff_pt_t
+(babel)             in language  on input line 692.
+ [174 <./AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_eff_pt_t
 runc.png> <./AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_rati
 o_pt_trunc.png> <./AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_trac
 k_eff_eta_trunc.png> <./AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200
@@ -4473,10 +4458,10 @@ _track_ratio_eta_trunc.png> <./AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttba
 r_pu200_track_eff_phi_trunc.png> <./AppendixCMSL1TT/figs/final_plots/ttbarPU200
 /ttbar_pu200_track_ratio_phi_trunc.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
- [176 <./AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_eff_pt
+(babel)             in language  on input line 692.
+ [175 <./AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_eff_pt
 _trunc.png> <./AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_
 ratio_pt_trunc.png> <./AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu20
 0_track_eff_eta_trunc.png> <./AppendixCMSL1TT/figs/final_plots/jet250PU200/jet2
@@ -4484,11 +4469,11 @@ ratio_pt_trunc.png> <./AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu20
 U200/jet250_pu200_track_eff_phi_trunc.png> <./AppendixCMSL1TT/figs/final_plots/
 jet250PU200/jet250_pu200_track_ratio_phi_trunc.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 
-[177 <./AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_pt_trunc.pn
+[176 <./AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_pt_trunc.pn
 g> <./AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_ratio_pt_trunc.pn
 g> <./AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_eta_trunc.png
 > <./AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_ratio_eta_trunc.pn
@@ -4496,10 +4481,10 @@ g> <./AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_eff_phi_trunc.png
 > <./AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_ratio_phi_trunc.pn
 g>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
- [178 <./AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_pt_trunc.p
+(babel)             in language  on input line 692.
+ [177 <./AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_pt_trunc.p
 ng> <./AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_ratio_pt_trunc.p
 ng> <./AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_eta_trunc.pn
 g> <./AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_ratio_eta_trunc.p
@@ -4507,10 +4492,10 @@ ng> <./AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_eff_phi_trunc.pn
 g> <./AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_ratio_phi_trunc.p
 ng>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
- [179 <./AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_pt_trunc.p
+(babel)             in language  on input line 692.
+ [178 <./AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_pt_trunc.p
 ng> <./AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_ratio_pt_trunc.p
 ng> <./AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_eta_trunc.pn
 g> <./AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_ratio_eta_trunc.p
@@ -4518,15 +4503,15 @@ ng> <./AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_eff_phi_trunc.pn
 g> <./AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_ratio_phi_trunc.p
 ng>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
- [180 <./AppendixCMSL1TT/figs/sf1_nz1_pattern_banks.png>]
+(babel)             in language  on input line 692.
+ [179 <./AppendixCMSL1TT/figs/sf1_nz1_pattern_banks.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 693.
- [181]
+(babel)             in language  on input line 692.
+ [180]
 <AppendixCMSL1TT/figs/single_muon_pu400_road_eff_vs_truncation.png, id=2946, 39
 6.7322pt x 347.04657pt>
 File: AppendixCMSL1TT/figs/single_muon_pu400_road_eff_vs_truncation.png Graphic
@@ -4534,20 +4519,20 @@ File: AppendixCMSL1TT/figs/single_muon_pu400_road_eff_vs_truncation.png Graphic
 
 <use AppendixCMSL1TT/figs/single_muon_pu400_road_eff_vs_truncation.png>
 Package pdftex.def Info: AppendixCMSL1TT/figs/single_muon_pu400_road_eff_vs_tru
-ncation.png used on input line 700.
+ncation.png used on input line 699.
 (pdftex.def)             Requested size: 238.04114pt x 208.22954pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 709.
+(babel)             in language  on input line 708.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 709.
+(babel)             in language  on input line 708.
 
-[182 <./AppendixCMSL1TT/figs/single_muon_pu400_road_eff_vs_truncation.png>]
+[181 <./AppendixCMSL1TT/figs/single_muon_pu400_road_eff_vs_truncation.png>]
 <AppendixCMSL1TT/fermilab/pulsar2b_photo.png, id=2959, 339.51843pt x 289.83281p
 t>
 File: AppendixCMSL1TT/fermilab/pulsar2b_photo.png Graphic file (type png)
  <use AppendixCMSL1TT/fermilab/pulsar2b_photo.png>
 Package pdftex.def Info: AppendixCMSL1TT/fermilab/pulsar2b_photo.png used on in
-put line 721.
+put line 720.
 (pdftex.def)             Requested size: 199.1692pt x 170.71683pt.
 
 <AppendixCMSL1TT/fermilab/20160519_5158.jpg, id=2960, 3276.24pt x 2457.18pt>
@@ -4555,7 +4540,7 @@ File: AppendixCMSL1TT/fermilab/20160519_5158.jpg Graphic file (type jpg)
 
 <use AppendixCMSL1TT/fermilab/20160519_5158.jpg>
 Package pdftex.def Info: AppendixCMSL1TT/fermilab/20160519_5158.jpg used on inp
-ut line 723.
+ut line 722.
 (pdftex.def)             Requested size: 199.16547pt x 170.7079pt.
 
 <AppendixCMSL1TT/fermilab/20160413_152444.jpg, id=2961, 1606.0pt x 1204.5pt>
@@ -4563,7 +4548,7 @@ File: AppendixCMSL1TT/fermilab/20160413_152444.jpg Graphic file (type jpg)
 
 <use AppendixCMSL1TT/fermilab/20160413_152444.jpg>
 Package pdftex.def Info: AppendixCMSL1TT/fermilab/20160413_152444.jpg used on i
-nput line 724.
+nput line 723.
 (pdftex.def)             Requested size: 199.15665pt x 170.70569pt.
 
 <AppendixCMSL1TT/fermilab/20160413_152420.jpg, id=2962, 1606.0pt x 1204.5pt>
@@ -4571,7 +4556,7 @@ File: AppendixCMSL1TT/fermilab/20160413_152420.jpg Graphic file (type jpg)
 
 <use AppendixCMSL1TT/fermilab/20160413_152420.jpg>
 Package pdftex.def Info: AppendixCMSL1TT/fermilab/20160413_152420.jpg used on i
-nput line 726.
+nput line 725.
 (pdftex.def)             Requested size: 199.15665pt x 170.70569pt.
 
 <AppendixCMSL1TT/fermilab/IMG_5827.JPG, id=2963, 3276.24pt x 2457.18pt>
@@ -4579,23 +4564,23 @@ File: AppendixCMSL1TT/fermilab/IMG_5827.JPG Graphic file (type jpg)
 
 <use AppendixCMSL1TT/fermilab/IMG_5827.JPG>
 Package pdftex.def Info: AppendixCMSL1TT/fermilab/IMG_5827.JPG used on input li
-ne 727.
+ne 726.
 (pdftex.def)             Requested size: 199.12442pt x 170.7079pt.
 
 
-LaTeX Warning: Float too large for page by 16.61269pt on input line 730.
+LaTeX Warning: Float too large for page by 16.61269pt on input line 729.
 
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 337.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 337.
- [183]
+ [182]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 337.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 337.
- [184 <./AppendixCMSL1TT/fermilab/IMG_5827.JPG> <./AppendixCMSL1TT/fermilab/pul
+ [183 <./AppendixCMSL1TT/fermilab/IMG_5827.JPG> <./AppendixCMSL1TT/fermilab/pul
 sar2b_photo.png> <./AppendixCMSL1TT/fermilab/20160519_5158.jpg> <./AppendixCMSL
 1TT/fermilab/20160413_152444.jpg> <./AppendixCMSL1TT/fermilab/20160413_152420.j
 pg>]
@@ -4613,7 +4598,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 10.
-[185
+[184
 
 
 
@@ -4622,12 +4607,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 46.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 46.
+ [185]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 65.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 65.
  [186]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
- [187]
 <AppendixFastME/figs/fastme_work_way.png, id=3016, 426.09187pt x 359.84438pt>
 File: AppendixFastME/figs/fastme_work_way.png Graphic file (type png)
 
@@ -4639,7 +4624,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 97.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 97.
- [188 <./AppendixFastME/figs/fastme_work_way.png>]
+ [187 <./AppendixFastME/figs/fastme_work_way.png>]
 <AppendixFastME/figs/psbD_vs_psbW.png, id=3030, 1023.825pt x 683.55376pt>
 File: AppendixFastME/figs/psbD_vs_psbW.png Graphic file (type png)
 
@@ -4651,7 +4636,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 125.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 125.
- [189]
+ [188]
 <AppendixFastME/figs/purity_keeping_bkg_varying_sig.png, id=3043, 920.68968pt x
  314.67563pt>
 File: AppendixFastME/figs/purity_keeping_bkg_varying_sig.png Graphic file (type
@@ -4674,12 +4659,12 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 148.
 
-[190 <./AppendixFastME/figs/psbD_vs_psbW.png>]
+[189 <./AppendixFastME/figs/psbD_vs_psbW.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 148.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 148.
- [191 <./AppendixFastME/figs/purity_keeping_bkg_varying_sig.png> <./AppendixFas
+ [190 <./AppendixFastME/figs/purity_keeping_bkg_varying_sig.png> <./AppendixFas
 tME/figs/purity_keeping_sig_varying_bkg.png>]
 <AppendixFastME/figs/sig_bkg_eff_varying_sig_and_bkg.png, id=3062, 627.09282pt 
 x 407.27156pt>
@@ -4712,8 +4697,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 180.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 180.
- [192 <./AppendixFastME/figs/sig_bkg_eff_varying_sig_and_bkg.png>]
-<AppendixFastME/figs/comparacao_psbD_using_nousing_dPhi_scaledPt70.png, id=3078
+ [191 <./AppendixFastME/figs/sig_bkg_eff_varying_sig_and_bkg.png>]
+<AppendixFastME/figs/comparacao_psbD_using_nousing_dPhi_scaledPt70.png, id=3077
 , 1023.825pt x 683.55376pt>
 File: AppendixFastME/figs/comparacao_psbD_using_nousing_dPhi_scaledPt70.png Gra
 phic file (type png)
@@ -4727,7 +4712,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 194.
 
-[193 <./AppendixFastME/figs/correction_function_for_discrimination.png> <./Appe
+[192 <./AppendixFastME/figs/correction_function_for_discrimination.png> <./Appe
 ndixFastME/figs/correction_function_effect.png>]
 <AppendixFastME/figs/fastme_sensibility_vs_dpTscaleFactor.png, id=3097, 1023.82
 5pt x 683.55376pt>
@@ -4742,13 +4727,13 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 210.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 210.
- [194 <./AppendixFastME/figs/comparacao_psbD_using_nousing_dPhi_scaledPt70.png>
+ [193 <./AppendixFastME/figs/comparacao_psbD_using_nousing_dPhi_scaledPt70.png>
 ]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 214.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 214.
- [195 <./AppendixFastME/figs/fastme_sensibility_vs_dpTscaleFactor.png>]
+ [194 <./AppendixFastME/figs/fastme_sensibility_vs_dpTscaleFactor.png>]
 <AppendixFastME/figs/fastme_discriminant_and_m4l.png, id=3117, 752.8125pt x 490
 .08093pt>
 File: AppendixFastME/figs/fastme_discriminant_and_m4l.png Graphic file (type pn
@@ -4791,20 +4776,20 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 257.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 257.
- [196]
+ [195]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 257.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 257.
- [197 <./AppendixFastME/figs/fastme_discriminant_and_m4l.png> <./AppendixFastME
+ [196 <./AppendixFastME/figs/fastme_discriminant_and_m4l.png> <./AppendixFastME
 /figs/fastme_disc_comparison_to_mela.png> <./AppendixFastME/figs/fastme_2D_m4l_
 comparison_to_mela.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 264.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 264.
- [198 <./AppendixFastME/figs/fastme_github_page.png>]
-<AppendixFastME/figs/fme_config_card.png, id=3159, 810.02625pt x 665.48625pt>
+ [197 <./AppendixFastME/figs/fastme_github_page.png>]
+<AppendixFastME/figs/fme_config_card.png, id=3158, 810.02625pt x 665.48625pt>
 File: AppendixFastME/figs/fme_config_card.png Graphic file (type png)
 
 <use AppendixFastME/figs/fme_config_card.png>
@@ -4820,12 +4805,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 287.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 287.
-[199]
+[198]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 287.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 287.
- [200 <./AppendixFastME/figs/fme_config_card.png>]
+ [199 <./AppendixFastME/figs/fme_config_card.png>]
 <AppendixFastME/figs/plot_discriminants_roc_distance.png, id=3173, 1025.8325pt 
 x 685.56125pt>
 File: AppendixFastME/figs/plot_discriminants_roc_distance.png Graphic file (typ
@@ -4839,7 +4824,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 304.
 
-[201 <./AppendixFastME/figs/plot_discriminants_roc_distance.png>]
+[200 <./AppendixFastME/figs/plot_discriminants_roc_distance.png>]
 <AppendixFastME/figs/discriminant_variation_vs_nextra_objects.png, id=3185, 796
 .47563pt x 597.73312pt>
 File: AppendixFastME/figs/discriminant_variation_vs_nextra_objects.png Graphic 
@@ -4874,18 +4859,18 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 338.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 338.
- [202]
+ [201]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 338.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 338.
- [203 <./AppendixFastME/figs/discriminant_variation_vs_nextra_objects.png> <./A
+ [202 <./AppendixFastME/figs/discriminant_variation_vs_nextra_objects.png> <./A
 ppendixFastME/figs/roc_variation_vs_nextra_objects.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 338.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 338.
- [204 <./AppendixFastME/figs/ggH_vs_VBF_test.png>]
+ [203 <./AppendixFastME/figs/ggH_vs_VBF_test.png>]
 \openout2 = `AppendixGlobalDocProject/AppendixGlobalDocProject.aux'.
 
 (./AppendixGlobalDocProject/AppendixGlobalDocProject.tex
@@ -4897,7 +4882,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
 
-<AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.JPG, id=3217, 1606.0
+<AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.JPG, id=3216, 1606.0
 pt x 903.375pt>
 File: AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.JPG Graphic fil
 e (type jpg)
@@ -4907,7 +4892,7 @@ Package pdftex.def Info: AppendixGlobalDocProject/figs/miqueias_globaldoc_semin
 ar2.JPG used on input line 9.
 (pdftex.def)             Requested size: 341.4359pt x 199.17043pt.
 
-<AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar1.JPG, id=3219, 1606.0
+<AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar1.JPG, id=3218, 1606.0
 pt x 903.375pt>
 File: AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar1.JPG Graphic fil
 e (type jpg)
@@ -4917,7 +4902,7 @@ Package pdftex.def Info: AppendixGlobalDocProject/figs/miqueias_globaldoc_semin
 ar1.JPG used on input line 10.
 (pdftex.def)             Requested size: 341.4359pt x 199.17043pt.
 
-<AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar.jpg, id=3221, 963.6pt
+<AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar.jpg, id=3220, 963.6pt
  x 722.7pt>
 File: AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar.jpg Graphic file
  (type jpg)
@@ -4929,7 +4914,7 @@ ar.jpg used on input line 11.
 
 LaTeX Warning: Float too large for page by 4.11653pt on input line 14.
 
-<AppendixGlobalDocProject/figs/recas_bari.jpg, id=3226, 308.352pt x 192.72pt>
+<AppendixGlobalDocProject/figs/recas_bari.jpg, id=3225, 308.352pt x 192.72pt>
 File: AppendixGlobalDocProject/figs/recas_bari.jpg Graphic file (type jpg)
 
 <use AppendixGlobalDocProject/figs/recas_bari.jpg>
@@ -4937,7 +4922,7 @@ Package pdftex.def Info: AppendixGlobalDocProject/figs/recas_bari.jpg used on i
 nput line 21.
 (pdftex.def)             Requested size: 341.43726pt x 199.16838pt.
 
-<AppendixGlobalDocProject/figs/miqueias_at_recas.JPG, id=3228, 3276.24pt x 2457
+<AppendixGlobalDocProject/figs/miqueias_at_recas.JPG, id=3227, 3276.24pt x 2457
 .18pt>
 File: AppendixGlobalDocProject/figs/miqueias_at_recas.JPG Graphic file (type jp
 g)
@@ -4949,7 +4934,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 28.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 28.
- [205
+ [204
 
 
 
@@ -4958,14 +4943,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 28.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 28.
- [206 <./AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.JPG> <./Appe
+ [205 <./AppendixGlobalDocProject/figs/miqueias_globaldoc_seminar2.JPG> <./Appe
 ndixGlobalDocProject/figs/miqueias_globaldoc_seminar1.JPG> <./AppendixGlobalDoc
 Project/figs/miqueias_globaldoc_seminar.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 28.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 28.
- [207 <./AppendixGlobalDocProject/figs/recas_bari.jpg> <./AppendixGlobalDocProj
+ [206 <./AppendixGlobalDocProject/figs/recas_bari.jpg> <./AppendixGlobalDocProj
 ect/figs/miqueias_at_recas.JPG>]
 <AppendixGlobalDocProject/figs/dm_diagrams.png, id=3254, 608.2725pt x 242.40562
 pt>
@@ -4986,7 +4971,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 339.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 339.
- [208 <./AppendixGlobalDocProject/figs/dm_diagrams.png> <./AppendixGlobalDocPro
+ [207 <./AppendixGlobalDocProject/figs/dm_diagrams.png> <./AppendixGlobalDocPro
 ject/figs/met_plot.png>]
 No file Tese.ind.
 
@@ -5017,10 +5002,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 15259 strings out of 494397
- 269256 string characters out of 6167008
- 435069 words of memory out of 5000000
- 17228 multiletter control sequences out of 15000+600000
+ 15254 strings out of 494397
+ 269050 string characters out of 6167008
+ 433978 words of memory out of 5000000
+ 17223 multiletter control sequences out of 15000+600000
  15264 words of font info for 53 fonts, out of 8000000 for 9000
  308 hyphenation exceptions out of 8191
  43i,17n,45p,2202b,919s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5045,10 +5030,10 @@ pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmti12.pfb>
-Output written on Tese.pdf (209 pages, 18959010 bytes).
+Output written on Tese.pdf (208 pages, 18938033 bytes).
 PDF statistics:
- 3521 PDF objects out of 3580 (max. 8388607)
- 2897 compressed objects within 29 object streams
- 834 named destinations out of 1000 (max. 500000)
- 2197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3522 PDF objects out of 3580 (max. 8388607)
+ 2899 compressed objects within 29 object streams
+ 835 named destinations out of 1000 (max. 500000)
+ 2198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

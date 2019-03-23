@@ -174,14 +174,13 @@ In order to make sure that the $sf1\_nz1$ configuration is the best a scan was m
 
 
 \subsubsection{$\Delta S$ Approach on $\mu$ + PU's}
-Studies have been developed about the limits of AM+FPGA approach. It was showed that AM start to lose significant efficiency when PU300/400 is present \footnote{https://indico.cern.ch/event/653731} (even with Hough transform - worst without it). It was worth then to see what $\Delta S$ could do about it. Using the same samples ($\mu$ +PU140, 200, 300, 400) a similar plot was produced to see how the analytical road efficiency is affected by pile up presence when $\Delta S$ is used. The result can be seen in Fig.\ref{fig:deltaS_on_pile_up} where two original plots, without $\Delta S$ approach, were quoted beside the results with stub bending approach. As one can see, with $sf0.8\_nz1$ and 64k or even $sf0.5\_nz1$ with 256k patterns the efficiency loss is high at PU400. Using $\Delta S$ approach the efficiency is $\sim40$ and $\sim20\%$ higher than for sf0.8-64k and sf0.5-256k, respectively. Still an effect persists: low $p_{T}$ is more affected with PU increasing.
+Studies have been developed about the limits of AM+FPGA approach. It was showed that AM start to lose significant efficiency when PU300/400 is present \footnote{https://indico.cern.ch/event/653731} (even with Hough transform - worst without it). It was worth then to see what $\Delta S$ could do about it. Using the same samples ($\mu$ +PU140, 200, 300, 400) a similar plot was produced to see how the analytical road efficiency is affected by pile up presence when $\Delta S$ is used. The result can be seen in Fig.\ref{fig:deltaS_on_pile_up} where an original plot (a), without $\Delta S$ approach, is showed along with the results with stub bending approach (b). As one can see, with $sf0.8\_nz1$ and 64k the efficiency loss is big at PU400. Using $\Delta S$ approach the efficiency is $\sim40$ higher than for sf0.8-64k.
 
 \begin{figure}[htbp]{15cm}
-	\caption{Muon road efficiency versus pile up. The two first plots (left side) are the results without $\Delta S$ approach and the last plot with it (right side).}
+	\caption{Muon road efficiency versus pile up. The plot (a) is the result without $\Delta S$ approach (done by another person in the CMS L1TT working group) and the plot (b) with it (done by the author).}
 	\centering
-	\includegraphics[width=7.5cm,height=7.5cm]{AppendixCMSL1TT/luciano_mupu_sf0p8_plot}\\
-	\includegraphics[width=7.5cm,height=7.5cm]{AppendixCMSL1TT/luciano_mupu_sf0p5_plot}\\
-	\includegraphics[width=8cm,height=8cm]{AppendixCMSL1TT/figs/muon_road_eff_vs_pile_up_deltaS}
+	\subfloat[]{\includegraphics[width=7.5cm,height=7.5cm]{AppendixCMSL1TT/luciano_mupu_sf0p8_plot}}
+	\subfloat[]{\includegraphics[width=8cm,height=8cm,trim={0cm 0.2cm 0cm 0cm},clip]{AppendixCMSL1TT/figs/muon_road_eff_vs_pile_up_deltaS}}
 	\label{fig:deltaS_on_pile_up}
 \source{The AUTHOR, 2016.}
 \end{figure}
@@ -189,6 +188,14 @@ Studies have been developed about the limits of AM+FPGA approach. It was showed 
 
 \subsubsection{Track Fitter $\chi^{2}$ Revision}
 Before proceeding to get final results using $\Delta S$ approach, some stages in the AM package were revisited. The first of them was the track fitter. Currently the tracks $\chi^{2}$ have only a single cut equal to 14.6. However, there are two strong features in the TF $\chi^{2}$: it has two set of constants and its value has a strong dependence on track $p_{T}$ (Fig.~\ref{fig:ttbar_tfchi2_pt}). Then it was decided to redefine the TF $\chi^{2}$ cut. First, the cut should be defined separately for each logic (6/6, 5/6), keeping the cut for 6/6 tight. Also, the cut should be parameterized in terms of track $p_{T}$ for 5/6. For that 8 $p_{T}$ ranges were chosen: [3, 5], [5, 10], [10, 13], [13, 15], [15, 20], [20, 25], [25, 30], [30, $\infty$]GeV.  Then for 6/6 it was decided to take the 99$\%$ of the theoretical $\chi^{2}_{ndof=8}$ curve (Eq.~\ref{eq:chi2_eq}) being equal to 20.2. Fig.~\ref{fig:6b6_chi2_pt} shows how the all 6/6 reconstructed muon tracks (from $t\bar{t}+PU200$) behave compared to the expected distribution. Note that here no DR was used.
+
+\begin{equation}
+\label{eq:chi2_eq}
+\chi^{2} = \frac{x^{k/2 - 1}}{2^{k/2}~.\Gamma(k/2)~.e^{x/2}},\quad k = degrees~of~freedom
+\end{equation}
+
+The normalization of the expected distribution was made by applying a scale factor to the Eq.~\ref{eq:chi2_eq} such that its maximum was equal to the maximum observed (the maximum in each histogram). As it can be seen in the plots, the distributions from some $p_{T}$ ranges are wider or tinner than the expected curve. Such behavior matches with Fig.~\ref{fig:ttbar_tfchi2_pt}. The TF $\chi^{2}$ has higher values for low $p_{T}$ tracks ($<$5GeV) and in the transition region ($>$10GeV). Also, the tail in the 6/6 $\chi^{2}$ distribution in disagreement with the expected curve shows that many bad stubs are being accepted with a cut of 14.6. 
+The cut for 5/6 tracks were defined finding where the cut should be in order to get $\epsilon_{tracks} = 0.99*\epsilon_{roads}$ for each $p_{T}$ range. The distributions for $t\bar{t}+PU200$ and the cuts found for it are in Fig.~\ref{fig:5b6_chi2_pt}. Those cuts were implemented in the package and used to fit tracks in the further studies.
 
 \begin{figure}[htbp]{15cm}
 	\caption{Track fitter $\chi^{2}$ from all muon tracks in $t\bar{t}+PU200$ versus track $p_{T}$.}
@@ -216,14 +223,6 @@ Before proceeding to get final results using $\Delta S$ approach, some stages in
 \source{The AUTHOR, 2016.}
 \end{figure}
 \end{landscape}
-
-\begin{equation}
-\label{eq:chi2_eq}
-\chi^{2} = \frac{x^{k/2 - 1}}{2^{k/2}~.\Gamma(k/2)~.e^{x/2}},\quad k = degrees~of~freedom
-\end{equation}
-
-The normalization of the expected distribution was made by applying a scale factor to the Eq.~\ref{eq:chi2_eq} such that its maximum was equal to the maximum observed (the maximum in each histogram). As it can be seen in the plots, the distributions from some $p_{T}$ ranges are wider or tinner than the expected curve. Such behavior matches with Fig.~\ref{fig:ttbar_tfchi2_pt}. The TF $\chi^{2}$ has higher values for low $p_{T}$ tracks (<5GeV) and in the transition region (>10GeV). Also, the tail in the 6/6 $\chi^{2}$ distribution in disagreement with the expected curve shows that many bad stubs are being accepted with a cut of 14.6. 
-The cut for 5/6 tracks were defined finding where the cut should be in order to get $\epsilon_{tracks} = 0.99*\epsilon{roads}$ for each $p_{T}$ range. The distributions for $t\bar{t}+PU200$ and the cuts found for it are in Fig.~\ref{fig:5b6_chi2_pt}. Those cuts were implemented in the package and used to fit tracks in the further studies.
 
 \begin{landscape}
 \begin{figure}[htbp]{24cm}
