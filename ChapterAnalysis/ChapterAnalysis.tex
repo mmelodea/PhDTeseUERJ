@@ -898,7 +898,7 @@ Looking into the number of events which has extra jets one sees that there is a 
 		\rowcolor{light_gray}
 		       & $j_{3}(\%)$ & $j_{4}(\%)$\\
 		\hline
-		$VBF$  & 21.3        & 5.0\\
+		$qqH$  & 21.3        & 5.0\\
 		\hline
 		$ggH$  & 28.8        & 7.1\\
 		\hline
@@ -907,6 +907,7 @@ Looking into the number of events which has extra jets one sees that there is a 
 		$Data$ & 18.0        & 0.0\\
 		\hline
 	\end{tabular}
+	\source{The AUTHOR, 2017.}
 	\label{tab:3rd_jet_events}
 \end{table}
 
@@ -914,18 +915,19 @@ Looking into the number of events which has extra jets one sees that there is a 
 	\caption{Performance of VBF discrimination against the backgrounds for the ANN, MELA and Djet discriminants. On (a) is the performance when considering only 2 jets per event and on (b) when considering up to 3 jets per event.}
 	\centering
 	\begin{overpic}
-		[scale=0.52]{ChapterAnalysis/figs/2jets_dnn_mela_djet_rocs_hjj}
+		[scale=0.5]{ChapterAnalysis/figs/2jets_dnn_mela_djet_rocs_hjj}
 		\put(12,85){\color{red}2jets}
 		\put(45,26){\includegraphics[height=3.5cm,width=3.5cm]{ChapterAnalysis/figs/2jets_sb_seff}}
-		\put(50,-10){(a)}
+		\put(50,-15){(a)}
 	\end{overpic}
 	\quad
 	\begin{overpic}
-		[scale=0.52]{ChapterAnalysis/figs/3jets_split0p8_norm_roc_djet_mela_dnn_hjj}
+		[scale=0.5]{ChapterAnalysis/figs/3jets_split0p8_norm_roc_djet_mela_dnn_hjj}
 		\put(12,85){\color{red}3jets}
 		\put(45,26){\includegraphics[height=3.5cm,width=3.5cm]{ChapterAnalysis/figs/3jets_sb_seff}}
-		\put(50,-10){(b)}
+		\put(50,-15){(b)}
 	\end{overpic}	
+	\source{The AUTHOR, 2017.}
 	\label{fig:comparison_2j_3j}
 \end{figure}
 	
@@ -1225,7 +1227,7 @@ The systematic uncertainties in data classification using the NNs were estimated
 
 The procedure to estimate the uncertainties propagated through the NNs was based on similar procedure adopted by \cite{bib:CMS-AN-12-141, bib:CMS-PAS-HIG-16-022, bib:ATLAS-CONF-2017-041}. The systematic uncertainties of the objects used as inputs for the NNs were applied to the nominal input value. Those are the uncertainty in the leptons and jet energy and the uncertainty in the MET measurement (for the cases where it is used). The leptons energy uncertainty comes from Particle Flow (muon calibrator and calorimeter-based - for electrons). The uncertainty on jet energy comes from the jet energy correction procedure. The MET uncertainties come from the $1\sigma$ shift up and down of the energy/resolution of different PF objects used to compute the MET.
 
-The NNs were fed with the nominal inputs (no systematic uncertainty shifts applied) and with $\pm 1 \sigma$ shifts from the nominal inputs. These shifts are done one variable at a time such that after all shifts have been done there are $N_{(Inputs)} \times [1+2 \times N_{(InputUncertainties)}]$ output values for each event (and thus the same amount of NN distributions). Fig.~\ref{fig:nn_systematic_shifts} shows the impact of the systematic uncertainties on the shape of a NN. The error bars in each bin shows the maximum oscillation (up/down) of the yield in that bin due to the shifting of the inputs $\pm 1 \sigma$ from their nominal values. Tab.~\ref{tab:ann_systematic_uncertainties} shows, for reference of the reader, an estimate of the propagated systematic uncertainty on the ANNs shape. Those numbers are the mean variation of a gaussian function fitted to the cumulative distributions of the difference between the nominal ANNs distribution and the ones obtained by shifting $\pm1 \sigma$ (their systematic uncertainty) each input. Fig.~\ref{fig:ann_syst_means} shows graphically an example of the procedure adopted to obtain the numbers on Tab.~\ref{tab:ann_systematic_uncertainties}.
+The NNs were fed with the nominal inputs (no systematic uncertainty shifts applied) and with $\pm 1 \sigma$ shifts from the nominal inputs. These shifts are done one variable at a time such that after all shifts have been done there are $N_{(Inputs)} \times [1+2 \times N_{(InputUncertainties)}]$ output values for each event (and thus the same amount of NN distributions). Fig.~\ref{fig:nn_systematic_shifts} shows the impact of the systematic uncertainties on the shape of a NN. The error bars in each bin shows the maximum oscillation (up/down) of the yield in that bin due to the shifting of the inputs $\pm 1 \sigma$ from their nominal values. %Tab.~\ref{tab:ann_systematic_uncertainties} shows, for reference of the reader, an estimate of the propagated systematic uncertainty on the ANNs shape. Those numbers are the mean variation of a gaussian function fitted to the cumulative distributions of the difference between the nominal ANNs distribution and the ones obtained by shifting $\pm1 \sigma$ (their systematic uncertainty) each input. Fig.~\ref{fig:ann_syst_means} shows graphically an example of the procedure adopted to obtain the numbers on Tab.~\ref{tab:ann_systematic_uncertainties}.
 
 \begin{landscape}
 \begin{figure}[hbtp]{23cm}
@@ -1237,34 +1239,34 @@ The NNs were fed with the nominal inputs (no systematic uncertainty shifts appli
 \end{figure}
 \end{landscape}
 
-\begin{table}[hbtp]{16cm}
-	\label{tab:ann_systematic_uncertainties}
-	\caption{Summary of systematic uncertainties propagated into ANNs from their inputs.}
-	\centering
-	\begin{tabular}{lcc}
-		\hline
-		\rowcolor{light_gray}
-		Source       & ANN Njets2 ($\%$) & ANN Njets3 ($\%$)\\
-		\hline
-		${l1}^{p_{T}}$ & 0.1-0.7           & 0.1-1.0\\
-		${l2}^{p_{T}}$ & 0.1-0.6           & 0.0-0.2\\
-		${l3}^{p_{T}}$ & 0.1-0.7           & 0.3-1.9\\
-		${l4}^{p_{T}}$ & 0.1-0.7           & 0.1-1.2\\
-		${j1}^{p_{T}}$ & 0.1               & 0.2-0.3\\
-		${j2}^{p_{T}}$ & 0.0-0.2           & 0.2-0.3\\
-		${j3}^{p_{T}}$ & -                 & 0.1\\
-		\hline
-	\end{tabular}
-	\source{The AUTHOR, 2019.}		
-\end{table}
+%\begin{table}[hbtp]{16cm}
+%	\label{tab:ann_systematic_uncertainties}
+%	\caption{Summary of systematic uncertainties propagated into ANNs from their inputs.}
+%	\centering
+%	\begin{tabular}{lcc}
+%		\hline
+%		\rowcolor{light_gray}
+%		Source       & ANN Njets2 ($\%$) & ANN Njets3 ($\%$)\\
+%		\hline
+%		${l1}^{p_{T}}$ & 0.1-0.7           & 0.1-1.0\\
+%		${l2}^{p_{T}}$ & 0.1-0.6           & 0.0-0.2\\
+%		${l3}^{p_{T}}$ & 0.1-0.7           & 0.3-1.9\\
+%		${l4}^{p_{T}}$ & 0.1-0.7           & 0.1-1.2\\
+%		${j1}^{p_{T}}$ & 0.1               & 0.2-0.3\\
+%		${j2}^{p_{T}}$ & 0.0-0.2           & 0.2-0.3\\
+%		${j3}^{p_{T}}$ & -                 & 0.1\\
+%		\hline
+%	\end{tabular}
+%	\source{The AUTHOR, 2019.}		
+%\end{table}
 
-\begin{figure}[hbtp]{16cm}
-	\caption{Graphical illustration of the procedure adopted to derive an numeric estimate of the impact on the ANNs shape due to the systematic uncertainty from their inputs. A gaussian function fits a histogram filled with the differences between the nominal ANN shape and its variation due to the systematic uncertainty from each input.}
-	\centering
-	\includegraphics[width=7cm,height=7cm,trim={3cm 0cm 0cm 1cm},clip]{ChapterAnalysis/figs/k57nj2_uncertainty_j1pt}
-	\source{The AUTHOR, 2019.}	
-	\label{fig:ann_syst_means}
-\end{figure}
+%\begin{figure}[hbtp]{16cm}
+%	\caption{Graphical illustration of the procedure adopted to derive an numeric estimate of the impact on the ANNs shape due to the systematic uncertainty from their inputs. A gaussian function fits a histogram filled with the differences between the nominal ANN shape and its variation due to the systematic uncertainty from each input.}
+%	\centering
+%	\includegraphics[width=7cm,height=7cm,trim={3cm 0cm 0cm 1cm},clip]{ChapterAnalysis/figs/k57nj2_uncertainty_j1pt}
+%	\source{The AUTHOR, 2019.}	
+%	\label{fig:ann_syst_means}
+%\end{figure}
 
 \subsection{Systematic Uncertainty on the $3^{rd}$ Jet}
 As mentioned in Sec.~\ref{subsec:datasets_preparation}, two jet-based categories have been defined in this analysis. One of the reasons for it is the possibility to properly handle the systematic uncertainty associated to the usage of the third jet. This uncertainty arises because the third jet in the VBF sample (see Sec.~\ref{sec:datasets}) is generated at LO. Currently there is a better description of that jet at NLO (VBF-H3J), implemented in the Powheg-Box V2 MC generator. However, its available version is not a MiNLO as it is for the gluon-fusion process (which, by the way we are using in this analysis in replacement of the standard gluon-fusion sample used in the HZZ4L central analysis). Due to that, the cross-section of the VBF-H3J as computed by the generator is not inclusive for the other categories and thus, it can not replace the present VBF sample (VBF-H2J) used in this analysis.

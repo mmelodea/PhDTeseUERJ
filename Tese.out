@@ -58,16 +58,16 @@
 \BOOKMARK [1][-]{section*.106}{Experimental Uncertainties}{chapter.9}% 58
 \BOOKMARK [1][-]{section*.108}{Theoretical Uncertainties}{chapter.9}% 59
 \BOOKMARK [1][-]{section*.110}{Discriminants Shape Uncertainties}{chapter.9}% 60
-\BOOKMARK [2][-]{section*.114}{Systematic Uncertainty on the 3rd Jet}{section*.110}% 61
+\BOOKMARK [2][-]{section*.112}{Systematic Uncertainty on the 3rd Jet}{section*.110}% 61
 \BOOKMARK [0][-]{chapter.10}{Results }{}% 62
-\BOOKMARK [1][-]{section*.116}{Yields and Distributions}{chapter.10}% 63
-\BOOKMARK [1][-]{section*.122}{Statistical Analysis}{chapter.10}% 64
-\BOOKMARK [1][-]{section*.129}{Projection for Future Luminosity Scenarios}{chapter.10}% 65
-\BOOKMARK [0][-]{section*.132}{Refer\352ncias }{}% 66
-\BOOKMARK [0][-]{appendix.A}{The ANN Internal Representation Space }{}% 67
-\BOOKMARK [0][-]{appendix.B}{CMS Display of VBF and Background-like Data Events }{}% 68
-\BOOKMARK [0][-]{appendix.C}{ANN Architectures for Njets2 and Njets3 Categories }{}% 69
-\BOOKMARK [0][-]{appendix.D}{Expected S/B and \040. S/\(S+B\) Combining Njets2 and Njets3 Cuts }{}% 70
+\BOOKMARK [1][-]{section*.114}{Yields and Distributions}{chapter.10}% 63
+\BOOKMARK [1][-]{section*.120}{Statistical Analysis}{chapter.10}% 64
+\BOOKMARK [1][-]{section*.127}{Projection for Future Luminosity Scenarios}{chapter.10}% 65
+\BOOKMARK [0][-]{section*.130}{Refer\352ncias }{}% 66
+\BOOKMARK [0][-]{appendix.A}{Display of VBF and Background-like Events }{}% 67
+\BOOKMARK [0][-]{appendix.B}{Final ANN Architectures }{}% 68
+\BOOKMARK [0][-]{appendix.C}{ANNs Expected S/B and \040. S/\(S+B\) }{}% 69
+\BOOKMARK [0][-]{appendix.D}{The ANN Internal Representation Space }{}% 70
 \BOOKMARK [0][-]{appendix.E}{The CMS L1 Tracking Trigger \(CMSL1TT\) Project }{}% 71
 \BOOKMARK [0][-]{appendix.F}{The Fast Matrix Element \(FastME\) }{}% 72
 \BOOKMARK [0][-]{appendix.G}{Participation at the Global Doc Project }{}% 73
