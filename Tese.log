@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.12.14)  23 MAR 2019 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.12.14)  25 MAR 2019 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -943,53 +943,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--219
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 226.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 226.
 [2
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 238.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 238.
  [3
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 239.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 241.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 239.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 241.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 254.
  [4
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 263.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 263.
+(babel)             in language  on input line 265.
  [5
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 271.
+(babel)             in language  on input line 273.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 271.
+(babel)             in language  on input line 273.
 
 [6
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 279.
+(babel)             in language  on input line 281.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 279.
+(babel)             in language  on input line 281.
  [7
 
 ] (./Tese.lof
@@ -1044,9 +1044,9 @@ Package babel Info: Redefining portuges shorthand "|
 \openout5 = `Tese.lof'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 280.
+(babel)             in language  on input line 282.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 280.
+(babel)             in language  on input line 282.
  [16] (./Tese.lot
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 19.
@@ -1064,9 +1064,9 @@ Package babel Info: Redefining portuges shorthand "|
 \openout6 = `Tese.lot'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 306.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 306.
+(babel)             in language  on input line 308.
  [19] (./Tese.toc
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
@@ -1079,9 +1079,9 @@ Package babel Info: Redefining portuges shorthand "|
 \openout7 = `Tese.toc'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 306.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 306.
+(babel)             in language  on input line 308.
 
 [21]
 \openout2 = `Introduction.aux'.
@@ -1096,9 +1096,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 314.
+(babel)             in language  on input line 316.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 314.
+(babel)             in language  on input line 316.
  [22
 
 
@@ -1360,14 +1360,14 @@ ne 389.
 (pdftex.def)             Requested size: 154.66095pt x 115.23285pt.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 317.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 317.
  [37]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 317.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 315.
+(babel)             in language  on input line 317.
  [38 <./ChapterAnalysis/figs/vbf_diagram.png> <./ChapterAnalysis/figs/ggh_diagr
 am.png> <./ChapterAnalysis/figs/vh_diagram.png> <./ChapterAnalysis/figs/tth_dia
 gram.png> <./ChapterAnalysis/figs/qqzz_diagram.png> <./ChapterAnalysis/figs/ggz
@@ -1658,9 +1658,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 225.
 [56])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 316.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 316.
+(babel)             in language  on input line 318.
  [57 <./ChapterCMS/figs/dtc.png> <./ChapterCMS/figs/rpc.jpg> <./ChapterCMS/figs
 /csc.png>]
 \openout2 = `ChapterAnalysis/ChapterAnalysis.aux'.
@@ -2998,9 +2998,9 @@ fb.png used on input line 1560.
 (pdftex.def)             Requested size: 227.74702pt x 208.68123pt.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 317.
+(babel)             in language  on input line 319.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 317.
+(babel)             in language  on input line 319.
  [125 <./ChapterAnalysis/figs/ChannelsCompatibility_39fb_vs_150fb.png>]
 \openout2 = `Conclusion.aux'.
 
@@ -3079,9 +3079,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 600.
 [133])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 328.
+(babel)             in language  on input line 330.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 328.
+(babel)             in language  on input line 330.
  [134]
 \openout2 = `ChapterAnalysis/AppendixEventDisplay.aux'.
 
@@ -3139,9 +3139,9 @@ vent673988874_Njets3_ANN0p04_DoubleEG_Run2016F_2.png used on input line 24.
 (pdftex.def)             Requested size: 537.50446pt x 331.98805pt.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
  [135
 
 
@@ -3149,22 +3149,22 @@ Package babel Info: Redefining portuges shorthand "|
  <./ChapterAnalysis/figs/event_display_Run278167_Lumi1564_Event2852832207_Njets
 2_ANN0p93_DoubleEG_Run2016F_2.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
 
 [136 <./ChapterAnalysis/figs/event_display_Run275658_Lumi216_Event425010503_Nje
 ts2_ANN0p15_DoubleEG_Run2016C_2.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
  [137 <./ChapterAnalysis/figs/event_display_Run278018_Lumi453_Event844012107_Nj
 ets3_ANN0p77_DoubleMuon_Run2016F_2.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
 
 [138 <./ChapterAnalysis/figs/event_display_Run278018_Lumi361_Event673988874_Nje
 ts3_ANN0p04_DoubleEG_Run2016F_2.png>]
@@ -3264,9 +3264,9 @@ cutting.png used on input line 24.
 (pdftex.def)             Requested size: 284.53017pt x 227.62144pt.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 337.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 337.
 
 [141
 
@@ -3319,18 +3319,18 @@ LaTeX Warning: Float too large for page by 39.5669pt on input line 16.
 
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 336.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 336.
+(babel)             in language  on input line 338.
  [142
 
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 336.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 336.
+(babel)             in language  on input line 338.
  [143 <./AppendixNeuralNetwork/figs/Features/layer1_neuron0_vs_inputs.png> <./A
 ppendixNeuralNetwork/figs/Features/layer2_neuron4_vs_inputs.png> <./AppendixNeu
 ralNetwork/figs/Features/layer3_neuron1_vs_inputs.png>]
@@ -4539,14 +4539,14 @@ LaTeX Warning: Float too large for page by 16.61269pt on input line 729.
 
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 339.
  [180]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 339.
  [181 <./AppendixCMSL1TT/fermilab/IMG_5827.JPG> <./AppendixCMSL1TT/fermilab/pul
 sar2b_photo.png> <./AppendixCMSL1TT/fermilab/20160519_5158.jpg> <./AppendixCMSL
 1TT/fermilab/20160413_152444.jpg> <./AppendixCMSL1TT/fermilab/20160413_152420.j
@@ -4823,20 +4823,20 @@ line 320.
 (pdftex.def)             Requested size: 426.78537pt x 256.06813pt.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 340.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 340.
  [199]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 340.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 340.
  [200 <./AppendixFastME/figs/discriminant_variation_vs_nextra_objects.png> <./A
 ppendixFastME/figs/roc_variation_vs_nextra_objects.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 340.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 338.
+(babel)             in language  on input line 340.
  [201 <./AppendixFastME/figs/ggH_vs_VBF_test.png>]
 \openout2 = `AppendixGlobalDocProject/AppendixGlobalDocProject.aux'.
 
@@ -4935,18 +4935,18 @@ ut line 33.
 (pdftex.def)             Requested size: 170.72406pt x 113.80968pt.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 341.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 341.
  [205 <./AppendixGlobalDocProject/figs/dm_diagrams.png> <./AppendixGlobalDocPro
 ject/figs/met_plot.png>]
 No file Tese.ind.
 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 345.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
+(babel)             in language  on input line 347.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 347.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 347.
 (./Tese.aux (./Introduction.aux) (./ChapterTheory/ChapterTheory.aux)
 (./ChapterCMS/ChapterCMS.aux) (./ChapterAnalysis/ChapterAnalysis.aux)
 (./Conclusion.aux) (./Bibliography.aux)
@@ -4955,15 +4955,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
 (./AppendixNeuralNetwork/AppendixNeuralNetwork.aux)
 (./AppendixCMSL1TT/AppendixCMSL1TT.aux) (./AppendixFastME/AppendixFastME.aux)
 (./AppendixGlobalDocProject/AppendixGlobalDocProject.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 347.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 347.
 Package rerunfilecheck Info: File `Tese.out' has not changed.
 (rerunfilecheck)             Checksum: 9E22507AE49338BF521D5B59C5612879;5289.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 347.
  ) 
 Here is how much of TeX's memory you used:
  15243 strings out of 494397
@@ -4994,7 +4994,7 @@ pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmti12.pfb>
-Output written on Tese.pdf (206 pages, 18918948 bytes).
+Output written on Tese.pdf (206 pages, 18919066 bytes).
 PDF statistics:
  3495 PDF objects out of 3580 (max. 8388607)
  2876 compressed objects within 29 object streams

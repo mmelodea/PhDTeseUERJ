@@ -4,18 +4,16 @@
 \beamer@subsectionintoc {1}{2}{Theoretical Motivation}{5}{0}{1}
 \beamer@subsectionintoc {1}{3}{The CMS Experiment at CERN}{8}{0}{1}
 \beamer@subsectionintoc {1}{4}{Datasets, Triggers and Simulated Samples}{10}{0}{1}
-\beamer@subsectionintoc {1}{5}{Objects Selections}{12}{0}{1}
-\beamer@subsectionintoc {1}{6}{Event Selections}{14}{0}{1}
-\beamer@subsectionintoc {1}{7}{Signal and Background Estimation}{15}{0}{1}
-\beamer@subsectionintoc {1}{8}{Artificial Neural Networks (ANNs)}{20}{0}{1}
-\beamer@subsectionintoc {1}{9}{Systematic Uncertainties}{25}{0}{1}
-\beamer@subsectionintoc {1}{10}{Statistical Analysis and Results}{29}{0}{1}
-\beamer@sectionintoc {2}{CMS L1 Tracking Trigger AM+FPGA}{34}{0}{2}
-\beamer@subsectionintoc {2}{1}{Introduction}{35}{0}{2}
-\beamer@subsectionintoc {2}{2}{Hardware Work}{38}{0}{2}
-\beamer@subsectionintoc {2}{3}{Simulation Studies}{39}{0}{2}
+\beamer@subsectionintoc {1}{5}{Objects and Events Selections}{12}{0}{1}
+\beamer@subsectionintoc {1}{6}{Artificial Neural Networks (ANNs)}{21}{0}{1}
+\beamer@subsectionintoc {1}{7}{Systematic Uncertainties}{31}{0}{1}
+\beamer@subsectionintoc {1}{8}{Statistical Analysis and Results}{35}{0}{1}
+\beamer@sectionintoc {2}{CMS L1 Tracking Trigger AM+FPGA}{40}{0}{2}
+\beamer@subsectionintoc {2}{1}{Introduction}{41}{0}{2}
+\beamer@subsectionintoc {2}{2}{Hardware Work}{44}{0}{2}
+\beamer@subsectionintoc {2}{3}{Simulation Studies}{45}{0}{2}
 \beamer@sectionintoc {3}{The Fast Matrix Element (FastME)}{57}{0}{3}
 \beamer@subsectionintoc {3}{1}{Introduction}{58}{0}{3}
 \beamer@subsectionintoc {3}{2}{Simulation Studies}{61}{0}{3}
-\beamer@subsectionintoc {3}{3}{The FastME Package}{65}{0}{3}
-\beamer@sectionintoc {4}{Conclusions}{68}{0}{4}
+\beamer@subsectionintoc {3}{3}{The FastME Package}{62}{0}{3}
+\beamer@sectionintoc {4}{Conclusions}{64}{0}{4}

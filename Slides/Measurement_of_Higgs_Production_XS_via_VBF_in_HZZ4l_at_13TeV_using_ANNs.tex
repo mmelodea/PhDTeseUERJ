@@ -93,8 +93,8 @@
 \begin{itemize}
 		\justifying
 	\footnotesize
-	\item This analysis aims an isolated measurement of the Higgs VBF production XS through the HZZ4L channel via ANN discriminants;
-	\item Analysis summary:
+	\item This analysis is a measurement of the Higgs VBF production XS in the HZZ4L channel using ANN discriminants;
+	\item Analysis characteristics:
 	\begin{itemize}
 		\justifying
 		\item follows similar requirements established in CMS HZZ4L analysis;
@@ -140,15 +140,15 @@
 	\begin{multicols}{2}
 		\begin{itemize}
 		\justifying
-			\item In Physics symmetry is a strong basic property: the theory must be invariant under change of frame;
-			\item Particle interactions rise due to symmetry in Quantum Physics. However, symmetry brings a trouble: particles should not have mass!
-			\item This is a clear contrast to what we see in the nature (we have mass);
-			\item Solution: a new particle which interacts with other particles (and itself) giving their mass. This particle is the Higgs boson observed in 2012:
+			\item In Physics symmetry dictates interactions (gauge theories);
+			\item However, gauge bosons and fermions must be massless in the EWK theory;
+			\item Solution: Higgs scalar field to spontaneously break gauge symmetry giving mass to W, Z and fermions;
+			\item Higgs particle (the field quanta) can be produced in some process, such as:
 			\begin{overpic}
 				[scale=0.25]{figs/higgs_plot}
 				\put(25,50){\color{red}\small Higgs}
+				\put(15,84){Higgs discovered at the LHC in 2012}
 			\end{overpic}
-			\item The Higgs can appear through some interactions of the elementary particles, such as:
 		\end{itemize}
 	\end{multicols}
 	\vspace{0.2cm}
@@ -182,32 +182,35 @@
 		\begin{minipage}{9cm}
 			\begin{itemize}
 		\justifying
-				\item Search for Higgs produced via Vector Boson Fusion (VBF):
+				\item Signal is Vector Boson Fusion (VBF):
 				\begin{itemize}
 		\justifying
 					\item second largest Higgs production mode;
 					\item tree-level and clean of beyond-SM processes;
 					\item good frame for measurements of Higgs properties;
-					\item based on reconstruction of four isolated leptons + at least two jets;
+					\item estimated from MC normalized by $\sigma$.$BR$ given by LHC Higgs XS Working Group;
 				\end{itemize}
 			\end{itemize}
 		\end{minipage}
 		\flushright
 		\begin{minipage}{2.8cm}
-			\begin{varblock}[2.8cm]{\center VBF - Signal}
+			\vspace{-0.5cm}
+			\begin{varblock}[2.8cm]{\center VBF (only)}
 				\begin{figure}
-					\subfloat[$q\bar{q} \rightarrow Hq\bar{q}$]{\includegraphics[scale=0.05,trim={0cm 0cm 0cm 1cm},clip]{figs/vbf_diagram}}
+					\subfloat[$q\bar{q} \rightarrow Hq\bar{q}$]{\includegraphics[scale=0.04,trim={0cm 0cm 0cm 1cm},clip]{figs/vbf_diagram}}
 				\end{figure}
 			\end{varblock}		
 		\end{minipage}		
 	\end{multicols}
-	\vspace{-1cm}
+	\vspace{-0.7cm}
 	\begin{itemize}
 		\justifying
-		\item Expected backgrounds:
+		\item Backgrounds:
 	\end{itemize}
 	\begin{multicols}{2}
-		\begin{varblock}[6.5cm]{\center SM Higgs Production Modes - Backgrounds}
+		\begin{varblock}[6.5cm]{\center Remaining SM Higgs Production Modes}
+			\center
+			Estimated from MC normalized by $\sigma$.$BR$ given by LHC Higgs XS Working Group\\[-0.4cm]
 			\begin{figure}
 				\subfloat[$gg \rightarrow H$]{\includegraphics[scale=0.04]{figs/ggh_diagram}}
 				\subfloat[$q\bar{q} \rightarrow VH$]{\includegraphics[scale=0.04]{figs/vh_diagram}}
@@ -217,7 +220,9 @@
 		\flushright
 		\begin{minipage}{4.5cm}
 			\vspace{-0.2cm}   		
-			\begin{varblock}[4.5cm]{\center SM Backgrounds}
+			\begin{varblock}[4.5cm]{\center ZZ's}
+				\center
+				Estimated from MC normalized by $\sigma$.$BR$\\[-0.7cm]
 				\begin{figure}
 					\subfloat[$q\bar{q} \rightarrow ZZ$]{\includegraphics[scale=0.04,trim={0cm 3cm 0cm 4cm},clip]{figs/qqzz_diagram}}
 					\subfloat[$gg \rightarrow ZZ$]{\includegraphics[scale=0.04,trim={0cm 3cm 0cm 4cm},clip]{figs/ggzz_diagram}}
@@ -225,10 +230,11 @@
 			\end{varblock}
 		\end{minipage}   	
 	\end{multicols}
-	\begin{itemize}
-		\justifying
-		\item Additionally there is the $Z+X$ derived via \textit{data-driven} method;
-	\end{itemize}   	
+	\vspace{-0.4cm}
+	\begin{block}{\center $Z+X$}
+		\center
+		Estimated via Fake Rate \textit{data-driven} method
+	\end{block}   	
 \end{frame}
 
 \subsection{The CMS Experiment at CERN}
@@ -268,7 +274,7 @@
 		\begin{itemize}
 		\justifying
 			\item full 2016 Data: L = 35.9fb$^{-1}$, 03Feb ReReco (full list in backup);
-			\item JSON: Cert\_271036\_284044\_13TeV\_23Sep2016ReReco\_Collisions16\_JSON.txt.
+			%\item JSON: Cert\_271036\_284044\_13TeV\_23Sep2016ReReco\_Collisions16\_JSON.txt.
 		\end{itemize}
 		\item Triggers:
 		\begin{itemize}
@@ -299,7 +305,7 @@
 	\end{overpic}
 \end{frame}
 
-\subsection{Objects Selections}
+\subsection{Objects and Events Selections}
 \begin{frame}{Objects Selections}
 	\begin{block}{\center Electrons (momentum callibration applied)}
 		\hspace{0.35cm}
@@ -391,9 +397,8 @@
 	\end{block}	
 \end{frame}
 
-\subsection{Event Selections}
 \begin{frame}{Event Selections}
-	\begin{block}{\center SM Higgs}
+	\begin{block}{\center SM Higgs Region}
 		\begin{itemize}
 		\justifying
 			\item[1] \textbf{Z candidates}: pair of same-flavor, opposite-charge and FSR corrected leptons ($e^{+}e^{-}$, $\mu^{+}\mu^{-}$) having invariant mass $12 < m_{ll(\gamma)} < 120$ GeV;
@@ -408,45 +413,66 @@
 			\end{itemize}
 		\end{itemize}
 	\end{block}
+\end{frame}
+
+\begin{frame}{m4l Distributions and Yields}
+		\begin{block}{\centering After SM Higgs Selections}
+			\centering
+			\includegraphics[scale=0.26,trim={3cm 1cm 2cm 1cm},clip]{figs/m4l_smhiggs_4l_full_range}
+			\includegraphics[scale=0.28]{figs/smhiggs_yields_table}
+		\end{block}	
+\end{frame}
+
+\begin{frame}{Event Selections}
+	\begin{block}{\center SM Higgs Region}
+		\begin{itemize}
+			\justifying
+			\item[1] \textbf{Z candidates}: pair of same-flavor, opposite-charge and FSR corrected leptons ($e^{+}e^{-}$, $\mu^{+}\mu^{-}$) having invariant mass $12 < m_{ll(\gamma)} < 120$ GeV;
+			\item[2] \textbf{ZZ candidates}: pair of non-overlapping (different leptons) Z candidates. The Z with smallest $|m_{ll(\gamma)}-m_{Z}^{PDG}|$ is identified as $Z_{1}$ and the other Z as $Z_{2}$. ZZ candidates must satisfy:
+			\begin{itemize}
+				\justifying
+				\item any two leptons must have $\Delta R(\eta,\phi) > 0.02$ (\textbf{ghost removal});
+				\item at least two out of the four leptons must have $p_{T} >$ 10 and 20 GeV;
+				\item any two leptons must have (without FSR-$\gamma$) $m_{ll} >$ 4 GeV (\textbf{QCD suppression});
+				\item $m_{Z_{1}} >$ 40 GeV and $m_{Z_{1}Z_{2}} >$ 100 GeV;
+				\item if more than one ZZ candidate survives previous cuts, the one with highest scalar leptons $p_{T}$ sum is chosen;
+			\end{itemize}
+		\end{itemize}
+	\end{block}	
 	\centering {\huge \textbf{+}}
 	\begin{block}{\center VBF Signal Region (VBF-SR)}
 		\begin{itemize}
-		\justifying
+			\justifying
 			\item[3] In order to enhance VBF-to-background ratio:
 			\begin{itemize}
-		\justifying
+				\justifying
 				\item Number of jets:
-			\begin{itemize}
-		\justifying
-				\item EITHER, 2 or 3 jets from which at most one b-tagged jet;
-				\item OR, more than 3 jets with no b-tagged jet;
-			\end{itemize}
+				\begin{itemize}
+					\justifying
+					\item EITHER, 2 or 3 jets from which at most one b-tagged jet;
+					\item OR, more than 3 jets with no b-tagged jet;
+				\end{itemize}
 				\item ZZ candidates must have $118 \leq m_{Z_{1}Z_{2}} \leq 130$ GeV;
 			\end{itemize}
 		\end{itemize}
 	\end{block}
 \end{frame}
 
-\subsection{Signal and Background Estimation}
-\begin{frame}{Signal and Background Estimation}
-	\begin{itemize}
-		\justifying
-		\item In this analysis the background at the VBF-SR is composed by:
-		\begin{itemize}
-		\justifying
-			\item remaining Higgs production modes ($ggH$, $VH$ and $ttH$);
-			\item SM backgrounds ($qqZZ$, $ggZZ$ and $Z+X$);
-		\end{itemize}
-		\item The Higgs production modes (including VBF) are estimated from MC normalized by proper $\sigma.BR$ given by LHC Higgs XS Working Group computation;
-		\item The SM backgrounds $qqZZ$ and $ggZZ$ are modeled from MC and properly applying scale factors accounting for NLO and NNLO corrections, as done for the SM Higgs analysis;
-		\item The SM background $Z+X$ is estimated from Data via the \textit{data-driven} Fake Rate (FR) method;
-	\end{itemize}
+\begin{frame}{$m_{4l}$ Distributions and Yields}
+		\begin{block}{\centering After VBF-SR Selections}
+			\centering
+				\includegraphics[scale=0.26,trim={3cm 1cm 2cm 1cm},clip]{figs/m4l_vbf_4l_118_130GeV}
+				\includegraphics[scale=0.28]{figs/vbf_yields_table}
+			\begin{itemize}
+				\item The MC and Z+X remaining at VBF-SR are the events used in order to train and test the ANN models;
+			\end{itemize}
+		\end{block}
 \end{frame}
 
-\begin{frame}{$Z+X$ Background Estimation}
+\begin{frame}{The $Z+X$ Background (Data-Driven) Estimation}
 	\begin{itemize}
 		\justifying
-		\item Originates from processes with non-prompt leptons: heavy-flavor meson decays, mis-reconstructed jets and electrons from $\gamma$ conversions;
+		\item $Z+X$ originates from processes with non-prompt leptons: heavy-flavor meson decays, mis-reconstructed jets and electrons from $\gamma$ conversions;
 		\item Strategy: measure FR in specific control regions (CRs) and apply it to the SR;
 		\item {\color{red}First step}, measuring the FR:
 		\begin{itemize}
@@ -497,12 +523,11 @@
 		\justifying
 		\item {\color{red}Third step}, using the measured FR($p_{T}$, $\eta$) in order to estimate $Z+X$ yield and shape in the SR;
 		\item At SR, $Z+X$ is given by two components: one from 2P2F and one from 3P1F, via the observed Data and ZZ contribution;
-		\item An usual expression for this procedure is:
+		\item Events selected in the two CRs were stored for training ANN and derive its $Z+X$ shape;
 	\end{itemize}
-	\begin{multicols}{2}
-	\begin{minipage}{9cm}
+	\centering
+	\begin{minipage}{8.2cm}
 		\begin{varblock}[8.2cm]{\centering $Z+X$ at SR: $N^{bkg}_{SR} = (1 - \frac{N^{ZZ}_{3P1F}}{N_{3P1F}}) \sum^{N_{3P1F}}_{i} \frac{f^{i}_{a}}{(1-f^{i}_{a})} - \sum^{N_{2P2F}}_{j} \frac{f^{j}_{b}}{(1-f^{j}_{b})} \frac{f^{j}_{c}}{(1-f^{j}_{c})}$}
-			\begin{minipage}{8.3cm}
 				\begin{overpic}
 					[scale=0.18,trim={0.5cm 0cm 1cm 0cm},clip]{figs/m4l_zx_4l_smhiggs}
 					\put(37,85){SM Higgs}
@@ -511,45 +536,14 @@
 					[scale=0.18,trim={0.5cm 0cm 2cm 0cm},clip]{figs/m4l_zx_4l_vbf}
 					\put(37,85){VBF-SR}
 				\end{overpic}
-			\end{minipage}		
-		\end{varblock}		
-	\end{minipage}
-	\flushright
-	\begin{minipage}{4cm}
-	\begin{itemize}
-		\justifying
-		\item Sys. uncertainties from FR (due to difference on the bkg. composition at FR and CRs) is computed and propagated to the final $Z+X$ estimation;
-		\item OS-OS estimation validated by OS-SS cross-checking;
-		\item Events selected in the two CRs were stored for training ANN and derive its $Z+X$ shape;
-	\end{itemize}
-	\end{minipage}	
-	\end{multicols}	
-\end{frame}
-
-\begin{frame}{$m_{4l}$ Distributions and Yields}
-	\begin{multicols}{2}
-		\begin{varblock}[5.8cm]{\centering After SM Higgs Selections}
-			\centering
-			\includegraphics[scale=0.2,trim={2cm 1cm 2cm 1cm},clip]{figs/m4l_smhiggs_4l_full_range}\\
-			\includegraphics[scale=0.23]{figs/smhiggs_yields_table}
 		\end{varblock}
-		\begin{varblock}[5.8cm]{\centering After VBF-SR Selections}
-			\centering
-			\includegraphics[scale=0.2,trim={2cm 1cm 2cm 1cm},clip]{figs/m4l_vbf_4l_118_130GeV}\\
-			\includegraphics[scale=0.23]{figs/vbf_yields_table}
-		\end{varblock}
-	\end{multicols}	
+	\end{minipage}		
 \end{frame}
 
 \subsection{Artificial Neural Networks (ANNs)}
 \begin{frame}{Artificial Neural Networks (ANNs)}
 	\begin{itemize}
-		\justifying
-		\item Functionals coming from Machine Learning field (closest field to development of Artificial Intelligence) in Computer Science;
-		\item ANNs have been successfully applied in many tasks as recognition of hand-written digits, images, sounds, sequences of data, play games, etc;
-		\item Google and Microsoft are investing on them: Deep Mind, Cloud Machine Learning Engine, Cortana, Azure Studio, etc;
-		\item An ANN is basically a function which the arguments are functions: $\Omega(x) =  \Phi(f_{1}(x), f_{2}(x), ..., f_{n}(x))$;
-		\item It was inspired by neuron-science: how the brain works;
+		\item An ANN is a composite of multidimensional parameterized functions in terms of weights ($w_{i}$) and biases ($b_{i}$): $\Omega(x) =  \Phi(f_{1}(w_{1}, b_{i}; x),..., f_{n}(w_{n}, b_{n}; x))$;
 	\end{itemize}
 	\center		
 	\begin{overpic}[scale=0.22]{figs/neuron}
@@ -560,62 +554,112 @@
 	\begin{overpic}[scale=0.24]{figs/DNN}
 		\put(0,65){\footnotesize\color{blue}Assembly many neurons to build a net}
 		\put(25,0){\footnotesize\color{red}Depth reduces width}
-	\end{overpic}
+	\end{overpic}	
+	\begin{itemize}
+		\justifying
+		\item It comes from Machine Learning field (closest one to AI's development) in Computer Science;
+		\item ANNs have been successfully applied in many tasks as recognition of hand-written digits, images, sounds, sequences of data, etc;
+		\item Google and Microsoft are investing on them: Deep Mind, Cloud Machine Learning Engine, Cortana, Azure Studio, etc;
+	\end{itemize}
 \end{frame}	
 
-\begin{frame}{Artificial Neural Networks (ANNs)}
+\begin{frame}{ANN Supervised Learning}
 	\vspace{-0.1cm}	
 	\begin{itemize}
 		\justifying
 		\item Training an ANN consists in finding parameters ($w_{i}$ and $b_{i}$) for $\Omega(x)$, such that it models a dataset in the best (possible) way;
 		\item Supervised ANN training:
-		\vspace{-0.3cm}
-		\begin{multicols}{2}
 		\begin{itemize}
-			\item ANN receives \textbf{x}'s and expected $\Omega(x)$;
-			\item Computes difference between expected and ANN prediction;
-			\item Update $w_{i}$ and $b_{i}$ using this difference;
-			\item Repeat until predictions are good enough (minimize the difference);
+			\item[1] Initialize ANN weights ($w_{ji}, b_{ji}$) randomly;
+			\item[2] Input at the ANN an arbitrary set (\textbf{x}, $\Omega($\textbf{x}$)$);
+			\item[3] Compute the ANN error: (Loss) $\mathcal{E} = f(\Omega(\textbf{x})-\Omega(\textbf{x})_{pred})$;
+			\item[4] Update the neuron parameters with loss gradient descent: $\Delta w_{ji} = - \eta \dfrac{\partial \mathcal{E}}{\partial w_{ji}}$;
+			\item[5] Repeat from 2 to 3 until $\mathcal{E}$ gets smaller enough;
 		\end{itemize}
-		\flushleft
-		\begin{overpic}
-			[width=4cm,height=2cm]{figs/ann_supervised_learning}
-			\put(-5,37){\textbf{x}}
-			\put(102,35){\scriptsize $\Omega($\textbf{X})$_{pred}$}
-			\put(92,45){\scriptsize $\mathcal{E}(\Omega_{exp}-\Omega_{pred})$}
-			\put(28,25){\tiny $\Delta w_{ji} (n) \propto \eta \frac{\partial \mathcal{E}}{\partial w_{ji}}$}
-			\put(30,42){\scriptsize $w_{ji}(n)$, $b_{ji}(n)$}
-			\put(22,4){\scriptsize $w_{ji}(n+1)$, $b_{ji}(n+1)$}
-		\end{overpic}
-		\end{multicols}
-		\vspace{-0.3cm}
+		%\vspace{-0.3cm}
+		%\begin{multicols}{2}
+		%\begin{itemize}
+		%	\item ANN receives \textbf{x}'s and expected $\Omega(x)$;
+		%	\item Computes difference between expected and ANN prediction;
+		%	\item Update $w_{i}$ and $b_{i}$ using this difference;
+		%	\item Repeat until predictions are good enough (minimize the difference);
+		%\end{itemize}
+		%\flushleft
+		%\begin{overpic}
+		%	[width=4cm,height=2cm]{figs/ann_supervised_learning}
+		%	\put(-5,37){\textbf{x}}
+		%	\put(102,35){\scriptsize $\Omega($\textbf{X})$_{pred}$}
+		%	\put(92,45){\scriptsize $\mathcal{E}(\Omega_{exp}-\Omega_{pred})$}
+		%	\put(28,25){\tiny $\Delta w_{ji} (n) \propto \eta \frac{\partial \mathcal{E}}{\partial w_{ji}}$}
+		%	\put(30,42){\scriptsize $w_{ji}(n)$, $b_{ji}(n)$}
+		%	\put(22,4){\scriptsize $w_{ji}(n+1)$, $b_{ji}(n+1)$}
+		%\end{overpic}
+		%\end{multicols}
+		%\vspace{-0.3cm}
 		\item Here's an ANN learning $f(x) = a.x + b$ (just a linear dataset):
 	\end{itemize}
 	\centering
 	\movie[height=4.6cm,width=11.8cm,loop,showcontrols]{
 		\begin{overpic}
 			[height=4.6cm,width=11.7cm]{figs/tonystark_jarvis}
-			\put(42,35){\color{red}\huge{Wake up Jarvis!}}
+			\put(42,35){\color{red}\huge{Wake up Jarvis...}}
+			\put(42,31){\color{red}\huge{Let's entertain the audience!}}
 		\end{overpic}
 	}{figs/nn_learning_linear_data.mp4}\\
 	\tiny \url{https://www.youtube.com/watch?v=XAF1skB_MUw}
 \end{frame}	
 
-%\begin{frame}{Artificial Neural Networks (ANNs)}
-%	\begin{block}{\centering Briefly Overview}
-%		\begin{center}
-%			\begin{overpic}[scale=0.25]{figs/neuron}
-%				\put(17,59){\footnotesize \color{blue}Neuron (node/activation)}
-%			\end{overpic}
-%			\begin{overpic}[scale=0.29]{figs/DNN}
-%				\put(25,0){\footnotesize\color{red}Depth reduces width}
-%			\end{overpic}
-%		\end{center}
-%		{\color{blue}Neuron}: NN basic unit that associates inputs to an output. A NN is a set of connected neurons.\\
-%		{\color{blue}Training}: weights ($w_{i}$) and bias ($b$) in each neuron are adjusted to minimize NN model error on mapping inputs to outputs. \\
-%		{\color{blue}Deep Learning}: training methods for deep NN.
-%	\end{block}	
-%\end{frame}	
+\begin{frame}{ANN Learning Situations}
+	\begin{itemize}
+		\item An ANN training commonly leads to one of these three main situations:
+	\end{itemize}
+	\begin{multicols}{3}
+		\begin{varblock}[3.7cm]{\center \textbf{Underfit}}
+			\includegraphics[scale=0.4]{figs/underfit}
+			\begin{itemize}
+				\small
+				\item too few parameters;
+				\item not capable to learn data;
+				\item Solution: more parameters (layers/neurons) or training time;
+			\end{itemize}			
+		\end{varblock}
+		\begin{varblock}[3.7cm]{\center \textbf{Goodfit}}
+			\includegraphics[scale=0.4]{figs/goodfit}
+			\begin{itemize}
+				\small
+				\item enough parameters;
+				\item learns data properly;
+				\item capable of correct predictions for unseen data (generalization);
+			\end{itemize}						
+		\end{varblock}
+		\begin{varblock}[3.7cm]{\center \textbf{Overfit}}
+			\includegraphics[scale=0.4]{figs/overfit}
+			\begin{itemize}
+				\small
+				\item too many parameters;
+				\item learns data variance (noise);
+				\item Solution: reduce parameters or training time, dropout, regularizations;
+			\end{itemize}			
+		\end{varblock}				
+	\end{multicols}
+\end{frame}
+
+\begin{frame}{Monitoring the ANN Learning Process}
+	\begin{itemize}
+		\item The previous three cases can be monitored by looking at the so called learning curves;
+		\item One defines at least two sub-datasets:
+		\begin{itemize}
+			\item training: which is used for training the ANN (seen data);
+			\item testing: ANN make predictions on it at every epoch (unseen data);
+		\end{itemize}
+		\item This produces the following curves:
+		\begin{multicols}{2}
+			\includegraphics[scale=0.55,trim={2cm 0cm 1cm 1cm},clip]{figs/early_stop}\\
+			\item As the model adapts to the seen data, it becomes worse to make correct predictions on new (unseen) data;
+			\item When the validation loss becomes flat or increases while training loss keeps decreasing is a recommended procedure to stop the ANN training in order to avoid the overfitting;
+		\end{multicols}
+	\end{itemize}
+\end{frame}
 
 \begin{frame}{MC Preparation for ANN Training}
 	\begin{itemize}
@@ -644,7 +688,6 @@
 		\justifying
 		\item It's hard to assure a set of parameters as the best one;
 		\item ANN architecture optimization by scanning over several parameters;
-		\item One ANN chosen for each Njets case via $max(\epsilon.\pi)$ (ie. efficiency $\times$ purity);
 	\end{itemize}
 	\begin{block}{\centering Training parameters (focus on low level variables)}
 	\centering
@@ -674,10 +717,42 @@
 	\end{block}
 \end{frame}
 
-\begin{frame}{ANNs Shape for Njets2, Njets3 and their Combination}
+\begin{frame}{Training Strategy}
 	\begin{itemize}
 		\justifying
-		\item Here are the (final) two ANNs chosen as VBF discriminants in each jet-based category and their combination;
+		\item Trained ANN models has been validated by checking plots:
+	\end{itemize}
+	\centering
+	\begin{tabular}{p{3.5cm}p{3.5cm}p{3.5cm}}
+	\includegraphics[scale=0.22]{../ChapterAnalysis/figs/MELAOvertrainingCheck_example}&
+	\includegraphics[scale=0.22]{../ChapterAnalysis/figs/NNOvertrainingCheck_example}&
+	\includegraphics[scale=0.2]{../ChapterAnalysis/figs/ComparisonMCsEffPurity_example}\\
+	\includegraphics[scale=0.21]{../ChapterAnalysis/figs/ComparisonMCsSignificance_example}&
+	\includegraphics[scale=0.15]{../ChapterAnalysis/figs/FinalTrainTestROCs_example}&
+	\includegraphics[scale=0.15]{../ChapterAnalysis/figs/ComparisonMCsROC_example}\\
+	\end{tabular}
+\end{frame}
+
+\begin{frame}{View of Performances for Several ANN Parameters}
+	\begin{itemize}
+		\item Here are some performances of ANN parameters obtained during the analysis;
+		\item This allowed to fix some parameters and make more focused trainings;
+		\item The final ANNs have been chosen based on the metric present in this plots ($\epsilon.\pi$);
+	\end{itemize}
+	\begin{multicols}{2}
+		\includegraphics[scale=0.26,trim={1.2cm 8.5cm 0cm 2.1cm},clip]{figs/SummaryOfResults_Metrics_Njets2_test_inputs}\\[0.3cm]
+		\includegraphics[scale=0.26,trim={1.2cm 8.5cm 0cm 2.1cm},clip]{figs/SummaryOfResults_Metrics_Njets2_test_topology}\\[0.3cm]
+		\includegraphics[scale=0.26,trim={1.2cm 8.5cm 0cm 2.1cm},clip]{figs/SummaryOfResults_Metrics_Njets2_test_minimizer}\\[0.3cm]
+		\includegraphics[scale=0.26,trim={1.2cm 8.5cm 0cm 2.1cm},clip]{figs/SummaryOfResults_Metrics_Njets2_test_neuron}\\[0.3cm]
+		\includegraphics[scale=0.26,trim={1.2cm 8.5cm 0cm 2.1cm},clip]{figs/SummaryOfResults_Metrics_Njets2_test_scaletrain}\\[0.3cm]
+		\includegraphics[scale=0.26,trim={1.2cm 8.5cm 0cm 2.1cm},clip]{figs/SummaryOfResults_Metrics_Njets2_test_nooutliers}	
+	\end{multicols}
+\end{frame}
+
+\begin{frame}{Final ANNs for Njets2, Njets3 and their Combination}
+	\begin{itemize}
+		\justifying
+		\item Here are the final (best) ANNs, which have been chosen based on the $max(\epsilon.\pi)$ (ie. efficiency $\times$ purity);
 	\end{itemize}
 	\begin{multicols}{3}
 		\begin{varblock}[3.8cm]{\centering Njets2}
@@ -694,6 +769,53 @@
 		\justifying
 		\item $Z+X$ shape derived by feeding NNs with observed Data and $ZZ$ MC \footnote{Note that, the FR doesn't need to be redone.} and, repeating the procedure previously explained for this background estimation;
 	\end{itemize}
+\end{frame}
+
+\begin{frame}{Why to use 3$^{rd}$ Jet?}
+	\begin{multicols}{2}
+		\begin{itemize}
+			\justifying
+			\item VBF topology is commonly tagged by two highly energetic jets with high $\eta$ separation;\\[0.1cm]
+			\begin{minipage}{6cm}
+				\item For the total VBF cross section, though, there are other Feynman diagrams;
+				\item One of them is the case of a 3$^{rd}$ jet in the event which is irradiated from one of the two main jets (tree-level);
+				\item Our studies show the 3$^{rd}$ jet in the events contains valuable information which allows to increase signal/background ratio;
+			\end{minipage}
+			\begin{table}
+				Fraction of events, after the VBF-SR selections, containing the $jet_{i}$ (i-th jet)
+				\centering
+				\begin{tabular}{c|c|c}
+					\hline
+					\rowcolor{light_gray}
+					& $j_{3}(\%)$ & $j_{4}(\%)$\\
+					\hline
+					$qqH$  & 21.3        & 5.0\\
+					\hline
+					$ggH$  & 28.8        & 7.1\\
+					\hline
+					$qqZZ$ & 19.5        & 2.9\\
+					\hline
+					$Data$ & 18.0        & 0.0\\
+					\hline
+				\end{tabular}
+			\end{table}		
+		\end{itemize}
+		\begin{figure}
+			VBF discrimination against the backgrounds using only 2 and up to 3 jets\\
+			\centering
+			\begin{overpic}
+				[scale=0.27]{../ChapterAnalysis/figs/2jets_dnn_mela_djet_rocs_hjj}
+				\put(12,85){\color{red}2jets}
+				\put(45,26){\includegraphics[height=1.8cm,width=1.8cm]{../ChapterAnalysis/figs/2jets_sb_seff}}
+			\end{overpic}
+			\\
+			\begin{overpic}
+				[scale=0.27]{../ChapterAnalysis/figs/3jets_split0p8_norm_roc_djet_mela_dnn_hjj}
+				\put(12,85){\color{red}3jets}
+				\put(45,26){\includegraphics[height=1.8cm,width=1.8cm]{../ChapterAnalysis/figs/3jets_sb_seff}}
+			\end{overpic}	
+		\end{figure}
+	\end{multicols}
 \end{frame}
 
 \subsection{Systematic Uncertainties}
@@ -777,11 +899,19 @@
 \begin{frame}{Statistical Analysis}
 	\begin{itemize}
 		\justifying
-		\item The statistical analysis is carried through Higgs Combine tool;
-		\item A 1D binned shape analysis is performed on the VBF ANN discriminants, separately for each jet-based category and for their combination (using Combine tool);
-		\item Inputs are the ANN discriminants via 1D histograms, containing the proper signal and background normalizations, along with the statistical and systematical uncertainties;
-		\item Due to the low statistics of this analysis the HybridNew (fully Frequentist) method has been used (50k toys);
-		\item Results achieved by combining the ANN discriminants from each jet-based category are highlighted in the next slides;
+		\item The statistical analysis was done using the Higgs Combine tool:
+		\begin{itemize}
+			\item Higgs Combine tool is a package developed by LHC statistic community;
+			\item It allows one to compute cross-sections, limits and significances taking into account the statistical and systematic uncertainties;
+			\item It is used in several analysis in the LHC experiments nowadays;
+		\end{itemize}
+	\end{itemize}
+	\begin{itemize}
+		\item Here, a 1D shape analysis has been done:
+		\begin{itemize}
+			\item Inputs were ANN discriminants via 1D histograms (with proper signal and background normalizations) and the statistical and systematical uncertainties;
+			\item Results achieved by combining the ANN discriminants from each jet-based category are highlighted in the next slides;			
+		\end{itemize}
 	\end{itemize}
 \end{frame}
 
@@ -796,21 +926,21 @@
 		\subfloat[$\mu_{qqH}$ likelihood scans.]{\includegraphics[scale=0.2]{figs/LikelihoodScans}}
 		\subfloat[$\mu_{qqH}$ best fit on each channel.]{\includegraphics[scale=0.2]{figs/ChannelsCompatibility}}
 	\end{figure}
-	\vspace{-0.5cm}
-\begin{table}
-	\caption{Expected and observed signal strength modifiers from each category and four-lepton channel for 35.9fb$^{-1}$ of observed data at $\sqrt{s}=$ 13TeV.}
-	\centering
-	\footnotesize
-	\begin{tabular}{c|c|c|c|c|c|c|c}
-		\hline
-		Signal strength & $\mu_{qqH}^{4\mu,2J}$ & $\mu_{qqH}^{4e,2J}$ & $\mu_{qqH}^{2e2\mu,2J}$ & $\mu_{qqH}^{4\mu,3J}$ & $\mu_{qqH}^{4e,3J}$ & $\mu_{qqH}^{2e2\mu,3J}$ & $\mu_{qqH}^{4l,2J+3J}$\\
-		\hline
-		Expected & 1.00$^{+2.13}_{-1.49}$ & 1.00$^{+3.11}_{-1.00}$ & 1.00$^{+1.83}_{-0.96}$ & 1.00$^{+5.79}_{-1.00}$ & 1.00$^{+8.24}_{-1.00}$ & 1.00$^{+4.67}_{-1.00}$ & 1.00$^{+1.08}_{-0.70}$ \\
-		\hline
-		Observed & 0.00$^{+1.36}_{-0.00}$ & 0.00$^{+1.36}_{-0.00}$ & 3.10$^{+2.69}_{-1.79}$ & 3.13$^{+6.47}_{-2.98}$ & 0.00$^{+3.78}_{-0.00}$ & 1.10$^{+4.77}_{-1.14}$ & 1.28$^{+1.24}_{-0.84}$ \\ 
-		\hline
-	\end{tabular}
-\end{table}	
+%	\vspace{-0.5cm}
+%\begin{table}
+%	\caption{Expected and observed signal strength modifiers from each category and four-lepton channel for 35.9fb$^{-1}$ of observed data at $\sqrt{s}=$ 13TeV.}
+%	\centering
+%	\footnotesize
+%	\begin{tabular}{c|c|c|c|c|c|c|c}
+%		\hline
+%		Signal strength & $\mu_{qqH}^{4\mu,2J}$ & $\mu_{qqH}^{4e,2J}$ & $\mu_{qqH}^{2e2\mu,2J}$ & $\mu_{qqH}^{4\mu,3J}$ & $\mu_{qqH}^{4e,3J}$ & $\mu_{qqH}^{2e2\mu,3J}$ & $\mu_{qqH}^{4l,2J+3J}$\\
+%		\hline
+%		Expected & 1.00$^{+2.13}_{-1.49}$ & 1.00$^{+3.11}_{-1.00}$ & 1.00$^{+1.83}_{-0.96}$ & 1.00$^{+5.79}_{-1.00}$ & 1.00$^{+8.24}_{-1.00}$ & 1.00$^{+4.67}_{-1.00}$ & 1.00$^{+1.08}_{-0.70}$ \\
+%		\hline
+%		Observed & 0.00$^{+1.36}_{-0.00}$ & 0.00$^{+1.36}_{-0.00}$ & 3.10$^{+2.69}_{-1.79}$ & 3.13$^{+6.47}_{-2.98}$ & 0.00$^{+3.78}_{-0.00}$ & 1.10$^{+4.77}_{-1.14}$ & 1.28$^{+1.24}_{-0.84}$ \\ 
+%		\hline
+%	\end{tabular}
+%\end{table}	
 \end{frame}
 
 \begin{frame}{Statistical Analysis}
@@ -997,18 +1127,6 @@
 \end{frame}
 
 \subsection{Simulation Studies}
-\begin{frame}{Simulation Studies: Roads and Combinations Truncation}
-	\begin{multicols}{2}
-	\begin{itemize}
-		\justifying
-		\item It was needed to check the approach under truncation of roads and combinations (for reducing latency, for instace);
-		\item Implemented two new flags into the software for controlling the number of roads and combinations to be accepted for further processing;
-		\item A study done by the author showed the smallest impact on the efficiency due to truncation happens when roads are sorted by frequency:
-	\end{itemize}
-	\includegraphics[scale=0.4]{CMSL1TTfigs/ttbar_pu200_mu_road_sorting_comparison}
-	\end{multicols}
-\end{frame}
-
 \begin{frame}{Simulation Studies: Stub Bending ($\Delta S$)}
 	\begin{multicols}{2}
 	\begin{itemize}
@@ -1135,56 +1253,6 @@
 		\includegraphics[scale=0.32]{CMSL1TTfigs/muon_road_eff_vs_pile_up_deltaS}
 	\end{itemize}
 	\end{multicols}	
-\end{frame}
-
-\begin{frame}{Simulation Studies: Stub Bending ($\Delta S$) - The Edge of the Montain}
-	\vspace{-0.2cm}
-	\begin{multicols}{2}
-		\begin{itemize}
-		\justifying
-			\item At the ending of author's iteration with the CMS L1TT AM+FPGA there was a worry about PU spikes (as it happened in LHC Run I);
-			\item Studies with single-$\mu$+PU presented in the group showed large efficiency loss at very high PU:\\
-			\centering
-			\begin{overpic}
-				[width=4cm,height=4cm]{CMSL1TTfigs/luciano_mupu_sf0p8_plot}
-				\put(20,0){
-					\begin{overpic}[scale=0.2]{CMSL1TTfigs/surprised_cat}
-					\put(45,20){\Huge \color{red} \textbf{$\Delta S$}}
-					\put(25,9){\Huge \color{red} \textbf{MIRACLE!!}}
-				\end{overpic}}
-			\end{overpic}
-			\item The author decided to check that and apply the $\Delta S$ approach (not considered by them at that time):\\
-			\centering
-			\includegraphics[scale=0.34]{CMSL1TTfigs/muon_road_eff_vs_pile_up_sf0p6}\\
-			\includegraphics[scale=0.32]{CMSL1TTfigs/muon_road_eff_vs_pile_up_deltaS}	
-		\end{itemize}		
-	\end{multicols}	
-\end{frame}
-
-\begin{frame}{Simulation Studies: $\chi^{2}$ Revision}
-	\begin{itemize}
-		\justifying
-		\begin{multicols}{2}		
-			\item In order to optimize the final results, it was decided to re-study the tracking fitter $\chi^{2}$ value;
-			\item It decides weather a combination of stubs is fine or not;
-			\item Points to address:
-			\begin{itemize}
-		\justifying
-				\item Just an unique cut applied;
-				\item Dependence on the tracks $p_{T}$;
-			\end{itemize}
-			\flushright
-			\begin{overpic}
-				[scale=0.25]{CMSL1TTfigs/tfChi2_Pt_all}
-			\end{overpic}
-		\end{multicols}
-		\item A new set of cuts have been adopted:
-		\begin{itemize}
-		\justifying
-			\item 6/6 combinations have a tight and unique threshold given by the 99$\%$ percentile of the theoretical $\chi^{2}_{ndof=8}$ curve (equals to 20.2);
-			\item 5/6 combinations have a $p_{T}$-based cut according to 8 ranges, which were defined to guarantee $\epsilon^{6/6+5/6}_{tracks} = 0.99 * \epsilon^{6/6+5/6}_{roads}$
-		\end{itemize}
-	\end{itemize}
 \end{frame}
 
 \begin{frame}{Simulation Studies: Synthetic Efficiency}
@@ -1316,63 +1384,7 @@
 		\item The FOMs (figures of merit) are the common graphs used within the CMS L1TT AM+FPGA approach in order to show the performance of simulation studies;
 		\item The FOMs are the efficiency and track categorization rates versus ($p_{T}$, $\eta$, $\phi$);
 	\end{itemize}
-\end{frame}
-
-\begin{frame}{Simulation Studies: Final FOMs - $\mu$ in $t\bar{t}+PU200$}
-	Track reconstruction efficiency for a $\mu$ in $t\bar{t}+PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplicate removal was applied by requiring DR=0.\\
-	\begin{figure}
-		\centering
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_pt_trunc}
-		\end{overpic}
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_eta_trunc}
-			\put(25,45){\color{blue}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.80}
-			\put(25,40){\color{red}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.94}
-			\put(25,35){\color{violet}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.96}
-		\end{overpic}
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_eff_phi_trunc}
-		\end{overpic}\\
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_pt_trunc}
-		\end{overpic}
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_eta_trunc}
-		\end{overpic}
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_phi_trunc}
-		\end{overpic}
-	\end{figure}	
-\end{frame}
-	
-\begin{frame}{Simulation Studies: Final FOMs - $\mu+PU200$}
-	Track reconstruction efficiency for $\mu+PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.
-	\begin{figure}
-		\centering
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_pt_trunc}
-		\end{overpic}
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_eta_trunc}
-			\put(25,45){\color{blue}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.88}
-			\put(25,40){\color{red}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.97}
-			\put(25,35){\color{violet}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.98}
-		\end{overpic}
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_eff_phi_trunc}
-		\end{overpic}\\	
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_pt_trunc}
-		\end{overpic}
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_eta_trunc}
-		\end{overpic}	
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU200/mu_pu200_track_ratio_phi_trunc}
-		\end{overpic}	
-	\end{figure}	
-\end{frame}
+\end{frame}	
 
 \begin{frame}{Simulation Studies: Final FOMs - $\mu+PU300$}
 	Track reconstruction efficiency for $\mu+PU300$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.
@@ -1428,34 +1440,6 @@
 			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/muPU400/mu_pu400_track_ratio_phi_trunc}
 		\end{overpic}	
 	\end{figure}	
-\end{frame}
-	
-\begin{frame}{Simulation Studies: Final FOMs - $jets(p_{T}=250GeV)+PU200$}
-	Track reconstruction efficiency for $jets(p_{T}=250GeV)+PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.	
-	\begin{figure}
-		\centering
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_pt_trunc}
-		\end{overpic}
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_eta_trunc}
-			\put(25,50){\color{blue}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.27}
-			\put(25,45){\color{red}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.78}
-			\put(25,40){\color{violet}\tiny$\epsilon_{synthetic}(p_{T}>3GeV)$ = 0.71}		
-		\end{overpic}
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_eff_phi_trunc}
-		\end{overpic}\\	
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_pt_trunc}
-		\end{overpic}
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_eta_trunc}
-		\end{overpic}	
-		\begin{overpic}
-			[scale=0.16,trim={1cm 0cm 1cm 1cm},clip]{CMSL1TTfigs/final_plots/jet250PU200/jet250_pu200_track_ratio_phi_trunc}
-		\end{overpic}	
-	\end{figure}
 \end{frame}
 
 
@@ -1585,57 +1569,6 @@
 \end{frame}
 
 \subsection{Simulation Studies}
-\begin{frame}{Simulation Studies: Bias from Pattern Bank Size}
-	\begin{itemize}
-		\justifying
-		\item The first point addressed during the development of the project was the influence of the pattern banks size. On graphs (a) and (b) the background pattern bank has a fixed size while the signal one is varied. On graphs (c) and (d) the opposite case is shown. Note, here "purity" is computed using the absolute number of events (without normalization).
-	\end{itemize}
-	\begin{figure}
-	\begin{overpic}
-		[width=8cm,height=3cm,trim={0cm 0cm 0cm 0cm},clip]{FastMEfigs/purity_keeping_bkg_varying_sig}
-		\put(25,20){(a)}
-		\put(78,20){(b)}
-	\end{overpic}\\[0.2cm]
-	\begin{overpic}
-		[width=8cm,height=3cm,trim={0cm 0cm 0cm 0cm},clip]{FastMEfigs/purity_keeping_sig_varying_bkg}
-		\put(25,20){(c)}
-		\put(78,20){(d)}		
-	\end{overpic}
-\end{figure}	
-\end{frame}
-
-\begin{frame}{Simulation Studies: Impact of $\phi$ Variable}
-	\begin{itemize}
-		\justifying
-		\item Some studies have been done in order to optimize the performance of the discriminants;
-		\item In the beginning of the project results showed that $\phi$ and $E$ (energy) doesn't contribute and can actually worse the discriminant performance;
-		\item Below is a comparison between the $P_{SB}^{D}$ distribution using $\phi$ and without it:
-		\begin{figure}
-			\begin{overpic}
-				[scale=0.2,trim={0cm 0cm 0cm 2.3cm},clip]{FastMEfigs/comparacao_psbD_using_nousing_dPhi_scaledPt70}
-				\put(10,47){\color{red}Signal}
-				\put(10,44){\color{blue}Background}		
-			\end{overpic}
-		\end{figure}			
-		\item Based on such plot $\phi$ was removed from the default algorithm within $\textit{Fast}$ME and left as an option to the user;
-	\end{itemize}
-\end{frame}
-
-\begin{frame}{Simulation Studies: Scaling $v_{k}$'s Contribution}
-	\begin{itemize}
-		\justifying
-		\item Another point of optimization was the scaling of the variables used to compute the $R_{(i,j)}$;
-		\item Since the variables $v_{k}$ present quite different ranges of variation it's important do level them;
-		\item Here's a scan showing the variation of the fraction of signal events being mis-classified as background in function of the $\delta p_{T}$. A fixed value of $\delta \eta = 5.0$ was used;
-		\begin{figure}
-			\begin{overpic}
-				[scale=0.2,trim={0cm 0cm 0cm 0cm},clip]{FastMEfigs/fastme_sensibility_vs_dpTscaleFactor}
-			\end{overpic}
-		\end{figure}
-		\item The latest version of the project has an automated method which assigns the cumulative mean of MC events as the scaling factors;
-	\end{itemize}
-\end{frame}
-
 \begin{frame}{Simulation Studies: \textit{Fast}ME Applied to HZZ4L CMS Data}
 	\begin{itemize}
 		\justifying
@@ -1669,37 +1602,6 @@
 	\end{itemize}
 	\centering
 	\includegraphics[scale=0.34]{FastMEfigs/fastme_github_page}	
-\end{frame}
-
-\begin{frame}{The \textit{Fast}ME Package}
-	\begin{multicols}{2}
-	\begin{itemize}
-		\justifying
-		\item Features:
-		\begin{itemize}
-			\begin{minipage}{5cm}
-			\item User gives to the program a configuration file;
-			\item Original samples are replicated;
-			\item $R_{(j,i)}$ can be simultaneously computed for each class;
-			\item Creates a ROOT file containing $D_{min}^{class}$ and $P_{SB}^{D/W}$;
-			\end{minipage}			
-		\end{itemize}
-	\end{itemize}
-	\centering
-	\begin{overpic}
-		[scale=0.4,trim={0cm 4.1cm 0cm 7cm},clip]{FastMEfigs/fme_config_card}
-		\put(0,43){\scriptsize \textit{Fast}ME configuration file example}
-	\end{overpic}
-	\begin{overpic}
-		[scale=0.2,trim={0cm 25cm 0cm 0cm},clip]{FastMEfigs/fme_running}
-		\put(0,101){\scriptsize \textit{Fast}ME workflow view}
-	\end{overpic}\\:\\
-	\begin{overpic}
-		[scale=0.2,trim={0cm 0cm 0cm 40cm},clip]{FastMEfigs/fme_running}
-		\put(76,60){\includegraphics[scale=0.11]{FastMEfigs/Discriminant_Signal_vs_Background}}
-		\put(76,0){\includegraphics[scale=0.11]{FastMEfigs/FastMatrixElement_ROC_Curve}}
-	\end{overpic}
-	\end{multicols}	
 \end{frame}
 
 \begin{frame}{The End of \textit{Fast}ME Project}
@@ -1821,8 +1723,7 @@
 	\end{itemize}
 \end{frame}
 
-
-\begin{frame}{End}
+\begin{frame}{}
 	\centering
 	\begin{minipage}{10cm}
 		\begin{varblock}[10cm]{}
@@ -1838,7 +1739,7 @@
 		\end{varblock}
 	\end{minipage}
 \end{frame}
-		
+
 \begin{frame}
 	\begin{center}
 		\includegraphics[scale=0.5]{figs/backup}
@@ -1880,13 +1781,13 @@
 	\includegraphics[scale=0.7,trim={2cm 1cm 2cm 8.6cm},clip]{figs/ann_comb_sensitivity}
 \end{frame}
 
-\begin{frame}{ANNs Validation Plots}
-	\centering
-	\includegraphics[scale=0.7,trim={0cm 11.7cm 0cm 0cm},clip]{figs/ann_validation_plots}
-	\includegraphics[scale=0.7,trim={0cm 6cm 5.4cm 5.8cm},clip]{figs/ann_validation_plots}\\[0.5cm]
-	\includegraphics[scale=0.7,trim={5.4cm 6cm 0cm 5.8cm},clip]{figs/ann_validation_plots}
-	\includegraphics[scale=0.75,trim={0cm 0cm 0cm 11.5cm},clip]{figs/ann_validation_plots}
-\end{frame}
+%\begin{frame}{ANNs Validation Plots}
+%	\centering
+%	\includegraphics[scale=0.7,trim={0cm 11.7cm 0cm 0cm},clip]{figs/ann_validation_plots}
+%	\includegraphics[scale=0.7,trim={0cm 6cm 5.4cm 5.8cm},clip]{figs/ann_validation_plots}\\[0.5cm]
+%	\includegraphics[scale=0.7,trim={5.4cm 6cm 0cm 5.8cm},clip]{figs/ann_validation_plots}
+%	\includegraphics[scale=0.75,trim={0cm 0cm 0cm 11.5cm},clip]{figs/ann_validation_plots}
+%\end{frame}
 
 \begin{frame}{Events after SM Higgs Selections in each 4l Channel}
 	\centering
@@ -1927,6 +1828,138 @@
 	\subfloat[Njets2 - 21:13:8]{\includegraphics[width=6cm,height=5cm]{figs/k57nj2_architecture_horizontal}}
 	\subfloat[Njets3 - 11:9:7]{\includegraphics[width=6cm,height=5cm]{figs/k24nj3_architecture_horizontal}}
 \end{figure}
+\end{frame}
+
+\begin{frame}{Keras ModelCheckpoint Option Against Overfitting}
+	\footnotesize
+	\begin{itemize}
+		\item Here is an example of overfitting in my case;
+		\item Good solution found: \textbf{ModelCheckPoint}, it saves the model every time the validation loss decreases;
+		\item Although the learning curves show overfitting the final ANN shapes from training and testing sub-datasets matches nicely;
+	\end{itemize}
+	\centering
+	\includegraphics[width=6cm,height=6cm]{figs/TrainingHistoryLossOverfitting}
+	\includegraphics[width=6cm,height=6cm]{figs/NNOvertrainingCheckOverfitting}
+\end{frame}
+
+\begin{frame}{Simulation Studies: Roads and Combinations Truncation}
+	\begin{multicols}{2}
+		\begin{itemize}
+			\justifying
+			\item It was needed to check the approach under truncation of roads and combinations (for reducing latency, for instace);
+			\item Implemented two new flags into the software for controlling the number of roads and combinations to be accepted for further processing;
+			\item A study done by the author showed the smallest impact on the efficiency due to truncation happens when roads are sorted by frequency:
+		\end{itemize}
+		\includegraphics[scale=0.4]{CMSL1TTfigs/ttbar_pu200_mu_road_sorting_comparison}
+	\end{multicols}
+\end{frame}
+
+\begin{frame}{Simulation Studies: $\chi^{2}$ Revision}
+	\begin{itemize}
+		\justifying
+		\begin{multicols}{2}		
+			\item In order to optimize the final results, it was decided to re-study the tracking fitter $\chi^{2}$ value;
+			\item It decides weather a combination of stubs is fine or not;
+			\item Points to address:
+			\begin{itemize}
+				\justifying
+				\item Just an unique cut applied;
+				\item Dependence on the tracks $p_{T}$;
+			\end{itemize}
+			\flushright
+			\begin{overpic}
+				[scale=0.25]{CMSL1TTfigs/tfChi2_Pt_all}
+			\end{overpic}
+		\end{multicols}
+		\item A new set of cuts have been adopted:
+		\begin{itemize}
+			\justifying
+			\item 6/6 combinations have a tight and unique threshold given by the 99$\%$ percentile of the theoretical $\chi^{2}_{ndof=8}$ curve (equals to 20.2);
+			\item 5/6 combinations have a $p_{T}$-based cut according to 8 ranges, which were defined to guarantee $\epsilon^{6/6+5/6}_{tracks} = 0.99 * \epsilon^{6/6+5/6}_{roads}$
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Simulation Studies: Bias from Pattern Bank Size}
+	\begin{itemize}
+		\justifying
+		\item The first point addressed during the development of the project was the influence of the pattern banks size. On graphs (a) and (b) the background pattern bank has a fixed size while the signal one is varied. On graphs (c) and (d) the opposite case is shown. Note, here "purity" is computed using the absolute number of events (without normalization).
+	\end{itemize}
+	\begin{figure}
+		\begin{overpic}
+			[width=8cm,height=3cm,trim={0cm 0cm 0cm 0cm},clip]{FastMEfigs/purity_keeping_bkg_varying_sig}
+			\put(25,20){(a)}
+			\put(78,20){(b)}
+		\end{overpic}\\[0.2cm]
+		\begin{overpic}
+			[width=8cm,height=3cm,trim={0cm 0cm 0cm 0cm},clip]{FastMEfigs/purity_keeping_sig_varying_bkg}
+			\put(25,20){(c)}
+			\put(78,20){(d)}		
+		\end{overpic}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Simulation Studies: Impact of $\phi$ Variable}
+	\begin{itemize}
+		\justifying
+		\item Some studies have been done in order to optimize the performance of the discriminants;
+		\item In the beginning of the project results showed that $\phi$ and $E$ (energy) doesn't contribute and can actually worse the discriminant performance;
+		\item Below is a comparison between the $P_{SB}^{D}$ distribution using $\phi$ and without it:
+		\begin{figure}
+			\begin{overpic}
+				[scale=0.2,trim={0cm 0cm 0cm 2.3cm},clip]{FastMEfigs/comparacao_psbD_using_nousing_dPhi_scaledPt70}
+				\put(10,47){\color{red}Signal}
+				\put(10,44){\color{blue}Background}		
+			\end{overpic}
+		\end{figure}			
+		\item Based on such plot $\phi$ was removed from the default algorithm within $\textit{Fast}$ME and left as an option to the user;
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Simulation Studies: Scaling $v_{k}$'s Contribution}
+	\begin{itemize}
+		\justifying
+		\item Another point of optimization was the scaling of the variables used to compute the $R_{(i,j)}$;
+		\item Since the variables $v_{k}$ present quite different ranges of variation it's important do level them;
+		\item Here's a scan showing the variation of the fraction of signal events being mis-classified as background in function of the $\delta p_{T}$. A fixed value of $\delta \eta = 5.0$ was used;
+		\begin{figure}
+			\begin{overpic}
+				[scale=0.2,trim={0cm 0cm 0cm 0cm},clip]{FastMEfigs/fastme_sensibility_vs_dpTscaleFactor}
+			\end{overpic}
+		\end{figure}
+		\item The latest version of the project has an automated method which assigns the cumulative mean of MC events as the scaling factors;
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{The \textit{Fast}ME Package}
+	\begin{multicols}{2}
+		\begin{itemize}
+			\justifying
+			\item Features:
+			\begin{itemize}
+				\begin{minipage}{5cm}
+					\item User gives to the program a configuration file;
+					\item Original samples are replicated;
+					\item $R_{(j,i)}$ can be simultaneously computed for each class;
+					\item Creates a ROOT file containing $D_{min}^{class}$ and $P_{SB}^{D/W}$;
+				\end{minipage}			
+			\end{itemize}
+		\end{itemize}
+		\centering
+		\begin{overpic}
+			[scale=0.4,trim={0cm 4.1cm 0cm 7cm},clip]{FastMEfigs/fme_config_card}
+			\put(0,43){\scriptsize \textit{Fast}ME configuration file example}
+		\end{overpic}
+		\begin{overpic}
+			[scale=0.2,trim={0cm 25cm 0cm 0cm},clip]{FastMEfigs/fme_running}
+			\put(0,101){\scriptsize \textit{Fast}ME workflow view}
+		\end{overpic}\\:\\
+		\begin{overpic}
+			[scale=0.2,trim={0cm 0cm 0cm 40cm},clip]{FastMEfigs/fme_running}
+			\put(76,60){\includegraphics[scale=0.11]{FastMEfigs/Discriminant_Signal_vs_Background}}
+			\put(76,0){\includegraphics[scale=0.11]{FastMEfigs/FastMatrixElement_ROC_Curve}}
+		\end{overpic}
+	\end{multicols}	
 \end{frame}
 
 %-------------------------------------------------------------
