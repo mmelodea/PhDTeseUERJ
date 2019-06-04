@@ -40,34 +40,35 @@
 \BOOKMARK [1][-]{section*.71}{The Learning Process}{chapter.7}% 40
 \BOOKMARK [1][-]{section*.75}{Developing and Training the Neural Networks}{chapter.7}% 41
 \BOOKMARK [1][-]{section*.76}{Preparation of the Datasets}{chapter.7}% 42
-\BOOKMARK [1][-]{section*.77}{Scaling Events Contribution in the Training}{chapter.7}% 43
-\BOOKMARK [1][-]{section*.79}{The Training Procedure}{chapter.7}% 44
-\BOOKMARK [1][-]{section*.82}{NNs Training Performances}{chapter.7}% 45
-\BOOKMARK [2][-]{section*.84}{The Impact of the VBF 3rd Jet}{section*.82}% 46
+\BOOKMARK [1][-]{section*.79}{Scaling Events Contribution in the Training}{chapter.7}% 43
+\BOOKMARK [1][-]{section*.81}{The Training Procedure}{chapter.7}% 44
+\BOOKMARK [1][-]{section*.84}{NNs Training Performances}{chapter.7}% 45
+\BOOKMARK [2][-]{section*.86}{The Impact of the VBF 3rd Jet}{section*.84}% 46
 \BOOKMARK [0][-]{chapter.8}{Background Estimation }{}% 47
-\BOOKMARK [1][-]{section*.87}{Estimation of the SM Higgs Production Modes}{chapter.8}% 48
-\BOOKMARK [1][-]{section*.88}{Modeling of q ZZ}{chapter.8}% 49
-\BOOKMARK [1][-]{section*.89}{Modeling of gg ZZ}{chapter.8}% 50
-\BOOKMARK [1][-]{section*.90}{Estimation of Z+X Background}{chapter.8}% 51
-\BOOKMARK [2][-]{section*.91}{Measuring the Fake Rates}{section*.90}% 52
-\BOOKMARK [2][-]{section*.94}{Building Control Regions}{section*.90}% 53
-\BOOKMARK [2][-]{section*.99}{Uncertainties on the Estimation of Z+X}{section*.90}% 54
-\BOOKMARK [2][-]{section*.103}{Same-Sign Cross-checking and Final Z+X Estimation}{section*.90}% 55
-\BOOKMARK [2][-]{section*.105}{Z+X Neural Network Output Shape}{section*.90}% 56
+\BOOKMARK [1][-]{section*.89}{Estimation of the SM Higgs Production Modes}{chapter.8}% 48
+\BOOKMARK [1][-]{section*.90}{Modeling of q ZZ}{chapter.8}% 49
+\BOOKMARK [1][-]{section*.91}{Modeling of gg ZZ}{chapter.8}% 50
+\BOOKMARK [1][-]{section*.92}{Estimation of Z+X Background}{chapter.8}% 51
+\BOOKMARK [2][-]{section*.93}{Measuring the Fake Rates}{section*.92}% 52
+\BOOKMARK [2][-]{section*.96}{Building Control Regions}{section*.92}% 53
+\BOOKMARK [2][-]{section*.101}{Uncertainties on the Estimation of Z+X}{section*.92}% 54
+\BOOKMARK [2][-]{section*.105}{Same-Sign Cross-checking and Final Z+X Estimation}{section*.92}% 55
+\BOOKMARK [2][-]{section*.107}{Z+X Neural Network Output Shape}{section*.92}% 56
 \BOOKMARK [0][-]{chapter.9}{Systematic Uncertainties }{}% 57
-\BOOKMARK [1][-]{section*.106}{Experimental Uncertainties}{chapter.9}% 58
-\BOOKMARK [1][-]{section*.108}{Theoretical Uncertainties}{chapter.9}% 59
-\BOOKMARK [1][-]{section*.110}{Discriminants Shape Uncertainties}{chapter.9}% 60
-\BOOKMARK [2][-]{section*.112}{Systematic Uncertainty on the 3rd Jet}{section*.110}% 61
+\BOOKMARK [1][-]{section*.108}{Experimental Uncertainties}{chapter.9}% 58
+\BOOKMARK [1][-]{section*.110}{Theoretical Uncertainties}{chapter.9}% 59
+\BOOKMARK [1][-]{section*.112}{Discriminants Shape Uncertainties}{chapter.9}% 60
+\BOOKMARK [2][-]{section*.114}{Systematic Uncertainty on the 3rd Jet}{section*.112}% 61
 \BOOKMARK [0][-]{chapter.10}{Results }{}% 62
-\BOOKMARK [1][-]{section*.114}{Yields and Distributions}{chapter.10}% 63
-\BOOKMARK [1][-]{section*.120}{Statistical Analysis}{chapter.10}% 64
-\BOOKMARK [1][-]{section*.127}{Projection for Future Luminosity Scenarios}{chapter.10}% 65
-\BOOKMARK [0][-]{section*.130}{Refer\352ncias }{}% 66
-\BOOKMARK [0][-]{appendix.A}{Display of VBF and Background-like Events }{}% 67
-\BOOKMARK [0][-]{appendix.B}{Final ANN Architectures }{}% 68
-\BOOKMARK [0][-]{appendix.C}{ANNs Expected S/B and \040. S/\(S+B\) }{}% 69
-\BOOKMARK [0][-]{appendix.D}{The ANN Internal Representation Space }{}% 70
-\BOOKMARK [0][-]{appendix.E}{The CMS L1 Tracking Trigger \(CMSL1TT\) Project }{}% 71
-\BOOKMARK [0][-]{appendix.F}{The Fast Matrix Element \(FastME\) }{}% 72
-\BOOKMARK [0][-]{appendix.G}{Participation at the Global Doc Project }{}% 73
+\BOOKMARK [1][-]{section*.116}{Yields and Distributions}{chapter.10}% 63
+\BOOKMARK [1][-]{section*.122}{Statistical Analysis}{chapter.10}% 64
+\BOOKMARK [1][-]{section*.129}{Projection for Future Luminosity Scenarios}{chapter.10}% 65
+\BOOKMARK [0][-]{chapter.11}{Conclusions }{}% 66
+\BOOKMARK [0][-]{section*.132}{Refer\352ncias }{}% 67
+\BOOKMARK [0][-]{appendix.A}{Display of VBF and Background-like Events }{}% 68
+\BOOKMARK [0][-]{appendix.B}{Final ANN Architectures }{}% 69
+\BOOKMARK [0][-]{appendix.C}{ANNs Expected S/B and \040. S/\(S+B\) }{}% 70
+\BOOKMARK [0][-]{appendix.D}{The ANN Internal Representation Space }{}% 71
+\BOOKMARK [0][-]{appendix.E}{The CMS L1 Tracking Trigger \(CMSL1TT\) Project }{}% 72
+\BOOKMARK [0][-]{appendix.F}{The Fast Matrix Element \(FastME\) }{}% 73
+\BOOKMARK [0][-]{appendix.G}{Participation at the Global Doc Project }{}% 74

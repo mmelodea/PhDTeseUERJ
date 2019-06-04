@@ -1,0 +1,8 @@
+# -*- coding: iso-8859-1 -*-
+
+PageProps = {
+ 22: {
+       'skip': True,
+       'overview': False
+     }
+}

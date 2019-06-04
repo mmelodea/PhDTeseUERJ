@@ -41,34 +41,35 @@
 \contentsline {section}{\numberline {7.1}\normalfont \normalsize \bfseries {The Learning Process}}{79}{section*.71}
 \contentsline {section}{\numberline {7.2}\normalfont \normalsize \bfseries {Developing and Training the Neural Networks}}{83}{section*.75}
 \contentsline {section}{\numberline {7.3}\normalfont \normalsize \bfseries {Preparation of the Datasets}}{83}{section*.76}
-\contentsline {section}{\numberline {7.4}\normalfont \normalsize \bfseries {Scaling Events Contribution in the Training}}{84}{section*.77}
-\contentsline {section}{\numberline {7.5}\normalfont \normalsize \bfseries {The Training Procedure}}{85}{section*.79}
-\contentsline {section}{\numberline {7.6}\normalfont \normalsize \bfseries {NNs Training Performances}}{87}{section*.82}
-\contentsline {subsection}{\numberline {7.6.1}\normalfont \normalsize \uline {The Impact of the VBF 3$^{rd}$ Jet}}{90}{section*.84}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {8}}\penalty \@M {\bf \uppercase {Background Estimation}} }{92}{chapter.8}
-\contentsline {section}{\numberline {8.1}\normalfont \normalsize \bfseries {Estimation of the SM Higgs Production Modes}}{92}{section*.87}
-\contentsline {section}{\numberline {8.2}\normalfont \normalsize \bfseries {Modeling of $q\mathaccentV {bar}016{q} \rightarrow ZZ$}}{92}{section*.88}
-\contentsline {section}{\numberline {8.3}\normalfont \normalsize \bfseries {Modeling of $gg \rightarrow ZZ$}}{92}{section*.89}
-\contentsline {section}{\numberline {8.4}\normalfont \normalsize \bfseries {Estimation of Z+X Background}}{93}{section*.90}
-\contentsline {subsection}{\numberline {8.4.1}\normalfont \normalsize \uline {Measuring the Fake Rates}}{93}{section*.91}
-\contentsline {subsection}{\numberline {8.4.2}\normalfont \normalsize \uline {Building Control Regions}}{95}{section*.94}
-\contentsline {subsection}{\numberline {8.4.3}\normalfont \normalsize \uline {Uncertainties on the Estimation of Z+X}}{100}{section*.99}
-\contentsline {subsection}{\numberline {8.4.4}\normalfont \normalsize \uline {Same-Sign Cross-checking and Final Z+X Estimation}}{102}{section*.103}
-\contentsline {subsection}{\numberline {8.4.5}\normalfont \normalsize \uline {Z+X Neural Network Output Shape}}{104}{section*.105}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {9}}\penalty \@M {\bf \uppercase {Systematic Uncertainties}} }{105}{chapter.9}
-\contentsline {section}{\numberline {9.1}\normalfont \normalsize \bfseries {Experimental Uncertainties}}{105}{section*.106}
-\contentsline {section}{\numberline {9.2}\normalfont \normalsize \bfseries {Theoretical Uncertainties}}{106}{section*.108}
-\contentsline {section}{\numberline {9.3}\normalfont \normalsize \bfseries {Discriminants Shape Uncertainties}}{106}{section*.110}
-\contentsline {subsection}{\numberline {9.3.1}\normalfont \normalsize \uline {Systematic Uncertainty on the $3^{rd}$ Jet}}{109}{section*.112}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {10}}\penalty \@M {\bf \uppercase {Results}} }{111}{chapter.10}
-\contentsline {section}{\numberline {10.1}\normalfont \normalsize \bfseries {Yields and Distributions}}{111}{section*.114}
-\contentsline {section}{\numberline {10.2}\normalfont \normalsize \bfseries {Statistical Analysis}}{111}{section*.120}
-\contentsline {section}{\numberline {10.3}\normalfont \normalsize \bfseries {Projection for Future Luminosity Scenarios}}{123}{section*.127}
-\contentsline {chapter}{\normalfont \numberline {}\penalty \@M {\bf \uppercase {Refer\^encias}} }{126}{section*.130}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {A}}\penalty \@M {\bf \uppercase {Display of VBF and Background-like Events}} }{135}{appendix.A}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {B}}\penalty \@M {\bf \uppercase {Final ANN Architectures}} }{139}{appendix.B}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {C}}\penalty \@M {\bf \uppercase {ANNs Expected $S/\sqrt {B}$ and $\pi ~.~S/(S+B)$}} }{141}{appendix.C}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {D}}\penalty \@M {\bf \uppercase {The ANN Internal Representation Space}} }{142}{appendix.D}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {E}}\penalty \@M {\bf \uppercase {The CMS L1 Tracking Trigger (CMSL1TT) Project}} }{144}{appendix.E}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {F}}\penalty \@M {\bf \uppercase {The Fast Matrix Element (\textit {Fast}ME)}} }{182}{appendix.F}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {G}}\penalty \@M {\bf \uppercase {Participation at the Global Doc Project}} }{202}{appendix.G}
+\contentsline {section}{\numberline {7.4}\normalfont \normalsize \bfseries {Scaling Events Contribution in the Training}}{86}{section*.79}
+\contentsline {section}{\numberline {7.5}\normalfont \normalsize \bfseries {The Training Procedure}}{87}{section*.81}
+\contentsline {section}{\numberline {7.6}\normalfont \normalsize \bfseries {NNs Training Performances}}{89}{section*.84}
+\contentsline {subsection}{\numberline {7.6.1}\normalfont \normalsize \uline {The Impact of the VBF 3$^{rd}$ Jet}}{92}{section*.86}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {8}}\penalty \@M {\bf \uppercase {Background Estimation}} }{94}{chapter.8}
+\contentsline {section}{\numberline {8.1}\normalfont \normalsize \bfseries {Estimation of the SM Higgs Production Modes}}{94}{section*.89}
+\contentsline {section}{\numberline {8.2}\normalfont \normalsize \bfseries {Modeling of $q\mathaccentV {bar}016{q} \rightarrow ZZ$}}{94}{section*.90}
+\contentsline {section}{\numberline {8.3}\normalfont \normalsize \bfseries {Modeling of $gg \rightarrow ZZ$}}{94}{section*.91}
+\contentsline {section}{\numberline {8.4}\normalfont \normalsize \bfseries {Estimation of Z+X Background}}{95}{section*.92}
+\contentsline {subsection}{\numberline {8.4.1}\normalfont \normalsize \uline {Measuring the Fake Rates}}{95}{section*.93}
+\contentsline {subsection}{\numberline {8.4.2}\normalfont \normalsize \uline {Building Control Regions}}{97}{section*.96}
+\contentsline {subsection}{\numberline {8.4.3}\normalfont \normalsize \uline {Uncertainties on the Estimation of Z+X}}{102}{section*.101}
+\contentsline {subsection}{\numberline {8.4.4}\normalfont \normalsize \uline {Same-Sign Cross-checking and Final Z+X Estimation}}{104}{section*.105}
+\contentsline {subsection}{\numberline {8.4.5}\normalfont \normalsize \uline {Z+X Neural Network Output Shape}}{106}{section*.107}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {9}}\penalty \@M {\bf \uppercase {Systematic Uncertainties}} }{107}{chapter.9}
+\contentsline {section}{\numberline {9.1}\normalfont \normalsize \bfseries {Experimental Uncertainties}}{107}{section*.108}
+\contentsline {section}{\numberline {9.2}\normalfont \normalsize \bfseries {Theoretical Uncertainties}}{108}{section*.110}
+\contentsline {section}{\numberline {9.3}\normalfont \normalsize \bfseries {Discriminants Shape Uncertainties}}{108}{section*.112}
+\contentsline {subsection}{\numberline {9.3.1}\normalfont \normalsize \uline {Systematic Uncertainty on the $3^{rd}$ Jet}}{111}{section*.114}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {10}}\penalty \@M {\bf \uppercase {Results}} }{113}{chapter.10}
+\contentsline {section}{\numberline {10.1}\normalfont \normalsize \bfseries {Yields and Distributions}}{113}{section*.116}
+\contentsline {section}{\numberline {10.2}\normalfont \normalsize \bfseries {Statistical Analysis}}{113}{section*.122}
+\contentsline {section}{\numberline {10.3}\normalfont \normalsize \bfseries {Projection for Future Luminosity Scenarios}}{125}{section*.129}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {11}}\penalty \@M {\bf \uppercase {Conclusions}} }{128}{chapter.11}
+\contentsline {chapter}{\normalfont \numberline {}\penalty \@M {\bf \uppercase {Refer\^encias}} }{129}{section*.132}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {A}}\penalty \@M {\bf \uppercase {Display of VBF and Background-like Events}} }{138}{appendix.A}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {B}}\penalty \@M {\bf \uppercase {Final ANN Architectures}} }{142}{appendix.B}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {C}}\penalty \@M {\bf \uppercase {ANNs Expected $S/\sqrt {B}$ and $\pi ~.~S/(S+B)$}} }{144}{appendix.C}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {D}}\penalty \@M {\bf \uppercase {The ANN Internal Representation Space}} }{145}{appendix.D}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {E}}\penalty \@M {\bf \uppercase {The CMS L1 Tracking Trigger (CMSL1TT) Project}} }{147}{appendix.E}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {F}}\penalty \@M {\bf \uppercase {The Fast Matrix Element (\textit {Fast}ME)}} }{185}{appendix.F}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {G}}\penalty \@M {\bf \uppercase {Participation at the Global Doc Project}} }{205}{appendix.G}

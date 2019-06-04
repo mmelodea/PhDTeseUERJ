@@ -744,7 +744,84 @@ is Keras \cite{bib:KerasWebPage}. Keras is a widely used and powerful set of pyt
 
 \section{Preparation of the Datasets}
 \label{subsec:datasets_preparation}
-The Neural Networks have been trained using the simulated samples described in Section\ref{sec:datasets} and only with the events passing the selections defining the VBF-SR. In order to optimize the analysis and properly handle the usage of the third jet in the events, two jet-based categories have been defined and are labeled as \textbf{Njet2} and \textbf{Njet3} from now on. The \textbf{Njet2} category comprehend the events with exactly two jets while the \textbf{Njet3} category are composed by the events with at least three jets. For each of this category a NN was developed.
+The Neural Networks have been trained using the simulated samples described in Section\ref{sec:datasets} and only with the events passing the selections defining the VBF-SR. As it will be discussed later the variables used into the final ANNs are the leptons and jets three-momentum (that is, $p_{T}$, $\eta$ and $\phi$). The distribution of such variables, for both MC and Data, is shown in Fig.~\ref{fig:ann_input_variables} as a cross-check of the variables shape and Data-MC agreement (the low binning has been chosen due to the low statistic available for Data at the VBF-SR). The Z+X background on those pictures is derived via a stablished CMS data-driven method, which is described in Sec.~\ref{sec:zx_estimation}.
+
+\begin{figure}[hbtp]{16cm}
+	\caption{Monte Carlo and Data distribution of the variables used as inputs to train the ANNs in this analysis.}
+	\centering
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l1_pt}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l1_eta}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l1_phi}
+	}\\
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l2_pt}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l2_eta}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l2_phi}
+	}\\
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l3_pt}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l3_eta}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l3_phi}
+	}\\
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l4_pt}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l4_eta}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l4_phi}
+	}
+\end{figure}
+\begin{figure}[hbtp]{16cm}
+	\ContinuedFloat
+	\centering
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_j1_pt}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_j1_eta}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_j1_phi}
+	}\\
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_j2_pt}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_j2_eta}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_j2_phi}
+	}\\
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_j3_pt}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_j3_eta}
+	}
+	\subfloat[]{
+		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_j3_phi}
+	}	
+	\source{The AUTHOR, 2018.}	
+	\label{fig:ann_input_variables}
+\end{figure}
+
+
+In order to optimize the analysis and properly handle the usage of the third jet in the events, two jet-based categories have been defined and are labeled as \textbf{Njet2} and \textbf{Njet3} from now on. The \textbf{Njet2} category comprehend the events with exactly two jets while the \textbf{Njet3} category are composed by the events with at least three jets. For each of this category a NN was developed.
 
 Assuring an adequate distribution of the events when splitting them, forming the exclusive training and testing sets, the following procedure was adopted for the VBF-SR events in each jet-based category:
 \begin{itemize}
