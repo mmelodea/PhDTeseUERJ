@@ -6,32 +6,72 @@ The present thesis covers developments and results achieved in three separate pr
 	\item the developments and results achieved by a technique called Fast Matrix Element.
 \end{itemize}
 
-The measurement of the VBF Higgs cross section comprehends the studies developed by the author in the majority of his PhD course time. In order to make clear the contributions of this work, the conclusions about it are highlighted:
+The measurement of the VBF Higgs cross section comprehends the studies developed by the author in the majority of his PhD course time. Almost in the same level the author's participation in the CMS L1TT project took some considerable chunk of studies and has lead many sources of information about the AM+FPGA approach. The last by not the least, worked in a much small scale, the FastME idea produced some nice results which has been considered relevant to be discussed in this thesis. In order to make clear the contributions of this whole work, the conclusions about each of this projects are highlighted in a itemized style below.
+
+{\flushleft \textbf{The VBF Higgs Cross Section Measurement}:}
 \begin{itemize}
-		\item {\color{blue}ANN approach successfully implemented for an isolated VBF $H \rightarrow ZZ \rightarrow 4l$ XS measurement};
-		\item {\color{blue}Reliable} procedure implemented for {\color{blue}systematic uncertainties};
-		\item {\color{blue}Results} provided from the combination of our {\color{blue}best ANN configurations}:
-		\begin{itemize}
-			\justifying
-			\item best fit for signal strength: {\color{blue}$\mu_{qqH}^{Exp} = 1.00_{-0.70}^{+1.08}$} and {\color{blue}$\mu_{qqH}^{Obs} = 1.28_{-0.84}^{+1.24}$};
-			\item 95$\%$CL upper limits on $\mu_{qqH}$: {\color{blue}$\mu_{qqH}^{Exp} < 1.66$} and {\color{blue}$\mu_{qqH}^{Obs} < 3.79$};
-			\item significances: {\color{blue}$\sigma_{qqH}^{Exp} = 1.8$} and {\color{blue}$\sigma_{qqH}^{Obs} = 1.9$};
+	\item An ANN approach has been successfully implemented for an isolated VBF $H \rightarrow ZZ \rightarrow 4l$ cross section measurement;
+	\item Outstanding marks are the usage of a 3$^{rd}$ jet in the events when available and the usage of specific MC samples that better model the signal and main backgrounds;
+	\item A reliable procedure for estimate systematic uncertainties on ANN shapes was developed;
+	\item Final results are provided from the combination of the best ANN configurations found during the studies, which are:
+	\begin{itemize}
+		\item best fit for signal strength: $\mu_{qqH}^{Exp} = 1.00_{-0.70}^{+1.08}$ and $\mu_{qqH}^{Obs} = 1.28_{-0.84}^{+1.24}$;
+		\item 95$\%$CL upper limits on $\mu_{qqH}$: $\mu_{qqH}^{Exp} < 1.66$ and $\mu_{qqH}^{Obs} < 3.79$;
+		\item significances: $\sigma_{qqH}^{Exp} = 1.8$ and $\sigma_{qqH}^{Obs} = 1.9$;
 		\end{itemize}
-		\item {\color{blue}Projections} provided for future luminosity scenarios at the LHC:
-		\begin{itemize}
-			\justifying
-			\item Expected to improve signal strength precision up to {\color{blue}$\sim$87$\%$} at the end of RunII;
-			\item Significance evolution:\\
-			\begin{tabular}{c|c|c|c|c|c|c|c}
-				\hline
-				Luminosity (fb$^{-1}$) & 35.9 & 150.0 & 300.0 & 359.0 & 1077.0 & 1795.0 & 3000.0\\
-				\hline
-				Factor                 & 1.00 & 4.18  & 8.36  & 10.00 & 30.00  & 50.00  & 83.57\\
-				\hline
-				Expected significance  & 1.8  & 3.4   & 4.7   & 5.1   & 8.6    & 10.9   & 14.0\\
-				\hline
-			\end{tabular}
-		\end{itemize}
-		\item Analysis documentation is ready and released: {\color{blue}AN-18-120};
-		\item {\color{blue}No issues} raised last meeting with HZZ subgroup (December 7$^{th}$, 2018) at CERN (green light for a thesis endorsement);
+		\item Projections provided for future luminosity scenarios at the LHC:
+	\begin{itemize}
+		\item The extrapolation of the present analysis indicates an improvement of $\sim$87$\%$ for the signal strength precision at the end of LHC RunII;
+		\item The evolution of the significance has been evaluated (taking into account the uncertainties discussed in this thesis):\\
+		\begin{tabular}{c|c|c|c|c|c|c|c}
+			\hline
+			Luminosity (fb$^{-1}$) & 35.9 & 150.0 & 300.0 & 359.0 & 1077.0 & 1795.0 & 3000.0\\
+			\hline
+			Factor                 & 1.00 & 4.18  & 8.36  & 10.00 & 30.00  & 50.00  & 83.57\\
+			\hline
+			Expected significance  & 1.8  & 3.4   & 4.7   & 5.1   & 8.6    & 10.9   & 14.0\\
+			\hline
+		\end{tabular}
+	\end{itemize}
+	\item An official documentation about the analysis has been released within CMS Collaboration, being identified as AN-18-120;
+	\item No issues were raised by the CMS HZZ subgroup in the last meeting where this analysis was presented (for reference, last meeting was in 07/12/2018 at CERN and green light for a thesis endorsement was given by the conveners);
 \end{itemize}
+
+{\flushleft \textbf{The CMS L1TT AM+FPGA Approach}:}
+\begin{itemize}
+	\item Significant contribution has been given to the CMS L1TT AM+FPGA:
+	\begin{itemize}
+		\item Several new MC samples generated and made available for the group;
+		\item Developments, studies and implementations:
+		\begin{itemize}
+			\item Synthetic matching and efficiency;
+			\item Duplicate removal;
+			\item Stub bending ($\Delta S$);
+			\item Effects of truncation on roads and/or combinations;
+			\item Tracking fitter $\chi^{2}$ cut revision;
+		\end{itemize}
+		\item Support during the electronic inspections:
+		\begin{itemize}
+			\item Check up of Pulsar BII boards and the PRMs;
+			\item Check up of optical cables connecting Pulsar boards;
+			\item Check up of boards connected in the crates;
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+\begin{itemize}
+	\item Creation of a dedicated documentation about nomenclatures, workflow and implementations developed by the author within the package and some of the already existent ones;
+\end{itemize}
+
+
+{\flushleft \textbf{The Fast Matrix Element}:}
+\begin{itemize}
+	\item Although the \textit{Fast}ME idea didn't get finished, some conclusions can be drawn from it:
+	\begin{itemize}
+		\item The results are a re-statement of the KNN method developed by the TMVA team (CERN) and suggest that it can even be simplified (no need of a volume in the chosen phase space);
+		\item This \textit{Fast}ME idea is quite sensitive to the physical process in analysis and can even become useless;
+		\item The method is also sensitive to the size of the pattern banks used in the analysis and study of bias correction could be need;
+		\item The method is easily applicable in several process, some of which the MEM can not or don't have higher order corrections included;
+	\end{itemize}
+\end{itemize}
+	
+

@@ -63,12 +63,41 @@
 \BOOKMARK [1][-]{section*.116}{Yields and Distributions}{chapter.10}% 63
 \BOOKMARK [1][-]{section*.122}{Statistical Analysis}{chapter.10}% 64
 \BOOKMARK [1][-]{section*.129}{Projection for Future Luminosity Scenarios}{chapter.10}% 65
-\BOOKMARK [0][-]{chapter.11}{Conclusions }{}% 66
-\BOOKMARK [0][-]{section*.132}{Refer\352ncias }{}% 67
-\BOOKMARK [0][-]{appendix.A}{Display of VBF and Background-like Events }{}% 68
-\BOOKMARK [0][-]{appendix.B}{Final ANN Architectures }{}% 69
-\BOOKMARK [0][-]{appendix.C}{ANNs Expected S/B and \040. S/\(S+B\) }{}% 70
-\BOOKMARK [0][-]{appendix.D}{The ANN Internal Representation Space }{}% 71
-\BOOKMARK [0][-]{appendix.E}{The CMS L1 Tracking Trigger \(CMSL1TT\) Project }{}% 72
-\BOOKMARK [0][-]{appendix.F}{The Fast Matrix Element \(FastME\) }{}% 73
-\BOOKMARK [0][-]{appendix.G}{Participation at the Global Doc Project }{}% 74
+\BOOKMARK [0][-]{chapter.11}{The CMS L1 Tracking Trigger \(CMSL1TT\) Project }{}% 66
+\BOOKMARK [1][-]{section*.134}{The Three CMSL1TT Approaches}{chapter.11}% 67
+\BOOKMARK [1][-]{section*.135}{The AM+FPGA CMSL1TT Approach}{chapter.11}% 68
+\BOOKMARK [2][-]{section*.137}{The Simulation Studies for the CMSL1TT AM+FPGA}{section*.135}% 69
+\BOOKMARK [3][-]{section*.138}{Roads and Combinations Truncation}{section*.137}% 70
+\BOOKMARK [3][-]{section*.139}{Road Sorting Effects under Truncation}{section*.137}% 71
+\BOOKMARK [3][-]{section*.141}{Stub Bending \(S\) }{section*.137}% 72
+\BOOKMARK [3][-]{section*.150}{S Approach on \040+ PU's}{section*.137}% 73
+\BOOKMARK [3][-]{section*.152}{Track Fitter 2 Revision}{section*.137}% 74
+\BOOKMARK [3][-]{section*.156}{Synthetic Efficiency}{section*.137}% 75
+\BOOKMARK [3][-]{section*.161}{2match Optimization and Synthetic-Analytical Methods Connection}{section*.137}% 76
+\BOOKMARK [3][-]{section*.163}{Duplicate Removal \(DR\) Based on Stubs}{section*.137}% 77
+\BOOKMARK [3][-]{section*.165}{Final FOMs}{section*.137}% 78
+\BOOKMARK [3][-]{section*.171}{Generated AM Pattern Banks}{section*.137}% 79
+\BOOKMARK [3][-]{section*.175}{Road Efficiency vs Truncation in +PU400}{section*.137}% 80
+\BOOKMARK [2][-]{section*.177}{The Hardware work in the CMSL1TT }{section*.135}% 81
+\BOOKMARK [0][-]{chapter.12}{The Fast Matrix Element \(FastME\) }{}% 82
+\BOOKMARK [1][-]{section*.179}{Introduction}{chapter.12}% 83
+\BOOKMARK [1][-]{section*.180}{Description of the FastME}{chapter.12}% 84
+\BOOKMARK [1][-]{section*.184}{Studies and Results}{chapter.12}% 85
+\BOOKMARK [2][-]{section*.185}{Bias due to Pattern Bank Size}{section*.184}% 86
+\BOOKMARK [2][-]{section*.189}{Impact of \040on the Discriminant}{section*.184}% 87
+\BOOKMARK [2][-]{section*.191}{Scaling of the Metric Terms }{section*.184}% 88
+\BOOKMARK [1][-]{section*.193}{FastME application on the HZZ4L Data \(CMS RunI, 2015\)}{chapter.12}% 89
+\BOOKMARK [1][-]{section*.195}{The FastME Package}{chapter.12}% 90
+\BOOKMARK [2][-]{section*.196}{Features of the Package}{section*.195}% 91
+\BOOKMARK [2][-]{section*.198}{The Package Workflow}{section*.195}% 92
+\BOOKMARK [2][-]{section*.199}{The FastME Configuration Card }{section*.195}% 93
+\BOOKMARK [2][-]{section*.201}{The results provided by the FastME package}{section*.195}% 94
+\BOOKMARK [2][-]{section*.203}{Data Filtering by FastME}{section*.195}% 95
+\BOOKMARK [2][-]{section*.205}{The FastME Applied to qqH vs. ggH}{section*.195}% 96
+\BOOKMARK [0][-]{chapter.13}{Conclusions }{}% 97
+\BOOKMARK [0][-]{section*.207}{Refer\352ncias }{}% 98
+\BOOKMARK [0][-]{appendix.A}{Display of VBF and Background-like Events }{}% 99
+\BOOKMARK [0][-]{appendix.B}{Final ANN Architectures }{}% 100
+\BOOKMARK [0][-]{appendix.C}{ANNs Expected S/B and \040. S/\(S+B\) }{}% 101
+\BOOKMARK [0][-]{appendix.D}{The ANN Internal Representation Space }{}% 102
+\BOOKMARK [0][-]{appendix.E}{Participation at the Global Doc Project }{}% 103

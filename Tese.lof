@@ -1,220 +1,220 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {Figure\hfill 1 - }{\ignorespaces The $V(\phi )$ potential for different choices of $\mu ^2$.\relax }}{26}{figure.caption.4}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mu ^2 > 0$}}}{26}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu ^2 < 0$}}}{26}{subfigure.1.2}
-\contentsline {figure}{\numberline {Figure\hfill 2 - }{\ignorespaces The main Higgs (represented by the dotted line) production modes at the LHC.\relax }}{32}{figure.caption.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fus\IeC {\~a}o de gl\IeC {\'u}ons}}}{32}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fus\IeC {\~a}o de b\IeC {\'o}sons vetoriais}}}{32}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Higgs-strahlung}}}{32}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Produ\IeC {\c c}\IeC {\~a}o associada com top}}}{32}{subfigure.2.4}
-\contentsline {figure}{\numberline {Figure\hfill 3 - }{\ignorespaces Higgs production XS and branching ratios.\relax }}{33}{figure.caption.9}
-\contentsline {figure}{\numberline {Figure\hfill 4 - }{\ignorespaces Feynman diagram for the Higgs production via vector boson fusion. The initial state quarks (or anti-quarks) are $p_{1}$ and $p_{2}$, while the momentum at final state are $p_{1}'$ and $p_{2}'$, respectively.\relax }}{34}{figure.caption.12}
-\contentsline {figure}{\numberline {Figure\hfill 5 - }{\ignorespaces Sketch of the Higgs VBF production description through the structure function approach.\relax }}{36}{figure.caption.14}
-\contentsline {figure}{\numberline {Figure\hfill 6 - }{\ignorespaces Main processes in this analysis: Higgs production modes (a) vector boson fusion (VBF), (b) gluon-fusion (ggH), (c) Higgsstrahlung (VH), (d) production associated to top quark, and the main SM backgrounds (e) and (f) ZZ. Additionally there is the $Z+X$ background which is derived via the Fake Rate \textit {data-driven} method and will be presented later.\relax }}{38}{figure.caption.16}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$q\mathaccentV {bar}016{q} \rightarrow Hq\mathaccentV {bar}016{q}$}}}{38}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$gg \rightarrow H$}}}{38}{subfigure.6.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$q\mathaccentV {bar}016{q} \rightarrow VH$}}}{38}{subfigure.6.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$gg \rightarrow t\mathaccentV {bar}016{t}H$}}}{38}{subfigure.6.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$q\mathaccentV {bar}016{q} \rightarrow ZZ$}}}{38}{subfigure.6.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$gg \rightarrow ZZ$}}}{38}{subfigure.6.6}
-\contentsline {figure}{\numberline {Figure\hfill 7 - }{\ignorespaces Simplified transverse section of the LHC.\relax }}{41}{figure.caption.19}
-\contentsline {figure}{\numberline {Figure\hfill 8 - }{\ignorespaces Accelerators composing the LHC at CERN.\relax }}{42}{figure.caption.21}
-\contentsline {figure}{\numberline {Figure\hfill 9 - }{\ignorespaces General view of CMS layers.\relax }}{44}{figure.caption.23}
-\contentsline {figure}{\numberline {Figure\hfill 10 - }{\ignorespaces Transverse section view showing the detection that each sub-detector does.\relax }}{45}{figure.caption.24}
-\contentsline {figure}{\numberline {Figure\hfill 11 - }{\ignorespaces Scheme of the pixel detector.\relax }}{46}{figure.caption.27}
-\contentsline {figure}{\numberline {Figure\hfill 12 - }{\ignorespaces Illustration of a super-module and the entire ECAL.\relax }}{48}{figure.caption.31}
-\contentsline {figure}{\numberline {Figure\hfill 13 - }{\ignorespaces Scheme of the positions of the HB towers.\relax }}{49}{figure.caption.33}
-\contentsline {figure}{\numberline {Figure\hfill 14 - }{\ignorespaces Scheme of the hadronic calorimeter in the endcaps, annexed to the muon detection system.\relax }}{50}{figure.caption.34}
-\contentsline {figure}{\numberline {Figure\hfill 15 - }{\ignorespaces Scheme of the positions of HO in the muon detection systema and its effect on the measurement of the energy from hadronic showers.\relax }}{51}{figure.caption.35}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HO transverse section.}}}{51}{subfigure.15.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HO effect on the balance of energy measured in the CMS.}}}{51}{subfigure.15.2}
-\contentsline {figure}{\numberline {Figure\hfill 16 - }{\ignorespaces An HF quadrant showing the modules of steel plates with grooves where optical fibers sit.\relax }}{52}{figure.caption.36}
-\contentsline {figure}{\numberline {Figure\hfill 17 - }{\ignorespaces The CMS magnetic system.\relax }}{54}{figure.caption.38}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Scheme of the CMS solenoid.}}}{54}{subfigure.17.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mapping of the magnetic field created by the solenoid.}}}{54}{subfigure.17.2}
-\contentsline {figure}{\numberline {Figure\hfill 18 - }{\ignorespaces Comparison of the resolution on the muon transverse momentum measurement obtained by using the muon chambers and the tracker separated and combined, left. Scheme of the muon chambers position in the CMS, right\relax }}{55}{figure.caption.40}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Resolutions on the measruement of the muons transverse momentum.}}}{55}{subfigure.18.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Location of the muon chambers in a section of the CMS detector.}}}{55}{subfigure.18.2}
-\contentsline {figure}{\numberline {Figure\hfill 19 - }{\ignorespaces Types of detectors used in the muon detection system.\relax }}{57}{figure.caption.41}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DTC scheme.}}}{57}{subfigure.19.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RPC scheme.}}}{57}{subfigure.19.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CSC scheme.}}}{57}{subfigure.19.3}
-\contentsline {figure}{\numberline {Figure\hfill 20 - }{\ignorespaces Electron selection efficiencies measured using the tag-and-probe technique for: (a) non-gap electrons and (b) gap electrons.\relax }}{65}{figure.caption.52}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{65}{subfigure.20.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{65}{subfigure.20.2}
-\contentsline {figure}{\numberline {Figure\hfill 21 - }{\ignorespaces Muon reconstruction and identification efficiency for $p_{T}<$ 20GeV as a function of $p_{T}$ in the barrel (a) and endcaps (b), and as a function of $\eta $ for $p_{T}>$ 7GeV (c). In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot of the two efficiencies, the black error bars represent the statistical uncertainty, the orange ones the systematical uncertainty, and the violet ones the total uncertainty.\relax }}{68}{figure.caption.56}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{68}{subfigure.21.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{68}{subfigure.21.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{68}{subfigure.21.3}
-\contentsline {figure}{\numberline {Figure\hfill 22 - }{\ignorespaces Efficiency of the muon impact parameter requirements as a function of $p_{T}$ in the barrel (a) and endcaps (b), and as a function of $\eta $ for $p_{T}>$ 20GeV (c). In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot the black error bars are for the statistical uncertainty, the orange ones for the systematical uncertainty and the violet ones include both uncertainties.\relax }}{68}{figure.caption.57}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{68}{subfigure.22.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{68}{subfigure.22.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{68}{subfigure.22.3}
-\contentsline {figure}{\numberline {Figure\hfill 23 - }{\ignorespaces Efficiency of the muon isolation requirement as a function of $p_{T}$ in the barrel (a) and endcaps (b). In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot the black error bars are for the statistical uncertainty, the orange ones for the systematical uncertainty and the violet ones for the total uncertainty.\relax }}{69}{figure.caption.58}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{69}{subfigure.23.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{69}{subfigure.23.2}
-\contentsline {figure}{\numberline {Figure\hfill 24 - }{\ignorespaces Tracking efficiency in data and simulation as a function of $\eta $ for muon $p_{T}<$ 10GeV (a) and $p_{T}>$ 10GeV (b) with ReReco data.\relax }}{69}{figure.caption.59}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{69}{subfigure.24.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{69}{subfigure.24.2}
-\contentsline {figure}{\numberline {Figure\hfill 25 - }{\ignorespaces Control plots of four-lepton invariant mass for: (a) events passing the SM Higgs selection, (b) events in the $m_{4l} = [118,130]$ GeV range and (c) events in the VBF signal region.\relax }}{76}{figure.caption.69}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{76}{subfigure.25.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{76}{subfigure.25.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{76}{subfigure.25.3}
-\contentsline {figure}{\numberline {Figure\hfill 26 - }{\ignorespaces (a) Graphical representation of a neuron. Each input \textit {$x_i$} (from user or from the hidden neurons) is weighted by \textit {$w_i$} and summed to a bias \textit {b}. The sum is passed to a function (the activation function - neuron type) which outputs a vector of values (one for each input). (b) Graphical representation of a NN with three hidden layers. In this type of ANN the outputs of all neurons from a previous layer are fed into the neurons of a next layer.\relax }}{78}{figure.caption.70}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{78}{subfigure.26.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{78}{subfigure.26.2}
-\contentsline {figure}{\numberline {Figure\hfill 27 - }{\ignorespaces The flow of signal through the neuron $j$ up to its instantaneous error $e_{j}$.\relax }}{80}{figure.caption.72}
-\contentsline {figure}{\numberline {Figure\hfill 28 - }{\ignorespaces The flow of signal through a hidden neuron $j$ up to its \textit {signal function} $y_{j}(n)$ which is forwarded as an input to an neuron $k$ in an output layer. Note that, the \textit {activation function} can now be different between the layers and they are represented as $f_{j}$ and $f_{k}$ for the neurons $j$ and $k$, respectively.\relax }}{82}{figure.caption.74}
-\contentsline {figure}{\numberline {Figure\hfill 29 - }{\ignorespaces Monte Carlo and Data distribution of the variables used as inputs to train the ANNs in this analysis.\relax }}{84}{figure.caption.77}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{84}{subfigure.29.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{84}{subfigure.29.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{84}{subfigure.29.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{84}{subfigure.29.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{84}{subfigure.29.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{84}{subfigure.29.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{84}{subfigure.29.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {}}}{84}{subfigure.29.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {}}}{84}{subfigure.29.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {}}}{84}{subfigure.29.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {}}}{84}{subfigure.29.11}
-\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {}}}{84}{subfigure.29.12}
-\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {}}}{85}{subfigure.28.13}
-\contentsline {subfigure}{\numberline {(n)}{\ignorespaces {}}}{85}{subfigure.28.14}
-\contentsline {subfigure}{\numberline {(o)}{\ignorespaces {}}}{85}{subfigure.28.15}
-\contentsline {subfigure}{\numberline {(p)}{\ignorespaces {}}}{85}{subfigure.28.16}
-\contentsline {subfigure}{\numberline {(q)}{\ignorespaces {}}}{85}{subfigure.28.17}
-\contentsline {subfigure}{\numberline {(r)}{\ignorespaces {}}}{85}{subfigure.28.18}
-\contentsline {subfigure}{\numberline {(s)}{\ignorespaces {}}}{85}{subfigure.28.19}
-\contentsline {subfigure}{\numberline {(t)}{\ignorespaces {}}}{85}{subfigure.28.20}
-\contentsline {subfigure}{\numberline {(u)}{\ignorespaces {}}}{85}{subfigure.28.21}
-\contentsline {figure}{\numberline {Figure\hfill 28 - }{\ignorespaces ROC curves comparing the performance of a trained NN, the VBF MELA discriminant and $D_{jet}$: (a) the performance of NN without scaling the \textit {loss} and (b) performance after scaling the \textit {loss}.\relax }}{87}{figure.caption.80}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{87}{subfigure.28.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{87}{subfigure.28.2}
-\contentsline {figure}{\numberline {Figure\hfill 29 - }{\ignorespaces Example of checking plots produced during ANNs training. (a) $D_{qqH, 2j}^{MELA}$ (for reference) and (b) ANN distributions, (c) $\epsilon _{s}.\pi $ vs $\epsilon $, (d) signal significance and (e) ROC curves computed using all backgrounds together for training and testing sets. (f) ROC areas computed separately for each background using the testing set (the filled lines are for the ANN and the dotted ones are for $D_{qqH, 2j}^{MELA}$).\relax }}{90}{figure.caption.83}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{90}{subfigure.29.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{90}{subfigure.29.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{90}{subfigure.29.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{90}{subfigure.29.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{90}{subfigure.29.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{90}{subfigure.29.6}
-\contentsline {figure}{\numberline {Figure\hfill 30 - }{\ignorespaces Summary of the results obtained with the parameters scanning. The plot shows the difference between trained ANNs and $D_{qqH,2j}^{MELA}$ in three metrics used at that moment: max($\epsilon _{s}.\pi $), ROC area and significance\relax }}{91}{figure.caption.85}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{91}{subfigure.30.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{91}{subfigure.30.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{91}{subfigure.30.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{91}{subfigure.30.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{91}{subfigure.30.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{91}{subfigure.30.6}
-\contentsline {figure}{\numberline {Figure\hfill 31 - }{\ignorespaces Performance of VBF discrimination against the backgrounds for the ANN, MELA and Djet discriminants. On (a) is the performance when considering only 2 jets per event and on (b) when considering up to 3 jets per event.\relax }}{93}{figure.caption.88}
-\contentsline {figure}{\numberline {Figure\hfill 32 - }{\ignorespaces Fake rates in terms of the lepton probe $p_{T}$ and $\eta $. The $p_{T}$ distributions (barrel and endcap) corresponds to the regions defined by $|\eta | <$ 1.479 (1.2) for electrons (muons). The background $WZ$ from MC has been subtracted.\relax }}{96}{figure.caption.94}
-\contentsline {figure}{\numberline {Figure\hfill 33 - }{\ignorespaces Fake rates as a function of the probe lepton $p_{T}$ and $\eta $. The background $WZ$ from MC has been subtracted. This is the mapping for fake rates applied into the control regions.\relax }}{97}{figure.caption.95}
-\contentsline {figure}{\numberline {Figure\hfill 34 - }{\ignorespaces Four-lepton invariant mass distribution of the events selected in the 2P2F control region in the 13TeV dataset: (a) 4$\mu $, (b) 4e, (c) 2$\mu $2e and (d) 2e2$\mu $ channels.\relax }}{99}{figure.caption.97}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{99}{subfigure.34.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{99}{subfigure.34.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{99}{subfigure.34.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{99}{subfigure.34.4}
-\contentsline {figure}{\numberline {Figure\hfill 35 - }{\ignorespaces Four-lepton invariant mass distribution of the events selected in the 3P1F control region in the 13TeV dataset: (a) 4$\mu $, (b) 4e, (c) 2$\mu $2e and (d) 2e2$\mu $ channels.\relax }}{100}{figure.caption.98}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{100}{subfigure.35.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{100}{subfigure.35.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{100}{subfigure.35.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{100}{subfigure.35.4}
-\contentsline {figure}{\numberline {Figure\hfill 36 - }{\ignorespaces Four-lepton mass distribution of Z+X for events after the (a) SM Higgs and (b) VBF-SR selections. The shapes are shown for each separate channel and for their combination into $4l$ final state.\relax }}{101}{figure.caption.100}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{101}{subfigure.36.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{101}{subfigure.36.2}
-\contentsline {figure}{\numberline {Figure\hfill 37 - }{\ignorespaces Fake rate, for each reducible background ($D\varUpsilon $, $t\mathaccentV {bar}016{t}$, WZ, ZZ, Z$\gamma $), the average and the re-weighted distributions for electron (a) $p_{T}$ barrel, (b) $p_{T}$ endcap and (c) $\eta $ and for muons (d) $p_{T}$ barrel, (e) $p_{T}$ endcap and (f) $\eta $.\relax }}{103}{figure.caption.103}
-\contentsline {figure}{\numberline {Figure\hfill 38 - }{\ignorespaces Fake rate versus $p_{T}$ and $\eta $ for the average and the re-weighted distributions for electron (a) and (c) and, for muon (b) and (d), respectively.\relax }}{105}{figure.caption.104}
-\contentsline {figure}{\numberline {Figure\hfill 39 - }{\ignorespaces Effect of systematic uncertainties in the shape of one of the trained NNs for each of the processes and lepton channels. In this plot the histograms show the nominal distribution of the NN and the error bars indicate the maximum yield oscillation (up/down) per bin due to the systematic uncertainties of the inputs.\relax }}{110}{figure.caption.113}
-\contentsline {figure}{\numberline {Figure\hfill 40 - }{\ignorespaces NN distributions and their ratio in the \textbf {Njets3} category from VBF-H2J and VBF-H3J for (a) $4\mu $, (b) $4e$ and (c) $2e2\mu $.\relax }}{112}{figure.caption.115}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{112}{subfigure.40.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{112}{subfigure.40.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{112}{subfigure.40.3}
-\contentsline {figure}{\numberline {Figure\hfill 41 - }{\ignorespaces Final four-lepton mass distributions for the SM Higgs separated in the channels (a) $4\mu $, (b) $4e$ and (c) $2e2\mu $ and, combined into the (d) $4l$ final state. The distributions are show for $70 < m_{4l} < 400$ GeV and include the $Z+X$ background estimated by the data-driven method explained in Sec.~\ref {sec:zx_estimation}.\relax }}{115}{figure.caption.119}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{115}{subfigure.41.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{115}{subfigure.41.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{115}{subfigure.41.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{115}{subfigure.41.4}
-\contentsline {figure}{\numberline {Figure\hfill 42 - }{\ignorespaces Final four-lepton mass distributions for the events passing the (a) SM Higgs and the (b) VBF-SR selections combined into the $4l$ final state. The distributions are show for $118 < m_{4l} < 130$ GeV (SM Higgs signal region defined by CMS Collaboration) and include the $Z+X$ background estimated by the data-driven method explained in Sec.~\ref {sec:zx_estimation}.\relax }}{116}{figure.caption.120}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{116}{subfigure.42.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{116}{subfigure.42.2}
-\contentsline {figure}{\numberline {Figure\hfill 43 - }{\ignorespaces Pre-fit distributions of the neural network developed for (a) \textbf {Njets2} and (b) \textbf {Njets3} categories. In (c) is the distribution resulting from the combination of the two categories.\relax }}{117}{figure.caption.121}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{117}{subfigure.43.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{117}{subfigure.43.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{117}{subfigure.43.3}
-\contentsline {figure}{\numberline {Figure\hfill 44 - }{\ignorespaces The best fit value found, given the observed data, for $\mu _{qqH}$. In (a) is shown the compatibility between the channels from each category of number of jets and in (b) is shown the likelihood ratios profile of the two categories and their combination.\relax }}{120}{figure.caption.123}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{120}{subfigure.44.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{120}{subfigure.44.2}
-\contentsline {figure}{\numberline {Figure\hfill 45 - }{\ignorespaces Post-fit NN distribution. The fit is done with the assumption of S+B hypothesis ($\mu _{VBF} = 1$ a priori).\relax }}{122}{figure.caption.125}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{122}{subfigure.45.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{122}{subfigure.45.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{122}{subfigure.45.3}
-\contentsline {figure}{\numberline {Figure\hfill 46 - }{\ignorespaces Post-fit nuisances impact plot obtained with the combination of the two categories of number of jets. This plot shows the effect of each systematic uncertainty on the estimation of the VBF signal strength ($\mu _{qqH}$).\relax }}{123}{figure.caption.127}
-\contentsline {figure}{\numberline {Figure\hfill 47 - }{\ignorespaces (a) Observed and expected 95$\%$ CL upper limit on the ratio of the Higgs VBF production cross section to the SM expectation, for the two jet-based categories and their combination. The expected 1$\sigma $ (2$\sigma $) ranges of the expectation for the background-only hypothesis are also shown by the green (yellow) bands. (b) The observed significance of the local excess with respect to the SM background expectation for the two categories and their combination.\relax }}{126}{figure.caption.128}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{126}{subfigure.47.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{126}{subfigure.47.2}
-\contentsline {figure}{\numberline {Figure\hfill 48 - }{\ignorespaces Comparison of the expected VBF Higgs signal strength best fits, and their uncertainties, between the present luminosity and the future 150fb$^{-1}$.\relax }}{127}{figure.caption.130}
-\contentsline {figure}{\numberline {Figure\hfill 49 - }{\ignorespaces Event display of the most VBF-like event ($H \rightarrow ZZ \rightarrow 2e2\mu $) according to the ANN in the \textbf {Njets2} category (ANN score = 0.93). As expected, the two jets present in the event have a very large $\eta $ separation and no particle activity between them.\relax }}{138}{figure.caption.133}
-\contentsline {figure}{\numberline {Figure\hfill 50 - }{\ignorespaces Event display of the most background-like event ($H \rightarrow ZZ \rightarrow 4e$) according to the ANN in the \textbf {Njets2} category (ANN score = 0.04). Differing from the most VBF-like event, this one has the two jets very close in the $\eta -\phi $ space.\relax }}{139}{figure.caption.134}
-\contentsline {figure}{\numberline {Figure\hfill 51 - }{\ignorespaces Event display of the most VBF-like event ($H \rightarrow ZZ \rightarrow 4\mu $) according to the ANN in the \textbf {Njets3} category (ANN score = 0.77). By comparison, the $\eta $ gap between the jets and the particle activity is more evident than what is observed in the \textbf {Njets3} category for background (see next figure).\relax }}{140}{figure.caption.135}
-\contentsline {figure}{\numberline {Figure\hfill 52 - }{\ignorespaces Event display of the most background-like event ($H \rightarrow ZZ \rightarrow 2e2\mu $) according to the ANN in the \textbf {Njets3} category (ANN score = 0.15).\relax }}{141}{figure.caption.136}
-\contentsline {figure}{\numberline {Figure\hfill 53 - }{\ignorespaces The architecture of the neural network created in this analysis for \textbf {Njets2} category. The black dots represent the inputs and the neurons, while the lines represent the size of the parameters found after training those NNs. Wider and brighter lines means that the parameter (weight or bias) associated to a given input for a neuron is larger (in other words its contribution is more relevant). This ANN has 21:13:8 hidden neurons of SeLU type.\relax }}{142}{figure.caption.137}
-\contentsline {figure}{\numberline {Figure\hfill 54 - }{\ignorespaces The architecture of the neural network created in this analysis for \textbf {Njets3} category. This ANN has 11:9:7 hidden neurons of SeLU type.\relax }}{143}{figure.caption.138}
-\contentsline {figure}{\numberline {Figure\hfill 55 - }{\ignorespaces The significance (computed as $S/\sqrt {B}$) (a) and the efficiency times purity ($\pi .\epsilon $) (b) achieved when cutting at the NN for each jet-based category. The cut applied corresponds to the low edge value of a given bin in the histogram. Note that the significance computed here does not take into account the uncertainties.\relax }}{144}{figure.caption.139}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{144}{subfigure.55.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{144}{subfigure.55.2}
-\contentsline {figure}{\numberline {Figure\hfill 56 - }{\ignorespaces The behavior of the NN neuron output for the (a) first hidden layer, (b) second hidden layer and (c) output layer. The subplots in (a), (b) and (c) show, from left to right and sorted, the $p_{T}$'s (top row), the $\eta $'s (middle row) and the $\phi $'s (bottom row) of the four leptons and the three jets.\relax }}{146}{figure.caption.140}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{146}{subfigure.56.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{146}{subfigure.56.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{146}{subfigure.56.3}
-\contentsline {figure}{\numberline {Figure\hfill 57 - }{\ignorespaces The calendar for the upgrades of the LHC and its detectors.\relax }}{148}{figure.caption.141}
-\contentsline {figure}{\numberline {Figure\hfill 58 - }{\ignorespaces Scheme of the sensors in a layer of the CMS detector after the phase II upgrade. An object called \textit {stub} is defined in terms of the distance between the centroids of back-to-back sensors (or cluster of them) activated when a particle cross the layer.\relax }}{149}{figure.caption.142}
-\contentsline {figure}{\numberline {Figure\hfill 59 - }{\ignorespaces Scheme of the partition adopted in the CMSL1TT AM+FPGA for the cluster of strips activated in the silicon sensors in the detector layers.\relax }}{150}{figure.caption.145}
-\contentsline {figure}{\numberline {Figure\hfill 60 - }{\ignorespaces Road sorting effect on efficiency without truncation and with truncation in 200 roads and 500 combinations for $t\mathaccentV {bar}016{t}+PU200$.\relax }}{152}{figure.caption.149}
-\contentsline {figure}{\numberline {Figure\hfill 61 - }{\ignorespaces How the $\Delta S$ mitigate AM patterns fired by random tracks: two random tracks trigger a valid pattern and the stubs are stored for further analysis but, the stubs combination doesn't come from a real track.\relax }}{153}{figure.caption.151}
-\contentsline {figure}{\numberline {Figure\hfill 62 - }{\ignorespaces Stub bending distribution per detector layer for $t\mathaccentV {bar}016{t}+PU200$ and the $\Delta S$ ranges for the configuration ASYM115577. In the ASYM mode only the central range can have width defined by user and $\Delta S$ always is divided only into 3 ranges.\relax }}{155}{figure.caption.152}
-\contentsline {figure}{\numberline {Figure\hfill 63 - }{\ignorespaces Stub bending distribution per detector layer for $t\mathaccentV {bar}016{t}+PU200$ and the $\Delta S$ ranges for the configuration SYM115577. In the SYM mode ranges have the same width, except the outer ranges (those ones comprehending $|\Delta S|$ = 6.5).\relax }}{156}{figure.caption.153}
-\contentsline {figure}{\numberline {Figure\hfill 64 - }{\ignorespaces Stub bending distribution for $jet(p_{T}=250GeV)+PU200$. Different events seems to have the same limits but, as one can see the occupancy is no equal (comparing with the pictures for $t\mathaccentV {bar}016{t}+PU200$).\relax }}{157}{figure.caption.154}
-\contentsline {figure}{\numberline {Figure\hfill 65 - }{\ignorespaces Roads and combinations average and 95 percentile per event versus different $\Delta S$ configurations at $sf1\_nz1$ for $t\mathaccentV {bar}016{t}+PU200$ (left) and $jet(p_{T}=250GeV)+PU200$ (right).\relax }}{158}{figure.caption.156}
-\contentsline {figure}{\numberline {Figure\hfill 66 - }{\ignorespaces Road efficiency versus different $\Delta S$ configurations at $sf1\_nz1$ for $t\mathaccentV {bar}016{t}+PU200$ (left) and $jet(p_{T}=250GeV)+PU200$ (right).\relax }}{159}{figure.caption.157}
-\contentsline {figure}{\numberline {Figure\hfill 67 - }{\ignorespaces Stub fountain scaler factor scan for $t\mathaccentV {bar}016{t}+PU200$.\relax }}{159}{figure.caption.158}
-\contentsline {figure}{\numberline {Figure\hfill 68 - }{\ignorespaces Muon road efficiency versus pile up. The plot (a) is the result without $\Delta S$ approach (done by another person in the CMS L1TT working group) and the plot (b) with it (done by the author).\relax }}{160}{figure.caption.160}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{160}{subfigure.68.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{160}{subfigure.68.2}
-\contentsline {figure}{\numberline {Figure\hfill 69 - }{\ignorespaces Track fitter $\chi ^{2}$ from all muon tracks in $t\mathaccentV {bar}016{t}+PU200$ versus track $p_{T}$.\relax }}{162}{figure.caption.162}
-\contentsline {figure}{\numberline {Figure\hfill 70 - }{\ignorespaces TF $\chi ^{2}$ distribution for 6/6 muon tracks in each track $p_{T}$ range from $t\mathaccentV {bar}016{t}+PU200$.\relax }}{163}{figure.caption.163}
-\contentsline {figure}{\numberline {Figure\hfill 71 - }{\ignorespaces TF $\chi ^{2}$ distribution for 5/6 muon tracks in each track $p_{T}$ range from $t\mathaccentV {bar}016{t}+PU200$. Vertical bars point the cuts defined.\relax }}{164}{figure.caption.164}
-\contentsline {figure}{\numberline {Figure\hfill 72 - }{\ignorespaces Track parameters resolution as function of $q/p_{T}$ for single pion no PU (first column), single muon no PU (second column) and single electron no PU (last column). From top to bottom the track parameters are $q/p_{T}$, $\phi _{0}$, $z_{0}$ and $cot~\theta $.\relax }}{167}{figure.caption.166}
-\contentsline {figure}{\numberline {Figure\hfill 73 - }{\ignorespaces $\chi ^{2}_{match}$ distribution from single pion and single muon event without and with PU.\relax }}{168}{figure.caption.168}
-\contentsline {figure}{\numberline {Figure\hfill 74 - }{\ignorespaces AM track characterization and synthetic efficiency from single muon no PU events.\relax }}{169}{figure.caption.169}
-\contentsline {figure}{\numberline {Figure\hfill 75 - }{\ignorespaces AM tracks categories fraction and truth stub fraction versus $\chi ^{2}_{match}$ cut for $\mu +PU200$ on left column and for $jet(p_{T}=250GeV) + PU200$ on right column.\relax }}{171}{figure.caption.171}
-\contentsline {figure}{\numberline {Figure\hfill 76 - }{\ignorespaces Track reconstruction efficiency for $t\mathaccentV {bar}016{t}+PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplicate removal was applied by requiring DR=0.\relax }}{175}{figure.caption.175}
-\contentsline {figure}{\numberline {Figure\hfill 77 - }{\ignorespaces Track reconstruction efficiency for $jets(p_{T}=250GeV)+PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.\relax }}{176}{figure.caption.176}
-\contentsline {figure}{\numberline {Figure\hfill 78 - }{\ignorespaces Track reconstruction efficiency for $\mu +PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.\relax }}{177}{figure.caption.177}
-\contentsline {figure}{\numberline {Figure\hfill 79 - }{\ignorespaces Track reconstruction efficiency for $\mu +PU300$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.\relax }}{178}{figure.caption.178}
-\contentsline {figure}{\numberline {Figure\hfill 80 - }{\ignorespaces Track reconstruction efficiency for $\mu +PU400$ sample. The pattern bank used had 64k and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.\relax }}{179}{figure.caption.179}
-\contentsline {figure}{\numberline {Figure\hfill 81 - }{\ignorespaces Comparison between the pattern bank $sf1\_nz1$ and its variants due to the stub bending approach.\relax }}{180}{figure.caption.183}
-\contentsline {figure}{\numberline {Figure\hfill 82 - }{\ignorespaces Truncation is not a linear behavior for $\Delta S$. Increasing combination is better than increasing road truncation limit. Increasing combination truncation limit to 1k increases 3$\%$ almost equally for 200/400/800 roads.\relax }}{182}{figure.caption.185}
-\contentsline {figure}{\numberline {Figure\hfill 83 - }{\ignorespaces Overview of the FNAL AM CMSL1TT hardware: (a) Pulsar-IIB board, (b) inspection of Pulsar-IIB components, (c) and (d) the setup for measure data transmission quality from the PRMs via optical cables, (e) crate containing Pulsar-IIB boards and PRMs (not visible since Pulsar boards sit right besides each other) with full setup ready for demonstration of the approach.\relax }}{184}{figure.caption.187}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{184}{subfigure.83.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{184}{subfigure.83.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{184}{subfigure.83.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{184}{subfigure.83.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{184}{subfigure.83.5}
-\contentsline {figure}{\numberline {Figure\hfill 84 - }{\ignorespaces Illustration of the analysis process done by the \textit {Fast}ME. The MC events present a topology associated to the EM of a given physical process, such as, each particle has a correlation with the others particles in the event. An data event (black points) receives a probability of being from a kind or other (blue and red point) via the correlation of the distances (represented by the blue and red circles) between it and the MC events.\relax }}{188}{figure.caption.191}
-\contentsline {figure}{\numberline {Figure\hfill 85 - }{\ignorespaces Comparison between the \textit {Fast}ME discriminants distributions as defined by Eq.~\ref {eq:fastme_dist_disc} (a) and \ref {eq:fastme_average_disc} (b), obtained samples of $gg \rightarrow H \rightarrow 2e2\mu $ and $qq \rightarrow 2e2\mu $ (ZZ) generated with Powheg.\relax }}{190}{figure.caption.192}
-\contentsline {figure}{\numberline {Figure\hfill 86 - }{\ignorespaces Classification dependency for signal and background events accordingly to the size of the pattern banks used. On graphs (a) and (b) the size of the background pattern bank has a fixed size while the signal one is varied. On graphs (c) and (d) the opposite case is shown. Note, here "purity" is computed using the absolute number of events (without normalization).\relax }}{191}{figure.caption.195}
-\contentsline {figure}{\numberline {Figure\hfill 87 - }{\ignorespaces Varia\IeC {\c c}\IeC {\~a}o da fra\IeC {\c c}\IeC {\~a}o de signal e \textit {background} identificados na amostra com 50$\%$ de cada classe.\relax }}{192}{figure.caption.196}
-\contentsline {figure}{\numberline {Figure\hfill 88 - }{\ignorespaces (a) Scan of the ideal cut (to correct classify signal and background events) in function of the ratio between the size of the signal and background pattern banks. (b) The effect on the fraction of signal and background events being classified as so, before and after the correction on the discriminant.\relax }}{193}{figure.caption.197}
-\contentsline {figure}{\numberline {Figure\hfill 89 - }{\ignorespaces Impact on the $D$ (Eq.~\ref {eq:fastme_events_distance}) distribution for signal and background due to use or not of $\phi $ in the computation of the distances between particles and events.\relax }}{194}{figure.caption.199}
-\contentsline {figure}{\numberline {Figure\hfill 90 - }{\ignorespaces Dependency on the variation of the fraction of signal events being mis-classified as background in function of the $\delta p_{T}$ scale factor (the $\sigma _{v_{k}}$ in Eq.~\ref {eq:fastme_metric}). A fixed value of 5.0 was used as the $\delta \eta $ scale factor.\relax }}{195}{figure.caption.201}
-\contentsline {figure}{\numberline {Figure\hfill 91 - }{\ignorespaces (a) Observed events classified as signal and background by the \textit {Fast}ME, (b) the discriminant distribution (from observed data), (c) and (d) distribution of \textit {Fast}ME and $MELA$ discriminants as obtained from observed data and MC events, (e) and (f) the distribution of those discriminants versus the $m_{4l}$ mass value of the analyzed events. The distributions are not normalized by the events weight. The distribution of \textit {Fast}ME discriminant in (b) looks different from what is shown in (c) and in Fig.~\ref {fig:phi_spread} because that was the original shape. Later it was decided to re-define the discriminant as expressed by Eq.~\ref {eq:fastme_dist_disc} in order to keep it in the range [0, 1].\relax }}{197}{figure.caption.203}
-\contentsline {figure}{\numberline {Figure\hfill 92 - }{\ignorespaces View of the \textit {Fast}ME repository on \textit {GitHub} created by the author.\relax }}{198}{figure.caption.206}
-\contentsline {figure}{\numberline {Figure\hfill 93 - }{\ignorespaces \textit {Fast}ME input card. This card is parsed to the \textit {Fast}ME executable in order to set up needed parameters in order to run an analysis.\relax }}{200}{figure.caption.209}
-\contentsline {figure}{\numberline {Figure\hfill 94 - }{\ignorespaces Comparison between the two methods developed to define the classification of a event probe. On (a) the discriminant distributions for the minimum distance matching and on (b) its performance.\relax }}{201}{figure.caption.211}
-\contentsline {figure}{\numberline {Figure\hfill 95 - }{\ignorespaces Variation on the \textit {Fast}ME performance due the introduction of extra objects with random properties in the signal and background testing samples. In (a) the variation on the signal and background distributions for the discriminant (based on distance) and in (b) the variation on the ROC curve.\relax }}{203}{figure.caption.213}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{203}{subfigure.95.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{203}{subfigure.95.2}
-\contentsline {figure}{\numberline {Figure\hfill 96 - }{\ignorespaces \textit {Fast}ME performance on the discrimination of qqH against ggH using the discriminant based on the distance (left). The area under the ROC curve (right) corresponds to $\sim 66\%$.\relax }}{204}{figure.caption.215}
-\contentsline {figure}{\numberline {Figure\hfill 97 - }{\ignorespaces Some pictures of the seminar given by the author at UNIBA during his participation in the Global Doc project. The organizers, the local tutor prof. Giovanna Selvagi and the co-advisor prof. Nicola were present in the seminar, which was also opened to the university academic community.\relax }}{206}{figure.caption.216}
-\contentsline {figure}{\numberline {Figure\hfill 98 - }{\ignorespaces The RECAS computing farm at the UNIBA campus where the Physics department is located.\relax }}{207}{figure.caption.217}
-\contentsline {figure}{\numberline {Figure\hfill 99 - }{\ignorespaces Briefly of the Dark Matter analysis: (a) the LO diagrams of the searched processes and (b) the MET distribution (stacked) for SM processes and (superimposed) Dark Matter candidates.\relax }}{208}{figure.caption.218}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{208}{subfigure.99.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{208}{subfigure.99.2}
+\contentsline {figure}{\numberline {Figure\hfill 1 - }{\ignorespaces The $V(\phi )$ potential for different choices of $\mu ^2$.\relax }}{27}{figure.caption.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\mu ^2 > 0$}}}{27}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\mu ^2 < 0$}}}{27}{subfigure.1.2}
+\contentsline {figure}{\numberline {Figure\hfill 2 - }{\ignorespaces The main Higgs (represented by the dotted line) production modes at the LHC.\relax }}{33}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fus\IeC {\~a}o de gl\IeC {\'u}ons}}}{33}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fus\IeC {\~a}o de b\IeC {\'o}sons vetoriais}}}{33}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Higgs-strahlung}}}{33}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Produ\IeC {\c c}\IeC {\~a}o associada com top}}}{33}{subfigure.2.4}
+\contentsline {figure}{\numberline {Figure\hfill 3 - }{\ignorespaces Higgs production XS and branching ratios.\relax }}{34}{figure.caption.9}
+\contentsline {figure}{\numberline {Figure\hfill 4 - }{\ignorespaces Feynman diagram for the Higgs production via vector boson fusion. The initial state quarks (or anti-quarks) are $p_{1}$ and $p_{2}$, while the momentum at final state are $p_{1}'$ and $p_{2}'$, respectively.\relax }}{35}{figure.caption.12}
+\contentsline {figure}{\numberline {Figure\hfill 5 - }{\ignorespaces Sketch of the Higgs VBF production description through the structure function approach.\relax }}{37}{figure.caption.14}
+\contentsline {figure}{\numberline {Figure\hfill 6 - }{\ignorespaces Main processes in this analysis: Higgs production modes (a) vector boson fusion (VBF), (b) gluon-fusion (ggH), (c) Higgsstrahlung (VH), (d) production associated to top quark, and the main SM backgrounds (e) and (f) ZZ. Additionally there is the $Z+X$ background which is derived via the Fake Rate \textit {data-driven} method and will be presented later.\relax }}{39}{figure.caption.16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$q\mathaccentV {bar}016{q} \rightarrow Hq\mathaccentV {bar}016{q}$}}}{39}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$gg \rightarrow H$}}}{39}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$q\mathaccentV {bar}016{q} \rightarrow VH$}}}{39}{subfigure.6.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$gg \rightarrow t\mathaccentV {bar}016{t}H$}}}{39}{subfigure.6.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$q\mathaccentV {bar}016{q} \rightarrow ZZ$}}}{39}{subfigure.6.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$gg \rightarrow ZZ$}}}{39}{subfigure.6.6}
+\contentsline {figure}{\numberline {Figure\hfill 7 - }{\ignorespaces Simplified transverse section of the LHC.\relax }}{42}{figure.caption.19}
+\contentsline {figure}{\numberline {Figure\hfill 8 - }{\ignorespaces Accelerators composing the LHC at CERN.\relax }}{43}{figure.caption.21}
+\contentsline {figure}{\numberline {Figure\hfill 9 - }{\ignorespaces General view of CMS layers.\relax }}{45}{figure.caption.23}
+\contentsline {figure}{\numberline {Figure\hfill 10 - }{\ignorespaces Transverse section view showing the detection that each sub-detector does.\relax }}{46}{figure.caption.24}
+\contentsline {figure}{\numberline {Figure\hfill 11 - }{\ignorespaces Scheme of the pixel detector.\relax }}{47}{figure.caption.27}
+\contentsline {figure}{\numberline {Figure\hfill 12 - }{\ignorespaces Illustration of a super-module and the entire ECAL.\relax }}{49}{figure.caption.31}
+\contentsline {figure}{\numberline {Figure\hfill 13 - }{\ignorespaces Scheme of the positions of the HB towers.\relax }}{50}{figure.caption.33}
+\contentsline {figure}{\numberline {Figure\hfill 14 - }{\ignorespaces Scheme of the hadronic calorimeter in the endcaps, annexed to the muon detection system.\relax }}{51}{figure.caption.34}
+\contentsline {figure}{\numberline {Figure\hfill 15 - }{\ignorespaces Scheme of the positions of HO in the muon detection systema and its effect on the measurement of the energy from hadronic showers.\relax }}{52}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HO transverse section.}}}{52}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HO effect on the balance of energy measured in the CMS.}}}{52}{subfigure.15.2}
+\contentsline {figure}{\numberline {Figure\hfill 16 - }{\ignorespaces An HF quadrant showing the modules of steel plates with grooves where optical fibers sit.\relax }}{53}{figure.caption.36}
+\contentsline {figure}{\numberline {Figure\hfill 17 - }{\ignorespaces The CMS magnetic system.\relax }}{55}{figure.caption.38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Scheme of the CMS solenoid.}}}{55}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mapping of the magnetic field created by the solenoid.}}}{55}{subfigure.17.2}
+\contentsline {figure}{\numberline {Figure\hfill 18 - }{\ignorespaces Comparison of the resolution on the muon transverse momentum measurement obtained by using the muon chambers and the tracker separated and combined, left. Scheme of the muon chambers position in the CMS, right\relax }}{56}{figure.caption.40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Resolutions on the measruement of the muons transverse momentum.}}}{56}{subfigure.18.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Location of the muon chambers in a section of the CMS detector.}}}{56}{subfigure.18.2}
+\contentsline {figure}{\numberline {Figure\hfill 19 - }{\ignorespaces Types of detectors used in the muon detection system.\relax }}{58}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DTC scheme.}}}{58}{subfigure.19.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RPC scheme.}}}{58}{subfigure.19.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {CSC scheme.}}}{58}{subfigure.19.3}
+\contentsline {figure}{\numberline {Figure\hfill 20 - }{\ignorespaces Electron selection efficiencies measured using the tag-and-probe technique for: (a) non-gap electrons and (b) gap electrons.\relax }}{66}{figure.caption.52}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}{subfigure.20.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}{subfigure.20.2}
+\contentsline {figure}{\numberline {Figure\hfill 21 - }{\ignorespaces Muon reconstruction and identification efficiency for $p_{T}<$ 20GeV as a function of $p_{T}$ in the barrel (a) and endcaps (b), and as a function of $\eta $ for $p_{T}>$ 7GeV (c). In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot of the two efficiencies, the black error bars represent the statistical uncertainty, the orange ones the systematical uncertainty, and the violet ones the total uncertainty.\relax }}{69}{figure.caption.56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{69}{subfigure.21.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{69}{subfigure.21.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{69}{subfigure.21.3}
+\contentsline {figure}{\numberline {Figure\hfill 22 - }{\ignorespaces Efficiency of the muon impact parameter requirements as a function of $p_{T}$ in the barrel (a) and endcaps (b), and as a function of $\eta $ for $p_{T}>$ 20GeV (c). In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot the black error bars are for the statistical uncertainty, the orange ones for the systematical uncertainty and the violet ones include both uncertainties.\relax }}{69}{figure.caption.57}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{69}{subfigure.22.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{69}{subfigure.22.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{69}{subfigure.22.3}
+\contentsline {figure}{\numberline {Figure\hfill 23 - }{\ignorespaces Efficiency of the muon isolation requirement as a function of $p_{T}$ in the barrel (a) and endcaps (b). In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot the black error bars are for the statistical uncertainty, the orange ones for the systematical uncertainty and the violet ones for the total uncertainty.\relax }}{70}{figure.caption.58}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{70}{subfigure.23.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{70}{subfigure.23.2}
+\contentsline {figure}{\numberline {Figure\hfill 24 - }{\ignorespaces Tracking efficiency in data and simulation as a function of $\eta $ for muon $p_{T}<$ 10GeV (a) and $p_{T}>$ 10GeV (b) with ReReco data.\relax }}{70}{figure.caption.59}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{70}{subfigure.24.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{70}{subfigure.24.2}
+\contentsline {figure}{\numberline {Figure\hfill 25 - }{\ignorespaces Control plots of four-lepton invariant mass for: (a) events passing the SM Higgs selection, (b) events in the $m_{4l} = [118,130]$ GeV range and (c) events in the VBF signal region.\relax }}{77}{figure.caption.69}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{77}{subfigure.25.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{77}{subfigure.25.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{77}{subfigure.25.3}
+\contentsline {figure}{\numberline {Figure\hfill 26 - }{\ignorespaces (a) Graphical representation of a neuron. Each input \textit {$x_i$} (from user or from the hidden neurons) is weighted by \textit {$w_i$} and summed to a bias \textit {b}. The sum is passed to a function (the activation function - neuron type) which outputs a vector of values (one for each input). (b) Graphical representation of a NN with three hidden layers. In this type of ANN the outputs of all neurons from a previous layer are fed into the neurons of a next layer.\relax }}{79}{figure.caption.70}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{79}{subfigure.26.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{79}{subfigure.26.2}
+\contentsline {figure}{\numberline {Figure\hfill 27 - }{\ignorespaces The flow of signal through the neuron $j$ up to its instantaneous error $e_{j}$.\relax }}{81}{figure.caption.72}
+\contentsline {figure}{\numberline {Figure\hfill 28 - }{\ignorespaces The flow of signal through a hidden neuron $j$ up to its \textit {signal function} $y_{j}(n)$ which is forwarded as an input to an neuron $k$ in an output layer. Note that, the \textit {activation function} can now be different between the layers and they are represented as $f_{j}$ and $f_{k}$ for the neurons $j$ and $k$, respectively.\relax }}{83}{figure.caption.74}
+\contentsline {figure}{\numberline {Figure\hfill 29 - }{\ignorespaces Monte Carlo and Data distribution of the variables used as inputs to train the ANNs in this analysis.\relax }}{85}{figure.caption.77}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{85}{subfigure.29.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{85}{subfigure.29.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{85}{subfigure.29.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{85}{subfigure.29.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{85}{subfigure.29.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{85}{subfigure.29.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{85}{subfigure.29.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {}}}{85}{subfigure.29.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {}}}{85}{subfigure.29.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {}}}{85}{subfigure.29.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {}}}{85}{subfigure.29.11}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {}}}{85}{subfigure.29.12}
+\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {}}}{86}{subfigure.28.13}
+\contentsline {subfigure}{\numberline {(n)}{\ignorespaces {}}}{86}{subfigure.28.14}
+\contentsline {subfigure}{\numberline {(o)}{\ignorespaces {}}}{86}{subfigure.28.15}
+\contentsline {subfigure}{\numberline {(p)}{\ignorespaces {}}}{86}{subfigure.28.16}
+\contentsline {subfigure}{\numberline {(q)}{\ignorespaces {}}}{86}{subfigure.28.17}
+\contentsline {subfigure}{\numberline {(r)}{\ignorespaces {}}}{86}{subfigure.28.18}
+\contentsline {subfigure}{\numberline {(s)}{\ignorespaces {}}}{86}{subfigure.28.19}
+\contentsline {subfigure}{\numberline {(t)}{\ignorespaces {}}}{86}{subfigure.28.20}
+\contentsline {subfigure}{\numberline {(u)}{\ignorespaces {}}}{86}{subfigure.28.21}
+\contentsline {figure}{\numberline {Figure\hfill 28 - }{\ignorespaces ROC curves comparing the performance of a trained NN, the VBF MELA discriminant and $D_{jet}$: (a) the performance of NN without scaling the \textit {loss} and (b) performance after scaling the \textit {loss}.\relax }}{88}{figure.caption.80}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{88}{subfigure.28.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{88}{subfigure.28.2}
+\contentsline {figure}{\numberline {Figure\hfill 29 - }{\ignorespaces Example of checking plots produced during ANNs training. (a) $D_{qqH, 2j}^{MELA}$ (for reference) and (b) ANN distributions, (c) $\epsilon _{s}.\pi $ vs $\epsilon $, (d) signal significance and (e) ROC curves computed using all backgrounds together for training and testing sets. (f) ROC areas computed separately for each background using the testing set (the filled lines are for the ANN and the dotted ones are for $D_{qqH, 2j}^{MELA}$).\relax }}{91}{figure.caption.83}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{91}{subfigure.29.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{91}{subfigure.29.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{91}{subfigure.29.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{91}{subfigure.29.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{91}{subfigure.29.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{91}{subfigure.29.6}
+\contentsline {figure}{\numberline {Figure\hfill 30 - }{\ignorespaces Summary of the results obtained with the parameters scanning. The plot shows the difference between trained ANNs and $D_{qqH,2j}^{MELA}$ in three metrics used at that moment: max($\epsilon _{s}.\pi $), ROC area and significance\relax }}{92}{figure.caption.85}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{92}{subfigure.30.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{92}{subfigure.30.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{92}{subfigure.30.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{92}{subfigure.30.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{92}{subfigure.30.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{92}{subfigure.30.6}
+\contentsline {figure}{\numberline {Figure\hfill 31 - }{\ignorespaces Performance of VBF discrimination against the backgrounds for the ANN, MELA and Djet discriminants. On (a) is the performance when considering only 2 jets per event and on (b) when considering up to 3 jets per event.\relax }}{94}{figure.caption.88}
+\contentsline {figure}{\numberline {Figure\hfill 32 - }{\ignorespaces Fake rates in terms of the lepton probe $p_{T}$ and $\eta $. The $p_{T}$ distributions (barrel and endcap) corresponds to the regions defined by $|\eta | <$ 1.479 (1.2) for electrons (muons). The background $WZ$ from MC has been subtracted.\relax }}{97}{figure.caption.94}
+\contentsline {figure}{\numberline {Figure\hfill 33 - }{\ignorespaces Fake rates as a function of the probe lepton $p_{T}$ and $\eta $. The background $WZ$ from MC has been subtracted. This is the mapping for fake rates applied into the control regions.\relax }}{98}{figure.caption.95}
+\contentsline {figure}{\numberline {Figure\hfill 34 - }{\ignorespaces Four-lepton invariant mass distribution of the events selected in the 2P2F control region in the 13TeV dataset: (a) 4$\mu $, (b) 4e, (c) 2$\mu $2e and (d) 2e2$\mu $ channels.\relax }}{100}{figure.caption.97}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{100}{subfigure.34.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{100}{subfigure.34.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{100}{subfigure.34.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{100}{subfigure.34.4}
+\contentsline {figure}{\numberline {Figure\hfill 35 - }{\ignorespaces Four-lepton invariant mass distribution of the events selected in the 3P1F control region in the 13TeV dataset: (a) 4$\mu $, (b) 4e, (c) 2$\mu $2e and (d) 2e2$\mu $ channels.\relax }}{101}{figure.caption.98}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{101}{subfigure.35.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{101}{subfigure.35.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{101}{subfigure.35.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{101}{subfigure.35.4}
+\contentsline {figure}{\numberline {Figure\hfill 36 - }{\ignorespaces Four-lepton mass distribution of Z+X for events after the (a) SM Higgs and (b) VBF-SR selections. The shapes are shown for each separate channel and for their combination into $4l$ final state.\relax }}{102}{figure.caption.100}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{102}{subfigure.36.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{102}{subfigure.36.2}
+\contentsline {figure}{\numberline {Figure\hfill 37 - }{\ignorespaces Fake rate, for each reducible background ($D\varUpsilon $, $t\mathaccentV {bar}016{t}$, WZ, ZZ, Z$\gamma $), the average and the re-weighted distributions for electron (a) $p_{T}$ barrel, (b) $p_{T}$ endcap and (c) $\eta $ and for muons (d) $p_{T}$ barrel, (e) $p_{T}$ endcap and (f) $\eta $.\relax }}{104}{figure.caption.103}
+\contentsline {figure}{\numberline {Figure\hfill 38 - }{\ignorespaces Fake rate versus $p_{T}$ and $\eta $ for the average and the re-weighted distributions for electron (a) and (c) and, for muon (b) and (d), respectively.\relax }}{106}{figure.caption.104}
+\contentsline {figure}{\numberline {Figure\hfill 39 - }{\ignorespaces Effect of systematic uncertainties in the shape of one of the trained NNs for each of the processes and lepton channels. In this plot the histograms show the nominal distribution of the NN and the error bars indicate the maximum yield oscillation (up/down) per bin due to the systematic uncertainties of the inputs.\relax }}{111}{figure.caption.113}
+\contentsline {figure}{\numberline {Figure\hfill 40 - }{\ignorespaces NN distributions and their ratio in the \textbf {Njets3} category from VBF-H2J and VBF-H3J for (a) $4\mu $, (b) $4e$ and (c) $2e2\mu $.\relax }}{113}{figure.caption.115}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{113}{subfigure.40.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{113}{subfigure.40.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{113}{subfigure.40.3}
+\contentsline {figure}{\numberline {Figure\hfill 41 - }{\ignorespaces Final four-lepton mass distributions for the SM Higgs separated in the channels (a) $4\mu $, (b) $4e$ and (c) $2e2\mu $ and, combined into the (d) $4l$ final state. The distributions are show for $70 < m_{4l} < 400$ GeV and include the $Z+X$ background estimated by the data-driven method explained in Sec.~\ref {sec:zx_estimation}.\relax }}{116}{figure.caption.119}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{116}{subfigure.41.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{116}{subfigure.41.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{116}{subfigure.41.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{116}{subfigure.41.4}
+\contentsline {figure}{\numberline {Figure\hfill 42 - }{\ignorespaces Final four-lepton mass distributions for the events passing the (a) SM Higgs and the (b) VBF-SR selections combined into the $4l$ final state. The distributions are show for $118 < m_{4l} < 130$ GeV (SM Higgs signal region defined by CMS Collaboration) and include the $Z+X$ background estimated by the data-driven method explained in Sec.~\ref {sec:zx_estimation}.\relax }}{117}{figure.caption.120}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{117}{subfigure.42.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{117}{subfigure.42.2}
+\contentsline {figure}{\numberline {Figure\hfill 43 - }{\ignorespaces Pre-fit distributions of the neural network developed for (a) \textbf {Njets2} and (b) \textbf {Njets3} categories. In (c) is the distribution resulting from the combination of the two categories.\relax }}{118}{figure.caption.121}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{118}{subfigure.43.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{118}{subfigure.43.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{118}{subfigure.43.3}
+\contentsline {figure}{\numberline {Figure\hfill 44 - }{\ignorespaces The best fit value found, given the observed data, for $\mu _{qqH}$. In (a) is shown the compatibility between the channels from each category of number of jets and in (b) is shown the likelihood ratios profile of the two categories and their combination.\relax }}{121}{figure.caption.123}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{121}{subfigure.44.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{121}{subfigure.44.2}
+\contentsline {figure}{\numberline {Figure\hfill 45 - }{\ignorespaces Post-fit NN distribution. The fit is done with the assumption of S+B hypothesis ($\mu _{VBF} = 1$ a priori).\relax }}{123}{figure.caption.125}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{123}{subfigure.45.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{123}{subfigure.45.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{123}{subfigure.45.3}
+\contentsline {figure}{\numberline {Figure\hfill 46 - }{\ignorespaces Post-fit nuisances impact plot obtained with the combination of the two categories of number of jets. This plot shows the effect of each systematic uncertainty on the estimation of the VBF signal strength ($\mu _{qqH}$).\relax }}{124}{figure.caption.127}
+\contentsline {figure}{\numberline {Figure\hfill 47 - }{\ignorespaces (a) Observed and expected 95$\%$ CL upper limit on the ratio of the Higgs VBF production cross section to the SM expectation, for the two jet-based categories and their combination. The expected 1$\sigma $ (2$\sigma $) ranges of the expectation for the background-only hypothesis are also shown by the green (yellow) bands. (b) The observed significance of the local excess with respect to the SM background expectation for the two categories and their combination.\relax }}{127}{figure.caption.128}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{127}{subfigure.47.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{127}{subfigure.47.2}
+\contentsline {figure}{\numberline {Figure\hfill 48 - }{\ignorespaces Comparison of the expected VBF Higgs signal strength best fits, and their uncertainties, between the present luminosity and the future 150fb$^{-1}$.\relax }}{128}{figure.caption.130}
+\contentsline {figure}{\numberline {Figure\hfill 49 - }{\ignorespaces The calendar for the upgrades of the LHC and its detectors.\relax }}{130}{figure.caption.132}
+\contentsline {figure}{\numberline {Figure\hfill 50 - }{\ignorespaces Scheme of the sensors in a layer of the CMS detector after the phase II upgrade. An object called \textit {stub} is defined in terms of the distance between the centroids of back-to-back sensors (or cluster of them) activated when a particle cross the layer.\relax }}{131}{figure.caption.133}
+\contentsline {figure}{\numberline {Figure\hfill 51 - }{\ignorespaces Scheme of the partition adopted in the CMSL1TT AM+FPGA for the cluster of strips activated in the silicon sensors in the detector layers.\relax }}{132}{figure.caption.136}
+\contentsline {figure}{\numberline {Figure\hfill 52 - }{\ignorespaces Road sorting effect on efficiency without truncation and with truncation in 200 roads and 500 combinations for $t\mathaccentV {bar}016{t}+PU200$.\relax }}{134}{figure.caption.140}
+\contentsline {figure}{\numberline {Figure\hfill 53 - }{\ignorespaces How the $\Delta S$ mitigate AM patterns fired by random tracks: two random tracks trigger a valid pattern and the stubs are stored for further analysis but, the stubs combination doesn't come from a real track.\relax }}{135}{figure.caption.142}
+\contentsline {figure}{\numberline {Figure\hfill 54 - }{\ignorespaces Stub bending distribution per detector layer for $t\mathaccentV {bar}016{t}+PU200$ and the $\Delta S$ ranges for the configuration ASYM115577. In the ASYM mode only the central range can have width defined by user and $\Delta S$ always is divided only into 3 ranges.\relax }}{137}{figure.caption.143}
+\contentsline {figure}{\numberline {Figure\hfill 55 - }{\ignorespaces Stub bending distribution per detector layer for $t\mathaccentV {bar}016{t}+PU200$ and the $\Delta S$ ranges for the configuration SYM115577. In the SYM mode ranges have the same width, except the outer ranges (those ones comprehending $|\Delta S|$ = 6.5).\relax }}{138}{figure.caption.144}
+\contentsline {figure}{\numberline {Figure\hfill 56 - }{\ignorespaces Stub bending distribution for $jet(p_{T}=250GeV)+PU200$. Different events seems to have the same limits but, as one can see the occupancy is no equal (comparing with the pictures for $t\mathaccentV {bar}016{t}+PU200$).\relax }}{139}{figure.caption.145}
+\contentsline {figure}{\numberline {Figure\hfill 57 - }{\ignorespaces Roads and combinations average and 95 percentile per event versus different $\Delta S$ configurations at $sf1\_nz1$ for $t\mathaccentV {bar}016{t}+PU200$ (left) and $jet(p_{T}=250GeV)+PU200$ (right).\relax }}{140}{figure.caption.147}
+\contentsline {figure}{\numberline {Figure\hfill 58 - }{\ignorespaces Road efficiency versus different $\Delta S$ configurations at $sf1\_nz1$ for $t\mathaccentV {bar}016{t}+PU200$ (left) and $jet(p_{T}=250GeV)+PU200$ (right).\relax }}{141}{figure.caption.148}
+\contentsline {figure}{\numberline {Figure\hfill 59 - }{\ignorespaces Stub fountain scaler factor scan for $t\mathaccentV {bar}016{t}+PU200$.\relax }}{141}{figure.caption.149}
+\contentsline {figure}{\numberline {Figure\hfill 60 - }{\ignorespaces Muon road efficiency versus pile up. The plot (a) is the result without $\Delta S$ approach (done by another person in the CMS L1TT working group) and the plot (b) with it (done by the author).\relax }}{142}{figure.caption.151}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{142}{subfigure.60.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{142}{subfigure.60.2}
+\contentsline {figure}{\numberline {Figure\hfill 61 - }{\ignorespaces Track fitter $\chi ^{2}$ from all muon tracks in $t\mathaccentV {bar}016{t}+PU200$ versus track $p_{T}$.\relax }}{144}{figure.caption.153}
+\contentsline {figure}{\numberline {Figure\hfill 62 - }{\ignorespaces TF $\chi ^{2}$ distribution for 6/6 muon tracks in each track $p_{T}$ range from $t\mathaccentV {bar}016{t}+PU200$.\relax }}{145}{figure.caption.154}
+\contentsline {figure}{\numberline {Figure\hfill 63 - }{\ignorespaces TF $\chi ^{2}$ distribution for 5/6 muon tracks in each track $p_{T}$ range from $t\mathaccentV {bar}016{t}+PU200$. Vertical bars point the cuts defined.\relax }}{146}{figure.caption.155}
+\contentsline {figure}{\numberline {Figure\hfill 64 - }{\ignorespaces Track parameters resolution as function of $q/p_{T}$ for single pion no PU (first column), single muon no PU (second column) and single electron no PU (last column). From top to bottom the track parameters are $q/p_{T}$, $\phi _{0}$, $z_{0}$ and $cot~\theta $.\relax }}{149}{figure.caption.157}
+\contentsline {figure}{\numberline {Figure\hfill 65 - }{\ignorespaces $\chi ^{2}_{match}$ distribution from single pion and single muon event without and with PU.\relax }}{150}{figure.caption.159}
+\contentsline {figure}{\numberline {Figure\hfill 66 - }{\ignorespaces AM track characterization and synthetic efficiency from single muon no PU events.\relax }}{151}{figure.caption.160}
+\contentsline {figure}{\numberline {Figure\hfill 67 - }{\ignorespaces AM tracks categories fraction and truth stub fraction versus $\chi ^{2}_{match}$ cut for $\mu +PU200$ on left column and for $jet(p_{T}=250GeV) + PU200$ on right column.\relax }}{153}{figure.caption.162}
+\contentsline {figure}{\numberline {Figure\hfill 68 - }{\ignorespaces Track reconstruction efficiency for $t\mathaccentV {bar}016{t}+PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplicate removal was applied by requiring DR=0.\relax }}{157}{figure.caption.166}
+\contentsline {figure}{\numberline {Figure\hfill 69 - }{\ignorespaces Track reconstruction efficiency for $jets(p_{T}=250GeV)+PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.\relax }}{158}{figure.caption.167}
+\contentsline {figure}{\numberline {Figure\hfill 70 - }{\ignorespaces Track reconstruction efficiency for $\mu +PU200$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.\relax }}{159}{figure.caption.168}
+\contentsline {figure}{\numberline {Figure\hfill 71 - }{\ignorespaces Track reconstruction efficiency for $\mu +PU300$ sample. The pattern bank used had 64k patterns and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.\relax }}{160}{figure.caption.169}
+\contentsline {figure}{\numberline {Figure\hfill 72 - }{\ignorespaces Track reconstruction efficiency for $\mu +PU400$ sample. The pattern bank used had 64k and truncation at 200 roads and 500 combinations has been applied. Duplication removal was applied by requiring DR=0.\relax }}{161}{figure.caption.170}
+\contentsline {figure}{\numberline {Figure\hfill 73 - }{\ignorespaces Comparison between the pattern bank $sf1\_nz1$ and its variants due to the stub bending approach.\relax }}{162}{figure.caption.174}
+\contentsline {figure}{\numberline {Figure\hfill 74 - }{\ignorespaces Truncation is not a linear behavior for $\Delta S$. Increasing combination is better than increasing road truncation limit. Increasing combination truncation limit to 1k increases 3$\%$ almost equally for 200/400/800 roads.\relax }}{164}{figure.caption.176}
+\contentsline {figure}{\numberline {Figure\hfill 75 - }{\ignorespaces Overview of the FNAL AM CMSL1TT hardware: (a) Pulsar-IIB board, (b) inspection of Pulsar-IIB components, (c) and (d) the setup for measure data transmission quality from the PRMs via optical cables, (e) crate containing Pulsar-IIB boards and PRMs (not visible since Pulsar boards sit right besides each other) with full setup ready for demonstration of the approach.\relax }}{166}{figure.caption.178}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{166}{subfigure.75.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{166}{subfigure.75.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{166}{subfigure.75.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{166}{subfigure.75.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{166}{subfigure.75.5}
+\contentsline {figure}{\numberline {Figure\hfill 76 - }{\ignorespaces Illustration of the analysis process done by the \textit {Fast}ME. The MC events present a topology associated to the EM of a given physical process, such as, each particle has a correlation with the others particles in the event. An data event (black points) receives a probability of being from a kind or other (blue and red point) via the correlation of the distances (represented by the blue and red circles) between it and the MC events.\relax }}{170}{figure.caption.182}
+\contentsline {figure}{\numberline {Figure\hfill 77 - }{\ignorespaces Comparison between the \textit {Fast}ME discriminants distributions as defined by Eq.~\ref {eq:fastme_dist_disc} (a) and \ref {eq:fastme_average_disc} (b), obtained samples of $gg \rightarrow H \rightarrow 2e2\mu $ and $qq \rightarrow 2e2\mu $ (ZZ) generated with Powheg.\relax }}{172}{figure.caption.183}
+\contentsline {figure}{\numberline {Figure\hfill 78 - }{\ignorespaces Classification dependency for signal and background events accordingly to the size of the pattern banks used. On graphs (a) and (b) the size of the background pattern bank has a fixed size while the signal one is varied. On graphs (c) and (d) the opposite case is shown. Note, here "purity" is computed using the absolute number of events (without normalization).\relax }}{173}{figure.caption.186}
+\contentsline {figure}{\numberline {Figure\hfill 79 - }{\ignorespaces Varia\IeC {\c c}\IeC {\~a}o da fra\IeC {\c c}\IeC {\~a}o de signal e \textit {background} identificados na amostra com 50$\%$ de cada classe.\relax }}{174}{figure.caption.187}
+\contentsline {figure}{\numberline {Figure\hfill 80 - }{\ignorespaces (a) Scan of the ideal cut (to correct classify signal and background events) in function of the ratio between the size of the signal and background pattern banks. (b) The effect on the fraction of signal and background events being classified as so, before and after the correction on the discriminant.\relax }}{175}{figure.caption.188}
+\contentsline {figure}{\numberline {Figure\hfill 81 - }{\ignorespaces Impact on the $D$ (Eq.~\ref {eq:fastme_events_distance}) distribution for signal and background due to use or not of $\phi $ in the computation of the distances between particles and events.\relax }}{176}{figure.caption.190}
+\contentsline {figure}{\numberline {Figure\hfill 82 - }{\ignorespaces Dependency on the variation of the fraction of signal events being mis-classified as background in function of the $\delta p_{T}$ scale factor (the $\sigma _{v_{k}}$ in Eq.~\ref {eq:fastme_metric}). A fixed value of 5.0 was used as the $\delta \eta $ scale factor.\relax }}{177}{figure.caption.192}
+\contentsline {figure}{\numberline {Figure\hfill 83 - }{\ignorespaces (a) Observed events classified as signal and background by the \textit {Fast}ME, (b) the discriminant distribution (from observed data), (c) and (d) distribution of \textit {Fast}ME and $MELA$ discriminants as obtained from observed data and MC events, (e) and (f) the distribution of those discriminants versus the $m_{4l}$ mass value of the analyzed events. The distributions are not normalized by the events weight. The distribution of \textit {Fast}ME discriminant in (b) looks different from what is shown in (c) and in Fig.~\ref {fig:phi_spread} because that was the original shape. Later it was decided to re-define the discriminant as expressed by Eq.~\ref {eq:fastme_dist_disc} in order to keep it in the range [0, 1].\relax }}{179}{figure.caption.194}
+\contentsline {figure}{\numberline {Figure\hfill 84 - }{\ignorespaces View of the \textit {Fast}ME repository on \textit {GitHub} created by the author.\relax }}{180}{figure.caption.197}
+\contentsline {figure}{\numberline {Figure\hfill 85 - }{\ignorespaces \textit {Fast}ME input card. This card is parsed to the \textit {Fast}ME executable in order to set up needed parameters in order to run an analysis.\relax }}{182}{figure.caption.200}
+\contentsline {figure}{\numberline {Figure\hfill 86 - }{\ignorespaces Comparison between the two methods developed to define the classification of a event probe. On (a) the discriminant distributions for the minimum distance matching and on (b) its performance.\relax }}{183}{figure.caption.202}
+\contentsline {figure}{\numberline {Figure\hfill 87 - }{\ignorespaces Variation on the \textit {Fast}ME performance due the introduction of extra objects with random properties in the signal and background testing samples. In (a) the variation on the signal and background distributions for the discriminant (based on distance) and in (b) the variation on the ROC curve.\relax }}{185}{figure.caption.204}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{185}{subfigure.87.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{185}{subfigure.87.2}
+\contentsline {figure}{\numberline {Figure\hfill 88 - }{\ignorespaces \textit {Fast}ME performance on the discrimination of qqH against ggH using the discriminant based on the distance (left). The area under the ROC curve (right) corresponds to $\sim 66\%$.\relax }}{186}{figure.caption.206}
+\contentsline {figure}{\numberline {Figure\hfill 89 - }{\ignorespaces Event display of the most VBF-like event ($H \rightarrow ZZ \rightarrow 2e2\mu $) according to the ANN in the \textbf {Njets2} category (ANN score = 0.93). As expected, the two jets present in the event have a very large $\eta $ separation and no particle activity between them.\relax }}{199}{figure.caption.208}
+\contentsline {figure}{\numberline {Figure\hfill 90 - }{\ignorespaces Event display of the most background-like event ($H \rightarrow ZZ \rightarrow 4e$) according to the ANN in the \textbf {Njets2} category (ANN score = 0.04). Differing from the most VBF-like event, this one has the two jets very close in the $\eta -\phi $ space.\relax }}{200}{figure.caption.209}
+\contentsline {figure}{\numberline {Figure\hfill 91 - }{\ignorespaces Event display of the most VBF-like event ($H \rightarrow ZZ \rightarrow 4\mu $) according to the ANN in the \textbf {Njets3} category (ANN score = 0.77). By comparison, the $\eta $ gap between the jets and the particle activity is more evident than what is observed in the \textbf {Njets3} category for background (see next figure).\relax }}{201}{figure.caption.210}
+\contentsline {figure}{\numberline {Figure\hfill 92 - }{\ignorespaces Event display of the most background-like event ($H \rightarrow ZZ \rightarrow 2e2\mu $) according to the ANN in the \textbf {Njets3} category (ANN score = 0.15).\relax }}{202}{figure.caption.211}
+\contentsline {figure}{\numberline {Figure\hfill 93 - }{\ignorespaces The architecture of the neural network created in this analysis for \textbf {Njets2} category. The black dots represent the inputs and the neurons, while the lines represent the size of the parameters found after training those NNs. Wider and brighter lines means that the parameter (weight or bias) associated to a given input for a neuron is larger (in other words its contribution is more relevant). This ANN has 21:13:8 hidden neurons of SeLU type.\relax }}{203}{figure.caption.212}
+\contentsline {figure}{\numberline {Figure\hfill 94 - }{\ignorespaces The architecture of the neural network created in this analysis for \textbf {Njets3} category. This ANN has 11:9:7 hidden neurons of SeLU type.\relax }}{204}{figure.caption.213}
+\contentsline {figure}{\numberline {Figure\hfill 95 - }{\ignorespaces The significance (computed as $S/\sqrt {B}$) (a) and the efficiency times purity ($\pi .\epsilon $) (b) achieved when cutting at the NN for each jet-based category. The cut applied corresponds to the low edge value of a given bin in the histogram. Note that the significance computed here does not take into account the uncertainties.\relax }}{205}{figure.caption.214}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{205}{subfigure.95.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{205}{subfigure.95.2}
+\contentsline {figure}{\numberline {Figure\hfill 96 - }{\ignorespaces The behavior of the NN neuron output for the (a) first hidden layer, (b) second hidden layer and (c) output layer. The subplots in (a), (b) and (c) show, from left to right and sorted, the $p_{T}$'s (top row), the $\eta $'s (middle row) and the $\phi $'s (bottom row) of the four leptons and the three jets.\relax }}{207}{figure.caption.215}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{207}{subfigure.96.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{207}{subfigure.96.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{207}{subfigure.96.3}
+\contentsline {figure}{\numberline {Figure\hfill 97 - }{\ignorespaces Some pictures of the seminar given by the author at UNIBA during his participation in the Global Doc project. The organizers, the local tutor prof. Giovanna Selvagi and the co-advisor prof. Nicola were present in the seminar, which was also opened to the university academic community.\relax }}{209}{figure.caption.216}
+\contentsline {figure}{\numberline {Figure\hfill 98 - }{\ignorespaces The RECAS computing farm at the UNIBA campus where the Physics department is located.\relax }}{210}{figure.caption.217}
+\contentsline {figure}{\numberline {Figure\hfill 99 - }{\ignorespaces Briefly of the Dark Matter analysis: (a) the LO diagrams of the searched processes and (b) the MET distribution (stacked) for SM processes and (superimposed) Dark Matter candidates.\relax }}{211}{figure.caption.218}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{211}{subfigure.99.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{211}{subfigure.99.2}
