@@ -40,6 +40,8 @@
 % Pacotes fundamentais 
 % ---
 \usepackage[brazil]{babel}  % adequação para o português Brasil
+\addto\extrasbrazil{\def\bibname{References}\let\refname\bibname}
+
 %\usepackage[utf8]{inputenc} % Determina a codificação utilizada
 \usepackage[utf8x]{inputenc}
                             % (conversão automática dos acentos)
@@ -80,6 +82,7 @@
 \xdefinecolor{light_red}{rgb}{0.96,0.8,0.8}
 %\newcolumntype{g}{>{\columncolor{light_gray}}c}
 %%==========================================================================
+
 
 % ************************************************************
 % ************************************************************
@@ -239,14 +242,14 @@ I dedicate this work to my family, which is the foundation of my life.
 \pretextualchapter{ACKNOWLEDGMENTS}
 I would like to say thank you:
 \begin{itemize}
-\item to my family for being the foundation of my life. In special to my parents Valdir and Lucia for their dedicated love and unending example of life to me. If up to here I came it is because of their great support in several moments. In special I also thank you to my sister Queila, which more than a big sister, is the closest friend I have in life. And the last but not the least, I thank you my closest grandmother Carmelita that always teaches me about perseverance and goodness;
+\item to my family for being the foundation of my life. In special to my parents Valdir and Lucia for their dedicated love and unending example of life to me. If up to here I came, it was due to their great support in several moments. I also thank you to my sister Queila, which more than a big sister, is the closest friend I have in life. And the last but not the least, I thank you my closest grandmother Carmelita that always teaches me about perseverance, goodness and humbleness;
 \item to prof.(s) Andre Sznajder and Nicola De Filippis for their friendship and advising since the pledging of my master degree. Both of them have proportioned to me great experiences, learnings and growing which contributed significantly for this present work;
 \item to prof.(s) Sergo Jindariani and Luciano Ristori which I had the opportunity to met at Fermilab and learn many things during a very productive collaboration;
-\item to the Universidade do Estado do Rio de Janeiro (UERJ) and the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) for the support during this PhD which has allowed me to enhance my knowledge about Particle Physics;
-\item to the Fermi National Laboratory (Fermilab) and the US Department of Energy for the support given to me when I was working into the CMS L1TT project guided by the AM+FPGA Working Group at Fermilab;
-\item to the Università degli Studi di Bari Aldo Moro (UNIBA) and the Global Doc project via the Puglia region, which allowed me to have an interchange period closer to my co-advisor in Italy;
+\item to the Universidade do Estado do Rio de Janeiro (UERJ) and the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) for the financial support during this PhD which has allowed me to enhance my knowledge about Particle Physics;
+\item to the Fermi National Laboratory (Fermilab) and the US Department of Energy for the financial support given to me when I was working into the CMS L1TT AM+FPGA project leaded by the working group at Fermilab;
+\item to the Università degli Studi di Bari Aldo Moro (UNIBA) and the Global Doc project via the Puglia region, which allowed me to have an interchange period closer to my co-advisor in Italy and also to my very first cultural experiences in Europe;
 \item to the workers in the several sections of the UERJ, from the cleaners to the rector, which are all essential for the proper functionality of the university;
-\item to everyone that in same level has contributed for the accomplishment of the present thesis or for moments of happiness, including friends and colleagues from the places I have gone. I don't quote any name in order to avoid the injustice of forgetting someone.
+\item to everyone that in same level has contributed for the accomplishment of the present thesis or for moments of happiness, including friends and colleagues from the places I have gone. I don't quote any name here in order to avoid the injustice of forgetting someone.
 \end{itemize}
 
 % ----------------------------------------------------------
@@ -272,7 +275,7 @@ This work presents an isolated measurement of the Higgs boson production cross s
 % Resumo
 % ----------------------------------------------------------
 \pretextualchapter{resumo}
-Este trabalho apresenta uma medida isolada da seção de choque de produção do boson de Higgs via Fusão de Bosons Vetoriais (VBF), com o Higgs decaindo pelo canal $H \rightarrow ZZ \rightarrow 4l (l=e,~\mu)$. O estudo foi feito usando-se amostras de dados coletadas através do detetor CMS em colisões proton-proton com $\sqrt{s} = 13$ TeV realizadas no LHC em 2016 durante o RunII. Essas amostras correspondem à uma luminosidade integrada de 35.9 fb$^{-1}$. Uma análise de várias variáveis (\textit{Multivariate Analysis} - MVA) é realizada através do uso de Redes Neurais Artificiais (ANNs) desenvolvidas para dois sub-conjuntos de dados categorizados de acordo ao número de jatos por evento selecionados na análise. Resultados finais são obtidos por meio de uma análise estatística da combinação das ANNs associadas à cada sub-conjunto. A intensidade do sinal de Higgs produzido via VBF é medida como $\mu_{qqH} = 1.28^{+1.24}_{-0.84}$ para um boson de Higgs de massa $m_{H} = 125$GeV, resultado este, que encontra-se em compatibilidade com o Modelo Padrão (SM) da Física de Partículas. A significância observada nesta análise é de $Z_{qqH}^{obs} = 1.9$, enquanto que, a esperada é de $Z_{qqH}^{exp} = 1.9$. Limites observado e esperado com 95$\%$ de confidência são obtidos como $\mu_{qqH}^{obs} < 3.79$ e $\mu_{qqH}^{exp} < 1.66$, respectivamente. Projeções para futuros cenários de luminosidade no LHC são também apresentados e indicam esta análise terá significância suficiente para evidenciar (3.4$\sigma$) e observar (5.1$\sigma$) a produção de Higgs via VBF com 150 e 359 fb$^{-1}$, respectivamente. Adicionalmente, este trabalho apresenta em seus apêndices resultados completos obtidos pelo autor durante sua colaboração em um dos projetos para criação do trigger de nível 1 para o detetor de trajetografia interna do CMS, o qual foi liderado pelo Fermilab. Os apêndices também contêm um sumário de resultados obtidos pelo autor sobre um procedimento de discriminação de eventos observados baseado na topologia de eventos de Monte Carlo.
+Este trabalho apresenta uma medida isolada da seção de choque de produção do boson de Higgs via Fusão de Bosons Vetoriais (VBF), com o Higgs decaindo pelo canal $H \rightarrow ZZ \rightarrow 4l (l=e,~\mu)$. O estudo foi feito usando-se amostras de dados coletadas através do detetor CMS em colisões proton-proton com $\sqrt{s} = 13$ TeV realizadas no LHC em 2016 durante o RunII. Essas amostras correspondem à uma luminosidade integrada de 35.9 fb$^{-1}$. Uma análise de várias variáveis (\textit{Multivariate Analysis} - MVA) é realizada através do uso de Redes Neurais Artificiais (ANNs) desenvolvidas para dois sub-conjuntos de dados categorizados de acordo ao número de jatos por evento selecionados na análise. Resultados finais são obtidos por meio de uma análise estatística da combinação das ANNs associadas à cada sub-conjunto. A intensidade do sinal de Higgs produzido via VBF é medida como $\mu_{qqH} = 1.28^{+1.24}_{-0.84}$ para um boson de Higgs de massa $m_{H} = 125$GeV, resultado este, que encontra-se em compatibilidade com o Modelo Padrão (SM) da Física de Partículas. A significância observada nesta análise é de $Z_{qqH}^{obs} = 1.9$, enquanto que, a esperada é de $Z_{qqH}^{exp} = 1.8$. Limites observado e esperado com 95$\%$ de confidência são obtidos como $\mu_{qqH}^{obs} < 3.79$ e $\mu_{qqH}^{exp} < 1.66$, respectivamente. Projeções para futuros cenários de luminosidade no LHC são também apresentados e indicam esta análise terá significância suficiente para evidenciar (3.4$\sigma$) e observar (5.1$\sigma$) a produção de Higgs via VBF com 150 e 359 fb$^{-1}$, respectivamente. Adicionalmente, este trabalho apresenta em seus apêndices resultados completos obtidos pelo autor durante sua colaboração em um dos projetos para criação do trigger de nível 1 para o detetor de trajetografia interna do CMS, o qual foi liderado pelo Fermilab. Os apêndices também contêm um sumário de resultados obtidos pelo autor sobre um procedimento de discriminação de eventos observados baseado na topologia de eventos de Monte Carlo.
 
 \imprimirchaves % linha em branco antes
 
@@ -314,11 +317,23 @@ Este trabalho apresenta uma medida isolada da seção de choque de produção do
 
 % ----------------------- CHAPTERS -------------------------
 %=============================================================
+%\newpage\null\thispagestyle{empty}
+%\centering \vspace{10cm}
+%{\Huge THE CMS\\[0.5cm] ANALYSIS 120-18}
+%\newpage
 \include{Introduction}
 \include{ChapterTheory/ChapterTheory}
 \include{ChapterCMS/ChapterCMS}
 \include{ChapterAnalysis/ChapterAnalysis}
+%\newpage\null\thispagestyle{empty}
+%\centering \vspace{10cm}
+%{\Huge THE CMS LEVEL 1\\[0.5cm] TRACKING TRIGGER}
+%\newpage
 \include{AppendixCMSL1TT/AppendixCMSL1TT}
+%\newpage\null\thispagestyle{empty}
+%\centering \vspace{10cm}
+%{\Huge THE FAST MATRIX ELEMENT}
+%\newpage
 \include{AppendixFastME/AppendixFastME}
 \include{Conclusions}
 %=============================================================

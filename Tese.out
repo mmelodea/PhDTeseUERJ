@@ -34,70 +34,71 @@
 \BOOKMARK [1][-]{section*.62}{Missing Transverse Energy}{chapter.5}% 34
 \BOOKMARK [0][-]{chapter.6}{Event Selection }{}% 35
 \BOOKMARK [1][-]{section*.64}{Preselection}{chapter.6}% 36
-\BOOKMARK [1][-]{section*.65}{Selection of ZZ System}{chapter.6}% 37
+\BOOKMARK [1][-]{section*.65}{Selection of the ZZ System}{chapter.6}% 37
 \BOOKMARK [1][-]{section*.66}{VBF Signal Region \(VBF-SR\)}{chapter.6}% 38
 \BOOKMARK [0][-]{chapter.7}{Neural Networks }{}% 39
 \BOOKMARK [1][-]{section*.71}{The Learning Process}{chapter.7}% 40
-\BOOKMARK [1][-]{section*.75}{Developing and Training the Neural Networks}{chapter.7}% 41
-\BOOKMARK [1][-]{section*.76}{Preparation of the Datasets}{chapter.7}% 42
-\BOOKMARK [1][-]{section*.79}{Scaling Events Contribution in the Training}{chapter.7}% 43
-\BOOKMARK [1][-]{section*.81}{The Training Procedure}{chapter.7}% 44
-\BOOKMARK [1][-]{section*.84}{NNs Training Performances}{chapter.7}% 45
-\BOOKMARK [2][-]{section*.86}{The Impact of the VBF 3rd Jet}{section*.84}% 46
+\BOOKMARK [1][-]{section*.74}{Developing and Training the Neural Networks}{chapter.7}% 41
+\BOOKMARK [1][-]{section*.75}{Preparation of the Datasets}{chapter.7}% 42
+\BOOKMARK [1][-]{section*.78}{Scaling Events Contribution in the Training}{chapter.7}% 43
+\BOOKMARK [1][-]{section*.80}{The Training Procedure}{chapter.7}% 44
+\BOOKMARK [1][-]{section*.85}{NNs Training Performances}{chapter.7}% 45
+\BOOKMARK [2][-]{section*.87}{The Impact of the VBF 3rd Jet}{section*.85}% 46
 \BOOKMARK [0][-]{chapter.8}{Background Estimation }{}% 47
-\BOOKMARK [1][-]{section*.89}{Estimation of the SM Higgs Production Modes}{chapter.8}% 48
-\BOOKMARK [1][-]{section*.90}{Modeling of q ZZ}{chapter.8}% 49
-\BOOKMARK [1][-]{section*.91}{Modeling of gg ZZ}{chapter.8}% 50
-\BOOKMARK [1][-]{section*.92}{Estimation of Z+X Background}{chapter.8}% 51
-\BOOKMARK [2][-]{section*.93}{Measuring the Fake Rates}{section*.92}% 52
-\BOOKMARK [2][-]{section*.96}{Building Control Regions}{section*.92}% 53
-\BOOKMARK [2][-]{section*.101}{Uncertainties on the Estimation of Z+X}{section*.92}% 54
-\BOOKMARK [2][-]{section*.105}{Same-Sign Cross-checking and Final Z+X Estimation}{section*.92}% 55
-\BOOKMARK [2][-]{section*.107}{Z+X Neural Network Output Shape}{section*.92}% 56
+\BOOKMARK [1][-]{section*.90}{Estimation of the SM Higgs Production Modes}{chapter.8}% 48
+\BOOKMARK [1][-]{section*.91}{Modeling of q ZZ}{chapter.8}% 49
+\BOOKMARK [1][-]{section*.92}{Modeling of gg ZZ}{chapter.8}% 50
+\BOOKMARK [1][-]{section*.93}{Estimation of Z+X Background}{chapter.8}% 51
+\BOOKMARK [2][-]{section*.94}{Measuring the Fake Rates}{section*.93}% 52
+\BOOKMARK [2][-]{section*.97}{Building Control Regions}{section*.93}% 53
+\BOOKMARK [2][-]{section*.102}{Uncertainties on the Estimation of Z+X}{section*.93}% 54
+\BOOKMARK [2][-]{section*.106}{Same-Sign Cross-checking and Final Z+X Estimation}{section*.93}% 55
+\BOOKMARK [2][-]{section*.108}{Z+X Neural Network Output Shape}{section*.93}% 56
 \BOOKMARK [0][-]{chapter.9}{Systematic Uncertainties }{}% 57
-\BOOKMARK [1][-]{section*.108}{Experimental Uncertainties}{chapter.9}% 58
-\BOOKMARK [1][-]{section*.110}{Theoretical Uncertainties}{chapter.9}% 59
-\BOOKMARK [1][-]{section*.112}{Discriminants Shape Uncertainties}{chapter.9}% 60
-\BOOKMARK [2][-]{section*.114}{Systematic Uncertainty on the 3rd Jet}{section*.112}% 61
+\BOOKMARK [1][-]{section*.109}{Experimental Uncertainties}{chapter.9}% 58
+\BOOKMARK [1][-]{section*.111}{Theoretical Uncertainties}{chapter.9}% 59
+\BOOKMARK [1][-]{section*.113}{Discriminants Shape Uncertainties}{chapter.9}% 60
+\BOOKMARK [2][-]{section*.115}{Systematic Uncertainty on the 3rd Jet}{section*.113}% 61
 \BOOKMARK [0][-]{chapter.10}{Results }{}% 62
-\BOOKMARK [1][-]{section*.116}{Yields and Distributions}{chapter.10}% 63
-\BOOKMARK [1][-]{section*.122}{Statistical Analysis}{chapter.10}% 64
-\BOOKMARK [1][-]{section*.129}{Projection for Future Luminosity Scenarios}{chapter.10}% 65
-\BOOKMARK [0][-]{chapter.11}{The CMS L1 Tracking Trigger \(CMSL1TT\) Project }{}% 66
-\BOOKMARK [1][-]{section*.134}{The Three CMSL1TT Approaches}{chapter.11}% 67
-\BOOKMARK [1][-]{section*.135}{The AM+FPGA CMSL1TT Approach}{chapter.11}% 68
-\BOOKMARK [2][-]{section*.137}{The Simulation Studies for the CMSL1TT AM+FPGA}{section*.135}% 69
-\BOOKMARK [3][-]{section*.138}{Roads and Combinations Truncation}{section*.137}% 70
-\BOOKMARK [3][-]{section*.139}{Road Sorting Effects under Truncation}{section*.137}% 71
-\BOOKMARK [3][-]{section*.141}{Stub Bending \(S\) }{section*.137}% 72
-\BOOKMARK [3][-]{section*.150}{S Approach on \040+ PU's}{section*.137}% 73
-\BOOKMARK [3][-]{section*.152}{Track Fitter 2 Revision}{section*.137}% 74
-\BOOKMARK [3][-]{section*.156}{Synthetic Efficiency}{section*.137}% 75
-\BOOKMARK [3][-]{section*.161}{2match Optimization and Synthetic-Analytical Methods Connection}{section*.137}% 76
-\BOOKMARK [3][-]{section*.163}{Duplicate Removal \(DR\) Based on Stubs}{section*.137}% 77
-\BOOKMARK [3][-]{section*.165}{Final FOMs}{section*.137}% 78
-\BOOKMARK [3][-]{section*.171}{Generated AM Pattern Banks}{section*.137}% 79
-\BOOKMARK [3][-]{section*.175}{Road Efficiency vs Truncation in +PU400}{section*.137}% 80
-\BOOKMARK [2][-]{section*.177}{The Hardware work in the CMSL1TT }{section*.135}% 81
-\BOOKMARK [0][-]{chapter.12}{The Fast Matrix Element \(FastME\) }{}% 82
-\BOOKMARK [1][-]{section*.179}{Introduction}{chapter.12}% 83
-\BOOKMARK [1][-]{section*.180}{Description of the FastME}{chapter.12}% 84
-\BOOKMARK [1][-]{section*.184}{Studies and Results}{chapter.12}% 85
-\BOOKMARK [2][-]{section*.185}{Bias due to Pattern Bank Size}{section*.184}% 86
-\BOOKMARK [2][-]{section*.189}{Impact of \040on the Discriminant}{section*.184}% 87
-\BOOKMARK [2][-]{section*.191}{Scaling of the Metric Terms }{section*.184}% 88
-\BOOKMARK [1][-]{section*.193}{FastME application on the HZZ4L Data \(CMS RunI, 2015\)}{chapter.12}% 89
-\BOOKMARK [1][-]{section*.195}{The FastME Package}{chapter.12}% 90
-\BOOKMARK [2][-]{section*.196}{Features of the Package}{section*.195}% 91
-\BOOKMARK [2][-]{section*.198}{The Package Workflow}{section*.195}% 92
-\BOOKMARK [2][-]{section*.199}{The FastME Configuration Card }{section*.195}% 93
-\BOOKMARK [2][-]{section*.201}{The results provided by the FastME package}{section*.195}% 94
-\BOOKMARK [2][-]{section*.203}{Data Filtering by FastME}{section*.195}% 95
-\BOOKMARK [2][-]{section*.205}{The FastME Applied to qqH vs. ggH}{section*.195}% 96
-\BOOKMARK [0][-]{chapter.13}{Conclusions }{}% 97
-\BOOKMARK [0][-]{section*.207}{Refer\352ncias }{}% 98
-\BOOKMARK [0][-]{appendix.A}{Display of VBF and Background-like Events }{}% 99
-\BOOKMARK [0][-]{appendix.B}{Final ANN Architectures }{}% 100
-\BOOKMARK [0][-]{appendix.C}{ANNs Expected S/B and \040. S/\(S+B\) }{}% 101
-\BOOKMARK [0][-]{appendix.D}{The ANN Internal Representation Space }{}% 102
-\BOOKMARK [0][-]{appendix.E}{Participation at the Global Doc Project }{}% 103
+\BOOKMARK [1][-]{section*.117}{Yields and Distributions}{chapter.10}% 63
+\BOOKMARK [1][-]{section*.123}{Statistical Analysis}{chapter.10}% 64
+\BOOKMARK [1][-]{section*.130}{Projection for Future Luminosity Scenarios}{chapter.10}% 65
+\BOOKMARK [1][-]{section*.133}{Briefly Comparison Between Njets2 and Njets2+Njets3}{chapter.10}% 66
+\BOOKMARK [0][-]{chapter.11}{The CMS L1 Tracking Trigger \(CMSL1TT\) Project }{}% 67
+\BOOKMARK [1][-]{section*.137}{The Three CMSL1TT Approaches}{chapter.11}% 68
+\BOOKMARK [1][-]{section*.138}{The AM+FPGA CMSL1TT Approach}{chapter.11}% 69
+\BOOKMARK [2][-]{section*.140}{The Simulation Studies for the CMSL1TT AM+FPGA}{section*.138}% 70
+\BOOKMARK [3][-]{section*.141}{Roads and Combinations Truncation}{section*.140}% 71
+\BOOKMARK [3][-]{section*.142}{Road Sorting Effects under Truncation}{section*.140}% 72
+\BOOKMARK [3][-]{section*.144}{Stub Bending \(S\) }{section*.140}% 73
+\BOOKMARK [3][-]{section*.153}{S Approach on \040+ PU's}{section*.140}% 74
+\BOOKMARK [3][-]{section*.155}{Track Fitter 2 Revision}{section*.140}% 75
+\BOOKMARK [3][-]{section*.159}{Synthetic Efficiency}{section*.140}% 76
+\BOOKMARK [3][-]{section*.164}{2match Optimization and Synthetic-Analytical Methods Connection}{section*.140}% 77
+\BOOKMARK [3][-]{section*.166}{Duplicate Removal \(DR\) Based on Stubs}{section*.140}% 78
+\BOOKMARK [3][-]{section*.168}{Final FOMs}{section*.140}% 79
+\BOOKMARK [3][-]{section*.174}{Generated AM Pattern Banks}{section*.140}% 80
+\BOOKMARK [3][-]{section*.178}{Road Efficiency vs Truncation in +PU400}{section*.140}% 81
+\BOOKMARK [2][-]{section*.180}{The Hardware work in the CMSL1TT }{section*.138}% 82
+\BOOKMARK [0][-]{chapter.12}{The Fast Matrix Element \(FastME\) }{}% 83
+\BOOKMARK [1][-]{section*.182}{Introduction}{chapter.12}% 84
+\BOOKMARK [1][-]{section*.183}{Description of the FastME}{chapter.12}% 85
+\BOOKMARK [1][-]{section*.187}{Studies and Results}{chapter.12}% 86
+\BOOKMARK [2][-]{section*.188}{Bias due to Pattern Bank Size}{section*.187}% 87
+\BOOKMARK [2][-]{section*.192}{Impact of \040on the Discriminant}{section*.187}% 88
+\BOOKMARK [2][-]{section*.194}{Scaling of the Metric Terms }{section*.187}% 89
+\BOOKMARK [1][-]{section*.196}{FastME application on the HZZ4L Data \(CMS RunI, 2015\)}{chapter.12}% 90
+\BOOKMARK [1][-]{section*.198}{The FastME Package}{chapter.12}% 91
+\BOOKMARK [2][-]{section*.199}{Features of the Package}{section*.198}% 92
+\BOOKMARK [2][-]{section*.201}{The Package Workflow}{section*.198}% 93
+\BOOKMARK [2][-]{section*.202}{The FastME Configuration Card }{section*.198}% 94
+\BOOKMARK [2][-]{section*.204}{The results provided by the FastME package}{section*.198}% 95
+\BOOKMARK [2][-]{section*.206}{Data Filtering by FastME}{section*.198}% 96
+\BOOKMARK [2][-]{section*.208}{The FastME Applied to qqH vs. ggH}{section*.198}% 97
+\BOOKMARK [0][-]{chapter.13}{Conclusions }{}% 98
+\BOOKMARK [0][-]{section*.210}{References }{}% 99
+\BOOKMARK [0][-]{appendix.A}{Display of VBF and Background-like Events }{}% 100
+\BOOKMARK [0][-]{appendix.B}{Final ANN Architectures }{}% 101
+\BOOKMARK [0][-]{appendix.C}{ANNs Expected S/B and \040. S/\(S+B\) }{}% 102
+\BOOKMARK [0][-]{appendix.D}{The ANN Internal Representation Space }{}% 103
+\BOOKMARK [0][-]{appendix.E}{Participation at the Global Doc Project }{}% 104
