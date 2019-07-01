@@ -1,104 +1,104 @@
-\BOOKMARK [0][-]{chapter.1}{Introduction }{}% 1
-\BOOKMARK [0][-]{chapter.2}{The Standard Model and the Higgs Boson }{}% 2
-\BOOKMARK [1][-]{section*.1}{The Standard Model Structure}{chapter.2}% 3
-\BOOKMARK [1][-]{section*.3}{Spontaneous Symmetry Breaking}{chapter.2}% 4
-\BOOKMARK [2][-]{section*.5}{The Brout-Englert-Higgs Mechanism}{section*.3}% 5
-\BOOKMARK [2][-]{section*.6}{The Higgs Mechanism and Electroweak Symmetry Breaking}{section*.3}% 6
-\BOOKMARK [1][-]{section*.7}{The Higgs Boson at the LHC}{chapter.2}% 7
-\BOOKMARK [1][-]{section*.10}{The Higgs VBF Production Mode }{chapter.2}% 8
-\BOOKMARK [2][-]{section*.11}{The Higgs VBF LO Cross Section and its Kinematics}{section*.10}% 9
-\BOOKMARK [3][-]{section*.13}{Corrections of Higher Orders}{section*.11}% 10
-\BOOKMARK [1][-]{section*.15}{The Physics Scenario of this Analysis}{chapter.2}% 11
-\BOOKMARK [0][-]{chapter.3}{The LHC and the CMS Experiment }{}% 12
-\BOOKMARK [1][-]{section*.17}{The Accelerators at CERN}{chapter.3}% 13
-\BOOKMARK [1][-]{section*.22}{The CMS Experiment at the LHC}{chapter.3}% 14
-\BOOKMARK [2][-]{section*.25}{The Tracker System}{section*.22}% 15
-\BOOKMARK [3][-]{section*.26}{The Silicon Pixels Detector}{section*.25}% 16
-\BOOKMARK [3][-]{section*.28}{The Silicon Strips Detector}{section*.25}% 17
-\BOOKMARK [2][-]{section*.29}{The Calorimeters}{section*.22}% 18
-\BOOKMARK [3][-]{section*.30}{The Electromagnetic Calorimeter \(ECAL\)}{section*.29}% 19
-\BOOKMARK [3][-]{section*.32}{The Hadronic Calorimeter \(HCAL\)}{section*.29}% 20
-\BOOKMARK [2][-]{section*.37}{The Magnetic System}{section*.22}% 21
-\BOOKMARK [2][-]{section*.39}{The Muon Chambers}{section*.22}% 22
-\BOOKMARK [2][-]{section*.42}{The Trigger and Data Acquisition System}{section*.22}% 23
-\BOOKMARK [0][-]{chapter.4}{Data and Monte Carlo Samples }{}% 24
-\BOOKMARK [1][-]{section*.43}{Data}{chapter.4}% 25
-\BOOKMARK [1][-]{section*.46}{Simulated Samples}{chapter.4}% 26
-\BOOKMARK [0][-]{chapter.5}{Physics Objects Selections }{}% 27
-\BOOKMARK [1][-]{section*.48}{Electrons}{chapter.5}% 28
-\BOOKMARK [2][-]{section*.51}{Electron Efficiency Measurements}{section*.48}% 29
-\BOOKMARK [1][-]{section*.53}{Muons}{chapter.5}% 30
-\BOOKMARK [2][-]{section*.55}{Muon Efficiency Measurements}{section*.53}% 31
-\BOOKMARK [1][-]{section*.60}{Photons and FSR Recovery}{chapter.5}% 32
-\BOOKMARK [1][-]{section*.61}{Jets}{chapter.5}% 33
-\BOOKMARK [1][-]{section*.62}{Missing Transverse Energy}{chapter.5}% 34
-\BOOKMARK [0][-]{chapter.6}{Event Selection }{}% 35
-\BOOKMARK [1][-]{section*.64}{Preselection}{chapter.6}% 36
-\BOOKMARK [1][-]{section*.65}{Selection of the ZZ System}{chapter.6}% 37
-\BOOKMARK [1][-]{section*.66}{VBF Signal Region \(VBF-SR\)}{chapter.6}% 38
-\BOOKMARK [0][-]{chapter.7}{Neural Networks }{}% 39
-\BOOKMARK [1][-]{section*.71}{The Learning Process}{chapter.7}% 40
-\BOOKMARK [1][-]{section*.74}{Developing and Training the Neural Networks}{chapter.7}% 41
-\BOOKMARK [1][-]{section*.75}{Preparation of the Datasets}{chapter.7}% 42
-\BOOKMARK [1][-]{section*.78}{Scaling Events Contribution in the Training}{chapter.7}% 43
-\BOOKMARK [1][-]{section*.80}{The Training Procedure}{chapter.7}% 44
-\BOOKMARK [1][-]{section*.85}{NNs Training Performances}{chapter.7}% 45
-\BOOKMARK [2][-]{section*.87}{The Impact of the VBF 3rd Jet}{section*.85}% 46
-\BOOKMARK [0][-]{chapter.8}{Background Estimation }{}% 47
-\BOOKMARK [1][-]{section*.90}{Estimation of the SM Higgs Production Modes}{chapter.8}% 48
-\BOOKMARK [1][-]{section*.91}{Modeling of q ZZ}{chapter.8}% 49
-\BOOKMARK [1][-]{section*.92}{Modeling of gg ZZ}{chapter.8}% 50
-\BOOKMARK [1][-]{section*.93}{Estimation of Z+X Background}{chapter.8}% 51
-\BOOKMARK [2][-]{section*.94}{Measuring the Fake Rates}{section*.93}% 52
-\BOOKMARK [2][-]{section*.97}{Building Control Regions}{section*.93}% 53
-\BOOKMARK [2][-]{section*.102}{Uncertainties on the Estimation of Z+X}{section*.93}% 54
-\BOOKMARK [2][-]{section*.106}{Same-Sign Cross-checking and Final Z+X Estimation}{section*.93}% 55
-\BOOKMARK [2][-]{section*.108}{Z+X Neural Network Output Shape}{section*.93}% 56
-\BOOKMARK [0][-]{chapter.9}{Systematic Uncertainties }{}% 57
-\BOOKMARK [1][-]{section*.109}{Experimental Uncertainties}{chapter.9}% 58
-\BOOKMARK [1][-]{section*.111}{Theoretical Uncertainties}{chapter.9}% 59
-\BOOKMARK [1][-]{section*.113}{Discriminants Shape Uncertainties}{chapter.9}% 60
-\BOOKMARK [2][-]{section*.115}{Systematic Uncertainty on the 3rd Jet}{section*.113}% 61
-\BOOKMARK [0][-]{chapter.10}{Results }{}% 62
-\BOOKMARK [1][-]{section*.117}{Yields and Distributions}{chapter.10}% 63
-\BOOKMARK [1][-]{section*.123}{Statistical Analysis}{chapter.10}% 64
-\BOOKMARK [1][-]{section*.130}{Projection for Future Luminosity Scenarios}{chapter.10}% 65
-\BOOKMARK [1][-]{section*.133}{Briefly Comparison Between Njets2 and Njets2+Njets3}{chapter.10}% 66
-\BOOKMARK [0][-]{chapter.11}{The CMS L1 Tracking Trigger \(CMSL1TT\) Project }{}% 67
-\BOOKMARK [1][-]{section*.137}{The Three CMSL1TT Approaches}{chapter.11}% 68
-\BOOKMARK [1][-]{section*.138}{The AM+FPGA CMSL1TT Approach}{chapter.11}% 69
-\BOOKMARK [2][-]{section*.140}{The Simulation Studies for the CMSL1TT AM+FPGA}{section*.138}% 70
-\BOOKMARK [3][-]{section*.141}{Roads and Combinations Truncation}{section*.140}% 71
-\BOOKMARK [3][-]{section*.142}{Road Sorting Effects under Truncation}{section*.140}% 72
-\BOOKMARK [3][-]{section*.144}{Stub Bending \(S\) }{section*.140}% 73
-\BOOKMARK [3][-]{section*.153}{S Approach on \040+ PU's}{section*.140}% 74
-\BOOKMARK [3][-]{section*.155}{Track Fitter 2 Revision}{section*.140}% 75
-\BOOKMARK [3][-]{section*.159}{Synthetic Efficiency}{section*.140}% 76
-\BOOKMARK [3][-]{section*.164}{2match Optimization and Synthetic-Analytical Methods Connection}{section*.140}% 77
-\BOOKMARK [3][-]{section*.166}{Duplicate Removal \(DR\) Based on Stubs}{section*.140}% 78
-\BOOKMARK [3][-]{section*.168}{Final FOMs}{section*.140}% 79
-\BOOKMARK [3][-]{section*.174}{Generated AM Pattern Banks}{section*.140}% 80
-\BOOKMARK [3][-]{section*.178}{Road Efficiency vs Truncation in +PU400}{section*.140}% 81
-\BOOKMARK [2][-]{section*.180}{The Hardware work in the CMSL1TT }{section*.138}% 82
-\BOOKMARK [0][-]{chapter.12}{The Fast Matrix Element \(FastME\) }{}% 83
-\BOOKMARK [1][-]{section*.182}{Introduction}{chapter.12}% 84
-\BOOKMARK [1][-]{section*.183}{Description of the FastME}{chapter.12}% 85
-\BOOKMARK [1][-]{section*.187}{Studies and Results}{chapter.12}% 86
-\BOOKMARK [2][-]{section*.188}{Bias due to Pattern Bank Size}{section*.187}% 87
-\BOOKMARK [2][-]{section*.192}{Impact of \040on the Discriminant}{section*.187}% 88
-\BOOKMARK [2][-]{section*.194}{Scaling of the Metric Terms }{section*.187}% 89
-\BOOKMARK [1][-]{section*.196}{FastME application on the HZZ4L Data \(CMS RunI, 2015\)}{chapter.12}% 90
-\BOOKMARK [1][-]{section*.198}{The FastME Package}{chapter.12}% 91
-\BOOKMARK [2][-]{section*.199}{Features of the Package}{section*.198}% 92
-\BOOKMARK [2][-]{section*.201}{The Package Workflow}{section*.198}% 93
-\BOOKMARK [2][-]{section*.202}{The FastME Configuration Card }{section*.198}% 94
-\BOOKMARK [2][-]{section*.204}{The results provided by the FastME package}{section*.198}% 95
-\BOOKMARK [2][-]{section*.206}{Data Filtering by FastME}{section*.198}% 96
-\BOOKMARK [2][-]{section*.208}{The FastME Applied to qqH vs. ggH}{section*.198}% 97
-\BOOKMARK [0][-]{chapter.13}{Conclusions }{}% 98
-\BOOKMARK [0][-]{section*.210}{References }{}% 99
-\BOOKMARK [0][-]{appendix.A}{Display of VBF and Background-like Events }{}% 100
-\BOOKMARK [0][-]{appendix.B}{Final ANN Architectures }{}% 101
-\BOOKMARK [0][-]{appendix.C}{ANNs Expected S/B and \040. S/\(S+B\) }{}% 102
-\BOOKMARK [0][-]{appendix.D}{The ANN Internal Representation Space }{}% 103
-\BOOKMARK [0][-]{appendix.E}{Participation at the Global Doc Project }{}% 104
+\BOOKMARK [0][-]{section*.2}{Introduction }{}% 1
+\BOOKMARK [0][-]{chapter.1}{The Standard Model and the Higgs Boson }{}% 2
+\BOOKMARK [1][-]{section*.3}{The Standard Model Structure}{chapter.1}% 3
+\BOOKMARK [1][-]{section*.5}{Spontaneous Symmetry Breaking}{chapter.1}% 4
+\BOOKMARK [2][-]{section*.7}{The Brout-Englert-Higgs Mechanism}{section*.5}% 5
+\BOOKMARK [2][-]{section*.8}{The Higgs Mechanism and Electroweak Symmetry Breaking}{section*.5}% 6
+\BOOKMARK [1][-]{section*.9}{The Higgs Boson at the LHC}{chapter.1}% 7
+\BOOKMARK [1][-]{section*.12}{The Higgs VBF Production Mode }{chapter.1}% 8
+\BOOKMARK [2][-]{section*.13}{The Higgs VBF LO Cross Section and its Kinematics}{section*.12}% 9
+\BOOKMARK [3][-]{section*.15}{Corrections of Higher Orders}{section*.13}% 10
+\BOOKMARK [1][-]{section*.17}{The Physics Scenario of this Analysis}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{The LHC and the CMS Experiment }{}% 12
+\BOOKMARK [1][-]{section*.19}{The Accelerators at CERN}{chapter.2}% 13
+\BOOKMARK [1][-]{section*.24}{The CMS Experiment at the LHC}{chapter.2}% 14
+\BOOKMARK [2][-]{section*.27}{The Tracker System}{section*.24}% 15
+\BOOKMARK [3][-]{section*.28}{The Silicon Pixels Detector}{section*.27}% 16
+\BOOKMARK [3][-]{section*.30}{The Silicon Strips Detector}{section*.27}% 17
+\BOOKMARK [2][-]{section*.31}{The Calorimeters}{section*.24}% 18
+\BOOKMARK [3][-]{section*.32}{The Electromagnetic Calorimeter \(ECAL\)}{section*.31}% 19
+\BOOKMARK [3][-]{section*.34}{The Hadronic Calorimeter \(HCAL\)}{section*.31}% 20
+\BOOKMARK [2][-]{section*.39}{The Magnetic System}{section*.24}% 21
+\BOOKMARK [2][-]{section*.41}{The Muon Chambers}{section*.24}% 22
+\BOOKMARK [2][-]{section*.44}{The Trigger and Data Acquisition System}{section*.24}% 23
+\BOOKMARK [0][-]{chapter.3}{Data and Monte Carlo Samples }{}% 24
+\BOOKMARK [1][-]{section*.45}{Data}{chapter.3}% 25
+\BOOKMARK [1][-]{section*.48}{Simulated Samples}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{Physics Objects Selections }{}% 27
+\BOOKMARK [1][-]{section*.50}{Electrons}{chapter.4}% 28
+\BOOKMARK [2][-]{section*.53}{Electron Efficiency Measurements}{section*.50}% 29
+\BOOKMARK [1][-]{section*.55}{Muons}{chapter.4}% 30
+\BOOKMARK [2][-]{section*.57}{Muon Efficiency Measurements}{section*.55}% 31
+\BOOKMARK [1][-]{section*.62}{Photons and FSR Recovery}{chapter.4}% 32
+\BOOKMARK [1][-]{section*.63}{Jets}{chapter.4}% 33
+\BOOKMARK [1][-]{section*.64}{Missing Transverse Energy}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{Event Selection }{}% 35
+\BOOKMARK [1][-]{section*.66}{Preselection}{chapter.5}% 36
+\BOOKMARK [1][-]{section*.67}{Selection of the ZZ System}{chapter.5}% 37
+\BOOKMARK [1][-]{section*.68}{VBF Signal Region \(VBF-SR\)}{chapter.5}% 38
+\BOOKMARK [0][-]{chapter.6}{Neural Networks }{}% 39
+\BOOKMARK [1][-]{section*.73}{The Learning Process}{chapter.6}% 40
+\BOOKMARK [1][-]{section*.76}{Developing and Training the Neural Networks}{chapter.6}% 41
+\BOOKMARK [1][-]{section*.77}{Preparation of the Datasets}{chapter.6}% 42
+\BOOKMARK [1][-]{section*.80}{Scaling Events Contribution in the Training}{chapter.6}% 43
+\BOOKMARK [1][-]{section*.82}{The Training Procedure}{chapter.6}% 44
+\BOOKMARK [1][-]{section*.87}{NNs Training Performances}{chapter.6}% 45
+\BOOKMARK [2][-]{section*.89}{The Impact of the VBF 3rd Jet}{section*.87}% 46
+\BOOKMARK [0][-]{chapter.7}{Background Estimation }{}% 47
+\BOOKMARK [1][-]{section*.92}{Estimation of the SM Higgs Production Modes}{chapter.7}% 48
+\BOOKMARK [1][-]{section*.93}{Modeling of q ZZ}{chapter.7}% 49
+\BOOKMARK [1][-]{section*.94}{Modeling of gg ZZ}{chapter.7}% 50
+\BOOKMARK [1][-]{section*.95}{Estimation of Z+X Background}{chapter.7}% 51
+\BOOKMARK [2][-]{section*.96}{Measuring the Fake Rates}{section*.95}% 52
+\BOOKMARK [2][-]{section*.99}{Building Control Regions}{section*.95}% 53
+\BOOKMARK [2][-]{section*.104}{Uncertainties on the Estimation of Z+X}{section*.95}% 54
+\BOOKMARK [2][-]{section*.108}{Same-Sign Cross-checking and Final Z+X Estimation}{section*.95}% 55
+\BOOKMARK [2][-]{section*.110}{Z+X Neural Network Output Shape}{section*.95}% 56
+\BOOKMARK [0][-]{chapter.8}{Systematic Uncertainties }{}% 57
+\BOOKMARK [1][-]{section*.111}{Experimental Uncertainties}{chapter.8}% 58
+\BOOKMARK [1][-]{section*.113}{Theoretical Uncertainties}{chapter.8}% 59
+\BOOKMARK [1][-]{section*.115}{Discriminants Shape Uncertainties}{chapter.8}% 60
+\BOOKMARK [2][-]{section*.117}{Systematic Uncertainty on the 3rd Jet}{section*.115}% 61
+\BOOKMARK [0][-]{chapter.9}{Results }{}% 62
+\BOOKMARK [1][-]{section*.119}{Yields and Distributions}{chapter.9}% 63
+\BOOKMARK [1][-]{section*.125}{Statistical Analysis}{chapter.9}% 64
+\BOOKMARK [1][-]{section*.132}{Projection for Future Luminosity Scenarios}{chapter.9}% 65
+\BOOKMARK [1][-]{section*.135}{Briefly Comparison Between Njets2 and Njets2+Njets3}{chapter.9}% 66
+\BOOKMARK [0][-]{chapter.10}{The CMS L1 Tracking Trigger \(CMSL1TT\) Project }{}% 67
+\BOOKMARK [1][-]{section*.139}{The Three CMSL1TT Approaches}{chapter.10}% 68
+\BOOKMARK [1][-]{section*.140}{The AM+FPGA CMSL1TT Approach}{chapter.10}% 69
+\BOOKMARK [2][-]{section*.142}{The Simulation Studies for the CMSL1TT AM+FPGA}{section*.140}% 70
+\BOOKMARK [3][-]{section*.143}{Roads and Combinations Truncation}{section*.142}% 71
+\BOOKMARK [3][-]{section*.144}{Road Sorting Effects under Truncation}{section*.142}% 72
+\BOOKMARK [3][-]{section*.146}{Stub Bending \(S\) }{section*.142}% 73
+\BOOKMARK [3][-]{section*.155}{S Approach on \040+ PU's}{section*.142}% 74
+\BOOKMARK [3][-]{section*.157}{Track Fitter 2 Revision}{section*.142}% 75
+\BOOKMARK [3][-]{section*.161}{Synthetic Efficiency}{section*.142}% 76
+\BOOKMARK [3][-]{section*.166}{2match Optimization and Synthetic-Analytical Methods Connection}{section*.142}% 77
+\BOOKMARK [3][-]{section*.168}{Duplicate Removal \(DR\) Based on Stubs}{section*.142}% 78
+\BOOKMARK [3][-]{section*.170}{Final FOMs}{section*.142}% 79
+\BOOKMARK [3][-]{section*.176}{Generated AM Pattern Banks}{section*.142}% 80
+\BOOKMARK [3][-]{section*.180}{Road Efficiency vs Truncation in +PU400}{section*.142}% 81
+\BOOKMARK [2][-]{section*.182}{The Hardware work in the CMSL1TT }{section*.140}% 82
+\BOOKMARK [0][-]{chapter.11}{The Fast Matrix Element \(FastME\) }{}% 83
+\BOOKMARK [1][-]{section*.184}{Introduction}{chapter.11}% 84
+\BOOKMARK [1][-]{section*.185}{Description of the FastME}{chapter.11}% 85
+\BOOKMARK [1][-]{section*.189}{Studies and Results}{chapter.11}% 86
+\BOOKMARK [2][-]{section*.190}{Bias due to Pattern Bank Size}{section*.189}% 87
+\BOOKMARK [2][-]{section*.194}{Impact of \040on the Discriminant}{section*.189}% 88
+\BOOKMARK [2][-]{section*.196}{Scaling of the Metric Terms }{section*.189}% 89
+\BOOKMARK [1][-]{section*.198}{FastME application on the HZZ4L Data \(CMS RunI, 2015\)}{chapter.11}% 90
+\BOOKMARK [1][-]{section*.200}{The FastME Package}{chapter.11}% 91
+\BOOKMARK [2][-]{section*.201}{Features of the Package}{section*.200}% 92
+\BOOKMARK [2][-]{section*.203}{The Package Workflow}{section*.200}% 93
+\BOOKMARK [2][-]{section*.204}{The FastME Configuration Card }{section*.200}% 94
+\BOOKMARK [2][-]{section*.206}{The results provided by the FastME package}{section*.200}% 95
+\BOOKMARK [2][-]{section*.208}{Data Filtering by FastME}{section*.200}% 96
+\BOOKMARK [2][-]{section*.210}{The FastME Applied to qqH vs. ggH}{section*.200}% 97
+\BOOKMARK [0][-]{section*.213}{Conclusions }{}% 98
+\BOOKMARK [0][-]{section*.214}{References }{}% 99
+\BOOKMARK [0][-]{section*.215}{Ap\352ndice A \040\205 \040Display of VBF and Background-like Events }{}% 100
+\BOOKMARK [0][-]{section*.220}{Ap\352ndice B \040\205 \040Final ANN Architectures }{}% 101
+\BOOKMARK [0][-]{section*.223}{Ap\352ndice C \040\205 \040ANNs Expected S/B and \040. S/\(S+B\) }{}% 102
+\BOOKMARK [0][-]{section*.225}{Ap\352ndice D \040\205 \040The ANN Internal Representation Space }{}% 103
+\BOOKMARK [0][-]{section*.227}{Ap\352ndice E \040\205 \040Participation at the Global Doc Project }{}% 104

@@ -756,7 +756,7 @@
   labelsep=dash,
   justification=justified,
   singlelinecheck=false,
-  font={small,onehalfspacing},
+  font={onehalfspacing},
   position=top,
   skip=10pt % espaco entre caption e figura
 }
@@ -804,7 +804,7 @@
   aboveskip=0pt, % espaco acima da fonte
   justification=raggedright,
   singlelinecheck=false,
-  font={small,onehalfspacing},
+  font={onehalfspacing},
   list=no
 }
 
