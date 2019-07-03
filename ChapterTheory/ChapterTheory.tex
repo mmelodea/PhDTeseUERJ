@@ -87,8 +87,9 @@ and the potential in this case has the profile represented in Fig.~\ref{fig:muPo
 
 \begin{figure}[htbp]{15cm}
 \caption{The $V(\phi)$ potential for different choices of $\mu^2$.}
-\subfloat[$\mu^2 > 0$]{\includegraphics[scale=0.4]{ChapterTheory/figs/mu_pos.png}} \quad \quad
-\subfloat[$\mu^2 < 0$]{\includegraphics[scale=0.34]{ChapterTheory/figs/mu_neg.png}}
+\subfloat[]{\includegraphics[scale=0.4]{ChapterTheory/figs/mu_pos.png}} \quad \quad
+\subfloat[]{\includegraphics[scale=0.34]{ChapterTheory/figs/mu_neg.png}}
+\legend{(a) $\mu^2 > 0$; (b) $\mu^2 < 0$.}
 \source{HALZEN, 1984, p. 322 and 325. Adapted by the author.}
 \label{fig:muPotencial}
 \end{figure}
@@ -238,10 +239,11 @@ At the LHC, the Higgs boson can be produced in four main modes (the most signifi
 
 \begin{figure}[htbp]{15cm}
 	\caption{The main Higgs (represented by the dotted line) production modes at the LHC.}
-	\subfloat[Gluon fusion]{\includegraphics[scale=0.3]{ChapterTheory/figs/ggH.png}}
-	\subfloat[Vector boson fusion]{\includegraphics[scale=0.3]{ChapterTheory/figs/VBF.png}}
-	\subfloat[Higgs-strahlung]{\includegraphics[scale=0.3]{ChapterTheory/figs/AssWZ.png}}
-	\subfloat[Associated production with top quark]{\includegraphics[scale=0.3]{ChapterTheory/figs/Ass_tt.png}}
+	\subfloat[]{\includegraphics[scale=0.3]{ChapterTheory/figs/ggH.png}}
+	\subfloat[]{\includegraphics[scale=0.3]{ChapterTheory/figs/VBF.png}}
+	\subfloat[]{\includegraphics[scale=0.3]{ChapterTheory/figs/AssWZ.png}}
+	\subfloat[]{\includegraphics[scale=0.3]{ChapterTheory/figs/Ass_tt.png}}
+	\legend{(a) gluon fusion; (b) vector boson fusion; (c) Higgs-strahlung; (d) associated production with top quark.}
 	\source{ELLIS, 2003, p. 398.}
 	\label{fig:Higgs_pro_mechanisms}
 \end{figure}
@@ -256,9 +258,10 @@ The Higgs can decay in several final states and each of them presents advantages
 
 \begin{figure}[htbp]{15cm}
 	\caption{Higgs production cross section and branching ratios.}
-	\includegraphics[scale=0.4]{ChapterTheory/figs/Higgs_XS_vs_S.png}
+	\subfloat[]{\includegraphics[scale=0.4]{ChapterTheory/figs/Higgs_XS_vs_S.png}}
 	\quad
-	\includegraphics[scale=0.4]{ChapterTheory/figs/Higgs_BRs.png}
+	\subfloat[]{\includegraphics[scale=0.4]{ChapterTheory/figs/Higgs_BRs.png}}
+	\legend{(a) cross sections as function of the center-of-mass energy; (b) branching ratios at $\sqrt{s}$ = 13 TeV.}
 	\source{TANABASHI, 2018, p. 184.}
 	\label{fig:Higgs_XSBR}
 \end{figure}
@@ -375,18 +378,19 @@ This analysis presents a measurement of the Higgs boson VBF production cross-sec
 As it will also be shown, the main processes in this analysis, besides the VBF itself, are the $gg \rightarrow H$ Higgs production mode and the reducible SM background $q\bar{q} \rightarrow ZZ$ (which in the context of the present analysis become a non-reducible background). In a smaller, but still significant, contribution appears the remaining Higgs production modes, Higgs-strahlung (VH) and associated with top quark ($t\bar{t}H$), and the SM background $gg \rightarrow ZZ$. The tree-level Feynman diagrams for each of these processes are shown in Fig.~\ref{fig:processes_feynman}.
 
 \begin{figure}[htbp]{16cm}
-	\caption{Main processes in this analysis: Higgs production modes (a) vector boson fusion (VBF), (b) gluon-fusion (ggH), (c) Higgsstrahlung (VH), (d) production associated to top quark, and the main SM backgrounds (e) and (f) ZZ. Additionally there is the $Z+X$ background which is derived via the Fake Rate \textit{data-driven} method and will be presented later.}
+	\caption{Main physic processes in this analysis.}
 	\centering
-	\subfloat[$q\bar{q} \rightarrow Hq\bar{q}$]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/vbf_diagram}}
+	\subfloat[]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/vbf_diagram}}
 	\quad\quad
-	\subfloat[$gg \rightarrow H$]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/ggh_diagram}}
+	\subfloat[]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/ggh_diagram}}
 	\quad\quad
-	\subfloat[$q\bar{q} \rightarrow VH$]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/vh_diagram}}\\
-	\subfloat[$gg \rightarrow t\bar{t}H$]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/tth_diagram}}
+	\subfloat[]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/vh_diagram}}\\
+	\subfloat[]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/tth_diagram}}
 	\quad\quad
-	\subfloat[$q\bar{q} \rightarrow ZZ$]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/qqzz_diagram}}
+	\subfloat[]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/qqzz_diagram}}
 	\quad\quad
-	\subfloat[$gg \rightarrow ZZ$]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/ggzz_diagram}}
+	\subfloat[]{\includegraphics[scale=0.08]{ChapterAnalysis/figs/ggzz_diagram}}
 	\label{fig:processes_feynman}
+	\legend{(a) $q\bar{q} \rightarrow Hq\bar{q}$: vector boson fusion (VBF); (b) $gg \rightarrow H$: gluon-fusion (ggH); (c) $q\bar{q} \rightarrow VH$: Higgsstrahlung (VH); (d) $gg \rightarrow t\bar{t}H$: production associated to top quark; ZZ backgrounds (e) $q\bar{q} \rightarrow ZZ$ and (f) $gg \rightarrow ZZ$. Additionally there is the $Z+X$ background (not in the picture) which is derived via the Fake Rate \textit{data-driven} method and will be presented later.}
 	\source{The author, 2018.}
 \end{figure}

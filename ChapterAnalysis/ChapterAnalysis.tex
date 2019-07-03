@@ -287,10 +287,11 @@ Probe electrons only need to be reconstructed as GsfElectron. The Final State Ra
 In contrast to previous efficiency measurements, a template fit is used here. The $m_{ee}$ signal shape of the passing and failing probes is taken from MC and convoluted with a Gaussian. The data are then fitted with the convoluted MC template and a CMSShape (an error-function with a one-sided exponential tail). This change follows from the usage of the new T$\&$P tool developed by the EGM POG. The electron selection efficiency is measured as a function of the probe electron $p_{T}$ and $\eta$, and separately for electrons falling in the ECAL gaps. Fig.~\ref{fig:electron_selection_efficiency} shows the $p_{T}$ turn-on curves measured in data; final scale factors for the efficiencies are derived and used within the analysis. The EGM recommendations on the evaluation of tag-and-probe uncertainties for efficiency measurements are followed.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Electron selection efficiencies measured using the tag-and-probe technique for: (a) gap electrons and (b) non-gap electrons.}
+	\caption{Electron selection efficiencies measured using the tag-and-probe technique.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.6]{ChapterAnalysis/figs/electron_selection_efficiencies_ingap}}\\
 	\subfloat[]{\includegraphics[scale=0.6]{ChapterAnalysis/figs/electron_selection_efficiencies_nongap}}
+	\legend{(a) gap electrons; (b) non-gap electrons.}
 	\source{CMS COLLABORATION, 2016, p. 18.}
 	\label{fig:electron_selection_efficiency}
 \end{figure}
@@ -340,13 +341,14 @@ Muon reconstruction and identification efficiency for $p_{T}>$ 20GeV have been d
 are the ones derived using single muon prompt-Reco dataset\footnote{These are datasets created by CMS when collecting data. They have the first reconstruction of the events in the collected data.}. The efficiencies in data and in simulation are shown in Fig.~\ref{fig:muon_reco_id_efficiency}.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Muon reconstruction and identification efficiency for $p_{T}<$ 20GeV as a function of $p_{T}$ in the barrel (a) and endcaps (b), and as a function of $\eta$ for $p_{T}>$ 7GeV (c). In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot of the two efficiencies, the black error bars represent the statistical uncertainty, the orange ones the systematical uncertainty, and the violet ones the total uncertainty.}
+	\caption{Muon reconstruction and identification efficiencies.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.45]{ChapterAnalysis/figs/muon_reco_id_eff_barrel}}
 	\quad
 	\subfloat[]{\includegraphics[scale=0.45]{ChapterAnalysis/figs/muon_reco_id_eff_endcap}}
 	\quad
 	\subfloat[]{\includegraphics[scale=0.45]{ChapterAnalysis/figs/muon_reco_id_eff_eta}}
+	\legend{(a) efficiency for $p_{T}<$ 20 GeV as a function of $p_{T}$ in the barrel and (b) endcaps; (c) efficiency as a function of $\eta$ for $p_{T}>$ 7 GeV. In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot of the two efficiencies, the black error bars represent the statistical uncertainty, the orange ones the systematical uncertainty, and the violet ones the total uncertainty.}
 	\source{CMS COLLABORATION, 2016, 20.}
 	\label{fig:muon_reco_id_efficiency}
 \end{figure}
@@ -354,13 +356,14 @@ are the ones derived using single muon prompt-Reco dataset\footnote{These are da
 The requirements for the impact parameter is studied using Z events selected with the trigger HLT\_IsoMu20\_v* or HLT\_IsoMu22\_v*. For this measurement, the probe is a muon passing the POG "loose" identification criteria, and it is considered a "passing" probe if it satisfies the $SIP_{3D}$, $d_{xy}$ and $d_{z}$ cuts\footnote{$SIP_{3D} = IP/\sigma_{IP}$ is the significance of the impact parameter (a ratio between the impact parameter in 3D - distance from collision center - and its associated uncertainty), $d_{xy}$ is the distance to the beam in the \textbf{xy} plane and $d_{z}$ is the distance in the \textbf{z} direction to the primary vertex (that is, the collision point).} of this analysis. The results are shown in Fig.~\ref{fig:muon_sip_efficiency}.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Efficiency of the muon impact parameter requirements as a function of $p_{T}$ in the barrel (a) and endcaps (b), and as a function of $\eta$ for $p_{T}>$ 20GeV (c). In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot the black error bars are for the statistical uncertainty, the orange ones for the systematical uncertainty and the violet ones include both uncertainties.}
+	\caption{Efficiency of the muon impact parameter requirements as a function of $p_{T}$.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.45]{ChapterAnalysis/figs/muon_sip_eff_barrel}}
 	\quad
 	\subfloat[]{\includegraphics[scale=0.45]{ChapterAnalysis/figs/muon_sip_eff_endcap}}
 	\quad
 	\subfloat[]{\includegraphics[scale=0.45]{ChapterAnalysis/figs/muon_sip_eff_eta}}
+	\legend{(a) electrons in the barrel; (b) electrons in the endcaps; (c) as a function of $\eta$ for $p_{T}>$ 20GeV. In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot the black error bars are for the statistical uncertainty, the orange ones for the systematical uncertainty and the violet ones include both uncertainties.}
 	\source{CMS COLLABORATION, 2016, p. 20.}
 	\label{fig:muon_sip_efficiency}
 \end{figure}
@@ -368,11 +371,12 @@ The requirements for the impact parameter is studied using Z events selected wit
 The muon isolation efficiency is measured using events from the Z decay at any $p_{T}$. The events are selected with the same triggers as for the SIP study. The isolation of the muons are calculated after recovery of the FSR photons and subtracting their contribution from the isolation cone of the muons. More detailed description of the method can be found in \cite{bib:CMS-AN-16-328}. Results are shown in Fig.~\ref{fig:muon_iso_efficiency}.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Efficiency of the muon isolation requirement as a function of $p_{T}$ in the barrel (a) and endcaps (b). In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot the black error bars are for the statistical uncertainty, the orange ones for the systematical uncertainty and the violet ones for the total uncertainty.}
+	\caption{Efficiency of the muon isolation requirement as a function of $p_{T}$.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.45]{ChapterAnalysis/figs/muon_iso_eff_barrel}}
 	\quad
 	\subfloat[]{\includegraphics[scale=0.45]{ChapterAnalysis/figs/muon_iso_eff_endcap}}
+	\legend{(a) muons in the barrel; (b) muons in the endcaps. In the upper panel the cyan (black) error bars show only the statistical uncertainty and the red (violet) ones represent the total uncertainty from MC (data). In the ratio plot the black error bars are for the statistical uncertainty, the orange ones for the systematical uncertainty and the violet ones for the total uncertainty.}
 	\source{CMS COLLABORATION, 2016, p. 21.}
 	\label{fig:muon_iso_efficiency}
 \end{figure}
@@ -380,11 +384,12 @@ The muon isolation efficiency is measured using events from the Z decay at any $
 The efficiency to reconstruct a muon track in the inner detector is measured using tracks reconstructed only in the muon system. The method for measuring the tracking efficiency is the same as in \cite{bib:CMS-AN-15-215} and the results on 2016 data are briefly discussed here. The efficiency and data-to-simulation scale factors are measured from Z events as a function of $\eta$. The values of data-to-simulation scale factors used are from the ReReco version\footnote{That means a previous reconstructed version of the data collected by CMS have been reprocessed using new settings in the CMS simulation.} of the full dataset collected in 2016. The tracking efficiency in data and in simulation as a function of $\eta$ is shown in Fig.~\ref{fig:muon_tracking_efficiency}.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Tracking efficiency in data and simulation as a function of $\eta$ for muon $p_{T}<$ 10GeV (a) and $p_{T}>$ 10GeV (b) with ReReco data.}
+	\caption{Tracking efficiency in data and simulation.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.3]{ChapterAnalysis/figs/muon_tracking_eff_ptless10}}
 	\quad
 	\subfloat[]{\includegraphics[scale=0.3]{ChapterAnalysis/figs/muon_tracking_eff_ptabove10}}
+	\legend{(a) efficiency as a function of $\eta$ for muon $p_{T}<$ 10 GeV and (b) $p_{T}>$ 10 GeV.}
 	\source{CMS COLLABORATION, 2016, p. 22.}
 	\label{fig:muon_tracking_efficiency}
 \end{figure}
@@ -551,11 +556,12 @@ Note that these VBF-SR requirements are similar to the standard ones used by CMS
 \end{table}
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Control plots of four-lepton invariant mass for: (a) events passing the SM Higgs selection, (b) events in the $m_{4l} = [118,130]$ GeV range and (c) events in the VBF signal region.}
+	\caption{Control plots of four-lepton invariant mass.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 0cm 2cm 0cm},clip]{ChapterAnalysis/figs/histo_mass4l_full_range}}
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 0cm 2cm 0cm},clip]{ChapterAnalysis/figs/histo_mass4l_higgs_sr}}\\
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 0cm 2cm 0cm},clip]{ChapterAnalysis/figs/histo_mass4l_vbf_sr}}
+	\legend{(a) events passing the SM Higgs selection; (b) events in the $m_{4l} = [118,130]$ GeV range; (c) events in the VBF signal region.}
 	\source{The author, 2018.}	
 	\label{fig:control_plots}		
 \end{figure}
@@ -573,7 +579,7 @@ the brain, which can be thought as a highly complex, nonlinear and parallel comp
 Similar to the brain, ANNs have the capability to learn from patterns and generalize the modeling of such patterns. This generalization means the possibility to correct identification of a pattern that was not seen before by the ANN during the learning process. The neurons contain a function which can receives also several arguments (inputs) and combine them into a single output value (Fig.~\ref{fig:nn_neuron_example}). There are several types of functions that can be used in the neurons and the choice of the best one might depend on each type of problem. The way the neurons are assembled also can be done in several ways, such that there are different architecture for the connections of the neurons. But a typical and well representative ANN architecture can be seen in Fig.~\ref{fig:neuron_and_dnn}. This kind of ANN is usually called Deep Neural Network (DNN) due to its many layers. Such ANN has shown capability to learn very complex tasks and its success comes from relatively recent improvements in the Machine Learning (ML) field \cite{bib:GlorotAndBendio2010,bib:NairAndHinton2010,bib:Zeiler_et_al2013}.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{(a) Graphical representation of a neuron. Each input \textit{$x_i$} (from user or from the hidden neurons) is weighted by \textit{$w_i$} and summed to a bias \textit{b}. The sum is passed to a function (the activation function - neuron type) which outputs a vector of values (one for each input). (b) Graphical representation of a ANN with three hidden layers. In this type of ANN the outputs of all neurons from a previous layer are fed into the neurons of a next layer.}
+	\caption{Illustration of an ANN neuron and a fully connected ANN.}
 	\centering
 	\subfloat[]{
 		\includegraphics[width=0.56\textwidth]{ChapterAnalysis/figs/nn_neuron_example}
@@ -586,6 +592,7 @@ Similar to the brain, ANNs have the capability to learn from patterns and genera
 		\includegraphics[width=0.62\textwidth]{ChapterAnalysis/figs/dnn_example}
 		\label{fig:dnn_example}
 	}
+	\legend{(a) graphical representation of a neuron. Each input \textit{$x_i$} (from user or from the hidden neurons) is weighted by \textit{$w_i$} and summed to a bias \textit{b}. The sum is passed to a function (the activation function - neuron type) which outputs a vector of values (one for each input). (b) Graphical representation of a ANN with three hidden layers. In this type of ANN the outputs of all neurons from a previous layer are fed into the neurons of a next layer.}
 	\source{JORDAN, 2018.}	
 	\label{fig:neuron_and_dnn}
 \end{figure}
@@ -735,7 +742,7 @@ is Keras \cite{bib:KerasWebPage}. Keras is a widely used and powerful set of pyt
 The Neural Networks have been trained using the simulated samples described in Chapter~\ref{sec:datasets} and only with the events passing the selections defining the VBF-SR. As it will be discussed later the variables used into the final ANNs are the leptons and jets three-momentum (that is, $p_{T}$, $\eta$ and $\phi$). The distribution of such variables, for both MC and Data, is shown in Fig.~\ref{fig:ann_input_variables} as a cross-check of the variables shape and Data-MC agreement (the low binning has been chosen due to the low statistic available for Data at the VBF-SR). The Z+X background on those pictures is derived via a stablished CMS data-driven method, which is described in Chapter~\ref{sec:zx_estimation}.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Monte Carlo and Data distribution of the variables used as inputs to train the ANNs in this analysis.}
+	\caption{Monte Carlo and Data distribution of the variables used as inputs to train the ANNs in this analysis (continue).}
 	\centering
 	\subfloat[]{
 		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_l1_pt}
@@ -775,7 +782,9 @@ The Neural Networks have been trained using the simulated samples described in C
 	}
 \end{figure}
 \begin{figure}[hbtp]{16cm}
+	\setcounter{figure}{30}
 	\ContinuedFloat
+	\caption{Monte Carlo and Data distribution of the variables used as inputs to train the ANNs in this analysis (conclusion).}
 	\centering
 	\subfloat[]{
 		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_j1_pt}
@@ -803,7 +812,8 @@ The Neural Networks have been trained using the simulated samples described in C
 	}
 	\subfloat[]{
 		\includegraphics[scale=0.23,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/vbf_j3_phi}
-	}	
+	}
+	\legend{First lepton (a) $p_{T}$, (b) $\eta$ and (c) $\phi$; second lepton (d) $p_{T}$, (e) $\eta$ and (f) $\phi$; third lepton (g) $p_{T}$, (h) $\eta$ and (i) $\phi$; forth lepton (j) $p_{T}$, (k) $\eta$ and (l) $\phi$; first jet (m) $p_{T}$, (n) $\eta$ and (o) $\phi$; second jet (p) $p_{T}$, (q) $\eta$ and (r) $\phi$;  third jet (s) $p_{T}$, (t) $\eta$ and (u) $\phi$.}
 	\source{The author, 2018.}
 	\label{fig:ann_input_variables}
 \end{figure}
@@ -827,7 +837,7 @@ In the beginning of this analysis the ANN trainings were carried out without tak
 Both approaches were tested. The weight is used by Keras as a scale factor for the \textit{loss} function such that during the training each example is seen by the ANN with a different importance. That affects the direction in which the \textit{minimizer} computes the gradients of the \textit{loss} function. The advantage of doing so is that even if a process has few events, which is very frequent in many analysis, it will be properly taken into account with respect to the other process having more events. The Fig.~\ref{fig:scaling_training_effect} shows the impact of scaling the \textit{loss}. In the beginning of the analysis the sample ggH-minlo was produced slightly different from the other samples: the leptons were sorted by $p_{T}$ in the $4\mu$ final state. Without weighting the events during the training the typical ROC curves\footnote{ROC stands for Receive and Operative Curve which is a figure of merit commonly used in fields like medicine and shows a discriminant efficiency for filtering out signal versus background.} observed were like the one showed in Fig.~\ref{fig:nn_no_scale_roc}. Once the weights were introduced the discrimination of VBF and ggH processes increased significantly as showed in Fig.~\ref{fig:nn_scale_roc}. Although this is not a physical property and thus had to be fixed, this shown the big importance of scaling the events contribution. It shows that the ANN may not learn some features from a process if a scaling is not applied. As seen in Tab.~\ref{tab:vbf_sr_yields} ggH has the biggest yield and has a relatively good number of events but still without weighting it the small difference was not taken into account by the ANN. Since there all the further developed studies were done with the events weighted.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{ROC curves comparing the performance of a trained ANN, the VBF MELA discriminant and $D_{jet}$: (a) the performance of ANN without scaling the \textit{loss} and (b) performance after scaling the \textit{loss}.}
+	\caption{ROC curves comparing the performance of a trained ANN, the VBF MELA discriminant and $D_{jet}$.}
 	\centering
 	\subfloat[]{
 		\includegraphics[width=0.35\textwidth]{ChapterAnalysis/figs/3jets_pt_eta_phi_no_weight_vbf_vs_all_leptons_sorting_issue}
@@ -839,6 +849,7 @@ Both approaches were tested. The weight is used by Keras as a scale factor for t
 		\includegraphics[width=0.35\textwidth]{ChapterAnalysis/figs/3jets_pt_eta_phi_weight_sum_vbf_vs_all_leptons_sorting_issue}
 		\label{fig:nn_scale_roc}
 	}
+	\legend{(a) the performance of ANN without scaling the \textit{loss}; (b) performance after scaling the \textit{loss}.}
 	\source{The author, 2018.}
 	\label{fig:scaling_training_effect}
 \end{figure}
@@ -857,13 +868,14 @@ In the same time one needs to be careful when doing the training since crucial i
 A good example of these three cases is show in Fig.~\ref{fig:training_issues}, which represents the situation of using an ANN to model a set of data distributed like sine/cosine shape. In Fig.~\ref{fig:training_issues}(a) the ANN had too few parameters and thus can't model the data distribution, while in (b) is has enough parameters such it can describe with good agreement the data. Fig.~\ref{fig:training_issues}(c) shows the extreme case when the ANN has too many parameters and thus has too many degrees of freedom to fit all data points. Since the loss is computed based on the difference between the ANN prediction and the original data, it goes very close to zero and one could think the ANN is perfect. However, as one let more data appear (which would be around the sine/cosine shape) it will see the ANN can't correctly predict such unseen data. Remember that on CMS collected data one does not know which physics process produced each event and thus is very important to have an ANN that can make right predictions on unseen Monte Carlo events.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Example of the three main situations that can occur during an ANN training: (a) the underfit, (b) the goodfit and (c) the overfit.}
+	\caption{Example of the three main situations that can occur during an ANN training.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.8]{Slides/figs/underfit}}
 	\quad
 	\subfloat[]{\includegraphics[scale=0.8]{Slides/figs/goodfit}}
 	\quad
 	\subfloat[]{\includegraphics[scale=0.8]{Slides/figs/overfit}}
+	\legend{(a) the underfit; (b) the goodfit; (c) the overfit.}
 	\source{JORDAN, 2018.}
 	\label{fig:training_issues}
 \end{figure}
@@ -904,7 +916,8 @@ The set of tested inputs includes combinations of the leptons and jets kinematic
 		\hline
 		Pre-processing & none, normalization, standardization\\
 		\hline
-		Topologies     & 7:5:3, 9:7:5, 11:9:7, 15:10:5, 21:13:8, 10:10:10:10, 30, 100, 100:100:50, 10$^{3}$\\
+		Topologies     & 7:5:3, 9:7:5, 11:9:7, 15:10:5, 21:13:8, 10:10:10:10,\\
+		               & 30, 100, 100:100:50, 1000\\
 		\hline
 		Early stop     & 100, 600, 3000\\
 		\hline
@@ -926,7 +939,7 @@ The set of tested inputs includes combinations of the leptons and jets kinematic
 The ANNs achieved through these trainings are produced together with some plots which are used to validate the choice of the best ANN architecture. These plots comprehend the metrics adopted (ROCs, $\epsilon_{s}.\pi$, $\sigma$) and the ANN distributions for the training and test sets, which helps to check if there was over-fitting for a given configuration. Fig.~\ref{fig:nn_training_outputs} shows these plots. The ROCs curve from training and test sets are also used to check if there was over-fitting. The plots in Fig.~\ref{fig:nn_training_outputs} show a example in which the ANN is considered good.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Example of checking plots produced during ANNs training. (a) $D_{qqH, 2j}^{MELA}$ (for reference) and (b) ANN distributions, (c) $\epsilon_{s}.\pi$ vs $\epsilon$, (d) signal significance and (e) ROC curves computed using all backgrounds together for training and testing sets. (f) ROC areas computed separately for each background using the testing set (the filled lines are for the ANN and the dotted ones are for $D_{qqH, 2j}^{MELA}$).}
+	\caption{Example of checking plots produced during ANNs training.}
 	\centering		
 	\subfloat[]{
 		\includegraphics[scale=0.35]{ChapterAnalysis/figs/MELAOvertrainingCheck_example}
@@ -952,7 +965,7 @@ The ANNs achieved through these trainings are produced together with some plots 
 		\includegraphics[scale=0.24]{ChapterAnalysis/figs/ComparisonMCsROC_example}
 		\label{fig:separated_rocs}
 	}	
-	
+	\legend{(a) $D_{qqH, 2j}^{MELA}$ (for reference); (b) ANN distributions; (c) $\epsilon_{s}.\pi$ vs $\epsilon$; (d) signal significance; (e) ROC curves computed using all backgrounds together for training and testing sets; (f) ROC areas computed separately for each background using the testing set (the filled lines are for the ANN and the dotted ones are for $D_{qqH, 2j}^{MELA}$).}
 	\source{The author, 2018.}	
 	\label{fig:nn_training_outputs}
 \end{figure}
@@ -978,6 +991,7 @@ From those several ANN trainings, some observations were drawn:
 	\subfloat[]{\includegraphics[scale=0.35,trim={1.2cm 8.5cm 0.5cm 2.1cm},clip]{ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_neuron}}\\
 	\subfloat[]{\includegraphics[scale=0.35,trim={1.2cm 8.5cm 0.5cm 2.1cm},clip]{ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_scaletrain}}
 	\subfloat[]{\includegraphics[scale=0.35,trim={1.2cm 8.5cm 0.5cm 2.1cm},clip]{ChapterAnalysis/figs/SummaryOfResults_Metrics_Njets2_test_nooutliers}}
+	\legend{Efficiency times purity vs. the ANN parameters tested. (a) inputs; (b) topology; (c) minimizador da função loss; (d) neuron type; (e) loss scaling; (f) using or not the outlier events (high variant weights).}
 	\source{The author, 2018.}	
 	\label{fig:nn_mela_scannings}	
 \end{figure}
@@ -1011,7 +1025,7 @@ Looking into the number of events which has extra jets one sees that there is a 
 \end{table}
 
 \begin{figure}[htbp]{16cm}
-	\caption{Performance of VBF discrimination against the backgrounds for the ANN, MELA and Djet discriminants. On (a) is the performance when considering only 2 jets per event and on (b) when considering up to 3 jets per event.}
+	\caption{Performance of VBF discrimination against the backgrounds for the ANN, MELA and Djet discriminants.}
 	\centering
 	\begin{overpic}
 		[scale=0.5]{ChapterAnalysis/figs/2jets_dnn_mela_djet_rocs_hjj}
@@ -1025,7 +1039,8 @@ Looking into the number of events which has extra jets one sees that there is a 
 		\put(12,85){\color{red}3jets}
 		\put(45,26){\includegraphics[height=3.5cm,width=3.5cm]{ChapterAnalysis/figs/3jets_sb_seff}}
 		\put(50,-15){(b)}
-	\end{overpic}	
+	\end{overpic}
+	\legend{(a) the ANN performance when considering only 2 jets per event; (b) the performance when considering up to 3 jets per event.}
 	\source{The author, 2017.}
 	\label{fig:comparison_2j_3j}
 \end{figure}
@@ -1106,23 +1121,25 @@ These two control regions, which are enriched by fake leptons, are orthogonal to
 The expected number of reducible background events in the 3P1F control region can be computed by weighting each event observed in the 2P2F control region with the factor ($\frac{f_{i}}{1-f_{i}}+\frac{f_{j}}{1-f_{j}}$), in which the $f$'s correspond to fake rates as derived from the map shown in Fig.~\ref{fig:fake_rates_2d} using ($p_{T}$, $\eta$) of each loose lepton. This estimation of 3P1F events from the 2P1F control region is shown in Fig.~\ref{fig:m4l_3p1f}. 
 
 \begin{figure}[htbp]{16cm}
-	\caption{Four-lepton invariant mass distribution of the events selected in the 2P2F control region in the 13TeV dataset: (a) 4$\mu$, (b) 4e, (c) 2$\mu$2e and (d) 2e2$\mu$ channels.}
+	\caption{Four-lepton invariant mass distribution of the events selected in the 2P2F control region in the 13TeV dataset.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.3]{ChapterAnalysis/figs/m4l_2p2f_4mu_smhiggs}}
 	\subfloat[]{\includegraphics[scale=0.3]{ChapterAnalysis/figs/m4l_2p2f_4e_smhiggs}}\\
 	\subfloat[]{\includegraphics[scale=0.3]{ChapterAnalysis/figs/m4l_2p2f_2mu2e_smhiggs}}
 	\subfloat[]{\includegraphics[scale=0.3]{ChapterAnalysis/figs/m4l_2p2f_2e2mu_smhiggs}}
-	\source{The author, 2018.}	
+	\legend{(a) 4$\mu$; (b) 4e; (c) 2$\mu$2e; (d) 2e2$\mu$.}
+	\source{The author, 2018.}
 	\label{fig:m4l_2p2f}
 \end{figure}
 
 \begin{figure}[htbp]{16cm}
-	\caption{Four-lepton invariant mass distribution of the events selected in the 3P1F control region in the 13TeV dataset: (a) 4$\mu$, (b) 4e, (c) 2$\mu$2e and (d) 2e2$\mu$ channels.}
+	\caption{Four-lepton invariant mass distribution of the events selected in the 3P1F control region in the 13TeV dataset.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.3]{ChapterAnalysis/figs/m4l_3p1f_4mu_smhiggs}}
 	\subfloat[]{\includegraphics[scale=0.3]{ChapterAnalysis/figs/m4l_3p1f_4e_smhiggs}}\\
 	\subfloat[]{\includegraphics[scale=0.3]{ChapterAnalysis/figs/m4l_3p1f_2mu2e_smhiggs}}
 	\subfloat[]{\includegraphics[scale=0.3]{ChapterAnalysis/figs/m4l_3p1f_2e2mu_smhiggs}}
+	\legend{(a) 4$\mu$; (b) 4e; (c) 2$\mu$2e; (d) 2e2$\mu$.}
 	\source{The author, 2018.}
 	\label{fig:m4l_3p1f}
 \end{figure}
@@ -1169,10 +1186,11 @@ The Eq.~\ref{eq:zx_formula2} represents what has been done to estimate the Z+X b
 \end{table}
 
 \begin{figure}[htbp]{16cm}
-	\caption{Four-lepton mass distribution of Z+X for events after the (a) SM Higgs and (b) VBF-SR selections. The shapes are shown for each separate channel and for their combination into $4l$ final state.}
+	\caption{Four-lepton mass distribution of Z+X.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.26]{ChapterAnalysis/figs/m4l_zx_4l_smhiggs}}
 	\subfloat[]{\includegraphics[scale=0.26]{ChapterAnalysis/figs/m4l_zx_4l_vbf}}
+	\legend{(a) Z+X in the SM Higgs region; (b) Z+X in the VBF-SR region. The shapes are shown for each separate channel and for their combination into $4l$ final state.}
 	\source{The author, 2018.}
 	\label{fig:m4l_zx_os_shapes}
 \end{figure}
@@ -1203,7 +1221,7 @@ The fake rates versus $p_{T}$ and $\eta$ computed for each reducible background 
 
 \begin{landscape}
 \begin{figure}[htbp]{23cm}
-	\caption{Fake rate, for each reducible background ($DY$, $t\bar{t}$, WZ, ZZ, Z$\gamma$), the average and the re-weighted distributions for electron (a) $p_{T}$ barrel, (b) $p_{T}$ endcap and (c) $\eta$ and for muons (d) $p_{T}$ barrel, (e) $p_{T}$ endcap and (f) $\eta$.}
+	\caption{Fake rate for each reducible background ($DY$, $t\bar{t}$, WZ, ZZ, Z$\gamma$), the average and the re-weighted distributions for electrons and for muons.}
 	\centering
 	\includegraphics[scale=0.5]{ChapterAnalysis/figs/fake_rate_1D_pt_eta_for_systematics}
 	\source{The author, 2018.}
@@ -1212,7 +1230,7 @@ The fake rates versus $p_{T}$ and $\eta$ computed for each reducible background 
 \end{landscape}
 
 \begin{figure}[htbp]{16cm}
-	\caption{Fake rate versus $p_{T}$ and $\eta$ for the average and the re-weighted distributions for electron (a) and (c) and, for muon (b) and (d), respectively.}
+	\caption{Fake rate versus $p_{T}$ and $\eta$ for the average and the re-weighted distributions for electrons and for muons.}
 	\centering
 	\includegraphics[scale=0.5]{ChapterAnalysis/figs/fake_rate_2D_maps_for_systematics}
 	\source{The author, 2018.}	
@@ -1249,7 +1267,7 @@ A cross-checking procedure (see \cite{bib:CMS-HIG-13-002,bib:CMS-AN-16-328}) is 
 
 
 \subsection{Z+X Neural Network Output Shape}
-The samples of events created in the Z+X analysis for the control regions have four leptons, all possible jets and the MET passing the requirements specified in Chapter~\ref{sec:physics_objects_selections} and Chapter~\ref{sec:event_selection}. In this way, the events composing the 2P2F and 3P1F control regions can be used as input to a ANN and produce the correct shape of the output disciminant. Then, in order to get the final yields and shapes one follows the procedure described in the previous subsections. The yields of course will not change as far as a cut is not applied to the ANN discriminant. So, the full shape of the ANN gives the same yields reported in Tab.~\ref{tab:final_zx_estimation} for VBF-SR. The Z+X shape derived in such way is the one used for the final statistical analysis. The statistical and systematic uncertainty are automatically included by the procedure described above and additionally by the systematic uncertainty from each object used as input to the ANN discriminant as it will be discussed in Chapter~\ref{subsec:discriminants_shape_uncertainties}.
+The samples of events created in the Z+X analysis for the control regions have four leptons, all possible jets and the MET passing the requirements specified in Chapter~\ref{sec:physics_objects_selections} and Chapter~\ref{sec:event_selection}. In this way, the events composing the 2P2F and 3P1F control regions can be used as input to a ANN and produce the correct shape of the output discriminant. Then, in order to get the final yields and shapes one follows the procedure described in the previous subsections. The yields of course will not change as far as a cut is not applied to the ANN discriminant. So, the full shape of the ANN gives the same yields reported in Tab.~\ref{tab:final_zx_estimation} for VBF-SR. The Z+X shape derived in such way is the one used for the final statistical analysis. The statistical and systematic uncertainty are automatically included by the procedure described above and additionally by the systematic uncertainty from each object used as input to the ANN discriminant as it will be discussed in Chapter~\ref{subsec:discriminants_shape_uncertainties}.
 
 
 %%==========================================================================
@@ -1375,11 +1393,12 @@ For that reason, the third jet of the VBF-H3J is used and a procedure to estimat
 The events in the \textbf{Njets3} category from each sample were fed into the ANN and the ratio between their shapes gives an uncertainty in both normalization and shape variation between the two process. This was done for each four-lepton final state separately. Fig.~\ref{fig:systematic_3rd_jet} shows the ANN distribution from the two samples and their ratio.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{NN distributions and their ratio in the \textbf{Njets3} category from VBF-H2J and VBF-H3J for (a) $4\mu$, (b) $4e$ and (c) $2e2\mu$.}
+	\caption{NN distributions and their ratio in the \textbf{Njets3} category from VBF-H2J and VBF-H3J.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 1cm 2.5cm 1cm},clip]{ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_4mu}}
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 1cm 2.5cm 1cm},clip]{ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_4e}}\\
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 1cm 2.5cm 1cm},clip]{ChapterAnalysis/figs/k24nj3_3rdJetUncertainty_2e2mu}}
+	\legend{Distributions for: (a) $4\mu$, (b) $4e$ and (c) $2e2\mu$.}
 	\source{The author, 2018.}	
 	\label{fig:systematic_3rd_jet}
 \end{figure}
@@ -1449,21 +1468,23 @@ The number of estimated events from signal and background, as well as the number
 \end{table}
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Final four-lepton mass distributions for the SM Higgs separated in the channels (a) $4\mu$, (b) $4e$ and (c) $2e2\mu$ and, combined into the (d) $4l$ final state. The distributions are show for $70 < m_{4l} < 400$ GeV and include the $Z+X$ background estimated by the data-driven method explained in Chapter~\ref{sec:zx_estimation}.}
+	\caption{Final four-lepton mass distributions for the SM Higgs.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/m4l_smhiggs_4mu_full_range}}
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/m4l_smhiggs_4e_full_range}}\\
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/m4l_smhiggs_2e2mu_full_range}}
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/m4l_smhiggs_4l_full_range}}
+	\legend{Distributions for channels: (a) $4\mu$, (b) $4e$, (c) $2e2\mu$ and (d) their combination ($4l$ final state). The distributions are show for $70 < m_{4l} < 400$ GeV and include the $Z+X$ background estimated by the data-driven method explained in Chapter~\ref{sec:zx_estimation}.}
 	\source{The author, 2018.}
 	\label{fig:smhiggs_m4l_distributions}
 \end{figure}
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Final four-lepton mass distributions for the events passing the (a) SM Higgs and the (b) VBF-SR selections combined into the $4l$ final state. The distributions are show for $118 < m_{4l} < 130$ GeV (SM Higgs signal region defined by CMS Collaboration) and include the $Z+X$ background estimated by the data-driven method explained in Chapter~\ref{sec:zx_estimation}.}
+	\caption{Final four-lepton mass distributions.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/m4l_smhiggs_4l_118_130GeV}}
 	\subfloat[]{\includegraphics[scale=0.4,trim={2cm 1cm 2cm 1cm},clip]{ChapterAnalysis/figs/m4l_vbf_4l_118_130GeV}}
+	\legend{Distributions for: (a) SM Higgs and (b) VBF-SR regions, with the three final states combined. The distributions are show for $118 < m_{4l} < 130$ GeV (SM Higgs signal region defined by CMS Collaboration) and include the $Z+X$ background estimated by the data-driven method explained in Chapter~\ref{sec:zx_estimation}.}
 	\source{The author, 2018.}
 	\label{fig:vbf_m4l_distribution}
 \end{figure}
@@ -1473,11 +1494,12 @@ Since it is proposed in this analysis the usage of up to three jets, differing o
 The Fig(s).~\ref{fig:final_nn_shapes_prefit}(a), (b) show the distribution of the final neural networks chosen to be the discriminant in the \textbf{Njets2} and \textbf{Njets3} categories, while the Fig.~\ref{fig:final_nn_shapes_prefit}(c) shows their combination. This distributions include the three four-lepton final states. The $Z+X$ estimation follows the same procedure explained in Chapter~\ref{sec:zx_estimation} and the shape has been derived by feeding the ANNs with the events selected in the two CRs that are used to make the estimation. The statistical analysis is performed for each separated category and also for the combined case.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{Pre-fit distributions of the neural network developed for (a) \textbf{Njets2} and (b) \textbf{Njets3} categories. In (c) is the distribution resulting from the combination of the two categories.}
+	\caption{Pre-fit distributions of the neural networks developed in this analysis.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.4,trim={2.6cm 1cm 2.6cm 1cm},clip]{ChapterAnalysis/figs/k57nj2_shapes_prefit}}
 	\subfloat[]{\includegraphics[scale=0.4,trim={2.6cm 1cm 2.6cm 1cm},clip]{ChapterAnalysis/figs/k24nj3_shapes_prefit}}\\
 	\subfloat[]{\includegraphics[scale=0.4,trim={2.6cm 1cm 2.6cm 1cm},clip]{ChapterAnalysis/figs/k57nj2_k24nj3_shapes_prefit}}
+	\legend{ANN for: (a) \textbf{Njets2} and (b) \textbf{Njets3} categories. In (c) is the distribution resulting from the combination of the two categories.}
 	\source{The author, 2018.}	
 	\label{fig:final_nn_shapes_prefit}
 \end{figure}
@@ -1525,11 +1547,12 @@ Now, the value of a likelihood itself does not have any meaning (it can be large
 where $\hat{mu}$ is the POI value which maximizes the likelihood. Eq.~\ref{eq:likelihood_ratio} is usually represented as $-2\Delta~ln~\mathcal{L}(\mu)$ in likelihood scan plots. The interesting point of the likelihood ratios comes from Wilk's theorem \cite{bib:MIT-650,bib:UCBerkeley-26-2018}, which states that a 68$\%$ CL interval can be found for the POI by looking at the region for which $-\Delta~ln~\mathcal{L}(\mu) < 0.5$ (or $-2\Delta~ln~\mathcal{L}(\mu) < 1.0$). The minimum value of the likelihood ratio gives the best estimation of a given POI. Fig.~\ref{fig:vbf_best_fits} shows (a) the likelihood ratio profiles and (b) the summary of the minimum likelihood ratio values and the $68\%$ CL obtained in this analysis for each category and their combination.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{The best fit value found, given the observed data, for $\mu_{qqH}$. In (a) is shown the compatibility between the channels from each category of number of jets and in (b) is shown the likelihood ratios profile of the two categories and their combination.}
+	\caption{The best fit value found, given the observed data, for $\mu_{qqH}$.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.3,trim={0cm 0cm 0cm 0cm},clip]{ChapterAnalysis/figs/LikelihoodScans}}
 	\quad
 	\subfloat[]{\includegraphics[scale=0.3,trim={0cm 0cm 0cm 0cm},clip]{ChapterAnalysis/figs/ChannelsCompatibility}}
+	\legend{(a) shows the compatibility between the channels from each category of number of jets; (b) shows the likelihood ratio profiles of the two categories and their combination.}
 	\source{The author, 2018.}	
 	\label{fig:vbf_best_fits}
 \end{figure}
@@ -1561,6 +1584,7 @@ The Fig.~\ref{fig:vbf_pre_post_fit}(a), (b) and (c) show the distributions of th
 	\subfloat[]{\includegraphics[scale=0.4,trim={2.6cm 1cm 2.6cm 1cm},clip]{ChapterAnalysis/figs/k57nj2_shapes_fit_s}}
 	\subfloat[]{\includegraphics[scale=0.4,trim={2.6cm 1cm 2.6cm 1cm},clip]{ChapterAnalysis/figs/k24nj3_shapes_fit_s}}\\
 	\subfloat[]{\includegraphics[scale=0.4,trim={2.6cm 1cm 2.6cm 1cm},clip]{ChapterAnalysis/figs/k57nj2_k24nj3_shapes_fit_s}}
+	\legend{ANN for: (a) \textbf{Njets2} and (b) \textbf{Njets3} categories. In (c) is the distribution resulting from the combination of the two categories.}
 	\source{The author, 2018.}
 	\label{fig:vbf_pre_post_fit}
 \end{figure}
@@ -1572,6 +1596,7 @@ The Fig.~\ref{fig:vbf_pre_post_fit}(a), (b) and (c) show the distributions of th
 		\hline
 		\rowcolor{light_gray}
 		Process                     & 4$\mu$        & 4e            & 2e2$\mu$      & 4l\\
+		\hline
 		ggH                         & 2.48$\pm$0.34 & 1.29$\pm$0.19 & 3.14$\pm$0.44 & 6.91$\pm$0.59\\
 		VH                          & 0.34$\pm$0.03 & 0.20$\pm$0.02 & 0.46$\pm$0.04 & 1.00$\pm$0.06\\
 		ttH                         & 0.05$\pm$0.01 & 0.03$\pm$0.00 & 0.06$\pm$0.01 & 0.14$\pm$0.01\\
@@ -1641,11 +1666,12 @@ P_{0} = \int_{q_{0}^{obs}}^{+\infty} \mathit{f}(q_{0}|\mu=0)~dq_{0}.
 Fig.~\ref{fig:vbf_limits_significances}(b) shows the expected and observed significances for the two jet-based categories and their combination. As expected, based on the limits, the significance observed in the two jet-based categories is not enough to state the presence of VBF Higgs events\footnote{For an statement of VBF Higgs observation it is needed $p_{0} \leq 2.87e^{-6}$, which corresponds to 5$\sigma$.}. As noticed from the limits, the combination of the two jet-based categories produces an excess over the background-only expectation and thus the significance is higher than the ones observed for each category alone. Even though, that significance ($Z_{qqH}^{obs}$ = 1.9, $Z_{qqH}^{exp}$ = 1.8) is still not sufficient to state an observation. Even though, this significance is about 2.6x higher than the significance that can be obtained by looking at the $m_{4l}$ distribution. In the next section, a projection of the significance for this analysis in future luminosity scenarios is presented.
 
 \begin{figure}[hbtp]{16cm}
-	\caption{(a) Observed and expected 95$\%$ CL upper limit on the ratio of the Higgs VBF production cross section to the SM expectation, for the two jet-based categories and their combination. The expected 1$\sigma$ (2$\sigma$) ranges of the expectation for the background-only hypothesis are also shown by the green (yellow) bands. (b) The observed significance of the local excess with respect to the SM background expectation for the two categories and their combination.}
+	\caption{Limits and significances obtained in this analysis.}
 	\centering
 	\subfloat[]{\includegraphics[width=8cm,height=8cm,trim={0.6cm 0cm 0.8cm 0cm},clip]{ChapterAnalysis/figs/Limits}}
 	\quad
 	\subfloat[]{\includegraphics[width=8cm,height=8cm,trim={0.6cm 2cm 0.8cm 0cm},clip]{ChapterAnalysis/figs/Pvalues}}
+	\legend{(a) observed and expected 95$\%$ CL upper limit on the ratio of the Higgs VBF production cross section to the SM expectation, for the two jet-based categories and their combination. The expected 1$\sigma$ (2$\sigma$) ranges of the expectation for the background-only hypothesis are also shown by the green (yellow) bands; (b) the observed significance of the local excess with respect to the SM background expectation for the two categories and their combination.}
 	\source{The author, 2018.}	
 	\label{fig:vbf_limits_significances}
 \end{figure}
@@ -1688,14 +1714,17 @@ A last question stays at this point: whether this approach of having two jet-bas
 In order to investigate that, the signal strength and the significances have been computed via a 1D shape analysis using all events presented before into a single category. Only the two highest $p_{T}$ jets, selected as described before, were used. For that, the ANN created for the \textbf{Njets2} sub-category was used for the shape analysis and the present luminosity of 35.6fb$^{-1}$ was considered. Fig.~\ref{fig:k57nj2_njets2all_shapes_prefit} shows the ANN distributions for the combination of \textbf{Njets2} and \textbf{Njets3} on (a) and for all events as only \textbf{Njets2} (that is, events with three jets were included in the \textbf{Njets2} category using only two jets) on (b).
 
 \begin{figure}[hbtp]{16cm}
-	\caption{ANN distributions for the combination of \textbf{Njets2} and \textbf{Njets3} on (a) and for all events as only \textbf{Njets2} (that is, events with three jets were included in the \textbf{Njets2} category using only two jets) on (b).}	
+	\caption{ANN distributions for the combination of \textbf{Njets2} and \textbf{Njets3} and, for \textbf{Njets2} only.}
 	\centering
 	\subfloat[]{\includegraphics[scale=0.35,trim={0.6cm 0cm 0.8cm 0cm},clip]{ChapterAnalysis/figs/k57nj2_k24nj3_shapes_prefit}}
 	\subfloat[]{\includegraphics[scale=0.35,trim={0.6cm 0cm 0.8cm 0cm},clip]{ChapterAnalysis/figs/k57nj2_njets2all_shapes_prefit}}
+	\legend{(a) distribution obtained by combining the events from categories \textbf{Njets2} and \textbf{Njets3}; (b) distribution for all available events, treated as only having two jets (that is, events with three jets were included in the \textbf{Njets2} category using only two jets).}
 	\source{The author, 2019.}	
 	\label{fig:k57nj2_njets2all_shapes_prefit}
 \end{figure}
 
 The statistical analysis described in details before was applied on the distribution shown in Fig.~\ref{fig:k57nj2_njets2all_shapes_prefit}(b) (along with its respective uncertainties). From that it has been found that the signal strength for a case where all the events are used into the \textbf{Njets2} sub-category is $\mu_{qqH} = 0.73_{-0.69}^{+1.09}$. This result presents small uncertainty as one can compare from what has been found for the previous case with two jet-based categories. One of the main issues for that is the relative big systematic uncertainty coming from the difference between the two VBF samples, which has been used as a way to estimate an uncertainty on the modeling of the 3$rd$ jet.
 
-The second important result on this comparison is the significance, which was estimated via Combine tool as being $z_{qqH}^{Exp} = 1.6$ and $z_{qqH}^{Obs} = 1.2$. When compared to the significance coming from the combination of the two jet-based categories one sees no big difference in the expected one, but the observed significance gets reduce by a larger factor. From this, it is possible to conclude that the sub-categorization into two jet-based categories introduces an extra uncertainty not present in the case of two-jets only. But, at the same time, this approach increases the sensitivity of the analysis with respect to the VBF Higgs production mode (since the expected significance is higher).
+The second important result on this comparison is the significance, which was estimated via Combine tool as being $z_{qqH}^{Exp} = 1.6$ and $z_{qqH}^{Obs} = 1.2$. When compared to the significance coming from the combination of the two jet-based categories one sees that the sub-categorization based on the number of jets makes the analysis more sensitive to the VBF detection. 
+
+From this, it is possible to conclude that the sub-categorization into two jet-based sub-categories introduces an extra uncertainty not present in the case of two-jets only. Which comes from the limitation on the present VBF-HJJJ Monte Carlo sample. But, at the same time, this approach increases the sensitivity of the analysis with respect to the VBF Higgs production mode (since the significances are large according to Higgs Combine tool).

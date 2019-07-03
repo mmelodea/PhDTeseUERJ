@@ -38,7 +38,7 @@ The integration of the EM is not trivial due to the presence of singular functio
 		$t\bar{t}$H fully-leptonic &   60\\
 		\hline
 	\end{tabular}
-	\source{Reference \cite{bib:cms_mela}, p. 7.}
+	\source{BELUFFI, 2014, p. 7.}
 	\label{tab:mela_times}
 \end{table}
 
@@ -88,7 +88,7 @@ The working structure of the \textit{Fast}ME is sketched in Fig.~\ref{fig:fastme
 		\put(65,11){{\color{red}$\bigcirc$} class 1 matches $[R^{2}_{(i,j)}]_{min}$}
 		\put(65,3){{\color{blue}$\bigcirc$} class 2 matches $[R^{2}_{(i,j)}]_{min}$}
 	\end{overpic}
-	\source{The AUTHOR, 2018}
+	\source{The author, 2018}
 	\vspace{0.3cm}
 	\label{fig:fastme_workway}
 \end{figure}
@@ -112,7 +112,7 @@ where $W^{Sig}_{D_{min}}$ ($W^{Bkg}_{D_{min}}$) stands for the weight associated
 		\put(75,0){(b)}
 	\end{overpic}
 	\vspace{0.2cm}
-	\source{The AUTHOR, 2018.}
+	\source{The author, 2018.}
 	\label{fig:psbD_vs_psbW}
 \end{figure}
 
@@ -128,7 +128,7 @@ The strategy adopted to verify the impact of the size of the pattern banks in th
 Focusing on Fig.~\ref{fig:sig_bkg_purity_vs_template_size_scans}(a) one sees that a small pattern bank for the signal leads to a high classification error rate, such that, almost all events are classified as background. As the size of the pattern bank starts to increase also the fraction of signal events being correctly classified increases. Looking at graph on Fig.~\ref{fig:sig_bkg_purity_vs_template_size_scans}(b) one sees what happens to the background events. As the size of the signal pattern bank increases the fraction of background events being mis-classified as signal also increases but much more slowly. In Fig.~\ref{fig:sig_bkg_purity_vs_template_size_scans}(c) and (d) is shown what happens when the size of the signal pattern bank is kept fixed and the background one is varied. A similar behavior as described before for the signal is seen now for the background (what of course is expected).
 
 \begin{figure}[htbp]{16cm}
-	\caption{Classification dependency for signal and background events accordingly to the size of the pattern banks used. On graphs (a) and (b) the size of the background pattern bank has a fixed size while the signal one is varied. On graphs (c) and (d) the opposite case is shown. Note, here "purity" is computed using the absolute number of events (without normalization).}
+	\caption{Classification dependency for signal and background events accordingly to the size of the pattern banks used.}
 	\begin{overpic}
 		[width=16cm,height=7cm,trim={0cm 0cm 0cm 0cm},clip]{AppendixFastME/figs/purity_keeping_bkg_varying_sig}
 		\put(25,-4){(a)}
@@ -140,7 +140,8 @@ Focusing on Fig.~\ref{fig:sig_bkg_purity_vs_template_size_scans}(a) one sees tha
 		\put(78,-4){(d)}		
 	\end{overpic}
 	\vspace{0.8cm}
-	\source{The AUTHOR, 2018}
+	\legend{On graphs (a) and (b) the size of the background pattern bank has a fixed size while the signal one is varied. On graphs (c) and (d) the opposite case is shown. Note, here "purity" is computed using the absolute number of events (without normalization).}
+	\source{The author, 2018}
 	\label{fig:sig_bkg_purity_vs_template_size_scans}
 \end{figure}
 
@@ -153,14 +154,14 @@ Completing the study on the pattern bank size dependency a test sample composed 
 		\put(85.5,55){\color{red}Signal}
 		\put(75,50){\color{blue}Background}
 	\end{overpic}
-	\source{The AUTHOR, 2018.}
+	\source{The author, 2018.}
 	\label{fig:sig_bkg_purity_vs_template_size_scans2}
 \end{figure}
 
 Based on that dependency between the classification error and the bank size a correction function was studied just as an extra complementation of the study. The correction was derived by finding the dependency between the ideal cut on the discriminant (which gives the correct classification of each class) and the ratio between the banks (signal/background) size. The ideal cuts and the found correction function is shown on Fig.~\ref{fig:fastme_cutoff_optimization}(a) and the effect of this correction on the classification of the events are shown in Fig.~\ref{fig:fastme_cutoff_optimization}(b). Note (again), the derived function would be need to found for each particular case. Also, it is interesting to notice that there are essentially two regimes for the correction ($sig < bkg$ and $sig > bkg$) and they approximately present a linear dependency.
 
 \begin{figure}[htbp]{16cm}
-	\caption{(a) Scan of the ideal cut (to correct classify signal and background events) in function of the ratio between the size of the signal and background pattern banks. (b) The effect on the fraction of signal and background events being classified as so, before and after the correction on the discriminant.}
+	\caption{Example of parameterization of the bias observed in the \textit{Fast}ME method for some given Monte Carlo events.}
 	\begin{overpic}
 		[scale=0.55,trim={0cm 0cm 0cm 1.1cm},clip]{AppendixFastME/figs/correction_function_for_discrimination}
 		\put(50,-7){(a)}
@@ -171,7 +172,8 @@ Based on that dependency between the classification error and the bank size a co
 		\put(50,-7){(b)}
 	\end{overpic}
 	\vspace{0.8cm}	
-	\source{The AUTHOR, 2018.}
+	\legend{(a) scan of the ideal cut (to correct classify signal and background events) in function of the ratio between the size of the signal and background pattern banks; (b) the effect on the fraction of signal and background events being classified as so, before and after the correction on the discriminant.}
+	\source{The author, 2018.}
 	\label{fig:fastme_cutoff_optimization}
 \end{figure}
 
@@ -185,7 +187,7 @@ Between the developed studies it was noticed that the contribution coming from t
 		\put(10,47){\color{red}Signal}
 		\put(10,44){\color{blue}Background}		
 	\end{overpic}
-	\source{The AUTHOR, 2018.}
+	\source{The author, 2018.}
 	\label{fig:phi_spread}
 \end{figure}
 
@@ -201,7 +203,7 @@ Later it was noticed that the cumulative $p_{T}$ distribution of the MC particle
 	\begin{overpic}
 		[scale=0.3,trim={0cm 0cm 0cm 0cm},clip]{AppendixFastME/figs/fastme_sensibility_vs_dpTscaleFactor}
 	\end{overpic}
-	\source{Source: The AUTHOR, 2018.}
+	\source{The author, 2018.}
 	\label{fig:dpt_scale}
 \end{figure}
 
@@ -214,7 +216,7 @@ The Fig.~\ref{fig:fastme_comparison_to_mela} shows the performance of the \texti
 
 \begin{figure}[htbp]{16cm}
 	\hspace{-0.5cm}
-	\caption{(a) Observed events classified as signal and background by the \textit{Fast}ME, (b) the discriminant distribution (from observed data), (c) and (d) distribution of \textit{Fast}ME and $MELA$ discriminants as obtained from observed data and MC events, (e) and (f) the distribution of those discriminants versus the $m_{4l}$ mass value of the analyzed events. The distributions are not normalized by the events weight. The distribution of \textit{Fast}ME discriminant in (b) looks different from what is shown in (c) and in Fig.~\ref{fig:phi_spread} because that was the original shape. Later it was decided to re-define the discriminant as expressed by Eq.~\ref{eq:fastme_dist_disc} in order to keep it in the range [0, 1].}
+	\caption{Application of the \textit{Fast}ME method to the CMS Data from LHC RunI (2015).}
 	\begin{overpic}
 		[width=14cm,height=5.5cm,trim={0cm 0cm 0cm 0cm},clip]{AppendixFastME/figs/fastme_discriminant_and_m4l}
 		\put(25,-3){(a)}
@@ -233,7 +235,8 @@ The Fig.~\ref{fig:fastme_comparison_to_mela} shows the performance of the \texti
 		\put(76,-3){(f)}
 	\end{overpic}
 	\vspace{0.5cm}
-	\source{The AUTHOR, 2015.}
+	\legend{(a) observed events classified as signal and background by the \textit{Fast}ME; (b) the discriminant distribution (from observed data); (c) and (d) distribution of \textit{Fast}ME and $MELA$ discriminants as obtained from observed data and MC events; (e) and (f) the distribution of those discriminants versus the $m_{4l}$ mass value of the analyzed events. The distributions are not normalized by the events weight. The distribution of \textit{Fast}ME discriminant in (b) looks different from what is shown in (c) and in Fig.~\ref{fig:phi_spread} because that was the original shape. Later it was decided to re-define the discriminant as expressed by Eq.~\ref{eq:fastme_dist_disc} in order to keep it in the range [0, 1].}
+	\source{The author, 2015.}
 	\label{fig:fastme_comparison_to_mela}
 \end{figure}
 
@@ -251,7 +254,7 @@ The \textit{Fast}ME package in its latest version can be found at the \textit{Gi
 	\begin{overpic}
 		[scale=0.6,trim={0cm 0cm 0cm 0cm},clip]{AppendixFastME/figs/fastme_github_page}
 	\end{overpic}
-	\source{The AUTHOR, 2018.}
+	\source{The author, 2018.}
 	\label{fig:fastme_repo_view}
 \end{figure}
 
@@ -276,8 +279,8 @@ Fig.~\ref{fig:fastme_input_card} view of the configuration card file that an use
 
 \begin{figure}[h!]{16cm}
 \caption{\textit{Fast}ME input card. This card is parsed to the \textit{Fast}ME executable in order to set up needed parameters in order to run an analysis.}
-\includegraphics[angle=90,scale=0.7,trim={0cm 0cm 0cm 0cm},clip]{AppendixFastME/figs/fme_config_card}
-\source{The AUTHOR, 2015.}
+\includegraphics[angle=90,scale=0.67,trim={0cm 0cm 0cm 0cm},clip]{AppendixFastME/figs/fme_config_card}
+\source{The author, 2015.}
 \label{fig:fastme_input_card}
 \end{figure}
 
@@ -286,13 +289,14 @@ Fig.~\ref{fig:fastme_input_card} view of the configuration card file that an use
 Once the full analysis in the \textit{Fast}ME has been ran, the user will have some plots which gives the information about the performance of the method on the given dataset. Between these plots the most important are the discriminant distribution for signal and background (it was not developed a feature for superimposing the observed data distribution to the MC). Here is an example of the plots (Fig.~\ref{fig:fms_output_plots}) that are produced by the package. On (a) one sees the discriminant distribution coming from the \textit{Fast}ME method based on the minimum events distance and on (b) it is shown its performance by usage of a ROC curve.
 
 \begin{figure}[htbp]{16cm}
-	\caption{Comparison between the two methods developed to define the classification of a event probe. On (a) the discriminant distributions for the minimum distance matching and on (b) its performance.}
+	\caption{Comparison between the two methods developed to define the classification of a event probe.}
 	\begin{overpic}
 		[width=15cm,height=7cm,trim={0cm 0cm 0cm 2cm},clip]{AppendixFastME/figs/plot_discriminants_roc_distance}
 		\put(25,0){(a)}
 		\put(75,0){(b)}
 	\end{overpic}
-	\source{The AUTHOR, 2015.}
+	\legend{On (a) the discriminant distributions for the minimum distance matching and on (b) its performance.}
+	\source{The author, 2015.}
 	\label{fig:fms_output_plots}
 \end{figure}
 
@@ -303,10 +307,11 @@ Another idea that came later for the usage of the \textit{Fast}ME was the partic
 In order to test this situation, random values of $p_{T}$, $\eta$ and $\phi$ (constrained within the expected range of such variable) were introduced in the sample of observed events. Here, the tests were done for the case without jets and only the four leptons coming from the Higgs decay have been used (the same samples presented before). The Fig.~\ref{fig:fme_particle_filter} shows how the discriminant behaves under such situation, where it was tested the presence of up to 46 extra objects in the data event (there were always the selected four leptons of the probing event). As one can see, the method is sensitive to the presence of extra particles and its performance decreases fast the number of those particles. But, it seems to work reasonably up to 4 extra particles. Note that in those tests the size of the bank was constrained to 5k. With a larger pattern bank these performances could increase.
 
 \begin{figure}[htbp]{16cm}
-\caption{Variation on the \textit{Fast}ME performance due the introduction of extra objects with random properties in the signal and background testing samples. In (a) the variation on the signal and background distributions for the discriminant (based on distance) and in (b) the variation on the ROC curve.}
+\caption{Variation on the \textit{Fast}ME performance due the introduction of extra objects with random properties in the signal and background testing samples.}
 \subfloat[]{\includegraphics[scale=0.5,trim={0cm 13.5cm 0cm 1.2cm},clip]{AppendixFastME/figs/discriminant_variation_vs_nextra_objects}}\\
 \subfloat[]{\includegraphics[scale=0.5,trim={0cm 13.5cm 0cm 0.8cm},clip]{AppendixFastME/figs/roc_variation_vs_nextra_objects}}
-\source{The AUTHOR, 2016.}
+\legend{In (a) the variation on the signal and background distributions for the discriminant (based on distance) and in (b) the variation on the ROC curve.}
+\source{The author, 2016.}
 \label{fig:fme_particle_filter}
 \end{figure}
 
@@ -315,12 +320,13 @@ In order to test this situation, random values of $p_{T}$, $\eta$ and $\phi$ (co
 The final topic of study involving the \textit{Fast}ME was the attempt of VBF discrimination against gluon-fusion. The main subject of the present thesis is the measurement of Higgs VBF production cross section. So, it was natural to think about applying the \textit{Fast}ME to the VBF selection. In this case, the inputs were the four leptons and two jets $p_{T}$, $\eta$ and $\phi$. The Fig.~\ref{fig:fme_vbf_ggh} shows the outcome found when trying to discriminate the VBF process against the gluon-fusion. The overlap between the discriminant distributions from each process is visibly large and its performance, as it is shown by the ROC curve, is very low (AUC $\sim 66\%$). Here it is shown only the performance from the method based on the distance, since, as already said on previous sections, this method was the one presenting highest performance.
 
 \begin{figure}[htbp]{16cm}
-\caption{\textit{Fast}ME performance on the discrimination of qqH against ggH using the discriminant based on the distance (left). The area under the ROC curve (right) corresponds to $\sim 66\%$.}
+\caption{\textit{Fast}ME performance on the discrimination of qqH against ggH.}
 \begin{overpic}
 [width=15cm,height=6cm,trim={0cm 0cm 0cm 1cm},clip]{AppendixFastME/figs/ggH_vs_VBF_test}
 \put(25,0){(a)}
 \put(75,0){(b)}
 \end{overpic}
-\source{The AUTHOR, 2016.}
+\legend{(a) distributions for signal and background; (b) ROC curve computed from the discriminant distributions (area accounts for $\sim 66\%$).}
+\source{The author, 2016.}
 \label{fig:fme_vbf_ggh}
 \end{figure}

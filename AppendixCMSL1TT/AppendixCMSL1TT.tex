@@ -2,14 +2,6 @@
 \label{app:cmsl1tt}
 The CMS Level 1 tracking trigger is a project proposed for the upgrade of the CMS detector during the third stop period of the LHC operation, which is planned to occur around 2020 and goes until around 2025, when should be started the era of the High Luminosity LHC (HL-LHC) Fig.~\ref{fig:lhc_calendar}. 
 
-\begin{figure}[htbp]{16cm}
-	\caption{The calendar for the upgrades of the LHC and its detectors.}
-	\centering
-	\includegraphics[scale=0.9,angle=90]{AppendixCMSL1TT/figs/Schedule_HLLHC}
-	\source{\url{https://project-hl-lhc-industry.web.cern.ch/content/project-schedule}.}
-	\label{fig:lhc_calendar}
-\end{figure}
-
 In the scenario of the HL-LHC the expected instantaneous luminosity to be provided will be $\sim 10 ^{34} cm^{2}s^{-1}$ (integrated luminosity of 3000fb$^{-1}$) with collisions at the nominal energy at which the LHC was projected, 14TeV. The occurrence of PU has been estimated to be of about 140/200 in average per event \cite{bib:vertex-2017}. Which is a critic condition for the detector operation and for selection of the primary vertices. Since there were some larger PU occurrence (<50> PUs) than the expected one (<30> PUs), the simulation studies also take into account possible extreme scenarios of 250, 300 and 400 PUs. 
 
 The main idea behind the CMSL1TT project is based on the hardware configuration for the phase II upgrade (LS3 in Fig.~\ref{fig:lhc_calendar}). The idea is to include the tracker the information coming from the CMS tracker into the L1 trigger. However, there some significant challenges for such approach. A reasonable estimation of the amount of data given by the tracker is about 600 Gb/s \cite{bib:vertex-2017}. Additionally, the decision returned by the L1 trigger must still be fast (5$\mu s$).
@@ -23,11 +15,21 @@ p_{T} = 0.57 ~ \frac{q . r . \epsilon}{SW . p} ~ \sqrt{1+\frac{sin \theta_{0}}{c
 
 where, $q$ stands for the charge of the particle, $r$ stands for the average distance of the sensors to the detector coordinates origin (\textbf{xy}), $\epsilon$ stands for the distance between the sensors back-to-back, $\theta_{0}$ is the angle between the particle trajectory and the beam axis and, $p$ is the strip pitch in millimeters \cite{bib:CMS-TDR-17-001}. The Fig.~\ref{fig:stub_definition} shows schematically the idea of the stub. With this approach, it is easy to apply threshold in the $p_{T}$ of the detected particles and remove in a fast way PU particles, which have in average $p_{T} <$ 2GeV. This is the core working principle of the CMSL1TT project.
 
+\begin{landscape}
+	\begin{figure}[htbp]{23cm}
+		\caption{The calendar for the upgrades of the LHC and its detectors.}
+		\centering
+		\includegraphics[scale=0.9,trim={0cm 1cm 0cm 1cm},clip]{AppendixCMSL1TT/figs/Schedule_HLLHC}
+		\source{CERN (HiLumi HL-LHC project), 2015.}
+		\label{fig:lhc_calendar}
+	\end{figure}
+\end{landscape}
+
 \begin{figure}[htbp]{16cm}
 	\caption{Scheme of the sensors in a layer of the CMS detector after the phase II upgrade. An object called \textit{stub} is defined in terms of the distance between the centroids of back-to-back sensors (or cluster of them) activated when a particle cross the layer.}
 	\centering
 	\includegraphics[scale=0.6]{AppendixCMSL1TT/figs/stub_definition}
-	\source{Adapted from \cite{bib:CMS-DN-15-025}.}
+	\source{BAULIEU, 2015, p. 5. Adapted by the author.}
 	\label{fig:stub_definition}
 \end{figure}
 
@@ -45,7 +47,7 @@ The AM+FPGA approach makes the pattern recognition by using the so called Associ
 	\centering
 	\includegraphics[scale=0.4]{AppendixCMSL1TT/figs/road_example}
 	\label{fig:pattern_match}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 After the pattern recognition step, the triggered hits coming from the detector are given to a module called \textit{combination builder}, which builds up all the possible tracks by combining those hits. The combinations are then given to another module, called \textit{track fitter}, which performs a fit based on a linearized $\chi^{2}$. In this step one gets the tracks with good resolution parameters. To enhance the selection of tracks and random combination that still looks like a good track, it was developed the procedure called \textit{duplicate removal} (which will be discussed in the following sections). Finally, the tracks that pass the duplicate removal steps are the ones that should be give ot the L1 trigger.
@@ -68,7 +70,7 @@ Truncation is a latency holder that needs to be carried out carefully. When trun
 	\centering
 	\includegraphics[scale=0.6]{AppendixCMSL1TT/figs/ttbar_pu200_mu_road_sorting_comparison}
 	\label{fig:road_sorting}	
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 
@@ -80,7 +82,7 @@ The stub bending is one of the core concepts of CMS L1TT being the main variable
 	\centering
 	\includegraphics[width=5cm,height=5cm]{AppendixCMSL1TT/figs/deltaS_workway}
 	\label{fig:deltaS_workway}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 The $\Delta S$ encoding to create AM pattern banks was done by dividing the stub bending distribution in ranges. Each range then is identified by an integer index which one is used to define the superstrips ID (ss ID). Once the standard configuration adopted at that time was $sf1\_nz1$, which means no \textbf{z} segmentation, the same formula to build the ss ID on that case was used, with the change of the \textbf{z} segment index by the stub bending index. The formula, present on module \textbf{SuperstripArbiter.cc}, is the following
@@ -91,36 +93,42 @@ ss = i_{\Delta S}*N_{\phi} + i_{\phi}
 
 in which $i_{\Delta S}$ is the stub bending index associated to the range from which a stub belongs, $N_{\phi}$ is the number of $\phi$ segmentations (which depends on the stub fountain scale factor configuration - sf) and $i_{\phi}$ is the $\phi$ segment index associated to the stub. As one can see in Fig.~\ref{fig:deltaS_ttbar_asym} the $\Delta S$ distributions in all layers are centered in zero. The stub bending index is defined from there, that is, the region close to $\Delta S = 0$ is the central range. Then, one can divide the stub bending distribution in many different range sizes. Also, one can try to use ranges with different widths. 
 
-\begin{figure}[htbp]{15cm}
-	\caption{Stub bending distribution per detector layer for $t\bar{t}+PU200$ and the $\Delta S$ ranges for the configuration ASYM115577. In the ASYM mode only the central range can have width defined by user and $\Delta S$ always is divided only into 3 ranges.}
-	\centering
-	\includegraphics[scale=0.8,angle=90]{AppendixCMSL1TT/figs/ttbar_pu200_asym115577}
-	\label{fig:deltaS_ttbar_asym}
-\source{The AUTHOR, 2016.}
-\end{figure}
-
-\begin{figure}[htbp]{15cm}
-	\caption{Stub bending distribution per detector layer for $t\bar{t}+PU200$ and the $\Delta S$ ranges for the configuration SYM115577. In the SYM mode ranges have the same width, except the outer ranges (those ones comprehending $|\Delta S|$ = 6.5).}
-	\centering
-	\includegraphics[scale=0.8,angle=90]{AppendixCMSL1TT/figs/ttbar_pu200_sym115577}
-	\label{fig:deltaS_ttbar_sym}
-\source{The AUTHOR, 2016.}
-\end{figure}
-
 On those studies two approaches were developed: one called asymmetric (ASYM) and one called symmetric (SYM). They have completely different structures but show similar performance. In the ASYM the $\Delta S$ distribution is divided always in three ranges and only the central range can have the width adjusted. The SYM was meant to produce all ranges with equal width, being possible to specify how many ranges should be produced. In the AM package that is controlled by two flags: \textbf{$--$deltaSM} that receives a string identifying the approach to be used (ASYM or SYM) and \textbf{$--$deltaS} that receives an integer number of 6 digits that specifies the configuration in each layer. So, for instance, ASYM115577 means that in the first two inner detector layers $\Delta S$ is not divided (that is, the standard way, no stub bending usage), in the two middle layers a central range with 5 $\Delta S$ values is created and in the two outer layers a central range with 7 values. For a configuration like SYM115577, the two inner layer again will not receive any operation, then the two middle layer will contain 5 ranges and the two outer layers will have 7 ranges. In order to calculate how to divide those distributions it was considered the maximum $\Delta S$ absolute value observed. It was found to be the same for $t\bar{t}+PU200$ and $jet(p_{T}=250GeV)+PU200$ (distribution on Fig.~\ref{fig:deltaS_jet250_pu200}), and is equal to 6.5. The division then was previously computed, producing the Tab.~\ref{tab:deltaS_divisions} which was encoded on \textbf{SuperstripArbiter.cc} module. An important note here: the flags specifying $\Delta S$ configuration must be used when generating pattern bank and when doing the pattern recognition step. In tracking fit stage it doesn't play any function since the ss are not used but instead the stubs properties. Also, the maximum value allowed to specify the range width or the number of ranges is 9. Additionally, the numbers must be always odd (since there's the $\Delta S = 0$ value). Any other attempt will produce an error message showing the allowed configurations.
 
-\begin{figure}[htbp]{15cm}
-	\caption{Stub bending distribution for $jet(p_{T}=250GeV)+PU200$. Different events seems to have the same limits but, as one can see the occupancy is no equal (comparing with the pictures for $t\bar{t}+PU200$).}
-	\centering
-	\includegraphics[scale=0.19]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l1}
-	\includegraphics[scale=0.19]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l2}
-	\includegraphics[scale=0.19]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l3}
-	\includegraphics[scale=0.19]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l4}
-	\includegraphics[scale=0.19]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l5}
-	\includegraphics[scale=0.19]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l6}				
-	\label{fig:deltaS_jet250_pu200}
-\source{The AUTHOR, 2016.}
-\end{figure}
+\begin{landscape}
+	\begin{figure}[htbp]{23cm}
+		\caption{Stub bending distribution per detector layer for $t\bar{t}+PU200$ and the $\Delta S$ ranges for the configuration ASYM115577. In the ASYM mode only the central range can have width defined by user and $\Delta S$ always is divided only into 3 ranges.}
+		\centering
+		\includegraphics[scale=0.75]{AppendixCMSL1TT/figs/ttbar_pu200_asym115577}
+		\label{fig:deltaS_ttbar_asym}
+		\source{The author, 2016.}
+	\end{figure}
+\end{landscape}
+
+\begin{landscape}
+	\begin{figure}[htbp]{23cm}
+		\caption{Stub bending distribution per detector layer for $t\bar{t}+PU200$ and the $\Delta S$ ranges for the configuration SYM115577. In the SYM mode ranges have the same width, except the outer ranges (those ones comprehending $|\Delta S|$ = 6.5).}
+		\centering
+		\includegraphics[scale=0.75]{AppendixCMSL1TT/figs/ttbar_pu200_sym115577}
+		\label{fig:deltaS_ttbar_sym}
+		\source{The author, 2016.}
+	\end{figure}
+\end{landscape}
+
+\begin{landscape}
+	\begin{figure}[htbp]{23cm}
+		\caption{Stub bending distribution for $jet(p_{T}=250GeV)+PU200$. Different events seems to have the same limits but, as one can see the occupancy is no equal (comparing with the pictures for $t\bar{t}+PU200$).}
+		\centering
+		\includegraphics[scale=0.26]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l1}
+		\includegraphics[scale=0.26]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l2}
+		\includegraphics[scale=0.26]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l3}\\
+		\includegraphics[scale=0.26]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l4}
+		\includegraphics[scale=0.26]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l5}
+		\includegraphics[scale=0.26]{AppendixCMSL1TT/figs/JetPt250_PU200_deltaS_l6}				
+		\label{fig:deltaS_jet250_pu200}
+		\source{The author, 2016.}
+	\end{figure}
+\end{landscape}
 
 \begin{table}[htbp]{15cm}
 	\caption{Stub bending possible divisions. The SYM method uses such table to decide how to split the $\Delta S$ values based on the number of ranges requested by user. The negative related of the ranges were omitted in the table.}
@@ -137,7 +145,7 @@ On those studies two approaches were developed: one called asymmetric (ASYM) and
 		\hline 
 	\end{tabular}
 	\label{tab:deltaS_divisions}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{table}
 
 Using such implementation many configurations were studied for $sf1\_nz1$. Fig.~\ref{fig:deltaS_roads_combs} shows all tested configurations in comparison with the standard case when $\Delta S$ is not used for $t\bar{t}+PU200$ and for $jet(p_{T}=250GeV)+PU200$. There are three noticeable points on those plots. First, the stub bending is a strong approach to mitigate the proliferation of roads and combinations. In average the reduction factor is about up to 10x for roads and 25x for combinations. Second, there's no big difference on the performances from ASYM and SYM approaches (except for 335577 configuration). Third, $\Delta S$ segmentation in detector inner layers has less effect than in the outer layers. That can be noticed by comparing the black circles, for instance. They represent the combinations $@95\%$. The reduction from standard $sf1\_nz1$ to ASYM115577 is about 90$\%$. Then for ASYM335577 the extra reduction is just about 6$\%$.
@@ -150,7 +158,7 @@ The next quantity to look on was the efficiency. In order to avoid the effects f
 	\includegraphics[width=7cm,height=8cm]{AppendixCMSL1TT/figs/final_plots/ttbar_pu200_smu_roads_combs_deltaS}
 	\includegraphics[width=7cm,height=8cm]{AppendixCMSL1TT/figs/final_plots/jet_Pt250_pu200_roads_combs_deltaS}
 	\label{fig:deltaS_roads_combs}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 \begin{figure}[htbp]{15cm}
@@ -159,7 +167,7 @@ The next quantity to look on was the efficiency. In order to avoid the effects f
 	\includegraphics[width=7cm,height=8cm]{AppendixCMSL1TT/figs/final_plots/ttbar_pu200_pt_split_graph}
 	\includegraphics[width=7cm,height=8cm]{AppendixCMSL1TT/figs/final_plots/jet250_pu200_pt_split_graph}
 	\label{fig:deltaS_trunc_eff}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 In order to make sure that the $sf1\_nz1$ configuration is the best a scan was made for the stub fountain scale factor. It was also included for such scan the ASYM115577 configuration since it looks a better choice for $t\bar{t}+PU200$. The sf scan can be seen in the Fig.~\ref{fig:deltaS_sf_scan}. That plot shows that in fact the ASYM335577 @ $sf1\_nz1$ is an appropriate configuration.
@@ -169,7 +177,7 @@ In order to make sure that the $sf1\_nz1$ configuration is the best a scan was m
 	\centering
 	\includegraphics[width=9cm,height=8cm]{AppendixCMSL1TT/figs/sf_scans_with_DS_maxRoads200_maxCombs500}
 	\label{fig:deltaS_sf_scan}	
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 
@@ -177,12 +185,13 @@ In order to make sure that the $sf1\_nz1$ configuration is the best a scan was m
 Studies have been developed about the limits of AM+FPGA approach. It was showed that AM start to lose significant efficiency when PU300/400 is present \footnote{https://indico.cern.ch/event/653731} (even with Hough transform - worst without it). It was worth then to see what $\Delta S$ could do about it. Using the same samples ($\mu$ +PU140, 200, 300, 400) a similar plot was produced to see how the analytical road efficiency is affected by pile up presence when $\Delta S$ is used. The result can be seen in Fig.\ref{fig:deltaS_on_pile_up} where an original plot (a), without $\Delta S$ approach, is showed along with the results with stub bending approach (b). As one can see, with $sf0.8\_nz1$ and 64k the efficiency loss is big at PU400. Using $\Delta S$ approach the efficiency is $\sim40$ higher than for sf0.8-64k.
 
 \begin{figure}[htbp]{15cm}
-	\caption{Muon road efficiency versus pile up. The plot (a) is the result without $\Delta S$ approach (done by another person in the CMS L1TT working group) and the plot (b) with it (done by the author).}
+	\caption{Muon road efficiency versus pile up.}
 	\centering
 	\subfloat[]{\includegraphics[width=7.5cm,height=7.5cm]{AppendixCMSL1TT/luciano_mupu_sf0p8_plot}}
 	\subfloat[]{\includegraphics[width=8cm,height=8cm,trim={0cm 0.2cm 0cm 0cm},clip]{AppendixCMSL1TT/figs/muon_road_eff_vs_pile_up_deltaS}}
+	\legend{(a) is a result without $\Delta S$ approach (done by another person in the CMS L1TT working group); (b) is the same type of event (muon + PU) with the $\Delta S$ (done by the author).}
+	\source{The author, 2016.}
 	\label{fig:deltaS_on_pile_up}
-\source{The AUTHOR, 2016.}
 \end{figure}
 
 
@@ -205,7 +214,7 @@ The cut for 5/6 tracks were defined finding where the cut should be in order to 
 		\put(60,70){\color{blue}$t\bar{t}+PU200$}
 	\end{overpic}
 	\label{fig:ttbar_tfchi2_pt}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 \begin{landscape}
@@ -220,7 +229,7 @@ The cut for 5/6 tracks were defined finding where the cut should be in order to 
 	\includegraphics[scale=0.25,trim={1cm 0cm 1cm 0cm},clip]{AppendixCMSL1TT/figs/chi2_6b6_25to30_99cut}	
 	\includegraphics[scale=0.25,trim={1cm 0cm 1cm 0cm},clip]{AppendixCMSL1TT/figs/chi2_6b6_30toInf_99cut}
 	\label{fig:6b6_chi2_pt}	
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 \end{landscape}
 
@@ -240,7 +249,7 @@ The cut for 5/6 tracks were defined finding where the cut should be in order to 
 		\put(83,14){\scriptsize$\chi^{2}_{TF,5/6}$ = 11.4}
 	\end{overpic}
 	\label{fig:5b6_chi2_pt}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 \end{landscape}
 
@@ -288,7 +297,7 @@ From such algorithm the definition of synthetic efficiency is eminent. The denom
 \includegraphics[scale=0.28]{AppendixCMSL1TT/figs/r_cotTheta_fit_single_muon_nopu}
 \includegraphics[scale=0.28]{AppendixCMSL1TT/figs/r_cotTheta_fit_single_electron_nopu}
 \label{fig:resolutions}	
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 \begin{table}[htbp]{15cm}
@@ -307,7 +316,7 @@ From such algorithm the definition of synthetic efficiency is eminent. The denom
 		\hline
 	\end{tabular}
 	\label{tab:resolution_function_parameters}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 
 \end{table}
 
@@ -327,7 +336,7 @@ First time the cut was chosen based on the capability of finding $99\%$ of the p
 	\includegraphics[scale=0.23]{AppendixCMSL1TT/figs/chi2_ndof_single_pion_nopu_pu140}
 	\includegraphics[scale=0.23]{AppendixCMSL1TT/figs/chi2_ndof_single_muon_nopu_pu140}
 	\label{fig:match_chi2_pion_muon_distribution}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 \begin{figure}[htbp]{15cm}
@@ -343,10 +352,10 @@ First time the cut was chosen based on the capability of finding $99\%$ of the p
 	\includegraphics[scale=0.23]{AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_ratio_vs_phi_allogics_nodupremoval}
 	\includegraphics[scale=0.23]{AppendixCMSL1TT/figs/single_muon_nopu_tcat/am_tracks_reco_eff_vs_phi_allogics_nodupremoval}
 	\label{fig:track_cat_eff_muon_no_pu}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
-In the track files created by AM package there are three branches that store important information from synthetic approach. Currently, the branch \textbf{AMTTTracks\_synMatchCat} stores an integer that tags AM track category: 1 for good tracks, -1 for duplicates and -2 for fakes. The branch \textbf{AMTTTracks\_synTpId} stores the tracking particle index in a event to which the AM track was matched (good or duplicate). Index equal to -1 means that the AM track is fake, that is, it could not match to any MC tracking particle then it can't have an index. The branch \textbf{AMTTTracks\_matchChi2} stores the $\chi^{2}_{match}$ value for AM tracks flagged as a good or duplicate track. For fake tracks the value is 999999999.
+In the track files created by AM package there are three branches that store important information from synthetic approach. Currently, the branch named as \textbf{AMTTTracks\_synMatchCat} stores an integer that tags AM track category: 1 for good tracks, -1 for duplicates and -2 for fakes. The branch \textbf{AMTTTracks\_synTpId} stores the tracking particle index in a event to which the AM track was matched (good or duplicate). Index equal to -1 means that the AM track is fake, that is, it could not match to any MC tracking particle then it can't have an index. The branch \textbf{AMTTTracks\_matchChi2} stores the $\chi^{2}_{match}$ value for AM tracks flagged as a good or duplicate track. For fake tracks the value is 999999999.
 
 \subsubsection{$\chi^{2}_{match}$ Optimization and Synthetic-Analytical Methods Connection}
 In order to better decide the cut to be used on the $\chi^{2}_{match}$, avoiding then random combinations of stubs but without loosing efficiency in busier event a new strategy was designed. It also allowed an unification between analytical and synthetic approaches. Such strategy consisted on scanning through different cuts on $\chi^{2}_{match}$ and observing how the synthetic efficiency and the fraction of good/duplicate/fake tracks change. It's intuitive that a very restrictive cut will cause loss of efficiency making good tracks being classified as fake. On the other direction a very loose cut will make tracks with quite different parameters to be matched, so real fake tracks will be classified as good or duplicate and duplicate tracks can be classified as good ones. 
@@ -365,7 +374,7 @@ Looking into the bottom plots one see what happens in the previous stages throug
 	\includegraphics[width=7.5cm,height=6.7cm]{AppendixCMSL1TT/figs/final_plots/jet250pu200_synthetic_view}
 	\includegraphics[width=7.5cm,height=6.7cm]{AppendixCMSL1TT/figs/final_plots/jet250pu200_analytic_view}
 	\label{fig:chi2_match_optimization}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 
@@ -437,7 +446,7 @@ The numbers also show that the majority of the duplicate tracks have 4 stubs in 
 		\hline
 	\end{tabular}
 	\label{tab:dr_scan_tables}	
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{table}
 
 The DR code is wrote in the \textbf{DuplicateRemoval.cc} module and it has the flag \textbf{$--$rmDuplicate} that can be used to set the maximum number of stubs to be shared between unique tracks. The values must be integers from 0 to 6. The default option is 0 and to set off the DR the user must pass the argument -1 to the flag. Since DR is an analytical approach it acts right after tracking fit stage and before the synthetic match stage being actioned.
@@ -473,7 +482,7 @@ In the following pages will be show the common FOMs (figure of merits) usually u
 	[scale=0.3]{AppendixCMSL1TT/figs/final_plots/ttbarPU200/ttbar_pu200_track_ratio_phi_trunc}
 \end{overpic}
 \label{fig:fom_ttbar_pu200}	
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 
@@ -504,7 +513,7 @@ In the following pages will be show the common FOMs (figure of merits) usually u
 	[scale=0.3]{AppendixCMSL1TT/figs/final_plots/jet250PU200/jet250_pu200_track_ratio_phi_trunc}
 \end{overpic}	
 \label{fig:fom_jets_pu200}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 \begin{figure}[htbp]{16cm}
@@ -534,7 +543,7 @@ In the following pages will be show the common FOMs (figure of merits) usually u
 	[scale=0.3]{AppendixCMSL1TT/figs/final_plots/muPU200/mu_pu200_track_ratio_phi_trunc}
 \end{overpic}	
 \label{fig:fom_mu_pu200}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 \begin{figure}[htbp]{16cm}
@@ -564,7 +573,7 @@ In the following pages will be show the common FOMs (figure of merits) usually u
 	[scale=0.3]{AppendixCMSL1TT/figs/final_plots/muPU300/mu_pu300_track_ratio_phi_trunc}
 \end{overpic}	
 \label{fig:fom_mu_pu300}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 	
 
@@ -595,7 +604,7 @@ In the following pages will be show the common FOMs (figure of merits) usually u
 	[scale=0.3]{AppendixCMSL1TT/figs/final_plots/muPU400/mu_pu400_track_ratio_phi_trunc}
 \end{overpic}	
 \label{fig:fom_mu_pu400}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 	
 
@@ -625,7 +634,7 @@ During the studies presented here several pattern banks have been generated and 
 		\hline		
 	\end{tabular}
 	\label{tab:banks_info_noDS}		
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{table}
 
 \begin{table}[htbp]{15cm}
@@ -677,14 +686,14 @@ During the studies presented here several pattern banks have been generated and 
 	\hline	
 \end{tabular}
 	\label{tab:banks_info_DS}	
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{table}
 
 \begin{figure}[htbp]{16cm}
 	\caption{Comparison between the pattern bank $sf1\_nz1$ and its variants due to the stub bending approach.}
 	\includegraphics[scale=0.5]{AppendixCMSL1TT/figs/sf1_nz1_pattern_banks}
 	\label{fig:pattern_banks_comparison}	
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 	
 \subsubsection{Road Efficiency vs Truncation in $\mu+PU400$}
@@ -699,7 +708,7 @@ The conclusion drawn by the author is that the truncation and the loss of effici
 		[scale=0.6]{AppendixCMSL1TT/figs/single_muon_pu400_road_eff_vs_truncation}
 	\end{overpic}
 	\label{fig:deltaS_truncation}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
 
 
@@ -715,7 +724,7 @@ The author got involved in the inspection of both boards and also the cables in 
 The mezzanine inspections were similar. The main components were first visually checked and then the mezzanines were powered in order to verify the FPGAs and check the optical connections (Fig.~\ref{fig:cmsl1tt_hardware}(c) and (d)). The picture displayed in the laptop in Fig.~\ref{fig:cmsl1tt_hardware}(d) is the typical performance graph verified during the inspections and it shows the quality of data transmitted, being better as the blue area increases.
 
 \begin{figure}[htbp]{16cm}
-	\caption{Overview of the FNAL AM CMSL1TT hardware: (a) Pulsar-IIB board, (b) inspection of Pulsar-IIB components, (c) and (d) the setup for measure data transmission quality from the PRMs via optical cables, (e) crate containing Pulsar-IIB boards and PRMs (not visible since Pulsar boards sit right besides each other) with full setup ready for demonstration of the approach.}
+	\caption{Overview of the FNAL AM CMSL1TT hardware.}
 	\centering
 	\subfloat[]{\includegraphics[width=7cm,height=6cm]{AppendixCMSL1TT/fermilab/pulsar2b_photo}}
 	\quad
@@ -724,6 +733,7 @@ The mezzanine inspections were similar. The main components were first visually 
 	\quad
 	\subfloat[]{\includegraphics[width=7cm,height=6cm]{AppendixCMSL1TT/fermilab/20160413_152420}}\\
 	\subfloat[]{\includegraphics[width=7cm,height=6cm,trim={10cm 0cm 0cm 0cm},clip]{AppendixCMSL1TT/fermilab/IMG_5827}}
+	\legend{(a) Pulsar-IIB board; (b) inspection of Pulsar-IIB components; (c) and (d) the setup for measuring data transmission quality from the PRMs via optical cables; (e) crate containing Pulsar-IIB boards and PRMs (not visible since Pulsar boards sit right besides each other) with full setup ready for demonstration of the approach.}
 	\label{fig:cmsl1tt_hardware}
-\source{The AUTHOR, 2016.}
+\source{The author, 2016.}
 \end{figure}
