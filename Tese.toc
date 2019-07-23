@@ -98,8 +98,8 @@
 \contentsline {subsection}{\numberline {11.5.6}\normalfont \normalsize \uline {The \textit {Fast}ME Applied to qqH vs. ggH}}{191}{section*.210}
 \contentsline {chapter}{\normalfont \numberline {}\penalty \@M {\bf \uppercase {Conclusions}} }{192}{section*.213}
 \contentsline {chapter}{\normalfont \numberline {}\penalty \@M {\bf \uppercase {References}} }{195}{section*.214}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {}}\penalty \@M {\bf \uppercase {Ap\^endice} A}\penalty \@M {\normalfont { -- Display of VBF and Background-like Events}} }{205}{section*.215}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {}}\penalty \@M {\bf \uppercase {Ap\^endice} B}\penalty \@M {\normalfont { -- Final ANN Architectures}} }{209}{section*.220}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {}}\penalty \@M {\bf \uppercase {Ap\^endice} C}\penalty \@M {\normalfont { -- ANNs Expected $S/\sqrt {B}$ and $\pi ~.~S/(S+B)$}} }{211}{section*.223}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {}}\penalty \@M {\bf \uppercase {Ap\^endice} D}\penalty \@M {\normalfont { -- The ANN Internal Representation Space}} }{212}{section*.225}
-\contentsline {chapter}{\normalfont \penalty \@M {\numberline {}}\penalty \@M {\bf \uppercase {Ap\^endice} E}\penalty \@M {\normalfont { -- Participation at the Global Doc Project}} }{214}{section*.227}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {}}\penalty \@M {\bf \uppercase {Appendix} A}\penalty \@M {\normalfont { -- Display of VBF and Background-like Events}} }{205}{section*.215}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {}}\penalty \@M {\bf \uppercase {Appendix} B}\penalty \@M {\normalfont { -- Final ANN Architectures}} }{209}{section*.220}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {}}\penalty \@M {\bf \uppercase {Appendix} C}\penalty \@M {\normalfont { -- ANNs Expected $S/\sqrt {B}$ and $\pi ~.~S/(S+B)$}} }{211}{section*.223}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {}}\penalty \@M {\bf \uppercase {Appendix} D}\penalty \@M {\normalfont { -- The ANN Internal Representation Space}} }{212}{section*.225}
+\contentsline {chapter}{\normalfont \penalty \@M {\numberline {}}\penalty \@M {\bf \uppercase {Appendix} E}\penalty \@M {\normalfont { -- Participation at the Global Doc Project}} }{214}{section*.227}

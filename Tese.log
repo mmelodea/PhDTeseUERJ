@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.12.14)  2 JUL 2019 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.12.14)  23 JUL 2019 09:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5171,14 +5171,9 @@ in the de-cay
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-[]\OT1/cmr/m/n/12 LHC HIGGS CROSS SEC-TION WOR-KING GROUP. Avai-la-ble at:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-\OT1/cmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowRepor
-tPageAt1314TeV
+Overfull \hbox (62.88806pt too wide) in paragraph at lines 71--72
+\OT1/cmr/m/n/12 Avai-la-ble at: https://twiki.cern.ch/twiki/bin/view/LHCPhysics
+/CERNYellowReportPageAt1314TeV
  []
 
 Package babel Info: Redefining portuges shorthand "|
@@ -5186,15 +5181,9 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 96.
 [196]
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 1400) in paragraph at lines 148--149
 []\OT1/cmr/m/n/12 CERN. \OT1/cmr/m/it/12 LHC The Guide\OT1/cmr/m/n/12 . CERN-Br
-ochure-2008-001-Eng. Avai-la-ble at:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-\OT1/cmr/m/n/12 http://cds.cern.ch/record/1092437/files/CERN-Brochure-2008-001-
-Eng.pdf. Ac-ces-sed
+ochure-2008-001-Eng. Swit-zer-land: CERN,
  []
 
 Package babel Info: Redefining portuges shorthand "|
@@ -5202,6 +5191,24 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 149.
 [197]
+Underfull \hbox (badness 3250) in paragraph at lines 157--158
+[]\OT1/cmr/m/n/12 CMS: Com-pact Muon So-le-noid. Swit-zer-land: CERN, c2017. Av
+ai-la-ble at:
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 169--170
+[]\OT1/cmr/m/n/12 TOTEM: TO-Tal cross sec-tion, Elas-tic scat-te-ring and dif-f
+rac-tion dis-so-ci-
+ []
+
+
+Underfull \hbox (badness 5711) in paragraph at lines 169--170
+\OT1/cmr/m/n/12 a-tion Me-a-su-re-ment at the LHC. Swit-zer-land: CERN, c2017. 
+Avai-la-ble at:
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 172--173
 []\OT1/cmr/m/n/12 CMS COL-LA-BO-RA-TION. CMS Te-ch-ni-cal De-sign Re-port:
  []
@@ -5215,25 +5222,7 @@ le at:
 
 Underfull \hbox (badness 10000) in paragraph at lines 172--173
 \OT1/cmr/m/n/12 http://cds.cern.ch/record/357153/files/HCAL$[]$TDR1997.pdf?vers
-ion=1. Ac-ces-sed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-[]\OT1/cmr/m/n/12 CMS COL-LA-BO-RA-TION. \OT1/cmr/m/it/12 CMS The Tri-DAS Pro-j
-ect Te-ch-ni-cal De-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-\OT1/cmr/m/it/12 sign Re-port 2: Data Ac-qui-si-tion and High-Level Trig-ger\OT
-1/cmr/m/n/12 . Avai-la-ble at:
- []
-
-
-Underfull \hbox (badness 3679) in paragraph at lines 184--185
-\OT1/cmr/m/n/12 https://cdsweb.cern.ch/record/578006/files/cer-2336481.pdf. Ac-
-ces-sed on: 20 nov.
+ion=1. Ac-cess on:
  []
 
 
@@ -5243,189 +5232,176 @@ Underfull \hbox (badness 1014) in paragraph at lines 187--188
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 188.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 188.
 [198pdfTeX warning (ext4): destination with the same identifier (name{cite.bib:
 atlas-page}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.193 
+l.188 
       ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 235.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 235.
+(babel)             in language  on input line 230.
  [199]
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
-[]\OT1/cmr/m/n/12 JORDAN, J. \OT1/cmr/m/it/12 Neu-ral networks: re-pre-sen-ta-t
-ion\OT1/cmr/m/n/12 . Avai-la-ble at:
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+[]\OT1/cmr/m/n/12 LOUPPE, G. Ma-chine Le-ar-ning: Lec-ture 1. Ma-ra-tea: \OT1/c
+mr/m/it/12 Elec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--272
-[]\OT1/cmr/m/n/12 LOUPPE, G. Ma-chine Le-ar-ning: Lec-ture 1. \OT1/cmr/m/it/12 
-Elec-troweak Sym-
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+\OT1/cmr/m/it/12 troweak Sym-me-try Break Spring School \OT1/cmr/m/n/12 (EWSB),
+ 2018. Avai-la-ble at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--272
-\OT1/cmr/m/it/12 me-try Break Spring School \OT1/cmr/m/n/12 (EWSB), Italy. 2018
-. Avai-la-ble at:
- []
-
-
-Underfull \hbox (badness 2435) in paragraph at lines 270--272
+Underfull \hbox (badness 6876) in paragraph at lines 270--271
 \OT1/cmr/m/n/12 https://indico.cern.ch/event/673580/contributions/2790019/. Ac-
-ces-sed on: 05 nov.
+cess on: 05 nov.
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 271.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 271.
+[200]
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+[]\OT1/cmr/m/n/12 PEDREGOSA, F. \OT1/cmr/m/it/12 et al\OT1/cmr/m/n/12 . \OT1/cm
+r/m/it/12 Scikit-learn: Ma-chine Le-ar-ning in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+\OT1/cmr/m/it/12 Python\OT1/cmr/m/n/12 . JMLR 12, pp. 2825-2830, 2011. Avai-la-
+ble at: https://scikit-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 \OT1/cmr/m/n/12 learn.org/stable/auto$[]$examples/model$[]$selection/plot$[]$un
 derfitting$[]$overfitting.html.
  []
 
-
-Underfull \hbox (badness 5403) in paragraph at lines 277--278
-[]\OT1/cmr/m/n/12 JORDAN, J. \OT1/cmr/m/it/12 Deep neu-ral networks: pre-ven-ti
-ng over-fit-ting\OT1/cmr/m/n/12 . Avai-la-ble at:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-\OT1/cmr/m/n/12 https://www.jeremyjordan.me/deep-neural-networks-preventing-ove
-rfitting/. Ac-ces-
- []
-
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 278.
+(babel)             in language  on input line 310.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 278.
-[200]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 321.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 321.
- [201]
-Underfull \hbox (badness 2662) in paragraph at lines 322--323
-[]\OT1/cmr/m/it/12 Higgs Com-bine Tool Web Page\OT1/cmr/m/n/12 . Swit-zer-land:
- CERN, 2012. Avai-la-ble at:
+(babel)             in language  on input line 310.
+[201]
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+[]\OT1/cmr/m/it/12 HIGGS COM-BINE TOOL\OT1/cmr/m/n/12 . Swit-zer-land: CERN, 20
+12. Avai-la-ble at:
  []
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Underfull \hbox (badness 1043) in paragraph at lines 331--332
-[]\OT1/cmr/m/it/12 Wilk's the-o-rem\OT1/cmr/m/n/12 ; A Li-ke-lihood Ra-tio Test
- for Nes-ted Com-po-site Hy-pothe-sis.
- []
-
-
-Underfull \hbox (badness 3792) in paragraph at lines 340--341
+Underfull \hbox (badness 3792) in paragraph at lines 339--340
 []\OT1/cmr/m/n/12 GROSS, E.  \OT1/cmr/m/it/12 et al. \OT1/cmr/m/n/12 Se-arch an
 d dis-co-very sta-tis-tics in HEP: lec-ture 1.
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 340--341
+Underfull \hbox (badness 3792) in paragraph at lines 339--340
 \OT1/cmr/m/it/12 Elec-troweak sym-me-try break spring school \OT1/cmr/m/n/12 (E
 WSB), Italy, 2018. Avai-la-ble at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 \OT1/cmr/m/n/12 https://indico.cern.ch/event/673580/contributions/2790011/attac
 hments/1638839/2615
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 343--344
+Underfull \hbox (badness 3792) in paragraph at lines 342--343
 []\OT1/cmr/m/n/12 GROSS, E.  \OT1/cmr/m/it/12 et al. \OT1/cmr/m/n/12 Se-arch an
 d dis-co-very sta-tis-tics in HEP: lec-ture 2.
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 343--344
+Underfull \hbox (badness 3792) in paragraph at lines 342--343
 \OT1/cmr/m/it/12 Elec-troweak sym-me-try break spring school \OT1/cmr/m/n/12 (E
 WSB), Italy, 2018. Avai-la-ble at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 \OT1/cmr/m/n/12 https://indico.cern.ch/event/673580/contributions/2790011/attac
 hments/1638839/2615
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--350
-[]\OT1/cmr/m/n/12 CERN. Hi-Lumi HL-LHC pro-ject. Avai-la-ble at: https://projec
-t-hl-lhc-
+Underfull \hbox (badness 1297) in paragraph at lines 347--348
+[]\OT1/cmr/m/n/12 CERN. Hi-Lumi HL-LHC pro-ject. Swit-zer-land: CERN, c2015. Av
+ai-la-ble at:
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 348.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 348.
+[202]
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 []\OT1/cmr/m/n/12 HAHN, K.  \OT1/cmr/m/it/12 et al. L1 track fin-ding for the C
 MS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 \OT1/cmr/m/it/12 HL-LHC up-grade\OT1/cmr/m/n/12 . Swit-zer-land: CERN, 2017. Av
 ai-la-ble at:
  []
 
 
-Overfull \hbox (1.89142pt too wide) in paragraph at lines 352--353
+Overfull \hbox (1.89142pt too wide) in paragraph at lines 350--351
 \OT1/cmr/m/n/12 https://indico.cern.ch/event/627245/contributions/2677000/attac
 hments/1524022/23821
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
-[]\OT1/cmr/m/n/12 FNAL-FSU-TAMU CMSL1TT WOR-KING GROUPS.
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+[]\OT1/cmr/m/n/12 XILINX COM-PANY. Ca-li-for-nia, c2017. Avai-la-ble at:
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 355--356
-\OT1/cmr/m/it/12 SLHCL1TrackTriggerSimulations\OT1/cmr/m/n/12 . Ba-ta-via: Fer-
-mi-lab (FNAL), 2016. Avai-la-ble at:
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 355--356
-\OT1/cmr/m/n/12 https://github.com/jiafulow/SLHCL1TrackTriggerSimulations/wiki.
- Ac-ces-sed on: 27
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+\OT1/cmr/m/n/12 https://www.xilinx.com/products/silicon-devices/fpga/what-is-an
+-fpga.html. Ac-cess
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 360.
+(babel)             in language  on input line 378.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 360.
-[202]
-Underfull \hbox (badness 5711) in paragraph at lines 364--365
-[]\OT1/cmr/m/n/12 XILINIX COM-PANY. \OT1/cmr/m/it/12 Fi-eld pro-gram-ma-ble gat
-e ar-ray (FPGA)\OT1/cmr/m/n/12 . Avai-la-ble
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+(babel)             in language  on input line 378.
+[203]
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 []\OT1/cmr/m/n/12 HOECKER, A. \OT1/cmr/m/it/12 et. al. TMVA4 to-ol-kit for mul-
 ti-va-ri-ate data analy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 \OT1/cmr/m/it/12 sis with ROOT (users guide)\OT1/cmr/m/n/12 , Swit-zer-land: CE
 RN, 2017. Avai-la-ble at:
  []
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 394.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 394.
-[203])
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
+[]\OT1/cmr/m/n/12 ALMEIDA, M. M.; SZ-NAJ-DER, A. \OT1/cmr/m/it/12 Fast Ma-trix 
+Ele-ment Pac-kage
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 388--389
+\OT1/cmr/m/n/12 (FastME). Rio de Ja-neiro: Miqu^^Seias Melo de Al-meida, 2015. 
+Avai-la-ble at:
+ []
+
+)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 342.
 Package babel Info: Redefining portuges shorthand "|
@@ -5434,7 +5410,7 @@ Package babel Info: Redefining portuges shorthand "|
 \openout2 = `ChapterAnalysis/AppendixEventDisplay.aux'.
 
  (./ChapterAnalysis/AppendixEventDisplay.tex
-Ap\^endice A.
+Appendix A.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 
@@ -5520,7 +5496,7 @@ ts3_ANN0p04_DoubleEG_Run2016F_2.png>]
 
 
 (./ChapterAnalysis/AppendixFinalNNsArchitecture.tex
-Ap\^endice B.
+Appendix B.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 
@@ -5560,7 +5536,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 17.
  [210 <./ChapterAnalysis/figs/k24nj3_architecture_horizontal.png>]
-Ap\^endice C.
+Appendix C.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 17.
 
@@ -5624,7 +5600,7 @@ s/figs/EfficiencyTimesPurity_versus_NNs_cutting.png>]
 
 
 (./AppendixNeuralNetwork/AppendixNeuralNetwork.tex
-Ap\^endice D.
+Appendix D.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 
@@ -5686,7 +5662,7 @@ ralNetwork/figs/Features/layer3_neuron1_vs_inputs.png>]
 
 
 (./AppendixGlobalDocProject/AppendixGlobalDocProject.tex
-Ap\^endice E.
+Appendix E.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 
@@ -5803,7 +5779,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
 Package rerunfilecheck Info: File `Tese.out' has not changed.
-(rerunfilecheck)             Checksum: 6062F9B4102299CB0554F93310C100C4;7911.
+(rerunfilecheck)             Checksum: 67C6A65A1359E1F3CD249003F9271B00;7896.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -5811,10 +5787,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 357.
  ) 
 Here is how much of TeX's memory you used:
- 15344 strings out of 494397
- 274013 string characters out of 6167008
- 408288 words of memory out of 5000000
- 17220 multiletter control sequences out of 15000+600000
+ 15343 strings out of 494397
+ 274005 string characters out of 6167008
+ 408286 words of memory out of 5000000
+ 17219 multiletter control sequences out of 15000+600000
  15572 words of font info for 54 fonts, out of 8000000 for 9000
  308 hyphenation exceptions out of 8191
  43i,18n,46p,2202b,919s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5839,7 +5815,7 @@ pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmti12.pfb>
-Output written on Tese.pdf (219 pages, 19380399 bytes).
+Output written on Tese.pdf (219 pages, 19380562 bytes).
 PDF statistics:
  3682 PDF objects out of 4296 (max. 8388607)
  2986 compressed objects within 30 object streams
